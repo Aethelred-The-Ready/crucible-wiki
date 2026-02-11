@@ -22,8 +22,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Crucible', // Usually your GitHub org/user name.
-  projectName: 'Crucible-Wiki', // Usually your repo name.
+  organizationName: 'Aethelred-The-Ready', // Usually your GitHub org/user name.
+  projectName: 'crucible-wiki', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 

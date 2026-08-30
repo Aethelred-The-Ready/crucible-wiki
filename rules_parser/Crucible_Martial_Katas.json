@@ -1,0 +1,263 @@
+[
+	{
+		"Title": "Aethercleave [Kata]",
+		"Name": "Aethercleave",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata allows the Caster to perform a \"Physical-Strike Sunder Magic\" upon its completion. The Physical-Strike must be performed within ten(10) seconds of the end of this Kata. This Kata does not count against the five(5) Kata limit.\n\n This effect allows the Character to Destroy a magical effect, but it cannot be used against an Item or a Creature. When this Kata is completed, or Interrupted, the Caster is affected by an Arcane Weakness effect.\n\n In the event that this ability is used against a Player Character created protective effect, such as a Sanctuary, the Marshal may increase the time needed to perform this Kata to up to one(1) hour.\n\n The caster must be able to touch the effect during the casting. In the case of targeting a Sanctuary, the caster must be able to touch one of the doorways, or portal, into the targeted Sanctuary.",
+		"Groups": "Kata",
+		"School": "Slayer"
+	},
+	{
+		"Title": "Archer's Quiet [Kata]",
+		"Name": "Archer's Quiet",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character one(1) Charge of this ability. The Character can expend one(1) Charge to activate this ability. Upon activating this ability the Character may use the Weapon Type: Massive for all Archery attacks. This effect ends if the Character moves from where they were standing when they activated this ability.",
+		"Groups": "Kata",
+		"School": "Duelist"
+	},
+	{
+		"Title": "Armour Bond [Kata]",
+		"Name": "Armour Bond",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata increases the Character's Wear Point total by ten(10) to a maximum of fifty(50).\n\n Additionally, the value of any Physical Armour the Character has is increased by ten(10). This effect stacks with all other effects which Reinforce Physical Armour.",
+		"Groups": "Kata",
+		"School": "Guardian"
+	},
+	{
+		"Title": "Bladed Defence [Kata]",
+		"Name": "Bladed Defence",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character three(3) Charges of this ability. When using the Parry Skill, the Character may expend one(1) Charge to instead Reflect the effect.",
+		"Groups": "Kata",
+		"School": "Duelist"
+	},
+	{
+		"Title": "Blood Frenzy [Kata]",
+		"Name": "Blood Frenzy",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character one(1) Charge of this ability. The Character can expend one(1) Charge to instantly heal to full Hit Points. This can be triggered if the Character is Dead or below zero(0) Hit Points but the decision to do so must be made immediately. Once this ability has been triggered the Character gains Resistance to all Damage until they receive any other healing or Combat ends.",
+		"Groups": "Kata",
+		"School": "Slayer"
+	},
+	{
+		"Title": "Callisthenics [Kata]",
+		"Name": "Callisthenics",
+		"Type": "",
+		"Duration": "",
+		"Effect": "For every Rank the character has in the Skill Martial Kata, they may designate one(1) Character as a target of this Kata. Every target, other than the Caster, gains a single use of the Dodge Skill allowing them to, Once per Reset, avoid a single effect delivered by weapon or packet. No target can benefit from this Kata more than Once per Reset.",
+		"Groups": "Kata",
+		"School": "Duelist"
+	},
+	{
+		"Title": "Cleaving Strikes [Kata]",
+		"Name": "Cleaving Strikes",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character three(3) Charges of this ability. The Character can expend one(1) Charge to Echo a single Martial Art.",
+		"Groups": "Kata",
+		"School": "Slayer"
+	},
+	{
+		"Title": "Combat Forms [Kata]",
+		"Name": "Combat Forms",
+		"Type": "",
+		"Duration": "",
+		"Effect": "For every Rank the character has in the Skill Martial Kata, they may designate one(1) Character as a target of this Kata. Every target, other than the Caster, increases their Weapon Damage by one(1).",
+		"Groups": "Kata",
+		"School": "Duelist"
+	},
+	{
+		"Title": "Dance of the Dragon [Kata]",
+		"Name": "Dance of the Dragon",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character five(5) Charges of this ability. The Character can expend one(1) Charge to deliver an attack causing \"50 Physical-Strike &lt;Weapon Type&gt;\". Once the first charge has been used the Character has ten(10) seconds to use another charge or all remaining Charges are lost and this effect ends.",
+		"Groups": "Kata",
+		"School": "Slayer"
+	},
+	{
+		"Title": "Dead Magic Form [Kata]",
+		"Name": "Dead Magic Form",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character five(5) Charge of this ability. The Character can expend one(1) Charge to reduce the damage of an effect delivered as Magic(-Strike) by half. Alternatively, the Character may expend one(1) Charge to reduce the duration of any effect delivered as Magic(-Strike) to ten(10) seconds. The call for this ability is \"Reduced\".",
+		"Groups": "Kata",
+		"School": "Guardian"
+	},
+	{
+		"Title": "Defensive Forms [Kata]",
+		"Name": "Defensive Forms",
+		"Type": "",
+		"Duration": "",
+		"Effect": "For every Rank the character has in the Skill Martial Kata, they may designate a one(1) Character as a target of this Kata. Every target, other than the Caster, increases their maximum Hit Points by five(5). This effect does not stack with any other effect which increases Hit Points.",
+		"Groups": "Kata",
+		"School": "Guardian"
+	},
+	{
+		"Title": "Elemental Bladeshroud [Kata]",
+		"Name": "Elemental Bladeshroud",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character one(1) Charge of this ability. The Character can expend one(1) Charge to deliver an Elemental-Strike causing one- hundred(100) points of damage of any of the following elements; Chaos, Destruction, Dream, Essence, Fire, Ice, Light, Lightning, Order, Reason, Shadow, or Stone. Once this attack has been delivered against their target, the Character may replace their Weapon Type with the chosen element against the same target. Once activated, this ability lasts until the end of Combat.",
+		"Groups": "Kata",
+		"School": "Duelist, Slayer"
+	},
+	{
+		"Title": "Gauntlet Forms [Kata]",
+		"Name": "Gauntlet Forms",
+		"Type": "",
+		"Duration": "",
+		"Effect": "Upon casting this Kata the Caster designates one arm as their off-hand arm. So long as the Character is not wielding a weapon with their off-hand arm they are Immune to Weapon Damage which strikes the chosen arm, except for Weapon Type Massive. This effect is suppressed if the Character wields any two-handed weapon, a second weapon or a shield. It is also suppressed if the Character holds any in-game item in that arm. Finally, the off-hand does not count as a free hand for Spell casting. The Character does not need to wear a Gauntlet on their off-hand but must wear a red bracelet around the wrist.",
+		"Groups": "Kata",
+		"School": "Duelist, Guardian"
+	},
+	{
+		"Title": "Invincible Defence [Kata]",
+		"Name": "Invincible Defence",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character three(3) Charges of this ability. The Character can expend one(1) Charge to gain the ability to block Weapon Type: Massive from a single opponent against whom this ability is Invoked.",
+		"Groups": "Kata",
+		"School": "Guardian"
+	},
+	{
+		"Title": "Iron Skin [Kata]",
+		"Name": "Iron Skin",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character five(5) Charge of this ability. The Character can expend one(1) Charge to reduce the damage of an effect delivered as Physical(-Strike) by half. Alternatively, the Character may expend one(1) Charge to reduce the duration of any effect delivered as Physical(-Strike) to ten(10) seconds. The call for this ability is \"Reduced\".",
+		"Groups": "Kata",
+		"School": "Guardian"
+	},
+	{
+		"Title": "Jester's Dance [Kata]",
+		"Name": "Jester's Dance",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character five(5) Charges of this ability. The Character can expend one(1) Charge to Dodge a single attack delivered by Weapon or Packet. Once the first charge has been used the Character has ten(10) seconds to use another charge or all remaining Charges are lost and this effect ends.",
+		"Groups": "Kata",
+		"School": "Duelist"
+	},
+	{
+		"Title": "Last Stand [Kata]",
+		"Name": "Last Stand",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character one(1) Charge of this ability. The Character can expend one(1) Charge to activate this ability. Upon activating this ability the Character immediately enters a special state of Immunity. Upon entering this state the Character begins a five(5) minute countdown. During this count, the Character is Immune to all effects. This effect ends as soon as one of the following occurs; the five(5) minute countdown ends, Character takes ten(10) steps, or the Character voluntarily ends this effect. Once this effect ends the Character is Dead and the amount of time left in their Death Count is equal to the amount of time left on the five(5) minute countdown which began when this ability was first activated. If there is any time left in their Death Count, because they ended this ability before the countdown reaches zero(0), they may receive a Life Spell and any effects which trigger upon Death are triggered. If the countdown reaches zero(0) while the Character was still under this effect they immediately Dissipate as though their Death Count reached zero(0).\n\n This effect can be ended early due to the Character entering a state where they are unable to use Skills or Abilities, or forced to move, as a result of an effect delivered as Arcane(-Strike). In these states the effect ends as if the Character ended it voluntarily.",
+		"Groups": "Kata",
+		"School": "Guardian"
+	},
+	{
+		"Title": "Perfection of Self [Kata]",
+		"Name": "Perfection of Self",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character three(3) Charges of this ability. The Character can expend one(1) Charge to ignore the effects of all Carrier Attacks delivered by the target against whom this ability is Invoked.",
+		"Groups": "Kata",
+		"School": "All"
+	},
+	{
+		"Title": "Purity of Body [Kata]",
+		"Name": "Purity of Body",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character five(5) Charge of this ability. The Character can expend one(1) Charge to reduce the damage of an effect delivered as Poison(-Strike) by half. Alternatively, the Character may expend one(1) Charge to reduce the duration of any effect delivered as Poison(-Strike) to ten(10) seconds. The call for this ability is \"Reduced\".",
+		"Groups": "Kata",
+		"School": "Guardian"
+	},
+	{
+		"Title": "Rending Strikes [Kata]",
+		"Name": "Rending Strikes",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character three(3) Charges of this ability. The Character can expend one(1) Charge to deliver a single Martial Art as Piercing.",
+		"Groups": "Kata",
+		"School": "Slayer"
+	},
+	{
+		"Title": "Shadow Bond [Kata]",
+		"Name": "Shadow Bond",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata increases the Character's Weapon Damage, when behind their target and able to see both their target's shoulder blades, with the chosen weapon by two(2). This Kata may be performed more than once but each additional effect must target another weapon. This effect does not stack with any other Kata which increases Weapon Damage.",
+		"Groups": "Kata",
+		"School": "Duelist, Slayer"
+	},
+	{
+		"Title": "Shadow Knife [Kata]",
+		"Name": "Shadow Knife",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character five(5) Charge of this ability. The Character can expend one(1) Charge to throw a packet in place of a Thrown Weapon. This ability can be used to deliver any Martial Art with a range of Strike including those which can only be delivered by a Thrown Weapon. The Shadow Knife can also be used to deliver a Weapon Attack benefiting from any Weapon Training and Stealth Training the Character possesses.\n\n Additionally, the Character is considered to be behind their target for any other ability which requires them to be behind their target. The Weapon Type of the attack, if applicable, is changed to Shadow.\n\n Finally, as the packet attack is considered to be a Thrown Weapon, abilities such as Shadow Shot or Split Shot, which allow the Character to throw additional packets are applicable to this ability as well.",
+		"Groups": "Kata",
+		"School": "Duelist, Slayer"
+	},
+	{
+		"Title": "Shadow Specialisation [Kata]",
+		"Name": "Shadow Specialisation",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata increases the Character's Weapon Damage, when behind their target and able to see both their target's shoulder blades, with the chosen weapon by four(4). Once the Character has performed this Kata they are unable to use Martial Arts with any other weapon until this effect ends, or the Character casts this effect again, choosing a new weapon. This effect does not stack with any other Kata which increases Weapon Damage.",
+		"Groups": "Kata",
+		"School": "Duelist, Slayer"
+	},
+	{
+		"Title": "Spiritual Weapon [Kata]",
+		"Name": "Spiritual Weapon",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character three(3) Charges of this ability. The Character may expend one(1) Charge to deliver a Packet attack causing an amount of Magic Force damage equal to the combined number of Ranks the Character has in Weapon Training and Stealth Training. The Character may throw any number of Packets when using this ability. Any Character struck by one(1), or more, packets is affected by this effect.",
+		"Groups": "Kata",
+		"School": "Duelist, Slayer"
+	},
+	{
+		"Title": "Spiteful Charge [Kata]",
+		"Name": "Spiteful Charge",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character three(3) Charges of this ability. The Character may expend one(1) Charge from this ability in order to double the damage caused by any Martial Art delivered as an &lt;Effect&gt;-Strike.\n\n Alternatively, the Character may expend one(1) Charge from this ability to double the damage caused by any of the following Skills; Critical Strike, Deadly Strike, Penetrating Strike, Precise Strike, Vital Strike.\n\n Regardless of which effect of this ability is used, once the effect is delivered the Character is affected by an Arcane Fumble preventing them from using the weapon for ten(10) seconds after delivering the effect, even if they fail to strike any target.",
+		"Groups": "Kata",
+		"School": "Slayer"
+	},
+	{
+		"Title": "Third Eye [Kata]",
+		"Name": "Third Eye",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata grants the Character three(3) Charges of this ability. The Character may expend one(1) Charge to avoid a Packet or Weapon delivered effect by which they are struck to which the Dodge Skill would be an applicable defence. The call for this effect is \"Dodge\".\n\n Alternatively, the Character may expend one(1) Charge and a use of the Dodge Skill, or two(2) Charges of this ability, in order to avoid any effect to which the Skill Evasion is applicable. The call for this use of this ability is \"Evasion\".",
+		"Groups": "Kata",
+		"School": "Guardian"
+	},
+	{
+		"Title": "Void Dance [Kata]",
+		"Name": "Void Dance",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata increases the Character's Wear Point total by ten(10) to a maximum of fifty(50). Additionally, the value of any Avoidance Armour the Character has is increased by ten(10). This effect stacks with all other effects which Reinforce Avoidance Armour.",
+		"Groups": "Kata",
+		"School": "Duelist"
+	},
+	{
+		"Title": "Weapon Focus [Kata]",
+		"Name": "Weapon Focus",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata increases the Character's Weapon Damage with all weapons, with which they are proficient, by one(1). This effect does not stack with any other Kata which increases Weapon Damage.",
+		"Groups": "Kata",
+		"School": "All"
+	},
+	{
+		"Title": "Weapon Specialisation [Kata]",
+		"Name": "Weapon Specialisation",
+		"Type": "",
+		"Duration": "",
+		"Effect": "This Kata increases the Character's Weapon Damage with a single chosen weapon, such as Long Sword, Short Axe, Two-Handed Mace, by two(2). Once the Character has performed this Kata they are unable to use Martial Arts unless they are wielding their chosen weapon. This effect does not stack with any other Kata which increases Weapon Damage. ",
+		"Groups": "Kata",
+		"School": "All"
+	}
+]

@@ -356,3 +356,155 @@ martial_art_list = martial_art_list[1:]
 
 with open("Crucible_Martial_Arts.json", "w", encoding="utf-8") as csfp:
 	json.dump(martial_art_list, csfp, indent="\t")
+
+	
+
+# Grab the start and end of the Ritual description list
+start_string = "<div><div>Ritual Description<br/>Ritual Name [Ritual]* *Rituals marked with a \"*\" <br/>can be cast on a target more than once.<br/>Cost: Component Cost to Perform the Ritual<br/>Type: The Type of Ritual. Alchemy, Magic, or <br/>Smithing.<br/>School: The School of Magic the Caster must know if<br/>this is a Ritual Magic Effect. If multiple schools are <br/>listed the Caster only needs access to one.<br/>Target: List of Valid Targets which can be chosen for <br/>the Ritual Effect.<br/>Duration: The base duration of the Ritual Effect.<br/>Effect: What effect the Ritual has when cast.<br/>"
+ritual_list_start = rulebook_content.find(start_string) + len(start_string)
+ritual_list_end = rulebook_content.find("<div><div>Flaws and Backlashes<br/>")
+
+ritual_data_list = rulebook_content[ritual_list_start:ritual_list_end].replace("\n", "").replace("<div>", "").replace("</div>", "").split("<br/>")
+
+# Now we have a line by line block of all the Ritual descriptions, go through them until we are done
+
+c_ritual = {"Title": "", "Multi": False, "Name": "", "Groups": "", "Cost": "", "Type": "", "School": "", "Target": "", "Duration": "", "Effect": ""}
+
+ritual_list = []
+
+currently = "Title"
+
+for index, line in enumerate(ritual_data_list):
+	#
+	if "[Ritual" in line:
+		ritual_list.append(c_ritual.copy())
+		c_ritual["Title"] = line.strip()
+		c_ritual["Groups"] = line[line.find("[")+1:line.find("]")] if line.find(" [") != -1 else ""
+		c_ritual["Name"] = line[:line.find(" [")] if line.find(" [") != -1 else line.strip()
+		c_ritual["Multi"] = "*" in line
+		c_ritual["Cost"] = ""
+		c_ritual["Type"] = ""
+		c_ritual["School"] = ""
+		c_ritual["Target"] = ""
+		c_ritual["Duration"] = ""
+		c_ritual["Effect"] = ""
+	elif line.find("Cost: ") != -1:
+		currently = "Cost"
+		c_ritual["Cost"] = line[len("Cost: "):].strip()
+	elif line.find("Type: ") != -1:
+		currently = "Type"
+		c_ritual["Type"] = line[len("Type: "):].strip()
+	elif line.find("School: ") != -1:
+		currently = "School"
+		c_ritual["School"] = line[len("School: "):].strip()
+	elif line.find("Target: ") != -1:
+		currently = "Target"
+		c_ritual["Target"] = line[len("Target: "):].strip()
+	elif line.find("Duration: ") != -1:
+		currently = "Duration"
+		c_ritual["Duration"] = line[len("Duration: "):].strip()
+	elif line.find("Effect: ") != -1:
+		currently = "Effect"
+		c_ritual["Effect"] = line[len("Effect: "):].strip()
+	else:
+		# Add to whatever we are currently on
+		if len(line) > 4 and line[0] == "	":
+			c_ritual[currently] += "\n\n"
+		c_ritual[currently] += " " + line.strip()
+ritual_list.append(c_ritual.copy())
+
+ritual_list = ritual_list[1:]
+
+with open("Crucible_Rituals.json", "w", encoding="utf-8") as csfp:
+	json.dump(ritual_list, csfp, indent="\t")
+
+
+# Grab the start and end of the Invocation description list
+start_string = "<div><div>Invocation Descriptions<br/>"
+invocation_list_start = rulebook_content.find(start_string) + len(start_string)
+invocation_list_end = rulebook_content.find("<div><div>Martial Kata<br/>")
+
+invocation_data_list = rulebook_content[invocation_list_start:invocation_list_end].replace("\n", "").replace("<div>", "").replace("</div>", "").split("<br/>")
+
+# Now we have a line by line block of all the invocation descriptions, go through them until we are done
+
+c_invocation = {"Title": "", "Name": "", "Type": "", "Duration": "", "Effect": ""}
+
+invocation_list = []
+
+currently = "Title"
+
+for index, line in enumerate(invocation_data_list):
+	#
+	if "[Invocation" in line:
+		invocation_list.append(c_invocation.copy())
+		c_invocation["Title"] = line.strip()
+		c_invocation["Groups"] = line[line.find("[")+1:line.find("]")] if line.find(" [") != -1 else ""
+		c_invocation["Name"] = line[:line.find(" [")] if line.find(" [") != -1 else line.strip()
+		c_invocation["Type"] = ""
+		c_invocation["Duration"] = ""
+		c_invocation["Effect"] = ""
+	elif line.find("Type: ") != -1:
+		currently = "Type"
+		c_invocation["Type"] = line[len("Type: "):].strip()
+	elif line.find("Duration: ") != -1:
+		currently = "Duration"
+		c_invocation["Duration"] = line[len("Duration: "):].strip()
+	elif line.find("Effect: ") != -1:
+		currently = "Effect"
+		c_invocation["Effect"] = line[len("Effect: "):].strip()
+	else:
+		# Add to whatever we are currently on
+		if len(line) > 4 and line[0] == "	":
+			c_invocation[currently] += "\n\n"
+		c_invocation[currently] += " " + line.strip()
+invocation_list.append(c_invocation.copy())
+
+invocation_list = invocation_list[1:]
+
+with open("Crucible_Invocations.json", "w", encoding="utf-8") as csfp:
+	json.dump(invocation_list, csfp, indent="\t")
+
+	
+
+# Grab the start and end of the martial_kata description list
+start_string = "<div><div>Kata List<br/>"
+martial_kata_list_start = rulebook_content.find(start_string) + len(start_string)
+martial_kata_list_end = rulebook_content.find("<div><div>Interventions<br/>")
+
+martial_kata_data_list = rulebook_content[martial_kata_list_start:martial_kata_list_end].replace("\n", "").replace("<div>", "").replace("</div>", "").split("<br/>")
+
+# Now we have a line by line block of all the martial_kata descriptions, go through them until we are done
+
+c_martial_kata = {"Title": "", "Name": "", "Type": "", "Duration": "", "Effect": ""}
+
+martial_kata_list = []
+
+currently = "Title"
+
+for index, line in enumerate(martial_kata_data_list):
+	#
+	if "[Kata" in line:
+		martial_kata_list.append(c_martial_kata.copy())
+		c_martial_kata["Title"] = line.strip()
+		c_martial_kata["Groups"] = line[line.find("[")+1:line.find("]")] if line.find(" [") != -1 else ""
+		c_martial_kata["Name"] = line[:line.find(" [")] if line.find(" [") != -1 else line.strip()
+		c_martial_kata["School"] = ""
+		c_martial_kata["Effect"] = ""
+	elif line.find("School: ") != -1:
+		currently = "School"
+		c_martial_kata["School"] = line[len("School: "):].strip()
+	elif line.find("Effect: ") != -1:
+		currently = "Effect"
+		c_martial_kata["Effect"] = line[len("Effect: "):].strip()
+	else:
+		# Add to whatever we are currently on
+		if len(line) > 4 and line[0] == "	":
+			c_martial_kata[currently] += "\n\n"
+		c_martial_kata[currently] += " " + line.strip()
+martial_kata_list.append(c_martial_kata.copy())
+
+martial_kata_list = martial_kata_list[1:]
+
+with open("Crucible_Martial_Katas.json", "w", encoding="utf-8") as csfp:
+	json.dump(martial_kata_list, csfp, indent="\t")

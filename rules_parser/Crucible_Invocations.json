@@ -1,0 +1,290 @@
+[
+	{
+		"Title": "Adamantine Gilding [Invocation]",
+		"Name": "Adamantine Gilding",
+		"Type": "Smithing",
+		"Duration": "Reset Effects: This Invocation grants the Caster three(3) Charges. The Caster may expend one(1) Charge to negate a single Break or Destroy effect by which they are struck. The call for this effect is \"Ward\".",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Alchemical Agent [Invocation]",
+		"Name": "Alchemical Agent",
+		"Type": "Alchemy",
+		"Duration": "Charged (5) Effects: Upon casting this Invocation the Caster chooses one of the following elements; Acid, Fire, Ice, Lightning, or Stone. This Invocation grants the Character five(5) Charges. The Character may spend one(1) Charge to deliver a packet attack causing twenty(20) points of Physical damage of the chosen element.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Alchemical Burst [Invocation]",
+		"Name": "Alchemical Burst",
+		"Type": "Alchemy",
+		"Duration": "Charged Effects: This Invocation grants the Character three(3) Charges. The Character may expend one(1) Charge to throw any number of packets, with one hand, to deliver any Alchemy with a Range of Packet.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Alchemical Counteragent [Invocation]",
+		"Name": "Alchemical Counteragent",
+		"Type": "Alchemy",
+		"Duration": "Charged (3) Effects: This Invocation grants the Caster three(3) Charges. The Caster may expend one(1) Charge to negate a single effect delivered as Poison(-Strike) by which they are struck. The call for this effect is \"Ward\"",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Arcane Mantle [Invocation]",
+		"Name": "Arcane Mantle",
+		"Type": "Magic",
+		"Duration": "Reset Effects: This Invocation increases the Armour Points, granted by any Arcane Armour, worn by the Character by ten(10). This effect stacks with all other effects which Reinforce Arcane Armour.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Channel Technique [Invocation]",
+		"Name": "Channel Technique",
+		"Type": "Alchemy, Magic",
+		"Duration": "Reset Effects:  This Invocation grants the Caster three(3) Charges. The Caster may expend one(1) Charge when casting a Technique with a Range of Packet to instead deliver the Technique as an &lt;Effect&gt;-Strike with any weapon with which the Character is Proficient.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Circle of Life [Invocation]",
+		"Name": "Circle of Life",
+		"Type": "Magic",
+		"Duration": "Sustained Effects: This Invocation requires the Character to be inside of a valid Circle. Once cast, this Invocation allows the Caster to Resurrect Characters as though they were a Magic Circle of Resurrection.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Displacement [Invocation]",
+		"Name": "Displacement",
+		"Type": "Magic",
+		"Duration": "Charged Effects: This Invocation grants the Caster three(3) Charges. The Caster may expend one(1) Charge to negate a single effect delivered by Weapon or Packet. The Call for this ability is \"Dodge\".",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Elemental Portal [Invocation]",
+		"Name": "Elemental Portal",
+		"Type": "Magic",
+		"Duration": "Concentration Effects: Upon activating this Invocation the Character chooses one of the following elements; Chaos, Destruction, Dream, Essence, Fire, Ice, Light, Lightning, Order, Reason, Shadow, or Stone. The Character may deliver, by packet, an attack causing ten(10) points of Elemental Damage of the chosen type at will.\n\n The effects of this Invocation last until the Character uses any other Skill, takes Hit Point damage, is subjected to any effect which would Disrupt the casting of a Spell, or they move any faster than a normal walking pace.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Elementium Gilding [Invocation]",
+		"Name": "Elementium Gilding",
+		"Type": "Smithing",
+		"Duration": "Reset Effects: This Invocation grants the Caster three(3) Charges. The Caster may expend one(1) Charge to negate a single effect, by which they are struck, which causes any of the following Damage Types; Chaos, Destruction, Dream, Essence, Fire, Ice, Light, Lightning, Order, Reason, Shadow, or Stone. The call for this effect is \"Ward\".",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Elixir of Healing [Invocation]",
+		"Name": "Elixir of Healing",
+		"Type": "Alchemy",
+		"Duration": "Charged (5) Effects: This Invocation grants the Character five(5) Charges. The Character may spend one(1) Charge to deliver a packet attack causing twenty(20) points of Poison Healing.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Familiar Bond [Invocation]",
+		"Name": "Familiar Bond",
+		"Type": "Magic",
+		"Duration": "Reset Effects: At the time of this Invocation's casting, the Character must touch a single target. The Caster gains the ability to cast Spells with a range of \"Self\" on the target as Touch spells. A Caster cannot have more than one target of Familiar Bond in existence at a time. This effect ends if the Caster enters their Death Count or they Cast this Invocation on a new target.\n\n If the Caster casts a Spell with a duration of Sustained on the target, any Spells cast by the target, or having another Spell with a duration of Sustained cast on them removes the previous Spell's effects.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Forge Salts [Invocation]",
+		"Name": "Forge Salts",
+		"Type": "Smithing",
+		"Duration": "Concentration Effects: This Invocation allows the Character to perform Smithing abilities without the need for a Portable Forge. This Invocation ends when the Character after five(5) minutes or until the Character uses any Skill other than Smithing.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Hone Weapon [Invocation]",
+		"Name": "Hone Weapon",
+		"Type": "Smithing",
+		"Duration": "Reset Effects: This Invocation increases the damage the Character causes with a single weapon by one(1). This effect does not stack with the effects of the Empower Weapon Ritual Effect.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Identify [Invocation]",
+		"Name": "Identify",
+		"Type": "All",
+		"Duration": "Instant Effects: This Invocation reveals to the Caster any and all special properties of the target item. Special properties are all Ritual Effects present on the target, as well as all other information on the item's tag. At the Marshal's discretion, this effect may also reveal additional information on the nature of the item.\n\n This takes an amount of time equal to the amount of time needed for the Marshal to convey the information.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Investiture [Invocation]",
+		"Name": "Investiture",
+		"Type": "All",
+		"Duration": "Instant Effects: This Invocation requires both the Caster and Target Character to to be standing fully within a target Protective Circle in which the Caster is Invested.\n\n When performed as an Alchemy Invocation the Circle must be an Alchemical Fountain. When performed as a Magic Invocation the Circle must be a Magic Circle. When performed as a Smithing Invocation the Circle must be a Forge of Kings.\n\n This Invocation grants the Target Character an Investiture into the target Circle.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Iron Gilding [Invocation]",
+		"Name": "Iron Gilding",
+		"Type": "Smithing",
+		"Duration": "Reset Effects: This Invocation grants the Caster three(3) Charges. The Caster may expend one(1) Charge to negate a single Compulsion effect by which they are struck. The call for this effect is \"Ward\".",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Living Spell [Invocation]",
+		"Name": "Living Spell",
+		"Type": "Magic",
+		"Duration": "Reset Effects:  This Invocation grants the Caster three(3) Charges. The Caster may expend one(1) Charge when casting a Spell to Quicken the Spell, as per the Skill Quicken Skill. Alternatively, they may expend three(3) Charges in order to cast a Spell when they are in a state where they would be unable to Cast Spells such as under the effects of a Confine or Drain effect. This does not allow the Character to cast spells while Dead or Unconcious.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Magic Aura [Invocation]",
+		"Name": "Magic Aura",
+		"Type": "Magic",
+		"Duration": "Reset Effects: This Invocation allows the Caster to deliver their Killing Blows as Magic.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Master's Touch [Invocation]",
+		"Name": "Master's Touch",
+		"Type": "Smithing",
+		"Duration": "Reset Effects: This Invocation causes the target Masterwork item to become Indestructible and immune to Break and Destroy. This effect ends if the item leaves the Caster's possession.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Master's Watch [Invocation]",
+		"Name": "Master's Watch",
+		"Type": "Smithing",
+		"Duration": "Reset Effects: This Invocation must be cast on, and within, a valid Circle. All items within the Circle gain Immunity to Break and Destroy so long as they remain in the Circle. This effect ends if the Caster leaves the Circle or enters their Death Count.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Metal Dust [Invocation]",
+		"Name": "Metal Dust",
+		"Type": "Smithing",
+		"Duration": "Reset Effects:  This Invocation grants the Caster five(5) Charges. The Caster may expend one(1) Charge in order to deliver, by Touch, an &lt;Iron, Normal, or Silver&gt; Aura effect allowing the target to use the chosen Weapon Type against a single opponent until end of Combat.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Polycast [Invocation]",
+		"Name": "Polycast",
+		"Type": "Magic",
+		"Duration": "Charged (1) Effects: This Invocation grants the Caster one(1) Charge. The Caster may expend one(1) Charge when casting a Spell, with a range of \"Packet\", to throw any number of packets, all at once. Any creature struck by one or more packets takes the effects of the Spell. Alternatively they may expend one(1) Charge, when casting a Spell with a range of \"Touch\" or greater, to be able to deliver an additional copy of Spell, by Touch, on any number of targets until one of the following occurs; the Spell is Disrupted, the Caster goes ten(10) seconds without affecting a new target, or the Caster uses any other Skill. No target may benefit from the effects of a single Spell cast using this ability more than once.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Purify Land [Invocation]",
+		"Name": "Purify Land",
+		"Type": "Magic",
+		"Duration": "Instant Effects: This Invocation removes all forms of corruption, rot, and disease from the target land. The Marshal of the encounter determines the number of casting needed to completely remove any deleterious effects on the land.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Purify Water [Invocation]",
+		"Name": "Purify Water",
+		"Type": "Alchemy",
+		"Duration": "Instant Effects: This Invocation removes all forms of corruption, rot, and disease from the target water. The Marshal of the encounter determines the number of castings needed to completely remove any deleterious effects on the water.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Purity of Flesh [Invocation]",
+		"Name": "Purity of Flesh",
+		"Type": "All",
+		"Duration": "Charged (3)",
+		"Effect": "This Invocation grants the Character three(3) Charges of this ability. The Character can expend one(1) Charge to ignore the effects of all Carrier Attacks delivered by the target against whom this ability is Invoked.",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Ready Armour [Invocation]",
+		"Name": "Ready Armour",
+		"Type": "Smithing",
+		"Duration": "Reset Effects: This Invocation increases the Armour Points, granted by any Physical Armour, worn by the Character by ten(10). This effect stacks with all other effects which Reinforce Physical Armour.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Shadow Slime [Invocation]",
+		"Name": "Shadow Slime",
+		"Type": "Alchemy",
+		"Duration": "Reset Effects: This Invocation increases the damage the Character causes, when Behind their target, with a single weapon by two(2). This effect does not stack with the effects of the Stalker's Weapon Ritual Effect.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Silver Gilding [Invocation]",
+		"Name": "Silver Gilding",
+		"Type": "Smithing",
+		"Duration": "Reset Effects: This Invocation grants the Caster three(3) Charges. The Caster may expend one(1) Charge to negate a single Curse effect by which they are struck. The call for this effect is \"Ward\".",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Spirit of the Forge [Invocation]",
+		"Name": "Spirit of the Forge",
+		"Type": "Smithing",
+		"Duration": "Concentration Effects: This Invocation targets a Portable Forge. The target Portable Forge counts as a Town Forge until one of the following events occur; the Character uses any Skill other than Smithing, the targeted Portable Forge is moved, the Caster moves more than three(3) metres from the Forge or the Caster is subjected to any effect which would Disrupt Spell casting.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Steel Slime [Invocation]",
+		"Name": "Steel Slime",
+		"Type": "Alchemy",
+		"Duration": "Reset Effects: This Invocation increases the Armour Points, granted by any Natural Armour, worn by the Character by ten(10). This effect stacks with all other effects which Reinforce Natural Armour.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Transmute Weapon [Invocation]",
+		"Name": "Transmute Weapon",
+		"Type": "Alchemy",
+		"Duration": "Reset Effects: This Invocation changes the Weapon Type of the target Weapon to one of the following; Iron, Normal, or Silver. This effect ends if the item leaves the Caster's possession. As long as this Invocation is in effect, the Alchemist can spend one(1) minute to change the Weapon Type to any other valid option.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Tribute [Invocation]",
+		"Name": "Tribute",
+		"Type": "All",
+		"Duration": "Charged (1) Effects: This Invocation grants the Character one(1) Charge. The Character may spend one(1) Charge to reduce the number of Components of a particular type needed to cast a Ritual Effect of the same type as this Invocation by one(1), to a minimum of one(1). For example, when used as a Smithing Invocation this ability can reduce the number of Power Components needed by any Ritual Smithing effect by one(1). No Ritual can be targeted by this effect, for a particular Component Type, more than once.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Unstable Aura [Invocation]",
+		"Name": "Unstable Aura",
+		"Type": "Magic",
+		"Duration": "Reset Effects: This Invocation increases the damage the Character causes with a single weapon by one(1). This effect does not stack with the effects of the Enhance Weapon Ritual Effect. This effect ends if the item leaves the Caster's possession.",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Vital Elixir [Invocation]",
+		"Name": "Vital Elixir",
+		"Type": "Alchemy",
+		"Duration": "Charged (3) Effects: This Invocation grants the Caster three(3) Charges. The Caster may expend one(1) Charge to negate a single effect, by which they are struck, which causes Body damage. The call for this effect is \"Ward\".",
+		"Effect": "",
+		"Groups": "Invocation"
+	},
+	{
+		"Title": "Wall of Force [Invocation]",
+		"Name": "Wall of Force",
+		"Type": "Magic",
+		"Duration": "Charged (3) Effects: This Invocation grants the Caster three(3) Charges. The Caster may expend one(1) Charge of this ability in order to deliver a packet delivered \"Arcane Repel\" effect. Alternatively, the Character may expend all three(3) Charges, the Caster may throw any number of packets when delivering this effect. Any target struck by one(1) or more Packets is affected by this effect. ",
+		"Effect": "",
+		"Groups": "Invocation"
+	}
+]

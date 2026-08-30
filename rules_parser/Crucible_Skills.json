@@ -589,7 +589,7 @@
 		"Category": "Alchemy Delivery",
 		"Multi": false,
 		"Requirements": "Level 6 Alchemy Slot, Envenom Weapon",
-		"Benefit": "This Skill grants the Character the ability to deliver all 4 th , 5 th , and 6 th level Alchemy, the Character casts from memory, as a &lt;Effect&gt;-Strike with their Weapon instead of a Packet. They do not need a free hand to use Alchemy if they are wielding a Weapon with which they are Proficient. They may even Touch Cast Alchemy with their Weapon by placing the Weapon on the target during the Delivery Verbal.",
+		"Benefit": "This Skill grants the Character the ability to deliver all 4th, 5th, and 6th level Alchemy, the Character casts from memory, as a &lt;Effect&gt;-Strike with their Weapon instead of a Packet. They do not need a free hand to use Alchemy if they are wielding a Weapon with which they are Proficient. They may even Touch Cast Alchemy with their Weapon by placing the Weapon on the target during the Delivery Verbal.",
 		"Costs": [
 			"20",
 			"24",
@@ -604,7 +604,7 @@
 		"Category": "Alchemy Delivery",
 		"Multi": false,
 		"Requirements": "Level 9 Alchemy Slot, Greater Envenom Weapon",
-		"Benefit": "This Skill grants the Character the ability to deliver all 7 th , 8 th , and 9 th level Alchemy, the Character casts from memory, as a &lt;Effect&gt;-Strike with their Weapon instead of a Packet. They do not need a free hand to use Alchemy if they are wielding a Weapon with which they are Proficient. They may even Touch Cast Alchemy with their Weapon by placing the Weapon on the target during the Delivery Verbal.\n\nAdditionally, the Character may expend a use of the Slimy Coating Skill in order to allow themselves to deliver a single copy of any Alchemy they have delivered as &lt;Effect&gt;-Strike using this ability if the initial swing failed to strike any target. The call for this copy is \"Echo: &lt;Delivery Verbal&gt;\".",
+		"Benefit": "This Skill grants the Character the ability to deliver all 7th, 8th, and 9th level Alchemy, the Character casts from memory, as a &lt;Effect&gt;-Strike with their Weapon instead of a Packet. They do not need a free hand to use Alchemy if they are wielding a Weapon with which they are Proficient. They may even Touch Cast Alchemy with their Weapon by placing the Weapon on the target during the Delivery Verbal.\n\nAdditionally, the Character may expend a use of the Slimy Coating Skill in order to allow themselves to deliver a single copy of any Alchemy they have delivered as &lt;Effect&gt;-Strike using this ability if the initial swing failed to strike any target. The call for this copy is \"Echo: &lt;Delivery Verbal&gt;\".",
 		"Costs": [
 			"26",
 			"32",
@@ -1006,7 +1006,7 @@
 		"Category": "Spell Delivery",
 		"Multi": false,
 		"Requirements": "Level 6 Spell Slot, Innate Spellcasting",
-		"Benefit": "This Skill grants the Character the ability to deliver all 4 th , 5 th , and 6 th level Spells, the Character casts from memory, without their Incantation. Additionally, they may cast these Spells while unable to speak, such as while under the effects of a Silence, or without a free hand.",
+		"Benefit": "This Skill grants the Character the ability to deliver all 4th, 5th, and 6th level Spells, the Character casts from memory, without their Incantation. Additionally, they may cast these Spells while unable to speak, such as while under the effects of a Silence, or without a free hand.",
 		"Costs": [
 			"20",
 			"24",
@@ -1021,7 +1021,7 @@
 		"Category": "Spell Delivery",
 		"Multi": false,
 		"Requirements": "Level 9 Spell Slot, Greater Innate Spellcasting",
-		"Benefit": "This Skill grants the Character the ability to deliver all 7 th , 8 th , and 9 th level Spells, the Character casts from memory, without their Incantation. Additionally, they may cast these Spells while unable to speak, such as while under the effects of a Silence, or without a free hand.\n\nAdditionally, the Character may expend a use of the Quicken Spell Skill in order to instantly regain the ability to cast a single Spell, delivered from memory, which they would have been able to recover by Meditation.",
+		"Benefit": "This Skill grants the Character the ability to deliver all 7th, 8th, and 9th level Spells, the Character casts from memory, without their Incantation. Additionally, they may cast these Spells while unable to speak, such as while under the effects of a Silence, or without a free hand.\n\nAdditionally, the Character may expend a use of the Quicken Spell Skill in order to instantly regain the ability to cast a single Spell, delivered from memory, which they would have been able to recover by Meditation.",
 		"Costs": [
 			"26",
 			"30",
@@ -1451,7 +1451,7 @@
 		"Category": "Magical",
 		"Multi": false,
 		"Requirements": "None",
-		"Benefit": "The Character gains the ability to, once per Reset, cast a single Spell below 4 th level of any School from Memory. This Skill does not count as a prerequisite for any other Skill.",
+		"Benefit": "The Character gains the ability to, once per Reset, cast a single Spell below 4th level of any School from Memory. This Skill does not count as a prerequisite for any other Skill.",
 		"Costs": [
 			"5",
 			"8"
@@ -2226,7 +2226,7 @@
 		"Category": "Spell Delivery",
 		"Multi": false,
 		"Requirements": "Level 6 Spell Slot, Spell Channelling",
-		"Benefit": "This Skill grants the Character the ability to deliver all 4 th , 5 th , and 6 th level Spells, the Character casts from memory, as an &lt;Effect&gt;-Strike with their Weapon instead of a Packet. They do not need a free hand to cast Spells if they are wielding a Weapon with which they are Proficient. The Character may Touch Cast Spells with their Weapon by placing the Weapon on the target during the Incantation and Delivery Verbal.",
+		"Benefit": "This Skill grants the Character the ability to deliver all 4th, 5th, and 6th level Spells, the Character casts from memory, as an &lt;Effect&gt;-Strike with their Weapon instead of a Packet. They do not need a free hand to cast Spells if they are wielding a Weapon with which they are Proficient. The Character may Touch Cast Spells with their Weapon by placing the Weapon on the target during the Incantation and Delivery Verbal.",
 		"Costs": [
 			"14",
 			"18",
@@ -2241,7 +2241,7 @@
 		"Category": "Spell Delivery",
 		"Multi": false,
 		"Requirements": "Level 9 Spell Slot, Greater Spell Channelling",
-		"Benefit": "This Skill grants the Character the ability to deliver all 7 th , 8 th , and 9 th level Spells, the Character casts from memory, as an &lt;Effect&gt;-Strike with their Weapon instead of a Packet. They do not need a free hand to cast Spells if they are wielding a Weapon with which they are Proficient. The Character may Touch Cast Spells with their Weapon by placing the Weapon on the target during the Incantation and Delivery Verbal.\n\nAdditionally, the Character may expend a use of the Channel Spell Skill in order to allow themselves to deliver a single copy of any Spell they have delivered as &lt;Effect&gt;-Strike using this ability if the initial swing failed to strike any target. The call for this copy is \"Echo: &lt;Delivery Verbal&gt;\".",
+		"Benefit": "This Skill grants the Character the ability to deliver all 7th, 8th, and 9th level Spells, the Character casts from memory, as an &lt;Effect&gt;-Strike with their Weapon instead of a Packet. They do not need a free hand to cast Spells if they are wielding a Weapon with which they are Proficient. The Character may Touch Cast Spells with their Weapon by placing the Weapon on the target during the Incantation and Delivery Verbal.\n\nAdditionally, the Character may expend a use of the Channel Spell Skill in order to allow themselves to deliver a single copy of any Spell they have delivered as &lt;Effect&gt;-Strike using this ability if the initial swing failed to strike any target. The call for this copy is \"Echo: &lt;Delivery Verbal&gt;\".",
 		"Costs": [
 			"18",
 			"22",

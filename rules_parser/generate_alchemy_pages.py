@@ -10,7 +10,7 @@ alchemy_folder_path = "../docs/alchemy/"
 
 if os.path.isdir(alchemy_folder_path):
 	for filename in os.listdir(alchemy_folder_path):
-		if filename[0].endswith("list.mdx"):
+		if filename[0].endswith("list.mdx") and filename[0] != "_" and "nauto" not in filename:
 			file_path = os.path.join(alchemy_folder_path, filename)
 			if os.path.isfile(file_path):
 				os.remove(file_path)
@@ -18,7 +18,7 @@ if os.path.isdir(alchemy_folder_path):
 
 if os.path.isdir(os.path.join(alchemy_folder_path, "alchemy_descriptions")):
 	for filename in os.listdir(os.path.join(alchemy_folder_path, "alchemy_descriptions")):
-		if filename[0] != "_":
+		if filename[0] != "_" and filename[0] != "_" and "nauto" not in filename:
 			file_path = os.path.join(alchemy_folder_path, "alchemy_descriptions", filename)
 			if os.path.isfile(file_path):
 				os.remove(file_path)

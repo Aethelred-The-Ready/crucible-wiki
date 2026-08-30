@@ -10,7 +10,7 @@ martial_art_folder_path = "../docs/martial_arts/"
 
 if os.path.isdir(martial_art_folder_path):
 	for filename in os.listdir(martial_art_folder_path):
-		if filename[0].endswith("list.mdx"):
+		if filename[0].endswith("list.mdx") and filename[0] != "_" and "nauto" not in filename:
 			file_path = os.path.join(martial_art_folder_path, filename)
 			if os.path.isfile(file_path):
 				os.remove(file_path)
@@ -18,7 +18,7 @@ if os.path.isdir(martial_art_folder_path):
 
 if os.path.isdir(os.path.join(martial_art_folder_path, "martial_arts_descriptions")):
 	for filename in os.listdir(os.path.join(martial_art_folder_path, "martial_arts_descriptions")):
-		if filename[0] != "_":
+		if filename[0] != "_" and filename[0] != "_" and "nauto" not in filename:
 			file_path = os.path.join(martial_art_folder_path, "martial_arts_descriptions", filename)
 			if os.path.isfile(file_path):
 				os.remove(file_path)

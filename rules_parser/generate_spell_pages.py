@@ -10,7 +10,7 @@ spell_folder_path = "../docs/magic/"
 
 if os.path.isdir(spell_folder_path):
 	for filename in os.listdir(spell_folder_path):
-		if filename[0].endswith("list.mdx"):
+		if filename[0].endswith("list.mdx") and filename[0] != "_" and "nauto" not in filename:
 			file_path = os.path.join(spell_folder_path, filename)
 			if os.path.isfile(file_path):
 				os.remove(file_path)
@@ -18,7 +18,7 @@ if os.path.isdir(spell_folder_path):
 
 if os.path.isdir(os.path.join(spell_folder_path, "spell_descriptions")):
 	for filename in os.listdir(os.path.join(spell_folder_path, "spell_descriptions")):
-		if filename[0] != "_":
+		if filename[0] != "_" and filename[0] != "_" and "nauto" not in filename:
 			file_path = os.path.join(spell_folder_path, "spell_descriptions", filename)
 			if os.path.isfile(file_path):
 				os.remove(file_path)

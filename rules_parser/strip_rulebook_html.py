@@ -46,6 +46,10 @@ rulebook_content = rulebook_content.replace("’", "'")
 rulebook_content = rulebook_content.replace("Weapon <br/>Proficiency", "Weapon Proficiency")
 rulebook_content = rulebook_content.replace("Level 5 Alchemy Slot, Level 5 Spell Slot, or <br/>5 Ranks in Smithing", "Level 5 Alchemy Slot, Level 5 Spell Slot, or 5 Ranks in Smithing")
 
+rulebook_content = rulebook_content.replace("<br/>st<br/>", "st")
+rulebook_content = rulebook_content.replace("<br/>nd<br/>", "nd")
+rulebook_content = rulebook_content.replace("<br/>rd<br/>", "rd")
+
 
 
 with open("Crucible_text.html", "w", encoding="utf-8") as rulebook_text:

@@ -67,7 +67,7 @@
 		"Level": "9",
 		"Range": "Strike",
 		"Duration": "Instant",
-		"Effect": "This Artistry forces the target Extraplanar creature or Elemental back to its home plane. A creature which has been affected by this effect cannot return to the plane from which it was Banished for twenty-four(24) hours. This Artistry only functions on Hymira and will fail if cast on any other Plane.",
+		"Effect": "This Artistry forces the target Extraplanar creature or Elemental back to its home plane. A creature which has been affected by this effect cannot return to the plane from which it was Banished for twenty-four(24) hours.\n\n This Artistry only functions on Hymira and will fail if cast on any other Plane.",
 		"Delivery Verbal": "\"Physical-Strike Banish\"",
 		"Incantation": "None"
 	},
@@ -883,7 +883,7 @@
 		"Level": "9",
 		"Range": "Strike",
 		"Duration": "Charged (3)",
-		"Effect": "This Artistry grants the Caster the ability to deliver three(3) Physical-Strikes, each causing twenty(20) points of damage of the Weapon Type of the weapon used to deliver them. Once this Artistry is cast, the Caster has ten(10) seconds to use all charges or any remaining charges are lost. If this Artistry benefits from the Assassin Tradition, Echo, or similar effects, it applies to all Charges, but the Character must meet any requirements for the benefit for each attack.",
+		"Effect": "This Artistry grants the Caster the ability to deliver three(3) Physical-Strikes, each causing twenty(20) points of damage of the Weapon Type of the weapon used to deliver them. Once this Artistry is cast, the Caster has ten(10) seconds to use all charges or any remaining charges are lost.\n\n If this Artistry benefits from the Assassin Tradition, Echo, or similar effects, it applies to all Charges, but the Character must meet any requirements for the benefit for each attack.",
 		"Delivery Verbal": "\"20 Physical-Strike &lt;Weapon Type&gt;\" x3",
 		"Incantation": "None"
 	},
@@ -895,7 +895,7 @@
 		"Level": "4",
 		"Range": "Strike",
 		"Duration": "Charged (2)",
-		"Effect": "This Artistry grants the Caster the ability to deliver two(2) Physical-Strikes, each causing ten(10) points of damage of the Weapon Type of the weapon used to deliver them. Once this Artistry is cast, the Caster has ten(10) seconds to use all charges or any remaining charges are lost. If this Artistry benefits from the Assassin Tradition, Echo, or similar effects, it applies to all Charges, but the Character must meet any requirements for the benefit for each attack.",
+		"Effect": "This Artistry grants the Caster the ability to deliver two(2) Physical-Strikes, each causing ten(10) points of damage of the Weapon Type of the weapon used to deliver them. Once this Artistry is cast, the Caster has ten(10) seconds to use all charges or any remaining charges are lost.\n\n If this Artistry benefits from the Assassin Tradition, Echo, or similar effects, it applies to all Charges, but the Character must meet any requirements for the benefit for each attack.",
 		"Delivery Verbal": "\"10 Physical-Strike &lt;Weapon Type&gt;\" x2",
 		"Incantation": "None"
 	},
@@ -907,7 +907,7 @@
 		"Level": "6",
 		"Range": "Strike",
 		"Duration": "Charged (2)",
-		"Effect": "This Artistry grants the Caster the ability to deliver two(2) Physical-Strikes, each causing fifteen(15) points of damage of the Weapon Type of the weapon used to deliver them. Once this Artistry is cast, the Caster has ten(10) seconds to use all charges or any remaining charges are lost. If this Artistry benefits from the Assassin Tradition, Echo, or similar effects, it applies to all Charges, but the Character must meet any requirements for the benefit for each attack.",
+		"Effect": "This Artistry grants the Caster the ability to deliver two(2) Physical-Strikes, each causing fifteen(15) points of damage of the Weapon Type of the weapon used to deliver them. Once this Artistry is cast, the Caster has ten(10) seconds to use all charges or any remaining charges are lost.\n\n If this Artistry benefits from the Assassin Tradition, Echo, or similar effects, it applies to all Charges, but the Character must meet any requirements for the benefit for each attack.",
 		"Delivery Verbal": "\"15 Physical-Strike &lt;Weapon Type&gt;\" x2",
 		"Incantation": "None"
 	},
@@ -919,7 +919,7 @@
 		"Level": "8",
 		"Range": "Strike",
 		"Duration": "Charged (2)",
-		"Effect": "This Artistry grants the Caster the ability to deliver two(2) Physical-Strikes, each causing twenty(20) points of damage of the Weapon Type of the weapon used to deliver them. Once this Artistry is cast, the Caster has ten(10) seconds to use all If this Artistry benefits from the Assassin Tradition, Echo, or similar effects, it applies to all Charges, but the Character must meet any requirements for the benefit for each attack. charges or any remaining charges are lost.",
+		"Effect": "This Artistry grants the Caster the ability to deliver two(2) Physical-Strikes, each causing twenty(20) points of damage of the Weapon Type of the weapon used to deliver them. Once this Artistry is cast, the Caster has ten(10) seconds to use all\n\n If this Artistry benefits from the Assassin Tradition, Echo, or similar effects, it applies to all Charges, but the Character must meet any requirements for the benefit for each attack. charges or any remaining charges are lost.",
 		"Delivery Verbal": "\"20 Physical-Strike &lt;Weapon Type&gt;\" x2",
 		"Incantation": "None"
 	},
@@ -931,7 +931,7 @@
 		"Level": "8",
 		"Range": "Self",
 		"Duration": "Charged",
-		"Effect": "This Artistry grants the target the ability to cause five(5) additional points of damage with their next five(5) weapon attacks. The target can continue calling this bonus damage until they successfully land a valid strike on their target. Once all of these Charges are consumed, the Caster may deliver a Physical-Strike Causing twenty-five(25) points of damage of the Weapon Type of the weapon used to deliver them. If this Artistry benefits from the Assassin Tradition, Echo, or similar effects, it applies only to the final Physical-Strike.",
+		"Effect": "This Artistry grants the target the ability to cause five(5) additional points of damage with their next five(5) weapon attacks. The target can continue calling this bonus damage until they successfully land a valid strike on their target. Once all of these Charges are consumed, the Caster may deliver a Physical-Strike Causing twenty-five(25) points of damage of the Weapon Type of the weapon used to deliver them.\n\n If this Artistry benefits from the Assassin Tradition, Echo, or similar effects, it applies only to the final Physical-Strike.",
 		"Delivery Verbal": "\"Physical Vorpal 5\" and \"25 Physical-Strike &lt;Weapon Type&gt;\"",
 		"Incantation": "None"
 	},

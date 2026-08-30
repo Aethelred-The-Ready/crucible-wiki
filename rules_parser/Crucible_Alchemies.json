@@ -43,7 +43,7 @@
 		"Level": "9",
 		"Range": "Self and Packet",
 		"Duration": "Sustained",
-		"Effect": "This Alchemy allows the Character to throw a packet attack causing ten(10) Poison Fire damage at will. The Character may continue to throw this attack until they die, the current Reset period ends, or use another Alchemy. Each individual packet attack is subject to Disruption but this effect is not. This Alchemy cannot benefit from the effects of any Mutation or ability which modifies the casting of a single Alchemy.",
+		"Effect": "This Alchemy allows the Character to throw a packet attack causing ten(10) Poison Fire damage at will. The Character may continue to throw this attack until they die, the current Reset period ends, or use another Alchemy. Each individual packet attack is subject to Disruption but this effect is not.\n\n This Alchemy cannot benefit from the effects of any Mutation or ability which modifies the casting of a single Alchemy.",
 		"Delivery Verbal": "\"10 Poison Fire\" \u2026 \"10 Poison Fire\"",
 		"Incantation": "None"
 	},

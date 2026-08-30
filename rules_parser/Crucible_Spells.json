@@ -103,7 +103,7 @@
 		"Level": "9",
 		"Range": "Packet",
 		"Duration": "Instant",
-		"Effect": "This Spell forces the target Extraplanar creature or Elemental back to its home plane. A creature which has been affected by this effect cannot return to the plane from which it was Banished for twenty-four(24) hours. This Spell only functions on Hymira and will fail if cast on any other Plane.",
+		"Effect": "This Spell forces the target Extraplanar creature or Elemental back to its home plane. A creature which has been affected by this effect cannot return to the plane from which it was Banished for twenty-four(24) hours.\n\n This Spell only functions on Hymira and will fail if cast on any other Plane.",
 		"Incantation": "\"I Conjure a force to Banish.\"",
 		"Delivery Verbal": "\"Magic Banish\""
 	},
@@ -163,7 +163,7 @@
 		"Level": "2",
 		"Range": "Packet",
 		"Duration": "Instant",
-		"Effect": "This Spell can be used for one of two(2) effects. The first causes five(5) points of Piercing Magic Body damage to the target. The second causes five(5) points of Piercing Magic Healing to the target. In either case, the Caster must expend two(2) Hit Points to cast this Spell. If this Spell is affected by the Echo Spellshape effect the caster must expend the Hit Points again for each time the effect is duplicated. If this Spell is affected by the Empower Spellshape effect the caster must instead expend twice the number of Hit Points the Spell normally requires. If this Spell is placed in a Potion or Scroll the Caster must choose which of the two(2) effects are contained within the crafted item.",
+		"Effect": "This Spell can be used for one of two(2) effects. The first causes five(5) points of Piercing Magic Body damage to the target. The second causes five(5) points of Piercing Magic Healing to the target. In either case, the Caster must expend two(2) Hit Points to cast this Spell.\n\n If this Spell is affected by the Echo Spellshape effect the caster must expend the Hit Points again for each time the effect is duplicated.\n\n If this Spell is affected by the Empower Spellshape effect the caster must instead expend twice the number of Hit Points the Spell normally requires.\n\n If this Spell is placed in a Potion or Scroll the Caster must choose which of the two(2) effects are contained within the crafted item.",
 		"Incantation": "\"I Conjure a Blood Bolt.\"",
 		"Delivery Verbal": "\"5 Piercing Magic Body\" or \"5 Piercing Magic Healing\""
 	},
@@ -175,7 +175,7 @@
 		"Level": "7",
 		"Range": "Packet",
 		"Duration": "Instant",
-		"Effect": "This Spell can be used for one of two(2) effects. The first causes thirty(30) points of Piercing Magic Body damage to the target. The second causes thirty(30) points of Piercing Magic Healing to the target. In either case, the Caster must expend seven(7) Hit Points to cast this Spell. If this Spell is affected by the Echo Spellshape effect the caster must expend the Hit Points again for each time the effect is duplicated. If this Spell is affected by the Empower Spellshape effect the caster must instead expend twice the number of Hit Points the Spell normally requires. If this Spell is placed in a Potion or Scroll, the Caster must choose which of the two(2) effects are contained within the crafted item.",
+		"Effect": "This Spell can be used for one of two(2) effects. The first causes thirty(30) points of Piercing Magic Body damage to the target. The second causes thirty(30) points of Piercing Magic Healing to the target. In either case, the Caster must expend seven(7) Hit Points to cast this Spell.\n\n If this Spell is affected by the Echo Spellshape effect the caster must expend the Hit Points again for each time the effect is duplicated.\n\n If this Spell is affected by the Empower Spellshape effect the caster must instead expend twice the number of Hit Points the Spell normally requires.\n\n If this Spell is placed in a Potion or Scroll, the Caster must choose which of the two(2) effects are contained within the crafted item.",
 		"Incantation": "\"I Conjure a Blood Lance.\"",
 		"Delivery Verbal": "\"30 Piercing Magic Body\" or \"30 Piercing Magic Healing\""
 	},
@@ -187,7 +187,7 @@
 		"Level": "8",
 		"Range": "Packet, Multiple",
 		"Duration": "Instant",
-		"Effect": "This Spell can be used for one of two(2) effects. The first causes twenty(20) points of Piercing Magic Body damage to the target. The second causes twenty(20) points of Piercing Magic Healing to the target. In either case, the Caster must expend eight(8) Hit Points to cast this Spell. The Caster may throw any number of packets when using this Spell and any creature struck by one or more packets is affected. If this Spell is affected by the Echo Spellshape effect the caster must expend the Hit Points again for each time the effect is duplicated. If this Spell is affected by the Empower Spellshape effect the caster must instead expend twice the number of Hit Points the Spell normally requires. If this Spell is placed in a Potion or Scroll, the Caster must choose which of the two(2) effects are contained within the crafted item.",
+		"Effect": "This Spell can be used for one of two(2) effects. The first causes twenty(20) points of Piercing Magic Body damage to the target. The second causes twenty(20) points of Piercing Magic Healing to the target. In either case, the Caster must expend eight(8) Hit Points to cast this Spell. The Caster may throw any number of packets when using this Spell and any creature struck by one or more packets is affected.\n\n If this Spell is affected by the Echo Spellshape effect the caster must expend the Hit Points again for each time the effect is duplicated.\n\n If this Spell is affected by the Empower Spellshape effect the caster must instead expend twice the number of Hit Points the Spell normally requires.\n\n If this Spell is placed in a Potion or Scroll, the Caster must choose which of the two(2) effects are contained within the crafted item.",
 		"Incantation": "\"I Conjure a Blood Wall.\"",
 		"Delivery Verbal": "\"20 Piercing Magic Body\" or \"20 Piercing Magic Healing\""
 	},
@@ -487,7 +487,7 @@
 		"Level": "9",
 		"Range": "Packet",
 		"Duration": "Instant",
-		"Effect": "This Spell Vanquishes the target creature. A Vanquished creature instantly begins Bleeding Out. Some powerful creatures may not be Vanquished but are significantly damaged by this Spell. The Caster must specify the type of creature being targeted by this spell. The valid options are; Abomination, Animal, Construct, Draconian, Elemental, Fae, Humanoid, Hybrid, Insectoid, Plant, Slime, Spirit and Undead.",
+		"Effect": "This Spell Vanquishes the target creature. A Vanquished creature instantly begins Bleeding Out. Some powerful creatures may not be Vanquished but are significantly damaged by this Spell.\n\n The Caster must specify the type of creature being targeted by this spell. The valid options are; Abomination, Animal, Construct, Draconian, Elemental, Fae, Humanoid, Hybrid, Insectoid, Plant, Slime, Spirit and Undead.",
 		"Incantation": "\"I alter this form to be Disintegrated.\"",
 		"Delivery Verbal": "\"Magic Vanquish &lt;Creature Type&gt;\""
 	},
@@ -679,7 +679,7 @@
 		"Level": "3",
 		"Range": "Self",
 		"Duration": "Sustained",
-		"Effect": "As part of casting this Spell the Caster chooses one of the following types; Fire, Ice, Lightning, or Stone. The Caster may deliver a packet attack causing one(1) Elemental damage of the chosen type at will. This Spell ends if the Caster Dies or casts any other Spell. The individual packet attacks are subject to Disruption. This Spell cannot benefit from the effects of any Spellshape or ability which modifies the casting of a single Spell.",
+		"Effect": "As part of casting this Spell the Caster chooses one of the following types; Fire, Ice, Lightning, or Stone. The Caster may deliver a packet attack causing one(1) Elemental damage of the chosen type at will. This Spell ends if the Caster Dies or casts any other Spell. The individual packet attacks are subject to Disruption.\n\n This Spell cannot benefit from the effects of any Spellshape or ability which modifies the casting of a single Spell.",
 		"Incantation": "\"I Conjure the Fury of the Elements.\"",
 		"Delivery Verbal": "\"Magic Elemental Fury\" and \"1 Elemental &lt;Type&gt;\""
 	},
@@ -691,7 +691,7 @@
 		"Level": "6",
 		"Range": "Self",
 		"Duration": "Sustained",
-		"Effect": "As part of casting this Spell the Caster chooses one of the following types; Fire, Ice, Lightning, or Stone. The Caster may deliver a packet attack causing two(2) Elemental damage of the chosen type at will. This Spell ends if the Caster Dies or casts any other Spell. The individual packet attacks are subject to Disruption. This Spell cannot benefit from the effects of any Spellshape or ability which modifies the casting of a single Spell.",
+		"Effect": "As part of casting this Spell the Caster chooses one of the following types; Fire, Ice, Lightning, or Stone. The Caster may deliver a packet attack causing two(2) Elemental damage of the chosen type at will. This Spell ends if the Caster Dies or casts any other Spell. The individual packet attacks are subject to Disruption.\n\n This Spell cannot benefit from the effects of any Spellshape or ability which modifies the casting of a single Spell.",
 		"Incantation": "\"I Conjure the Greater Fury of the Elements.\"",
 		"Delivery Verbal": "\"Magic Greater Elemental Fury\" and \"2 Elemental &lt;Type&gt;\""
 	},
@@ -703,7 +703,7 @@
 		"Level": "9",
 		"Range": "Self",
 		"Duration": "Sustained",
-		"Effect": "As part of casting this Spell the Caster chooses one of the following types; Fire, Ice, Lightning, or Stone. The Caster may deliver a packet attack causing five(5) Elemental damage of the chosen type at will. This Spell ends if the Caster Dies or casts any other Spell. The individual packet attacks are subject to Disruption. This Spell cannot benefit from the effects of any Spellshape or ability which modifies the casting of a single Spell.",
+		"Effect": "As part of casting this Spell the Caster chooses one of the following types; Fire, Ice, Lightning, or Stone. The Caster may deliver a packet attack causing five(5) Elemental damage of the chosen type at will. This Spell ends if the Caster Dies or casts any other Spell. The individual packet attacks are subject to Disruption.\n\n This Spell cannot benefit from the effects of any Spellshape or ability which modifies the casting of a single Spell.",
 		"Incantation": "\"I Conjure the Superior Fury of the Elements.\"",
 		"Delivery Verbal": "\"Magic Superior Elemental Fury\" and \"5 Elemental &lt;Type&gt;\""
 	},
@@ -883,7 +883,7 @@
 		"Level": "6",
 		"Range": "Touch",
 		"Duration": "Instant",
-		"Effect": "This Spell can create any mundane item such as a weapon or suit of armour. It cannot be used to create an item with any special properties such as a silvered weapon or enhanced armour. The player must provide the physical representation of any item created by this Spell. This Spell cannot be used to create any item of value such as gold, silver, gems or other precious materials. Nor can it be used to create items with supernatural qualities such as Ritual Components. Any attempt to create such items results in worthless duplicates such as brazen coins, coloured glass or materials of poor quality.",
+		"Effect": "This Spell can create any mundane item such as a weapon or suit of armour. It cannot be used to create an item with any special properties such as a silvered weapon or enhanced armour. The player must provide the physical representation of any item created by this Spell.\n\n This Spell cannot be used to create any item of value such as gold, silver, gems or other precious materials. Nor can it be used to create items with supernatural qualities such as Ritual Components. Any attempt to create such items results in worthless duplicates such as brazen coins, coloured glass or materials of poor quality.",
 		"Incantation": "\"I alter this form to be Fabricated.\"",
 		"Delivery Verbal": "\"Magic Fabricate &lt;Item&gt;\""
 	},
@@ -895,7 +895,7 @@
 		"Level": "8",
 		"Range": "Packet",
 		"Duration": "5 Minutes",
-		"Effect": "This Spell appears to return a Dead creature to life, however it only lasts five(5) minutes, after which the target will again die, restarting their Death count. This effect returns the target to life at one(1) Hit Point. While under the effects of this Spell the target is Conscious and able to act and use Skills normally. If this effect is Removed or Dispelled the target immediately restarts their Death Count. A Life effect received by the target before this effect ends removes it without causing the target to die.",
+		"Effect": "This Spell appears to return a Dead creature to life, however it only lasts five(5) minutes, after which the target will again die, restarting their Death count.\n\n This effect returns the target to life at one(1) Hit Point. While under the effects of this Spell the target is Conscious and able to act and use Skills normally. If this effect is Removed or Dispelled the target immediately restarts their Death Count. A Life effect received by the target before this effect ends removes it without causing the target to die.",
 		"Incantation": "\"I Curse you with False Vitality.\"",
 		"Delivery Verbal": "\"Magic False Vitality\""
 	},
@@ -1195,7 +1195,7 @@
 		"Level": "3",
 		"Range": "Self, Touch",
 		"Duration": "Sustained, Charged (10)",
-		"Effect": "This Spell grants the Caster the ability to deliver, by Touch, one(1) point of Magic Healing. This ability can be used ten(10) times before the Character must Meditate to regain the ten(10) expended Charges. This Spell ends if the Caster casts any other Spell or enters a state where they are unable to cast Spells. This Spell cannot benefit from the effects of any Spellshape or ability which modifies the casting of a single Spell.",
+		"Effect": "This Spell grants the Caster the ability to deliver, by Touch, one(1) point of Magic Healing. This ability can be used ten(10) times before the Character must Meditate to regain the ten(10) expended Charges. This Spell ends if the Caster casts any other Spell or enters a state where they are unable to cast Spells.\n\n This Spell cannot benefit from the effects of any Spellshape or ability which modifies the casting of a single Spell.",
 		"Incantation": "\"I call upon the Dawn to grant me Healing Touch.\"",
 		"Delivery Verbal": "\"1 Magic Healing\""
 	},
@@ -1207,7 +1207,7 @@
 		"Level": "6",
 		"Range": "Self, Touch",
 		"Duration": "Sustained",
-		"Effect": "This Spell grants the Caster the ability to deliver, by Touch, two(2) points of Magic Healing. This ability can be used ten(10) times before the Character must Meditate to regain the ten(10) expended Charges. This Spell ends if the Caster casts any other Spell or enters a state where they are unable to cast Spells. This Spell cannot benefit from the effects of any Spellshape or ability which modifies the casting of a single Spell.",
+		"Effect": "This Spell grants the Caster the ability to deliver, by Touch, two(2) points of Magic Healing. This ability can be used ten(10) times before the Character must Meditate to regain the ten(10) expended Charges. This Spell ends if the Caster casts any other Spell or enters a state where they are unable to cast Spells.\n\n This Spell cannot benefit from the effects of any Spellshape or ability which modifies the casting of a single Spell.",
 		"Incantation": "\"I call upon the Dawn to grant me Greater Healing Touch.\"",
 		"Delivery Verbal": "\"2 Magic Healing\""
 	},
@@ -1219,7 +1219,7 @@
 		"Level": "9",
 		"Range": "Self and Touch",
 		"Duration": "Sustained",
-		"Effect": "This Spell grants the Caster the ability to deliver, by Touch, four(4) points of Magic Healing. This ability can be used ten(10) times before the Character must Meditate to regain the ten(10) expended Charges. This Spell ends if the Caster casts any other Spell or enters a state where they are unable to cast Spells. This Spell cannot benefit from the effects of any Spellshape or ability which modifies the casting of a single Spell.",
+		"Effect": "This Spell grants the Caster the ability to deliver, by Touch, four(4) points of Magic Healing. This ability can be used ten(10) times before the Character must Meditate to regain the ten(10) expended Charges. This Spell ends if the Caster casts any other Spell or enters a state where they are unable to cast Spells.\n\n This Spell cannot benefit from the effects of any Spellshape or ability which modifies the casting of a single Spell.",
 		"Incantation": "\"I call upon the Dawn to grant me Superior Healing Touch.\"",
 		"Delivery Verbal": "\"4 Magic Healing\""
 	},
@@ -1267,7 +1267,7 @@
 		"Level": "9",
 		"Range": "Packet",
 		"Duration": "5 Minutes",
-		"Effect": "This Spell encases the target in a magical field preventing them from speaking, moving, being moved, or using any Skills. While inside the Imprison, the target is immune to all effects. This effect can be removed by a Dispel Magic effect. The Caster may also end the Imprison effect by simply touching the target and stating \"Imprison down\". If the Caster is also the target they may expend one use of the Skill Harden Magic to negate a single Dispel Magic effect from removing the Imprison. The Caster can also use the Imprison to deliver a Killing Blow, which counts as Magic, upon the target. To do so the Caster must touch the target and state \"Killing Blow 1, Killing Blow 2, Killing Blow 3, Magic\"",
+		"Effect": "This Spell encases the target in a magical field preventing them from speaking, moving, being moved, or using any Skills. While inside the Imprison, the target is immune to all effects. This effect can be removed by a Dispel Magic effect. The Caster may also end the Imprison effect by simply touching the target and stating \"Imprison down\". If the Caster is also the target they may expend one use of the Skill Harden Magic to negate a single Dispel Magic effect from removing the Imprison.\n\n The Caster can also use the Imprison to deliver a Killing Blow, which counts as Magic, upon the target. To do so the Caster must touch the target and state \"Killing Blow 1, Killing Blow 2, Killing Blow 3, Magic\"",
 		"Incantation": "\"I Conjure a Force to Imprison you.\"",
 		"Delivery Verbal": "\"Magic Imprison\""
 	},
@@ -1963,7 +1963,7 @@
 		"Level": "7",
 		"Range": "Container",
 		"Duration": "Event",
-		"Effect": "This Spell magically seals the target Container preventing any creature from accessing the affected Container. Creatures which were touching the Container at the time of casting may add or remove items from inside the Safeguard. This Spell cannot be Dispelled. Characters can never be stored inside of a Safeguard. The Container targeted by this ability must be marked with an \"S\". If this Spell is cast upon a container within a Sanctuary, the Caster may choose to cause the target container to become unmovable. This Spell must be included in the Marshal Notes for the Room. Examples of valid containers for this effect are; pouches, bags, chests, bottles, jars and even pockets which have covers. Invalid targets are bowls, cups or pockets which do not have a top.",
+		"Effect": "This Spell magically seals the target Container preventing any creature from accessing the affected Container. Creatures which were touching the Container at the time of casting may add or remove items from inside the Safeguard. This Spell cannot be Dispelled. Characters can never be stored inside of a Safeguard. The Container targeted by this ability must be marked with an \"S\".\n\n If this Spell is cast upon a container within a Sanctuary, the Caster may choose to cause the target container to become unmovable. This Spell must be included in the Marshal Notes for the Room.\n\n Examples of valid containers for this effect are; pouches, bags, chests, bottles, jars and even pockets which have covers. Invalid targets are bowls, cups or pockets which do not have a top.",
 		"Incantation": "\"I grant you the Protection of a Safeguard.\"",
 		"Delivery Verbal": "\"Magic Safeguard\""
 	},
@@ -2203,7 +2203,7 @@
 		"Level": "9",
 		"Range": "Self",
 		"Duration": "Instant",
-		"Effect": "This Spell allows the Caster to either return to \"Town\", a designated Circle of their choosing, or to the last location the Character cast this Spell. The Caster may take any item or items they can carry, but cannot take any other creature. This Spell does not allow the Caster to travel between Planes. Upon casting this Spell, the Caster goes Out-of-Game and walks to the target destination. Immediately, upon arrival, the Player repeats the Delivery Verbal and goes In-Game. This is not a counted action. The Event Staff may designate a specific boundary as the location of \"Town\".",
+		"Effect": "This Spell allows the Caster to either return to \"Town\", a designated Circle of their choosing, or to the last location the Character cast this Spell. The Caster may take any item or items they can carry, but cannot take any other creature. This Spell does not allow the Caster to travel between Planes. Upon casting this Spell, the Caster goes Out-of-Game and walks to the target destination. Immediately, upon arrival, the Player repeats the Delivery Verbal and goes In-Game. This is not a counted action.\n\n The Event Staff may designate a specific boundary as the location of \"Town\".",
 		"Incantation": ": \"I alter this form to be Teleported.\"",
 		"Delivery Verbal": "\"Magic Teleport\""
 	},
@@ -2359,7 +2359,7 @@
 		"Level": "0",
 		"Range": "Self",
 		"Duration": "Instant",
-		"Effect": "This Cantrip allows the Caster to expend a single Spell Slot in order to regain a single Spell Slot of any level lower than the one expended for this Cantrip. As a Cantrip, this effect can be used once, afterwards the Character must Rest in order to regain its use. If the Character has the Skill Magical Tradition &lt;Sorcery&gt;, they instead regain the ability to cast one(1) of their expended Cantrips as though they had Rested, in place of this Cantrip's normal effects.",
+		"Effect": "This Cantrip allows the Caster to expend a single Spell Slot in order to regain a single Spell Slot of any level lower than the one expended for this Cantrip. As a Cantrip, this effect can be used once, afterwards the Character must Rest in order to regain its use.\n\n If the Character has the Skill Magical Tradition &lt;Sorcery&gt;, they instead regain the ability to cast one(1) of their expended Cantrips as though they had Rested, in place of this Cantrip's normal effects.",
 		"Incantation": "None",
 		"Delivery Verbal": "\"Magic Spell Conversion\""
 	},

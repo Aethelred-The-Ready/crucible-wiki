@@ -140,14 +140,14 @@ for line in skill_descriptions:
 		currently = "benefit"
 		current_skill_obj["Benefit"] = line[len("Benefit:"):].strip()
 	elif currently == "benefit":
-		if len(line) > 4 and line[0:3] == "	":
-			current_skill_obj["Benefit"] += "<br/>"
+		if len(line) > 4 and line[0] == "	":
+			current_skill_obj["Benefit"] += "\n\n"
 		else:
 			current_skill_obj["Benefit"] += " "
 		current_skill_obj["Benefit"] += line.strip()
 	elif currently == "reqs":
-		if len(line) > 4 and line[0:3] == "	":
-			current_skill_obj["Requirements"] += "<br/>"
+		if len(line) > 4 and line[0] == "	":
+			current_skill_obj["Requirements"] += "\n\n"
 		else:
 			current_skill_obj["Requirements"] += " "
 		current_skill_obj["Requirements"] += line.strip()
@@ -218,8 +218,8 @@ for index, line in enumerate(spell_descriptions):
 		c_spell["Delivery Verbal"] = line[len("Delivery Verbal:"):].strip()
 	else:
 		# Add to whatever we are currently on
-		if len(line) > 4 and line[0:3] == "	":
-			c_spell[currently] += "<br/>"
+		if len(line) > 4 and line[0] == "	":
+			c_spell[currently] += "\n\n"
 		c_spell[currently] += " " + line.strip()
 spell_list.append(c_spell.copy())
 
@@ -283,8 +283,8 @@ for index, line in enumerate(alchemy_descriptions):
 		c_alchemy["Delivery Verbal"] = line[len("Delivery Verbal:"):].strip()
 	else:
 		# Add to whatever we are currently on
-		if len(line) > 4 and line[0:3] == "	":
-			c_alchemy[currently] += "<br/>"
+		if len(line) > 4 and line[0] == "	":
+			c_alchemy[currently] += "\n\n"
 		c_alchemy[currently] += " " + line.strip()
 alchemy_list.append(c_alchemy.copy())
 
@@ -347,8 +347,8 @@ for index, line in enumerate(martial_art_descriptions):
 		c_martial_art["Delivery Verbal"] = line[len("Delivery Verbal:"):].strip()
 	else:
 		# Add to whatever we are currently on
-		if len(line) > 4 and line[0:3] == "	":
-			c_martial_art[currently] += "<br/>"
+		if len(line) > 4 and line[0] == "	":
+			c_martial_art[currently] += "\n\n"
 		c_martial_art[currently] += " " + line.strip()
 martial_art_list.append(c_martial_art.copy())
 

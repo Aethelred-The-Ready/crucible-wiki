@@ -508,3 +508,48 @@ martial_kata_list = martial_kata_list[1:]
 
 with open("Crucible_Martial_Katas.json", "w", encoding="utf-8") as csfp:
 	json.dump(martial_kata_list, csfp, indent="\t")
+
+	
+	
+
+# Grab the start and end of the intervention description list
+start_string = "<div><div>Interventions Descriptions<br/>"
+intervention_list_start = rulebook_content.find(start_string) + len(start_string)
+intervention_list_end = rulebook_content.find("<div><div>Chapter 9: Background Skills<br/>")
+
+intervention_data_list = rulebook_content[intervention_list_start:intervention_list_end].replace("\n", "").replace("<div>", "").replace("</div>", "").split("<br/>")
+
+# Now we have a line by line block of all the intervention descriptions, go through them until we are done
+
+c_intervention = {"Title": "", "Name": "", "Type": "", "Duration": "", "Effect": ""}
+
+intervention_list = []
+
+currently = "Title"
+
+for index, line in enumerate(intervention_data_list):
+	#
+	if "[Intervention" in line:
+		intervention_list.append(c_intervention.copy())
+		c_intervention["Title"] = line.strip()
+		c_intervention["Groups"] = line[line.find("[")+1:line.find("]")] if line.find(" [") != -1 else ""
+		c_intervention["Name"] = line[:line.find(" [")] if line.find(" [") != -1 else line.strip()
+		c_intervention["Type"] = ""
+		c_intervention["Benefit"] = ""
+	elif line.find("Type: ") != -1:
+		currently = "Type"
+		c_intervention["Type"] = line[len("Type: "):].strip()
+	elif line.find("Benefit: ") != -1:
+		currently = "Benefit"
+		c_intervention["Benefit"] = line[len("Benefit: "):].strip()
+	else:
+		# Add to whatever we are currently on
+		if len(line) > 4 and line[0] == "	":
+			c_intervention[currently] += "\n\n"
+		c_intervention[currently] += " " + line.strip()
+intervention_list.append(c_intervention.copy())
+
+intervention_list = intervention_list[1:]
+
+with open("Crucible_Interventions.json", "w", encoding="utf-8") as csfp:
+	json.dump(intervention_list, csfp, indent="\t")

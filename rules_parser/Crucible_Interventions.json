@@ -1,0 +1,155 @@
+[
+	{
+		"Title": "Beacon of Hope [Intervention]",
+		"Name": "Beacon of Hope",
+		"Type": "Crafting, Magical",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "When performed as a Magical Intervention this Intervention can only be performed by a Character able to cast Spells from the Restoration School of Magic. The Character delivers, by voice, a \"Arcane Revive\" to all Adventurer's on the field. The call for this ability is \"Sound of Voice: All Adventurers, Arcane Revive!\"."
+	},
+	{
+		"Title": "Collapsing Cosmos [Intervention]",
+		"Name": "Collapsing Cosmos",
+		"Type": "Magical, Martial",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "This Intervention grants the Character the ability to deliver one attack for each of the following elements; Fire, Ice, Lightning, Stone, and Force. Each of the five(5) attacks causes one-hundred(100) points of Piercing Elemental damage of the appropriate type.\n\n When performed as a Magical Intervention, the Character may choose to have all of these attacks delivered as packet attacks. Alternatively, and when performed as a Martial Intervention, the effect is delivered as Weapon attacks. The Character may use these attacks in any order but at the end of combat, all remaining attacks are lost. When delivered as a packet attack the call is \"100 Piercing Elemental &lt;Type&gt;\". When delivered as a weapon attack the call is \"100 Piercing Elemental-Strike &lt;Type&gt;\""
+	},
+	{
+		"Title": "Comforts of the Hearth [Intervention]",
+		"Name": "Comforts of the Hearth",
+		"Type": "Crafting",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "This Intervention targets a Circle. The Circle becomes an Area of Rest allowing Characters to Rest within its borders. Additionally, any Character who enters the Circle may Meditate and Refit Armour on a ten(10)-Count instead of the normal sixty(60)- Count. This effect continues until the Character activating this Intervention leaves the Circle, or enters a state where they are unable to use Skills such as Unconscious or Dead."
+	},
+	{
+		"Title": "Devouring Shadows [Intervention]",
+		"Name": "Devouring Shadows",
+		"Type": "Shadow",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "This Intervention allows the Character to deliver a packet attack causing two-hundreds(200) points of Arcane Shadow damage. The Call for this ability is: \"200 Arcane Shadow\". If the Character misses with this packet attack they may continue to throw packets until they successfully hit any target. Once the Character strikes a target successfully, the Character benefits from the effects of an Arcane Revive."
+	},
+	{
+		"Title": "Elemental Annihilation [Intervention]",
+		"Name": "Elemental Annihilation",
+		"Type": "Crafting, Magical",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "When performed as a Magical Intervention this Intervention can only be performed by a Character able to cast Spells from the Conjuration School of Magic. The Character delivers, by voice, one-hundred(100) Piercing Elemental damage of any of the following types; Fire, Ice, Lightning, or Stone, to all enemies on the field. Upon delivering this effect, the Character gains a single Charge of this ability. This Charge may be expended in order to deliver, by voice, a second one-hundred(100) Piercing Elemental damage of the same type. The call for this ability is \"Sound of Voice: All Enemies, 100 Piercing Elemental &lt;Type&gt;!\""
+	},
+	{
+		"Title": "Eldritch Apotheosis [Intervention]",
+		"Name": "Eldritch Apotheosis",
+		"Type": "Magical",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "This Intervention requires the Character to have access to the following Schools of Magic; Affliction, Conjuration, Protection, Restoration, and Transmutation. Upon performing this Intervention the character gains five(5) Charges of this ability. The Character may, when casting a Spell from memory, expend one(1) Charge of this ability to gain one of the following effects;\n\n Triplet Spell: The Character may deliver two(2) copies of the Spell. These copies include all the same Spellshapes or options made when casting the Spell as per the Skill Echo Spell except the Character may Echo the Spell Twice instead of only once.\n\n Intensify Spell: This ability can only be used on Spells with a Range of Packet or Touch. The damage, or healing, caused by the Spell are quadrupled.\n\n Arcane Spell: This ability allows the Character to deliver a single Spell, below 9th Level, as Arcane(- Strike).\n\n Parallelisation: This ability can only be used on Spells with a Range of Packet or Touch. The Character may throw any number of packets to deliver the Spell. Any Character struck by one or more packets is affected by the effect. Alternatively, the Caster may deliver the Spell, by Touch, to any number of targets so long as no target receives the same effect more than once and no more than ten(10) seconds go by without the Character affecting a new target.\n\n Cyclical Magic: The Character recovers all Spells Slots which were expended to Cast Spells which benefited from the effects of this Intervention.\n\n Each ability can be used only once. No Spell may benefit from more than a single effect of this Intervention at a time. Any unused Charges are lost at the end of the current Reset period."
+	},
+	{
+		"Title": "Feast of Souls  [Intervention]",
+		"Name": "Feast of Souls ",
+		"Type": "Crafting, Magical",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "When performed as a Magical Intervention this Intervention can only be performed by a Character able to cast Spells from the Affliction School of Magic. The Character delivers, by voice, fifty(50) Arcane Body damage, to all enemies on the field. Additionally, the Character delivers to all allies, fifty(50) Arcane Healing. The call for this ability is \"Sound of Voice: All Enemies, 50 Arcane Body! Sound of Voice: All Adventurers, 50 Arcane Healing!\""
+	},
+	{
+		"Title": "Hungering Shadows [Intervention]",
+		"Name": "Hungering Shadows",
+		"Type": "Shadow",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "This Intervention grants all Adventurers the ability to use their damage bonus from Stealth Training regardless of whether or not they are behind their target. It does not otherwise grant the Characters the ability to use any Skill which requires them to be behind their target. While under this effect the Character's base Weapon Call does not consume charges of the Ambush ability. This effect ends at the end of Combat. The call for this ability is \"Sound of Voice: All Adventurers, Arcane Imbue Skill: Ambush &lt;Infinite&gt;\""
+	},
+	{
+		"Title": "Indomitable Fortress [Intervention]",
+		"Name": "Indomitable Fortress",
+		"Type": "Martial",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "This Intervention grants the Character Resistance to all effects until the end of Combat. This causes the Character to take half-damage from all damaging effects and reduce the duration of all harmful effects with a duration other than Instant to ten(10) seconds. The Player determines which effects are harmful."
+	},
+	{
+		"Title": "Martial Perfection [Intervention]",
+		"Name": "Martial Perfection",
+		"Type": "Martial, Shadow",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "This Intervention doubles the bonus damage from the Character's Weapon Training and Stealth Training. Additionally, all Techniques and Skills delivered by weapon attack the Character uses are delivered as Piercing. These effects last until the end of Combat"
+	},
+	{
+		"Title": "Phoenix Flame [Intervention]",
+		"Name": "Phoenix Flame",
+		"Type": "Crafting, Magical, Martial, Shadow",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "This Intervention grants the Character the effects of a Magic Cleanse and a Magic Revive. Additionally, the Character may deliver, by Touch, a Magic Life at will. No target may be affected by this Touch ability more than once. Finally, this ability grants the Character one(1) Charge. The Character may expend this Charge at any time, even while Dead, to grant themselves another Magic Cleanse and Magic Revive. This effect, and any remaining Charges ends at the end of Combat."
+	},
+	{
+		"Title": "Shadow Duplication [Intervention]",
+		"Name": "Shadow Duplication",
+		"Type": "Shadow",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "Upon activating this Intervention, the Character gains the following ability; Whenever the Character uses the Dodge Skill, the Character goes Out of Game for ten(10) Steps. The Character must make all ten(10) of these steps immediately and cannot stop until they have taken all ten(10). Whenever the Character uses the Evasion Skill, they gain the same benefits they would if they used a Dodge but they, additionally, also benefit from an Arcane Refit Avoidance Armour. This ability cannot be used to reach areas the Character could not reach normally. This effect ends at the End of Combat."
+	},
+	{
+		"Title": "Shadow Walk [Intervention]",
+		"Name": "Shadow Walk",
+		"Type": "Crafting, Magical, Shadow",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "This Intervention allows the Character to deliver against all willing Adventurers an Arcane Teleport. This ability follows all other rules for the Spell Teleport. The call for this ability is \"Sound of Voice: All Willing Adventurers, Arcane Teleport!\""
+	},
+	{
+		"Title": "Sunder Reality [Intervention]",
+		"Name": "Sunder Reality",
+		"Type": "Martial",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "This Intervention allows the Character to deliver an attack causing five-hundreds(500) points of Arcane-Strike Body damage. Upon doing so, the Character takes one-hundred(100) points of Arcane Body damage. The Call for this ability is \"500 Arcane- Strike Body\". If the Character misses with this attack they suffer one-hundred(100) points of Arcane Body damage but may attempt to use this Intervention again, after Meditating, until they successfully struck a target."
+	},
+	{
+		"Title": "Time Stop [Intervention]",
+		"Name": "Time Stop",
+		"Type": "Crafting, Magical",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "When performed as a Magical Intervention this Intervention can only be performed by a Character able to cast Spells from the Transmutation School of Magic. The Character may perform an Intervention causing one of the following four(4) effects; \"Sound of Voice: All Adventurers, Lesser Arcane Stasis\", \"Sound of Voice: All Enemies, Lesser Arcane Stasis\", \"Sound of Voice: Lesser Arcane Stasis\", or they may deliver a packet attack causing an \"Arcane Stasis\" effect. The Character performing this Intervention is never affected by this effect unless they target themselves with the \"Arcane Stasis\" effect."
+	},
+	{
+		"Title": "Warding Shell [Intervention]",
+		"Name": "Warding Shell",
+		"Type": "Crafting, Magical",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "When performed as a Magical Intervention this Intervention can only be performed by a Character able to cast Spells from the Protection School of Magic.\n\n This Intervention creates a magical defensive barrier preventing anyone from entering, but not leaving, the area and rendering all fully within its bounds Immune to all effects originating from outside of its boundary. In order to use this effect the Character must be inside of a valid Circle. The Caster may \"Recognize\" an individual into the Circle. This effect continues until the Character activating this Intervention leaves the Circle, or enters a state where they are unable to use Skills such as Unconscious or Dead. This effect does not end if the Caster is under the effects of Stasis, though it does prevent the Caster from recognizing anyone in.\n\n Alternatively, the Character may instead grant themselves five(5) charges of this ability. The Character may then expend one(1) Charge in order to negate any effect, other than those delivered as Arcane, by which they are struck as per the Ward ability. The Character may, at will, Meditate to regain one(1) Charge of this ability.\n\n The effects of this Intervention last until the end of Combat."
+	},
+	{
+		"Title": "Warlord's Onslaught [Intervention]",
+		"Name": "Warlord's Onslaught",
+		"Type": "Martial",
+		"Duration": "",
+		"Effect": "",
+		"Groups": "Intervention",
+		"Benefit": "This Intervention requires the Character to have access to the following Martial Arts Schools; Duelist, Guardian, Slayer. Upon performing this Intervention the character gains five(5) Charges of this ability. The Character may expend one(1) Charge of this ability to gain one of the following effects;\n\n Triplet Strike: When performing a Martial Art, the Character may deliver two(2) copies of the Martial Art. These copies include all the same options made when casting the Martial Art as per the Echo Ability except the Character may Echo the Martial Art Twice instead of only once.\n\n Worldbreaker's Strike: This ability can only be used on Martial Arts with a Range of Strike. When performing a Martial Art, the Character may quadruple the damage caused by the Martial Art.\n\n Strike at the Soul: This ability allows the Character to Invoke, against a single target, the ability to ignore all positional requirements for their abilities. This last until the end of Combat.\n\n Unstoppable Will: This ability instantly restores the Character to full Hit Points, as per the Revive effect, and removes all harmful effects, as per the Cleanse effect. This ability can be used regardless of any effects on the Character. The call for this ability is \"Physical Revive, Physical Cleanse\".\n\n Cycle of Violence: The Character Reflects a single effect by which they are struck.\n\n No single Martial Art may be affected by more than once(1) ability at a time. Any Charges remaining at the end of Combat are converted into Healing. At the end of Combat the Character will receive an amount of healing equal to ten(10) per Charge remaining. If the Character is Dead, one(1) Charge is expended to instead return them life at zero(0) Hit Points. Any remaining Charges heal as normal. "
+	}
+]

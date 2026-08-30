@@ -4,6 +4,10 @@
  * work well for content-centric websites.
  */
 
+html {
+  scroll-padding-top: 80px;
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
@@ -27,4 +31,11 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+table th, table td {
+  padding-top: 4px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
 }

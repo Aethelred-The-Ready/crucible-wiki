@@ -1,0 +1,2750 @@
+[
+	{
+		"Title": "Absorb Magic [Magic]",
+		"Name": "Absorb Magic",
+		"Groups": "Magic",
+		"Category": "Magic Skills",
+		"Multi": false,
+		"Requirements": "Arcane Armour 1",
+		"Benefit": "The Character may Absorb Spells which they Touch Cast, from memory, on themselves. These Spells, instead of their normal effect, restore an amount of Arcane Armour equal to five(5) times the level of the expended Spell Slot. The Spell's effect must be one which is Delivered as Magic. The call for this use is \"&lt;Incantation&gt; &lt;Delivery Verbal&gt;, Absorb\". If the Character has the Resist Magic Skill, they may also use it to restore their Arcane Armour to full value. The call for this specific use is \"Resist, Magic Refit Arcane Armour\".",
+		"Costs": [
+			"6",
+			"8",
+			"10",
+			"12"
+		]
+	},
+	{
+		"Title": "Absorb Poison [Crafting]",
+		"Name": "Absorb Poison",
+		"Groups": "Crafting",
+		"Category": "Alchemical Techniques",
+		"Multi": false,
+		"Requirements": "Slime Armour 1",
+		"Benefit": "The Character may Absorb Alchemy which they Touch Cast, from memory, on themselves. This Alchemy, instead of its normal effect, restores an amount of Natural Armour equal to five(5) times the level of the expended Alchemy Slot. The Alchemy's effect must be one which is Delivered as Poison. The call for this use is \"&lt;Delivery Verbal&gt;, Absorb\". ",
+		"Costs": [
+			"6",
+			"8",
+			"10",
+			"12"
+		]
+	},
+	{
+		"Title": "Academic [Background]*",
+		"Name": "Academic",
+		"Groups": "Background",
+		"Category": "",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "The Character gains an additional Rank in the Academic Skill See Page 199 for information on this Skill.",
+		"Costs": [
+			"5"
+		]
+	},
+	{
+		"Title": "Acid Bomb [Expertise]*",
+		"Name": "Acid Bomb",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "Acid Grenade 3 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a Packet attack causing \"20 Physical Acid\" damage to the target. The Character may throw any number of Packets when using this Skill but must throw all Packets with the same hand.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Acid Grenade [Expertise]*",
+		"Name": "Acid Grenade",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a Packet attack causing \"20 Physical Acid\" damage to the target. Alternatively, the Character may expend a single use of this Skill in order to deliver a Packet attack which causes a &quot;Physical Break &lt;Item&gt;&quot; effect. ",
+		"Costs": [
+			"2",
+			"3",
+			"3",
+			"4"
+		]
+	},
+	{
+		"Title": "Acid Trap [Expertise]*",
+		"Name": "Acid Trap",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "Acid Grenade 2 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may lay down an Acid Trap, represented by a small yellow coloured cloth, or similar marker, with an area of no more than 1m 2 which can be of any shape but may not contain voids. Once the rep has been placed the Character must spend ten(10) seconds to arm the Trap during which time they must keep at least one hand on the Trap. Once activated anyone who steps or touches the Trap takes \"20 Physical Acid\" damage. A Trap can be disarmed by striking it with a Break or Destroy effect or by its creator spending ten(10) seconds touching it in order to disarm it. Disarming a Trap does not trigger its effects. A disarmed Trap is considered Destroyed. A Character may have no more than one(1) Trap, of any type, placed at a time.",
+		"Costs": [
+			"2",
+			"3",
+			"3",
+			"4"
+		]
+	},
+	{
+		"Title": "Alchemical Tradition [Crafting]",
+		"Name": "Alchemical Tradition",
+		"Groups": "Crafting",
+		"Category": "Alchemical Techniques",
+		"Multi": false,
+		"Requirements": "Chemistry",
+		"Benefit": "The Character is able to learn, and gain the effects of, a single Alchemical Tradition. See Page 91 for more information on Alchemical Traditions.",
+		"Costs": [
+			"10",
+			"12",
+			"16",
+			"20"
+		]
+	},
+	{
+		"Title": "Alchemical Slot [Crafting]*",
+		"Name": "Alchemical Slot",
+		"Groups": "Crafting",
+		"Category": "Alchemical Slot",
+		"Multi": true,
+		"Requirements": "Chemistry, See Text",
+		"Benefit": "This Character gains one Alchemy Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		]
+	},
+	{
+		"Title": "Alkahestry [Crafting]",
+		"Name": "Alkahestry",
+		"Groups": "Crafting",
+		"Category": "Ritual Alchemy",
+		"Multi": false,
+		"Requirements": "Level 9 Alchemy Slot",
+		"Benefit": "This Skill grants the Character the ability to cast Ritual Alchemy. Upon gaining this Skill the Character can act as the Primary Caster, or as a Secondary Caster, for any Ritual Alchemy. Additionally, the Character gains the ability to cast Invocations, powerful Alchemical effects tied to their ability to perform Alkahestries. See Chapter 8: Rituals for more information on casting Ritual Alchemy and for the rules on casting Invocations.",
+		"Costs": [
+			"10",
+			"14",
+			"16",
+			"20"
+		]
+	},
+	{
+		"Title": "Ambush [Heritage, Stealthy]*",
+		"Name": "Ambush",
+		"Groups": "Heritage, Stealthy",
+		"Category": "Stealthy",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may grant themselves the following effects; \"Physical Vorpal 3, Physical Ambush 3\".",
+		"Costs": [
+			"4",
+			"6"
+		]
+	},
+	{
+		"Title": "Arcane Armour [Magic]*",
+		"Name": "Arcane Armour",
+		"Groups": "Magic",
+		"Category": "Magic Skills",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "The Character gains five(5) points of Arcane Armour for each time this Skill is bought. A Character is still limited by their Wear Total which limits the maximum number of Armour Points of any type from which the Character may benefit. Arcane Armour is represented by the Character wearing a number of Runes equal to the total Armour Point value of the armour divided by ten(10), rounded up. These runes must be represented by and inscribed upon worn accessories which are visible on the Character. If the Character is under an effect which prevents them from using Skills, such as the Drain effect, they are unable to Refit this armour using the Refit Armour counted action until that effect ends.",
+		"Costs": [
+			"6",
+			"8",
+			"10",
+			"12"
+		]
+	},
+	{
+		"Title": "Archery [Weapon Proficiency]",
+		"Name": "Archery",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield Bows and Crossbows in combat. The Character also has the ability to use these Weapons to block Weapon Attacks. In order to fire a shot from their (Cross)Bow the Character must remove an arrow, represented by an Archery Packet, from their Quiver. Then touch the Packet to the hand holding the (Cross)Bow and then role-play the drawing of the arrow back before throwing the Packet. For information on the requirements for the Physical Representations for Bows and Quivers, see Chapter 5: Equipment. Unlike most packet attacks, Archery Packets can be blocked by Weapons and Shields. For more information on attacking with Archery Packets see Chapter 6: Combat.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Armour Mastery [Fighting]*",
+		"Name": "Armour Mastery",
+		"Groups": "Fighting",
+		"Category": "General Fighting",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "The Character's familiarity with Physical Armour grants them additional protection when wearing it. For every time this Skill is bought, the number of points of Physical Armour the Character gains from wearing Physical Armour is increased by five(5). The maximum bonus from this Skill is equal to the Armour Points of the Physical Representation of the suit of Physical Armour the Character is wearing, or their maximum Wear Total, whichever is lower. For example, a Character wearing a Physical Representation worth fifteen(15) points is able to benefit from no more than fifteen(15) additional Armour Points from this Skill. Even if the armour under the Enhance Armour effect.",
+		"Costs": [
+			"6",
+			"8",
+			"10",
+			"12"
+		]
+	},
+	{
+		"Title": "Augment Potion [Crafting]",
+		"Name": "Augment Potion",
+		"Groups": "Crafting",
+		"Category": "Potion Brewing",
+		"Multi": false,
+		"Requirements": "Create Potion 20",
+		"Benefit": "The Character may expend one use of a single Spellshape or Mutation Skill. The Character may imbue a single Potion with the effects of the chosen Skill. Upon use, the Potion's effect, modified by the imbued Spellshape or Mutation, is triggered. If the Character has access to a Potion Laboratory, they may target two(2) Potions with this ability. The name of the imbued Spellshape or Mutation must be included on the Potion's label. No Potion may benefit from more than one Spellshape or Mutation effect.",
+		"Costs": [
+			"6",
+			"8",
+			"10",
+			"12"
+		]
+	},
+	{
+		"Title": "Augment Scroll [Crafting]",
+		"Name": "Augment Scroll",
+		"Groups": "Crafting",
+		"Category": "Inscription",
+		"Multi": false,
+		"Requirements": "Create Scroll 20",
+		"Benefit": "The Character may expend one use of a single Spellshape Skill. The Character may imbue a single Scroll with the effects of the chosen Spellshape. Upon use, the Scroll's effect, modified by the imbued Spellshape, is triggered. If the Character has access to a Scroll Laboratory, they may target two(2) Scrolls with this ability. The name of the imbued Spellshape must be included on the Scroll. No Scroll may benefit from more than one Spellshape effect.",
+		"Costs": [
+			"6",
+			"8",
+			"10",
+			"12"
+		]
+	},
+	{
+		"Title": "Avoidance Armour [Expertise]*",
+		"Name": "Avoidance Armour",
+		"Groups": "Expertise",
+		"Category": "General Expertise",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "The Character gains five(5) points of Avoidance Armour for each time this Skill is bought. A Character is still limited by their Wear Total which limits the maximum number of Armour Points of any type from which the Character may benefit. Avoidance Armour is represented by the Character wearing a number of feathers equal to the total Armour Point value of the armour divided by ten(10), rounded up. These feathers must be attached to a single accessory which is worn by, and visible upon, the Character. If the Character is under an effect which prevents them from using Skills, such as the Drain effect, they are unable to Refit this armour using the Refit Armour counted action until that effect ends.",
+		"Costs": [
+			"6",
+			"8",
+			"10",
+			"12"
+		]
+	},
+	{
+		"Title": "Axe Mastery [Weapon Proficiency]",
+		"Name": "Axe Mastery",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield all Axes in combat. When wielding a Two-Handed Weapon, the Character may block attacks while holding the Weapon with one hand but cannot attack, or use the Weapon to deliver any Skill, until they have both hands on the Two-Handed Weapon. At the time this Skill is bought, the Character may \"sell back\" any Skills which are included in its benefit. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"14",
+			"17",
+			"21",
+			"28"
+		]
+	},
+	{
+		"Title": "Bodyguard [Background]",
+		"Name": "Bodyguard",
+		"Groups": "Background",
+		"Category": "",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "This Skill grants the Character the ability to guard another. The Character may, once per Reset, designate a Character as their charge. A Character may have only one(1) charge at a time but may change it as often as they Rest. Once per Reset, the Character may negate any Weapon Attack, or attack delivered, by Weapon or Packet, as &lt;Effect&gt;-Strike or Physical by which their charge is struck. The charge must be within Weapon's reach of the Character to be targeted by this effect. The call for this ability is \"Parry\". If the Character has any uses of the Parry Skill, the Character can use this ability to negate an applicable attack which strikes their Charge so long as they are within their Weapon's reach.",
+		"Costs": [
+			"5"
+		]
+	},
+	{
+		"Title": "Break Compulsion [Heritage, Psychic]",
+		"Name": "Break Compulsion",
+		"Groups": "Heritage, Psychic",
+		"Category": "Psychic",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "A Character with this Skill may spend sixty(60) seconds, role playing with another creature. This can either be in quiet concentration or by speaking with the target. At the end of the minute, the Character states \"Break Compulsion. Arcane Dispel Compulsion.\". This ability is usable at will. Alternatively, the Character may expend this Skill, becoming unable to use its benefits until Reset, to instantly negate all Compulsions on any target, including themselves, by Touch. When used in this manner the call is \"Arcane Dispel Compulsion\". When used in this way the effect may be delivered as Touch or by Packet. The Skill cannot be recovered by the Inspiration effect.",
+		"Costs": [
+			"10",
+			"16"
+		]
+	},
+	{
+		"Title": "Catalyst [Crafting, Mutation]*",
+		"Name": "Catalyst",
+		"Groups": "Crafting, Mutation",
+		"Category": "Alchemical Mutations",
+		"Multi": true,
+		"Requirements": "Level 6 Alchemy Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may double the damage or healing of a single Alchemy with a Duration of Instant.",
+		"Costs": [
+			"3",
+			"4",
+			"5",
+			"6"
+		]
+	},
+	{
+		"Title": "Channel Spell [Spellshape, Magic]*",
+		"Name": "Channel Spell",
+		"Groups": "Spellshape, Magic",
+		"Category": "Spellshapes",
+		"Multi": true,
+		"Requirements": "Level 1 Spell Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a single Spell as an &lt;Effect&gt;-Strike using a Weapon, instead of a Packet, with which they are proficient. The Delivery Type used to deliver the effect is determined by the Delivery Type of the Spell. For example, if the Spell allows the Character to deliver a Magic Sleep effect, the call for this ability is \"Magic-Strike Sleep\". If the effect causes \"10 Elemental Fire\" damage, the Channelled effect is \"10 Elemental-Strike Fire\". The Character does not need a free hand to cast the Spell if they are wielding a Weapon with which they are Proficient. For more information on Channelling Spells see Page 100.",
+		"Costs": [
+			"2",
+			"3",
+			"3",
+			"4"
+		]
+	},
+	{
+		"Title": "Chemistry [Crafting]",
+		"Name": "Chemistry",
+		"Groups": "Crafting",
+		"Category": "Alchemical Techniques",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character has the ability to Identity Poisons and their presence in a substance by spending a sixty(60)-count to examine the substance.",
+		"Costs": [
+			"6",
+			"8",
+			"10",
+			"12"
+		]
+	},
+	{
+		"Title": "Contingent Slime [Crafting, Mutation]*",
+		"Name": "Contingent Slime",
+		"Groups": "Crafting, Mutation",
+		"Category": "Alchemical Mutations",
+		"Multi": true,
+		"Requirements": "Level 9 Alchemy Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may cast an Alchemy and have it triggered upon one of the following conditions; Dead, Dying, Berserked, Binding, Compelled, Cursed, Enthraled, Imprisoned, Poisoned, Sleeping, or Unconscious, chosen at the time of casting. If the Character dies before this effect is used it is lost. The call to first activate this ability is \"I Invoke a &lt;Delivery Verbal&gt; Slime, Contingent upon my &lt;Trigger State&gt;.\" A Character may have only one Contingency effect, from this Skill, at a time. The call when this ability is triggered is \"Contingency: &lt;Delivery Verbal&gt;\".",
+		"Costs": [
+			"6",
+			"8",
+			"10",
+			"12"
+		]
+	},
+	{
+		"Title": "Contingent Spell [Spellshape, Magic]*",
+		"Name": "Contingent Spell",
+		"Groups": "Spellshape, Magic",
+		"Category": "Spellshapes",
+		"Multi": true,
+		"Requirements": "Level 9 Spell Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may cast a Spell and have it triggered upon one of the following conditions; Dead, Dying, Berserked, Binding, Compelled, Cursed, Enthraled, Imprisoned, Poisoned, Sleeping, or Unconscious, chosen at the time of casting. If the Character dies before this effect is used it is lost. The call to first activate this ability is \"I Invoke a &lt;Delivery Verbal&gt; Spell, Contingent upon my &lt;Trigger State&gt;.\"A Character may have only one Contingency effect, from this Skill, at a time. The call when this ability is triggered is \"Contingency: &lt;Delivery Verbal&gt;\".",
+		"Costs": [
+			"6",
+			"8",
+			"10",
+			"12"
+		]
+	},
+	{
+		"Title": "Counter [Fighting]*",
+		"Name": "Counter",
+		"Groups": "Fighting",
+		"Category": "Weapon Skills",
+		"Multi": true,
+		"Requirements": "Parry 2 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may negate and cause any attack, delivered by Weapon or Packet, causing Weapon Damage or effect delivered as &lt;Effect&gt;- Strike or Physical by which they are struck causing it to rebound against its source. This ability is also usable against normal Weapon Damage. In order to use this Skill the Character must have a Weapon or Shield in hand. This ability cannot be used if the Character is under an effect which prevents the Character from using Weapons or if the Item is Fumbled. Effects delivered as Arcane-Strike cannot be avoided by this, or any other, ability. The call for this ability is \"Reflect\".",
+		"Costs": [
+			"6",
+			"7",
+			"9",
+			"12"
+		]
+	},
+	{
+		"Title": "Create Cauldron [Crafting]*",
+		"Name": "Create Cauldron",
+		"Groups": "Crafting",
+		"Category": "Potion Brewing",
+		"Multi": true,
+		"Requirements": "Create Flask Create Potion 20",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may create a Cauldron which contains a single Technique, with a Range of Touch or Packet, which is an Alchemy or from one of the following Schools of Magic; Protection, Restoration, Transmutation. The caster must be able to cast the stored Technique . The creator may set up the Cauldron as an immovable object from which anyone may spend a ten(10)-count to role-play drawing from, and imbibing a portion of the Cauldron gaining the benefits of the contained Technique. Any number of Characters may benefit from the Cauldron but a Character may benefit from a single Cauldron no more than once per Reset period. A Cauldron ends if the Cauldron is Destroyed or its creator sets up a second Cauldron. A Cauldron is a container which can hold a minimum of two(2) litres of liquid. In order to use this Skill the Character must have access to a Potion Laboratory. All Cauldrons expire at the end of the Event.",
+		"Costs": [
+			"8",
+			"10",
+			"12",
+			"16"
+		]
+	},
+	{
+		"Title": "Create Flask [Crafting]*",
+		"Name": "Create Flask",
+		"Groups": "Crafting",
+		"Category": "Potion Brewing",
+		"Multi": true,
+		"Requirements": "Create Potion 10",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may expend a single Spell or Alchemy Slot to create a Flask containing a Technique, the Character can cast, with a Range of Touch or Packet, of the same level as the expended Technique Slot. The Technique must have a Range of Touch or Packet. A Flask has five(5) Charges upon creation. The Character may then expending one(1) Charge from the Flask in order to deliver the chosen Technique against a target by having the target spend a three(3)-count role-playing drinking from the Flask. A Flask must be marked with the Technique it contains, as well as the number of charges it contains, and must be a container which appears to hold one-hundred(100) to one-thousand(1000) millilitres of liquid. In order to use this Skill the Character must have access to a Potion Laboratory. All Flasks expire at the end of the Event.",
+		"Costs": [
+			"8",
+			"10",
+			"12",
+			"16"
+		]
+	},
+	{
+		"Title": "Create Potion [Crafting]*",
+		"Name": "Create Potion",
+		"Groups": "Crafting",
+		"Category": "Potion Brewing",
+		"Multi": true,
+		"Requirements": "Level 1 Spell or Alchemy Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may expend a single Spell or Alchemy Slot to create a Potion containing a Technique, the Character can cast, with a Range of Touch or Packet, of the same level as the expended Technique Slot. Once a Technique has been put into a Potion, any Character may imbibe the Potion, a process taking a three(3)-count, to receive the effects of the stored Technique. A consumed Potion follows all rules for a Touch Cast Technique. Each Potion is usable only once. When a Technique has multiple effects, such as Blood Bolt, the Character must choose which of the effects are contained within the Potion. A Potion must be marked with the Technique it contains, as well as the Delivery Verbal, and must be a container which appears to hold twenty(20) to one- hundred(100) millilitres of liquid. Though the physical representation of each Potion may be reused, each Potion is usable only once. If the Character has access to a Potion Laboratory they may instead create two(2) Potions for each consumed Technique Slot. All Potions expire at the end of the Event.",
+		"Costs": [
+			"2",
+			"3",
+			"3",
+			"4"
+		]
+	},
+	{
+		"Title": "Create Scroll [Crafting]*",
+		"Name": "Create Scroll",
+		"Groups": "Crafting",
+		"Category": "Inscription",
+		"Multi": true,
+		"Requirements": "Level 1 Spell Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may expend a single Spell Slot to create a Scroll containing a Spell, the Character can cast, with a Range of Touch or Packet, the same level as the expended Spell Slot. Once a Spell has been put into a Scroll, any Character with access to a School of Magic which includes the inscribed Spell may cast the stored Spell, consuming the Scroll. To do so, the user must touch a Packet to the Scroll and speak the Spell's full Incantation and Delivery Verbal. Spells contained within Scroll cannot be modified by Spellshapes unless they were included in the Scroll's creation. Each Scroll is usable only once. When a Spell has multiple effects, such as Blood Bolt, the Character must choose which of the effects are contained within the Scroll. A Scroll must be marked with the Spell it contains, as well as the Incantation and Delivery Verbal, and must be a piece of paper with an area of at least 40cm 2 . Though the physical representation of each Scroll may be reused, each Scroll is usable only once. If the Character has access to a Scroll Laboratory they may instead create two(2) Scrolls for each consumed Spell Slot. All Scrolls expire at the end of the Event.",
+		"Costs": [
+			"2",
+			"3",
+			"3",
+			"4"
+		]
+	},
+	{
+		"Title": "Create Wand [Crafting]*",
+		"Name": "Create Wand",
+		"Groups": "Crafting",
+		"Category": "Inscription",
+		"Multi": true,
+		"Requirements": "Create Scroll 10",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may expend a single Spell Slot to create a Wand containing a Spell, the Character can cast, with a Range of Touch or Packet, of the same level as the expended Spell Slot. Once a Spell has been put into a Wand, its creator may use the wand to deliver the stored Spell up to five(5) times. A Wand must be marked with the Spell it contains, as well as the number of charges it contains, and must measure between 10 and 100cm. In order to use this Skill the Character must have access to a Scroll Laboratory. All Wands expire at the end of the Event.",
+		"Costs": [
+			"8",
+			"10",
+			"12",
+			"16"
+		]
+	},
+	{
+		"Title": "Deadly Strike [Expertise]*",
+		"Name": "Deadly Strike",
+		"Groups": "Expertise",
+		"Category": "Stealth Skills",
+		"Multi": true,
+		"Requirements": "Penetrating Strike 2 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver an attack causing \"100 Physical-Strike &lt;Weapon Type&gt;\" damage. In order to use this Skill the Character must be standing behind their target and able to see both of their shoulder blades. This ability is also usable if the Character expends a charge from any Ambush effect they have on themselves.",
+		"Costs": [
+			"6",
+			"7",
+			"9",
+			"12"
+		]
+	},
+	{
+		"Title": "Defensive Roll [Expertise]*",
+		"Name": "Defensive Roll",
+		"Groups": "Expertise",
+		"Category": "Stealth Skills",
+		"Multi": true,
+		"Requirements": "Avoidance Armour 5 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, as long as the Character has at least one(1) Armour Point of Avoidance Armour available, they may expend all remaining Avoidance Armour Points to allow them to \"Dodge\" a single effect delivered by Weapon or Packet. The call for this ability is \"Absorb. Dodge.\". A Character must Rest in between uses of this Skill.",
+		"Costs": [
+			"8",
+			"10",
+			"12",
+			"16"
+		]
+	},
+	{
+		"Title": "Diagnose [Background]",
+		"Name": "Diagnose",
+		"Groups": "Background",
+		"Category": "General Background",
+		"Multi": false,
+		"Requirements": "First Aid",
+		"Benefit": "This Skill allows the Character to determine the state of the target. In order to use this Skill, the Character must touch a willing, or helpless creature and state \"Diagnose\" followed by one of the following questions; \"Are you Sleeping?\", \"Are you Unconscious?\", \"Are you Dying?\", \"Are you Dead?\", \"Are you Paralyzed?\", \"Are you Poisoned?\", \"Are you Regenerating?\", \"How long until you dissipate?\", \"How long until you wake-up?\", \"How long until you die?\",  \"How long until you become Unparalyzed?\", \"How long until you finish Regenerating?\". \"How many Hit Points are you missing?\". It is not possible to use this Skill on a target without their knowledge and an unwilling target can simply say \"I Block you.\" A Helpless target is unable to stop this Skill from being used on them. The Character cannot ask another question until the first is answered and this Skill takes as long as it takes for the Character to ask the question and the target to answer. It cannot, normally, be used against non-humanoid creatures, or those that have no, or alien metabolisms.",
+		"Costs": [
+			"4"
+		]
+	},
+	{
+		"Title": "Die Hard [Heritage, Survivor]",
+		"Name": "Die Hard",
+		"Groups": "Heritage, Survivor",
+		"Category": "Survivor",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, while the Character is in their Death Count they may, at any time, grant themselves a \"Physical Life\".",
+		"Costs": [
+			"10",
+			"16"
+		]
+	},
+	{
+		"Title": "Disrupt Magic [Heritage, Wild]*",
+		"Name": "Disrupt Magic",
+		"Groups": "Heritage, Wild",
+		"Category": "Wild",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a \"Magic Remove Magic\" effect by Packet or Touch.",
+		"Costs": [
+			"4",
+			"6"
+		]
+	},
+	{
+		"Title": "Dodge [Expertise]*",
+		"Name": "Dodge",
+		"Groups": "Expertise",
+		"Category": "Stealth Skills",
+		"Multi": true,
+		"Requirements": "Stealth Training 2 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may negate any effect delivered by Weapon or Packet by which they are struck. Effects delivered as Arcane(-Strike) cannot be avoided by this, or any other, ability. The call for this ability is \"Dodge\".",
+		"Costs": [
+			"8",
+			"10",
+			"12",
+			"16"
+		]
+	},
+	{
+		"Title": "Echo Slime [Crafting, Mutation]*",
+		"Name": "Echo Slime",
+		"Groups": "Crafting, Mutation",
+		"Category": "Alchemical Mutations",
+		"Multi": true,
+		"Requirements": "Level 1 Alchemy Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a copy of the last Alchemy they cast. This ability must be activated within ten(10) seconds of the initial Alchemy. The copy includes all the same options, including any and all Mutations and other abilities used on the first Alchemy. The call for this ability is \"Echo: &lt;Delivery Verbal of copied Alchemy&gt;\".",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Echo Spell [Spellshape, Magic]*",
+		"Name": "Echo Spell",
+		"Groups": "Spellshape, Magic",
+		"Category": "Spellshapes",
+		"Multi": true,
+		"Requirements": "Level 1 Spell Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a copy of the last Spell they cast. The Spell must be delivered from memory to use this Skill. This ability must be activated within ten(10) seconds of the initial Spell. The copy is delivered without Incantation and includes all the same options, including any and all Spellshapes and other abilities used on the first Spell. The call for this ability is \"Echo: &lt;Delivery Verbal of copied Spell&gt;\".",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Empower Spell [Spellshape, Magic]*",
+		"Name": "Empower Spell",
+		"Groups": "Spellshape, Magic",
+		"Category": "Spellshapes",
+		"Multi": true,
+		"Requirements": "Level 6 Spell Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may double the damage or healing of a single Spell with a Duration of Instant.",
+		"Costs": [
+			"3",
+			"4",
+			"5",
+			"6"
+		]
+	},
+	{
+		"Title": "Envenom Weapon [Crafting]",
+		"Name": "Envenom Weapon",
+		"Groups": "Crafting",
+		"Category": "Alchemy Delivery",
+		"Multi": false,
+		"Requirements": "Level 3 Alchemy Slot, Slimy Coating 5",
+		"Benefit": "This Skill grants the Character the ability to deliver all 1 st , 2 nd , and 3 rd level Alchemy, the Character casts from memory, as a &lt;Effect&gt;-Strike with their Weapon instead of a Packet. The Delivery Type used to deliver the effect is determined by the Delivery Type of the Alchemy. For example, if the Alchemy allows the Character to deliver a Poison Sleep effect, the call for this ability is \"Poison-Strike Sleep\". If the effect causes \"10 Physical Acid\" damage, the Channelled effect is \"10 Physical-Strike Acid\". They do not need a free hand to use Alchemy if they are wielding a Weapon with which they are Proficient. They may even Touch Cast Alchemy with their Weapon by placing the Weapon on the target during the Delivery Verbal.",
+		"Costs": [
+			"14",
+			"18",
+			"22",
+			"28"
+		]
+	},
+	{
+		"Title": "Envenom Weapon, Greater [Crafting]",
+		"Name": "Envenom Weapon, Greater",
+		"Groups": "Crafting",
+		"Category": "Alchemy Delivery",
+		"Multi": false,
+		"Requirements": "Level 6 Alchemy Slot, Envenom Weapon",
+		"Benefit": "This Skill grants the Character the ability to deliver all 4 th , 5 th , and 6 th level Alchemy, the Character casts from memory, as a &lt;Effect&gt;-Strike with their Weapon instead of a Packet. They do not need a free hand to use Alchemy if they are wielding a Weapon with which they are Proficient. They may even Touch Cast Alchemy with their Weapon by placing the Weapon on the target during the Delivery Verbal.",
+		"Costs": [
+			"20",
+			"24",
+			"28",
+			"40"
+		]
+	},
+	{
+		"Title": "Envenom Weapon, Superior [Crafting]",
+		"Name": "Envenom Weapon, Superior",
+		"Groups": "Crafting",
+		"Category": "Alchemy Delivery",
+		"Multi": false,
+		"Requirements": "Level 9 Alchemy Slot, Greater Envenom Weapon",
+		"Benefit": "This Skill grants the Character the ability to deliver all 7 th , 8 th , and 9 th level Alchemy, the Character casts from memory, as a &lt;Effect&gt;-Strike with their Weapon instead of a Packet. They do not need a free hand to use Alchemy if they are wielding a Weapon with which they are Proficient. They may even Touch Cast Alchemy with their Weapon by placing the Weapon on the target during the Delivery Verbal. Additionally, the Character may expend a use of the Slimy Coating Skill in order to allow themselves to deliver a single copy of any Alchemy they have delivered as &lt;Effect&gt;-Strike using this ability if the initial swing failed to strike any target. The call for this copy is \"Echo: &lt;Delivery Verbal&gt;\".",
+		"Costs": [
+			"26",
+			"32",
+			"40",
+			"52"
+		]
+	},
+	{
+		"Title": "Escape Binding [Heritage, Strong]*",
+		"Name": "Escape Binding",
+		"Groups": "Heritage, Strong",
+		"Category": "Strong",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a \"Physical Dispel Binding\" effect on themselves on a three(3)-count. The call for this ability is \"I rip free 1, I rip free 2, I rip free 3. Physical Dispel Binding.\"",
+		"Costs": [
+			"4",
+			"6"
+		]
+	},
+	{
+		"Title": "Evasion [Expertise]*",
+		"Name": "Evasion",
+		"Groups": "Expertise",
+		"Category": "Stealth Skills",
+		"Multi": true,
+		"Requirements": "Dodge 3 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may negate any effect by which they would be affected. Effects delivered as Arcane(-Strike) cannot be avoided by this, or any other, ability. The call for this ability is \"Evasion\".",
+		"Costs": [
+			"10",
+			"12",
+			"15",
+			"20"
+		]
+	},
+	{
+		"Title": "Expert Combatant [Expertise]*",
+		"Name": "Expert Combatant",
+		"Groups": "Expertise",
+		"Category": "General Expertise",
+		"Multi": true,
+		"Requirements": "Level 9 Martial Arts Slot per 2 Ranks",
+		"Benefit": "The Character gains one(1) additional Martial Art Slot of each level for every time this Skill is bought.",
+		"Costs": [
+			"20",
+			"25",
+			"30",
+			"40"
+		]
+	},
+	{
+		"Title": "Expose Weakness [Expertise]*",
+		"Name": "Expose Weakness",
+		"Groups": "Expertise",
+		"Category": "General Expertise",
+		"Multi": true,
+		"Requirements": "Stealth Training 1 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought the Character may grant themselves the effects of an Ambush 5, allowing them to use their damage bonus from Stealth Training, for their next five(5) landed hits, even if they aren't behind their target. The call for this ability is \"Physical Ambush 5\". Additionally, if the Character has exhausted all uses of this Skill for the current Reset period, the character may Rest in order to recover a single use of this Skill.",
+		"Costs": [
+			"2",
+			"3",
+			"3",
+			"4"
+		]
+	},
+	{
+		"Title": "Extra Trap [Expertise]*",
+		"Name": "Extra Trap",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "Any Trap",
+		"Benefit": "For every Rank a Character has in this Skill, they may place, and arm, a single additional Trap. This Skill even allows a Character to have multiple Traps of the same type in place at once. Normally a Character is limited to one(1) Trap of each type at a time. It does not grant any additional uses of any Trap Skill.",
+		"Costs": [
+			"6",
+			"7",
+			"9",
+			"12"
+		]
+	},
+	{
+		"Title": "Favoured By Destiny [Background]",
+		"Name": "Favoured By Destiny",
+		"Groups": "Background",
+		"Category": "General Background",
+		"Multi": false,
+		"Requirements": "Any Intervention Skill",
+		"Benefit": "This Skill grants the Character the ability to choose, and use, an additional Intervention Skill each Event but never more than once per Reset. For more information on Interventions, See page 193.",
+		"Costs": [
+			"20"
+		]
+	},
+	{
+		"Title": "Field Repair [Heritage, Skilled]",
+		"Name": "Field Repair",
+		"Groups": "Heritage, Skilled",
+		"Category": "Skilled",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character may, on a sixty(60)-count, Repair any number of mundane items without the use of a Portable Forge or expending any levels of Smithing. Once this ability is used, the Character cannot use it again until they return to Town and Rest to acquire replacement materials and maintain their tools, a process requiring access to a Forge and five(5) minutes. See page 66 for more information on Smithing abilities. If the Character has the Tinkerer Sub-Skill, they may use this ability an additional time before needing to Rest.",
+		"Costs": [
+			"8",
+			"14"
+		]
+	},
+	{
+		"Title": "Fieldwork [Heritage, Trader]",
+		"Name": "Fieldwork",
+		"Groups": "Heritage, Trader",
+		"Category": "Trader",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character does not require a Crafting Table to use the special abilities from Create Potion, Create Scroll, and Smithing. The Character still requires a Crafting Table in order to use the abilities granted from other Skills such as Augment Potion, or Create Wand.",
+		"Costs": [
+			"10",
+			"16"
+		]
+	},
+	{
+		"Title": "Fifth School of Magic [Magic]",
+		"Name": "Fifth School of Magic",
+		"Groups": "Magic",
+		"Category": "Schools of Magic",
+		"Multi": false,
+		"Requirements": "Fourth School of Magic",
+		"Benefit": "This Skill grants the Character access to their fifth School of Magic. The Character is able to expend their Spell Slots to use the Spells which belong to any schools they know. See Chapter 7: Magic for more information on the Schools of Magic.",
+		"Costs": [
+			"40",
+			"50",
+			"64",
+			"80"
+		]
+	},
+	{
+		"Title": "Fire Bomb [Expertise]*",
+		"Name": "Fire Bomb",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "Fire Grenade 3 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a Packet attack causing \"20 Physical Fire\" damage to the target. The Character may throw any number of Packets when using this Skill but must throw all Packets with the same hand.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Fire Grenade [Expertise]*",
+		"Name": "Fire Grenade",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a Packet attack causing \"20 Physical Fire\" damage to the target. Alternatively, the Character may expend a single use of this Skill in order to deliver a Packet attack which causes a &quot;Physical Fumble &lt;Item&gt;&quot; effect.",
+		"Costs": [
+			"2",
+			"3",
+			"3",
+			"4"
+		]
+	},
+	{
+		"Title": "Fire Trap [Expertise]*",
+		"Name": "Fire Trap",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "Fire Grenade 2 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may lay down an Fire Trap, represented by a small red coloured cloth, or similar marker, with an area of no more than 1m 2 which can be of any shape but may not contain voids. Once the rep has been placed the Character must spend ten(10) seconds to arm the Trap during which time they must keep at least one hand on the Trap. Once activated anyone who steps or touches the Trap takes \"20 Physical Fire\" damage. A Trap can be disarmed by striking it with a Break or Destroy effect or by its creator spending ten(10) seconds touching it in order to disarm it. Disarming a Trap does not trigger its effects. A disarmed Trap is considered Destroyed. A Character may have no more than one(1) Trap, of any type, placed at a time.",
+		"Costs": [
+			"2",
+			"3",
+			"3",
+			"4"
+		]
+	},
+	{
+		"Title": "First Aid [Background]",
+		"Name": "First Aid",
+		"Groups": "Background",
+		"Category": "General Background",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "This Skill allows the Character to Stabilise a Dying target. In order to use this Skill, the Character must touch the target and state \"First Aid\". If the target is not Dying, or immune to First Aid, the target must immediately state \"No Effect\". Applying First Aid is a sixty(60) second Counted Action. Once First Aid has begun, the target immediately pauses their Dying Count. it remains paused until either the First Aid count is finished, or interrupted. In the latter case the dying creature immediately resumes their count where it left off. At the end of the First Aid count, the target is Stabilised and at zero(0) Hit Points. After one(1) minute the target regains Consciousness at one(1) Hit Point. This Skill is modified by the Physician Background Skill. For more information on how these Skills interact, See page 203.",
+		"Costs": [
+			"3"
+		]
+	},
+	{
+		"Title": "First Martial Arts School [Fighting]",
+		"Name": "First Martial Arts School",
+		"Groups": "Fighting",
+		"Category": "Martial Arts",
+		"Multi": false,
+		"Requirements": "Level 1 Martial Arts Slot",
+		"Benefit": "This Skill grants the Character access to their first Martial Arts School. The Character is able to expend their Martial Arts Slots to use the Martial Arts which belong to this school. See Chapter 7: Magic for more information on Martial Arts.",
+		"Costs": [
+			"0",
+			"0",
+			"0",
+			"0"
+		]
+	},
+	{
+		"Title": "First School of Magic [Magic]",
+		"Name": "First School of Magic",
+		"Groups": "Magic",
+		"Category": "Schools of Magic",
+		"Multi": false,
+		"Requirements": "Level 1 Spell Slot",
+		"Benefit": "This Skill grants the Character access to their first School of Magic. The Character is able to expend their Spell Slots to use the Spells which belong to this school. See Chapter 7: Magic for more information on the Schools of Magic.",
+		"Costs": [
+			"0",
+			"0",
+			"0",
+			"0"
+		]
+	},
+	{
+		"Title": "Flanking [Expertise]*",
+		"Name": "Flanking",
+		"Groups": "Expertise",
+		"Category": "Stealth Skills",
+		"Multi": true,
+		"Requirements": "Stealth Training 2 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may Invoke this ability against a single target. The Character gains a bonus to all Weapon Damage on their attacks against the target equal to their ranks in Stealth Training. This effect ends at the end of Combat. The call for this ability is \"I Invoke Flanking against you.\"",
+		"Costs": [
+			"6",
+			"7",
+			"9",
+			"12"
+		]
+	},
+	{
+		"Title": "Florentine [Weapon Proficiency]",
+		"Name": "Florentine",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield a Short Weapon, with which they are proficient, in their off-hand at the same time they wield a Weapon in their main hand. This Weapon causes the Weapon's Base Damage.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Focus [Heritage, Willful]*",
+		"Name": "Focus",
+		"Groups": "Heritage, Willful",
+		"Category": "Willful",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may ignore Disruption for the casting of a single Spell. Once the Spell is cast, the Character must state \"Focus\" if they were subject to an effect which normally would have Disrupted the casting. This allows a Character to even use Defensive Skills such as Resist Curse or Dodge during the Casting of, or maintain Concentration on, a Spell after taking Hit Point damage. This ability does not allow a Character to cast Spells while Concentrating or Sustaining another Spell. The Character's Spell Casting can still be Disrupted if they are subjected to an effect which causes them to enter a state where they are unable to cast Spells such as Unconsciousness or Drain.",
+		"Costs": [
+			"4",
+			"6"
+		]
+	},
+	{
+		"Title": "Fourth School of Magic [Magic]",
+		"Name": "Fourth School of Magic",
+		"Groups": "Magic",
+		"Category": "Schools of Magic",
+		"Multi": false,
+		"Requirements": "Third School of Magic",
+		"Benefit": "This Skill grants the Character access to their fourth School of Magic. The Character is able to expend their Spell Slots to use the Spells which belong to any schools they know. See Chapter 7: Magic for more information on the Schools of Magic.",
+		"Costs": [
+			"30",
+			"38",
+			"48",
+			"60"
+		]
+	},
+	{
+		"Title": "Freezing Bomb [Expertise]*",
+		"Name": "Freezing Bomb",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "Freezing Grenade 3 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a Packet attack causing a \"Physical Bind\" to affect the target. The Character may throw any number of Packets when using this Skill but must throw all Packets with the same hand.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Freezing Grenade [Expertise]*",
+		"Name": "Freezing Grenade",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a Packet attack causing a \"Physical Bind\" to affect the target. Alternatively, the Character may expend a single use of this Skill in order to deliver a Packet attack which causes a &quot;Physical Pin&quot; effect.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Freezing Trap [Expertise]*",
+		"Name": "Freezing Trap",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "Freezing Grenade 2 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may lay down a Freezing Trap, represented by a small blue coloured cloth, or similar marker, with an area of no more than 1m 2 which can be of any shape but may not contain voids. Once the rep has been placed the Character must spend ten(10) seconds to arm the Trap during which time they must keep at least one hand on the Trap. Once activated anyone who steps or touches the Trap is affected by a \"Physical Web\" effect. A Trap can be disarmed by striking it with a Break or Destroy effect or by its creator spending ten(10) seconds touching it in order to disarm it. Disarming a Trap does not trigger its effects. A disarmed Trap is considered Destroyed. A Character may have no more than one(1) Trap, of any type, placed at a time.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Frenzy [Heritage, Wild]*",
+		"Name": "Frenzy",
+		"Groups": "Heritage, Wild",
+		"Category": "Wild",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may either Resist a single Berserk effect by which they are struck, the call for which is \"Resist. Physical Vorpal 5\", or choose to activate this Skill at any time. When this Skill is activated at the Character's discretion the call is \"Physical Vorpal 5\".",
+		"Costs": [
+			"5",
+			"8"
+		]
+	},
+	{
+		"Title": "Giant Trap [Expertise]*",
+		"Name": "Giant Trap",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "Any Trap",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may lay down a Trap whose representation has a maximum area of 4m 2 .",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Harden Magic [Magic]*",
+		"Name": "Harden Magic",
+		"Groups": "Magic",
+		"Category": "Magic Skills",
+		"Multi": true,
+		"Requirements": "Level 5 Spell Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may Resist an effect which would Remove, or Dispel, one or more Magic effects. This ability is usable even if the Character is inside of an Imprison allowing them to prevent their Imprison from being removed.",
+		"Costs": [
+			"2",
+			"3",
+			"3",
+			"4"
+		]
+	},
+	{
+		"Title": "Harvester [Heritage, Trader]",
+		"Name": "Harvester",
+		"Groups": "Heritage, Trader",
+		"Category": "Trader",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "At the start of each Event, the Character receives one of the following items for each Game Day of the Event; one(1) Adamantine Ingot, one(1) Iron Ingot, one(1) Silver Ingot, or a single strength one(1) Ritual Component. The Ritual Component Type is random though Event Staff may accommodate requests for a specific type at their discretion.",
+		"Costs": [
+			"10",
+			"16"
+		]
+	},
+	{
+		"Title": "Innate Spellcasting [Magic]",
+		"Name": "Innate Spellcasting",
+		"Groups": "Magic",
+		"Category": "Spell Delivery",
+		"Multi": false,
+		"Requirements": "Level 3 Spell Slot, Quicken Spell 5",
+		"Benefit": "This Skill grants the Character the ability to deliver all 1 st , 2 nd , and 3 rd level Spells, the Character casts from memory, without their Incantation. Additionally, they may cast these Spells while unable to speak, such as while under the effects of a Silence, or without a free hand.",
+		"Costs": [
+			"14",
+			"18",
+			"22",
+			"28"
+		]
+	},
+	{
+		"Title": "Innate Spellcasting, Greater [Magic]",
+		"Name": "Innate Spellcasting, Greater",
+		"Groups": "Magic",
+		"Category": "Spell Delivery",
+		"Multi": false,
+		"Requirements": "Level 6 Spell Slot, Innate Spellcasting",
+		"Benefit": "This Skill grants the Character the ability to deliver all 4 th , 5 th , and 6 th level Spells, the Character casts from memory, without their Incantation. Additionally, they may cast these Spells while unable to speak, such as while under the effects of a Silence, or without a free hand.",
+		"Costs": [
+			"20",
+			"24",
+			"30",
+			"38"
+		]
+	},
+	{
+		"Title": "Innate Spellcasting, Superior [Magic]",
+		"Name": "Innate Spellcasting, Superior",
+		"Groups": "Magic",
+		"Category": "Spell Delivery",
+		"Multi": false,
+		"Requirements": "Level 9 Spell Slot, Greater Innate Spellcasting",
+		"Benefit": "This Skill grants the Character the ability to deliver all 7 th , 8 th , and 9 th level Spells, the Character casts from memory, without their Incantation. Additionally, they may cast these Spells while unable to speak, such as while under the effects of a Silence, or without a free hand. Additionally, the Character may expend a use of the Quicken Spell Skill in order to instantly regain the ability to cast a single Spell, delivered from memory, which they would have been able to recover by Meditation.",
+		"Costs": [
+			"26",
+			"30",
+			"38",
+			"46"
+		]
+	},
+	{
+		"Title": "Invoker [Background]",
+		"Name": "Invoker",
+		"Groups": "Background",
+		"Category": "General Background",
+		"Multi": false,
+		"Requirements": "Level 5 Alchemy Slot, Level 5 Spell Slot, or Smithing 5.",
+		"Benefit": "Once per Day, the Character may perform a single Invocation of any type for which the meet this Skill's Requirements. Level 5 Alchemy Slots allow a single Alchemy Invocation. Level 5 Spell Slots allow a Magic Invocation. Five(5) Ranks in the Skill Smithing allows a Smithing Invocation. A Character who meets multiple requirements does not gain the ability to perform multiple Invocations with this Skill but expands their options for the one(1) they may perform. This Skill does not count towards the Requirements of any other Skills or abilities.",
+		"Costs": [
+			"8"
+		]
+	},
+	{
+		"Title": "Last Words [Heritage, Spiritual]",
+		"Name": "Last Words",
+		"Groups": "Heritage, Spiritual",
+		"Category": "Spiritual",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "Whenever the Character enters their Death Count, they may say up to ten(10) words at a normal speaking volume. If the Character has Rank 4 of the Seer Skill, they may use this ability while Manifested. If the Character has Rank 10 of the Seer Skill, they may once per Reset, touch a target and deliver a \"Lesser Arcane Imbue Skill: Last Words\" allowing the touched target to use this Skill for ten(10) seconds.",
+		"Costs": [
+			"10",
+			"16"
+		]
+	},
+	{
+		"Title": "Legendary Invention [Crafting, Intervention]*",
+		"Name": "Legendary Invention",
+		"Groups": "Crafting, Intervention",
+		"Category": "General Crafting",
+		"Multi": true,
+		"Requirements": "20 Character Levels per Rank.",
+		"Benefit": "This Skill allows the Character to reveal an invention of legendary ability beyond the limits of what should be possible. A Character can have only one Intervention Skill for every twenty(20) Character Levels they possess. Each Intervention Skill allows the Character to perform one(1) Intervention per Event. These uses can never be recovered. For more information on Interventions, see page 193.",
+		"Costs": [
+			"25",
+			"30",
+			"35",
+			"40"
+		]
+	},
+	{
+		"Title": "Lifebind [Heritage, Spiritual]",
+		"Name": "Lifebind",
+		"Groups": "Heritage, Spiritual",
+		"Category": "Spiritual",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, the Character may deliver a \"Magic Tarry\" effect by Touch. Alternatively, they may activate this ability on themselves at any time during their Death Count. If the Character has Rank 4 of the Seer Skill, this Skill can be expended to increase the time they may be Manifested by five(5) minutes.",
+		"Costs": [
+			"5",
+			"8"
+		]
+	},
+	{
+		"Title": "Long Axe [Weapon Proficiency]",
+		"Name": "Long Axe",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield a Long Axe in combat. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"6",
+			"7",
+			"9",
+			"12"
+		]
+	},
+	{
+		"Title": "Long Mace [Weapon Proficiency]",
+		"Name": "Long Mace",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield a Long Mace in combat. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"6",
+			"7",
+			"9",
+			"12"
+		]
+	},
+	{
+		"Title": "Long Mastery [Weapon Proficiency]",
+		"Name": "Long Mastery",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield all Long Weapons in combat. At the time this Skill is bought, the Character may \"sell back\" any Skills which are included in its benefit. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"12",
+			"15",
+			"18",
+			"24"
+		]
+	},
+	{
+		"Title": "Long Sword [Weapon Proficiency]",
+		"Name": "Long Sword",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield a Long Sword in combat. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"6",
+			"7",
+			"9",
+			"12"
+		]
+	},
+	{
+		"Title": "Mace Mastery [Weapon Proficiency]",
+		"Name": "Mace Mastery",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield all Maces in combat. When wielding a Two-Handed Weapon, the Character may block attacks while holding the Weapon with one hand but cannot attack or use any Skill until they have both hands on the Two-Handed Weapon. At the time this Skill is bought, the Character may \"sell back\" any Skills which are included in its benefit. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"14",
+			"17",
+			"21",
+			"28"
+		]
+	},
+	{
+		"Title": "Magical Aptitude [Magic]",
+		"Name": "Magical Aptitude",
+		"Groups": "Magic",
+		"Category": "Magic Skills",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character is able to learn how to cast Spells. Additionally the Character may perform any of the following actions on a sixty(60)-count; 1) Detect the presence of, but no other information about the, magic on an item they are touching, 2) Identify the Spells contained in any number of Scrolls, or 3) Identify the Spells contained in any number of Potions. If the Character has both this Skill and the Skill Sense Magic they may identify what School(s) of Magic are present on the item when using the Detect portion of this Skill.",
+		"Costs": [
+			"6",
+			"8",
+			"10",
+			"12"
+		]
+	},
+	{
+		"Title": "Magical Intervention [Magic, Intervention]*",
+		"Name": "Magical Intervention",
+		"Groups": "Magic, Intervention",
+		"Category": "Magic Skills",
+		"Multi": true,
+		"Requirements": "20 Character Levels per Rank.",
+		"Benefit": "This Skill allows the Character to perform an incredible act of magical prowess beyond the limits of what should be possible. A Character can have only one Intervention Skill for every twenty(20) Character Levels they possess. Each Intervention Skill allows the Character to perform one(1) Intervention per Event. These uses can never be recovered. For more information on Interventions, see page 193.",
+		"Costs": [
+			"25",
+			"30",
+			"35",
+			"40"
+		]
+	},
+	{
+		"Title": "Magical Tradition [Magic]",
+		"Name": "Magical Tradition",
+		"Groups": "Magic",
+		"Category": "Magic Skills",
+		"Multi": false,
+		"Requirements": "Magical Aptitude",
+		"Benefit": "The Character is able to learn, and gain the effects of, a single Magical Tradition. See Page 101 for more information on Magical Traditions.",
+		"Costs": [
+			"10",
+			"12",
+			"16",
+			"20"
+		]
+	},
+	{
+		"Title": "Martial Arts Slot [Fighting]*",
+		"Name": "Martial Arts Slot",
+		"Groups": "Fighting",
+		"Category": "Martial Arts Slot",
+		"Multi": true,
+		"Requirements": "Weapon Training or Stealth Training, See Text",
+		"Benefit": "This Character gains one Martial Art Slot of the appropriate level as detailed under Pyramid Skills on Page 33.",
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		]
+	},
+	{
+		"Title": "Martial Intervention [Fighting, Intervention]*",
+		"Name": "Martial Intervention",
+		"Groups": "Fighting, Intervention",
+		"Category": "General Fighting",
+		"Multi": true,
+		"Requirements": "20 Character Levels per Rank.",
+		"Benefit": "This Skill allows the Character to perform an incredible act of martial prowess beyond the limits of what should be possible. A Character can have only one Intervention Skill for every twenty(20) Character Levels they possess. Each Intervention Skill allows the Character to perform one(1) Intervention per Event. These uses can never be recovered. For more information on Interventions, see page 193.",
+		"Costs": [
+			"25",
+			"30",
+			"35",
+			"40"
+		]
+	},
+	{
+		"Title": "Martial Kata [Fighting]*",
+		"Name": "Martial Kata",
+		"Groups": "Fighting",
+		"Category": "Martial Arts",
+		"Multi": true,
+		"Requirements": "Level 9 Martial Art Slot",
+		"Benefit": "This Skill grants the Character the ability to perform a Martial Arts Kata granting them, or their equipment a special benefit. For more information on what Kata are available, see Chapter 8: Rituals.",
+		"Costs": [
+			"8",
+			"10",
+			"12",
+			"16"
+		]
+	},
+	{
+		"Title": "Martial Secret [Fighting]*",
+		"Name": "Martial Secret",
+		"Groups": "Fighting",
+		"Category": "Martial Arts",
+		"Multi": true,
+		"Requirements": "Martial Kata",
+		"Benefit": "This Skill grants the Character to perform, without the need of a Martial Treatise, a single Martial Kata of their choice. This Skill cannot be used to learn any Martial Kata which is marked as Limited in its description.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Martial Tradition [Fighting]",
+		"Name": "Martial Tradition",
+		"Groups": "Fighting",
+		"Category": "Martial Arts",
+		"Multi": false,
+		"Requirements": "Any Weapon Proficiency",
+		"Benefit": "The Character is able to learn, and gain the effects of, a single Martial Tradition. See Page 136 for more information on Martial Traditions.",
+		"Costs": [
+			"10",
+			"12",
+			"15",
+			"20"
+		]
+	},
+	{
+		"Title": "Master Alchemist [Crafting]*",
+		"Name": "Master Alchemist",
+		"Groups": "Crafting",
+		"Category": "Ritual Alchemy",
+		"Multi": true,
+		"Requirements": "Alkahestry",
+		"Benefit": "This Skill grants the Character one of the following two options; Practised Alchemist: The Character counts as an additional Caster for the purposes of all Ritual Alchemy. Additionally, the number of Invocations the Character may cast each Reset is increased by one(1). Each additional time this option is taken the Character acts as an additional Caster and can cast an additional Invocation each Reset. Eschew Components: The Character chooses a single Component type, other than Power. The Character reduces the total number of Components needed to cast the Ritual by one(1) to a minimum of one(1). Each additional time this option is taken the Character must choose a new Component type. If A Character has already taken this Skill for every component type they can no longer take this branch of the Skill.",
+		"Costs": [
+			"10",
+			"12",
+			"16",
+			"20"
+		]
+	},
+	{
+		"Title": "Master Ritualist [Magic]*",
+		"Name": "Master Ritualist",
+		"Groups": "Magic",
+		"Category": "Ritual Skills",
+		"Multi": true,
+		"Requirements": "Ritual Magic",
+		"Benefit": "This Skill grants the Character one(1) of the following two(2) options; Practised Ritualist: The Character counts as an additional Caster for the purposes of all Ritual Magic. Additionally, the number of Invocations the Character may cast each Reset is increased by one(1). Each additional time this option is taken the Character acts as an additional Caster and can cast an additional Invocation each Reset. Eschew Components: The Character chooses a single Component type, other than Power. The Character reduces the total number of Components needed to cast the Ritual by one(1) to a minimum of one(1). Each additional time this option is taken the Character must choose a new Component type. If A Character has already taken this Skill for every component type they can no longer take this branch of the Skill.",
+		"Costs": [
+			"10",
+			"12",
+			"16",
+			"20"
+		]
+	},
+	{
+		"Title": "Master's Secret [Crafting]*",
+		"Name": "Master's Secret",
+		"Groups": "Crafting",
+		"Category": "Ritual Smithing",
+		"Multi": true,
+		"Requirements": "Grand Master Smithing",
+		"Benefit": "This Skill grants the Character to perform, without the need of a Schematic, a single Ritual Smithing of their choice. This Skill cannot be used to learn any Ritual Smithing which is marked as \"Limited\" in its description.",
+		"Costs": [
+			"6",
+			"8",
+			"10",
+			"12"
+		]
+	},
+	{
+		"Title": "Memorise Recipe [Alchemy]*",
+		"Name": "Memorise Recipe",
+		"Groups": "Alchemy, Crafting",
+		"Category": "Ritual Alchemy",
+		"Multi": true,
+		"Requirements": "Alkahestry",
+		"Benefit": "This Skill grants the Character to perform, without the need of a Recipe Scroll, a single Ritual Alchemy of their choice. This Skill cannot be used to learn any Ritual Alchemy which is marked as \"Limited\" in its description.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Memorise Ritual [Magic]*",
+		"Name": "Memorise Ritual",
+		"Groups": "Magic",
+		"Category": "Ritual Skills",
+		"Multi": true,
+		"Requirements": "Ritual Magic",
+		"Benefit": "This Skill grants the Character to perform, without the need of a Ritual Scroll, a single Ritual Magic of their choice. This Skill cannot be used to learn any Ritual Magic which is marked as Limited in its description.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Mercantile Connections [Heritage, Trader]",
+		"Name": "Mercantile Connections",
+		"Groups": "Heritage, Trader",
+		"Category": "Trader",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains five(5) entries to the Merchant Draw each Event. For more information on the Merchant Draw, See Page 210.",
+		"Costs": [
+			"10",
+			"16"
+		]
+	},
+	{
+		"Title": "Merchant [Background]",
+		"Name": "Merchant",
+		"Groups": "Background",
+		"Category": "",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains one(1) Rank in the Merchant Skill as well as a single Merchant Sub-Skill for which they meet the Requirements. Additionally, for each Rank the Character has in this Skill they gain a single entry for the Merchant Draw. See Page 210 for more information.",
+		"Costs": [
+			"5"
+		]
+	},
+	{
+		"Title": "Mind Over Body [Heritage, Willful]",
+		"Name": "Mind Over Body",
+		"Groups": "Heritage, Willful",
+		"Category": "Willful",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, the Character remains Conscious while Dying. This Skill does not grant the Character the ability to use any Skills while in this state, but allows the Character to move at a normal walking rate ignoring all further damage. This effect ends when the Character is healed to one(1) or more Hit Points or when they enter their Death Count. This effect does not grant Immunity to any effects other than Weapon Damage.",
+		"Costs": [
+			"10",
+			"16"
+		]
+	},
+	{
+		"Title": "Mix Poison [Crafting, Mutation]*",
+		"Name": "Mix Poison",
+		"Groups": "Crafting, Mutation",
+		"Category": "Alchemical Mutations",
+		"Multi": true,
+		"Requirements": "Level 1 Alchemy Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may mix an Alchemy, with a Range other than Self, they deliver from Memory, into food or drink. This process requires a three(3)-count and requires the Character to role-play mixing the poison into the food and mark the poisoned food's container with the name of the Alchemy it contains. It is possible to add multiple Alchemical effects to a single target but requires the count to be repeated for each additional effect. All effects expire at the end of the current Reset period. The first Character who consumes any amount of the poisoned food is affected by all effects bypassing Automatic Defenses.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Natural Cunning [Heritage, Stealthy]",
+		"Name": "Natural Cunning",
+		"Groups": "Heritage, Stealthy",
+		"Category": "Stealthy",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains Cunning 2, increasing their Weapon Damage, when standing behind their target and able to see both shoulder blades, by two(2). This Skill does not count as a prerequisite for any other Skill. The Cunning from this Skill stacks with that granted by all effects including Spells.",
+		"Costs": [
+			"8",
+			"14"
+		]
+	},
+	{
+		"Title": "Natural Dodge [Heritage, Fast]",
+		"Name": "Natural Dodge",
+		"Groups": "Heritage, Fast",
+		"Category": "Fast",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to, once per Reset, negate a single effect, delivered by Weapon or Packet, by which they are struck, as per the Skill Dodge. This Skill does not count as a prerequisite for any other Skill. The Call for this ability is \"Dodge\".",
+		"Costs": [
+			"10",
+			"16"
+		]
+	},
+	{
+		"Title": "Natural Fortification [Heritage, Survivor]*",
+		"Name": "Natural Fortification",
+		"Groups": "Heritage, Survivor",
+		"Category": "Survivor",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may grant themselves a \"Physical Fortify 5\" effect. Once per Reset, the Character may Rest in order to restore all uses of this Skill.",
+		"Costs": [
+			"2",
+			"3"
+		]
+	},
+	{
+		"Title": "Natural Magic [Heritage, Magical]",
+		"Name": "Natural Magic",
+		"Groups": "Heritage, Magical",
+		"Category": "Magical",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to, once per Reset, cast a single Spell below 4 th level of any School from Memory. This Skill does not count as a prerequisite for any other Skill.",
+		"Costs": [
+			"5",
+			"8"
+		]
+	},
+	{
+		"Title": "Natural Parry [Heritage, Martial]",
+		"Name": "Natural Parry",
+		"Groups": "Heritage, Martial",
+		"Category": "Martial",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, the Character may negate any attack delivered, by weapon or packet, as &lt;Effect&gt;-Strike or Physical by which they are struck. The call for this ability is \"Parry\". If the Character has the Bodyguard Skill they can use this ability to negate an applicable attack which strikes another target within their Weapon's reach. This Skill does not count as a prerequisite for any other Skill.",
+		"Costs": [
+			"6",
+			"10"
+		]
+	},
+	{
+		"Title": "Natural Remedy [Heritage, Wild]",
+		"Name": "Natural Remedy",
+		"Groups": "Heritage, Wild",
+		"Category": "Wild",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "A Character with this Skill may spend sixty(60) seconds examining the target, role playing this examination involves checking their eyes, pallor, and other physical features while gathering ingredients from the surrounding area or their own person. At the end of the minute the Character states \"Natural Remedy. Poison Dispel Poison.\". This ability is usable at will. The Character is able to use this Skill on themselves, and is even able to do so while they are under an effect which prevents them from using Skills.",
+		"Costs": [
+			"10",
+			"16"
+		]
+	},
+	{
+		"Title": "Natural Ritualist [Heritage, Magical]",
+		"Name": "Natural Ritualist",
+		"Groups": "Heritage, Magical",
+		"Category": "Magical",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character may participate in the casting of Ritual Magic as a Secondary Caster. This does not grant the Character the ability to cast any Rituals, only add one(1) to the count of total casters. If the Character also has the Skill Ritual Magic, the number of Casters the Character counts as is increased by one(1). This Skill does not increase the number of Invocations a Character can cast per Reset.",
+		"Costs": [
+			"8",
+			"14"
+		]
+	},
+	{
+		"Title": "Natural Strength [Heritage, Strong]",
+		"Name": "Natural Strength",
+		"Groups": "Heritage, Strong",
+		"Category": "Strong",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character increases all of their Weapon Damage by one(1). This Skill does not count as a prerequisite for any other Skill. The effects of this Skill stacks with all other Skills and effects including Spells.",
+		"Costs": [
+			"10",
+			"16"
+		]
+	},
+	{
+		"Title": "Natural Toughness [Heritage, Tough]",
+		"Name": "Natural Toughness",
+		"Groups": "Heritage, Tough",
+		"Category": "Tough",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains five(5) additional Hit Points.",
+		"Costs": [
+			"5",
+			"8"
+		]
+	},
+	{
+		"Title": "Open Lock [Expertise]",
+		"Name": "Open Lock",
+		"Groups": "Expertise",
+		"Category": "General Expertise",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character may, if they have a set of lockpicks, attempt to open any in-game lock. If no lock is present, the Character needs to role-play the process as a sixty(60)-count. This Skill can also be used to disarm, and Destroy a Trap. The Character needs to role-play the process as a sixty(60)-count. If the Character has the Locksmith Sub-Skill of the Merchant Background Skill, they reduce the time needed to open a lock to ten(10) seconds. If the lock has a limited number of tries, they gain one(1) additional attempt. If the Character has the Spy Background Skill, they reduce the time needed to disarm a trap to ten(10) seconds. If the Trap has a limited number of tries, they gain one(1) additional attempt.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Parry [Fighting]*",
+		"Name": "Parry",
+		"Groups": "Fighting",
+		"Category": "Weapon Skills",
+		"Multi": true,
+		"Requirements": "Weapon Training 2 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may negate any attack delivered, by weapon or packet, as &lt;Effect&gt;-Strike or Physical by which they are struck. In order to use this Skill the Character must have a Weapon or Shield in hand. This ability cannot be used if the Character is under an effect which prevents the Character from using Weapons or if the Item is Fumbled. Effects delivered as Arcane-Strike cannot be avoided by this, or any other, ability. The call for this ability is \"Parry\". If the Character has the Bodyguard Skill they can use this ability to negate an applicable attack which strikes the target of their Bodyguard Skill when they are within their Weapon's reach.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Penance [Fighting]*",
+		"Name": "Penance",
+		"Groups": "Fighting",
+		"Category": "Weapon Skills",
+		"Multi": true,
+		"Requirements": "Level 7 Martial Art Slot  or Weapon Training 5",
+		"Benefit": "Once per Reset, for every time this Skill is bought, as long as the Character has at least one(1) Armour Point of Physical Armour available they may expend all remaining Physical Armour Points to grant themselves a \"Physical Dispel Curse\" effect. The call for this ability is \"Absorb. Physical Dispel Curse\". This ability may be used event if the Character is under an effect which prevents them from using Skills such as Drain or Paralysis.",
+		"Costs": [
+			"6",
+			"7",
+			"9",
+			"12"
+		]
+	},
+	{
+		"Title": "Penetrating Strike [Expertise]*",
+		"Name": "Penetrating Strike",
+		"Groups": "Expertise",
+		"Category": "Stealth Skills",
+		"Multi": true,
+		"Requirements": "Precise Strike 2 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver an attack causing \"50 Physical-Strike &lt;Weapon Type&gt;\" damage. In order to use this Skill the Character must be standing behind their target and able to see both of their shoulder blades. This ability is also usable if the Character expends a charge from any Ambush effect they have on themselves.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Physician [Background]*",
+		"Name": "Physician",
+		"Groups": "Background",
+		"Category": "",
+		"Multi": true,
+		"Requirements": "Diagnose and First Aid",
+		"Benefit": "The Character gains an additional rank in the Physician Skill See Page 203 for information on this Skill.",
+		"Costs": [
+			"5"
+		]
+	},
+	{
+		"Title": "Piercing Slime [Crafting, Mutation]*",
+		"Name": "Piercing Slime",
+		"Groups": "Crafting, Mutation",
+		"Category": "Alchemical Mutations",
+		"Multi": true,
+		"Requirements": "Level 7 Alchemy Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a single Alchemy, with a Range of Packet, as Piercing. The call for this ability is \"&lt;#&gt; Piercing &lt;Delivery Type&gt; &lt;Effect&gt; &lt;Option&gt;\". For example, a Sleep Alchemy would use the Delivery Verbal \"Piercing Poison Sleep\" while an Alchemist's Flask would use the Delivery Verbal \"10 Piercing Poison &lt;Type&gt;\"",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Piercing Spell [Spellshape, Magic]*",
+		"Name": "Piercing Spell",
+		"Groups": "Spellshape, Magic",
+		"Category": "Spellshapes",
+		"Multi": true,
+		"Requirements": "Level 7 Spell Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a single Spell, with a Range of Packet, as Piercing. The call for this ability is \"&lt;Incantation&gt; &lt;#&gt; Piercing &lt;Delivery Type&gt; &lt;Effect&gt; &lt;Option&gt;\". For example, a Sleep Spell would use the Delivery Verbal \"Piercing Magic Sleep\" while an Elemental Bolt would use the Delivery Verbal \"10 Piercing Elemental &lt;Type&gt;\".",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Precise Strike [Expertise]*",
+		"Name": "Precise Strike",
+		"Groups": "Expertise",
+		"Category": "Stealth Skills",
+		"Multi": true,
+		"Requirements": "Stealth Training 2 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver an attack causing \"20 Physical-Strike &lt;Weapon Type&gt;\" damage. In order to use this Skill the Character must be standing behind their target and able to see both of their shoulder blades. This ability is also usable if the Character expends a charge from any Ambush effect they have on themselves.",
+		"Costs": [
+			"3",
+			"4",
+			"4",
+			"6"
+		]
+	},
+	{
+		"Title": "Psychic Awaken [Heritage, Psychic]*",
+		"Name": "Psychic Awaken",
+		"Groups": "Heritage, Psychic",
+		"Category": "Psychic",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver, by Touch or Packet, a \"Magic Dispel Compulsion\". This ability may also be used on themselves on a ten(10)-count even if they were in a state where they normally wouldn't be able to cast Spells.",
+		"Costs": [
+			"5",
+			"8"
+		]
+	},
+	{
+		"Title": "Psychic Charm [Heritage, Psychic]*",
+		"Name": "Psychic Charm",
+		"Groups": "Heritage, Psychic",
+		"Category": "Psychic",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver, by Touch or Packet, a \"Magic Charm\" effect.",
+		"Costs": [
+			"5",
+			"8"
+		]
+	},
+	{
+		"Title": "Quicken Spell [Spellshape, Magic]*",
+		"Name": "Quicken Spell",
+		"Groups": "Spellshape, Magic",
+		"Category": "Spellshapes",
+		"Multi": true,
+		"Requirements": "Level 3 Spell Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a single Spell without its Incantation. Additionally, they may cast this Spell while unable to speak, such as while under the effects of a Silence, or without a free hand.",
+		"Costs": [
+			"2",
+			"3",
+			"3",
+			"4"
+		]
+	},
+	{
+		"Title": "Quickness [Heritage, Fast]",
+		"Name": "Quickness",
+		"Groups": "Heritage, Fast",
+		"Category": "Fast",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "A Character with this Skill gains ten(10) points of Avoidance Armour. A Character is still limited by their Wear Total which limits the maximum number of Armour Points of any type from which the Character may benefit. Avoidance Armour is represented by the Character wearing a number of feathers equal to the total Armour Point value of the armour divided by ten(10). These feathers must be attached to a single accessory which is worn by, and visible upon, the Character.",
+		"Costs": [
+			"8",
+			"14"
+		]
+	},
+	{
+		"Title": "Rapid Refit: Avoidance [Heritage, Fast]*",
+		"Name": "Rapid Refit: Avoidance",
+		"Groups": "Heritage, Fast",
+		"Category": "Fast",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may, on a three(3)-Count, deliver a Physical Refit Avoidance Armour, to themselves.",
+		"Costs": [
+			"3",
+			"5"
+		]
+	},
+	{
+		"Title": "Read and Write [Background]",
+		"Name": "Read and Write",
+		"Groups": "Background",
+		"Category": "5 Ranks in Smithing",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to read and write in all languages they know. Without this Skill the Character is unable to read or recognize even the simplest of symbols. Please note that this does not mean a Character without this Skill is stupid or unable to perform maths, merely that they are unable to understand any form of written media. Read and Write is not Considered a Skill for any effect or action which limits the use of Skills. Meaning it is possible to read while Meditating, Resting or even while casting Ritual Magic.",
+		"Costs": [
+			"0"
+		]
+	},
+	{
+		"Title": "Resist Break [Heritage, Skilled]*",
+		"Name": "Resist Break",
+		"Groups": "Heritage, Skilled",
+		"Category": "Skilled",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may negate a single Break effect by which they are struck. The call for this ability is \"Resist\".",
+		"Costs": [
+			"3",
+			"5"
+		]
+	},
+	{
+		"Title": "Resist Compulsion [Heritage, Willful]*",
+		"Name": "Resist Compulsion",
+		"Groups": "Heritage, Willful",
+		"Category": "Willful",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may negate a single Compulsion effect by which they are struck. The call for this ability is \"Resist\".",
+		"Costs": [
+			"3",
+			"5"
+		]
+	},
+	{
+		"Title": "Resist Curse [Heritage, Spiritual]*",
+		"Name": "Resist Curse",
+		"Groups": "Heritage, Spiritual",
+		"Category": "Spiritual",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may negate a single Curse effect by which they are struck. The call for this ability is \"Resist\".",
+		"Costs": [
+			"4",
+			"6"
+		]
+	},
+	{
+		"Title": "Resist Fumble [Heritage, Martial]*",
+		"Name": "Resist Fumble",
+		"Groups": "Heritage, Martial",
+		"Category": "Martial",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may negate a single Fumble effect by which they are struck. The call for this ability is \"Resist\".",
+		"Costs": [
+			"3",
+			"5"
+		]
+	},
+	{
+		"Title": "Resist Magic [Heritage, Magical]",
+		"Name": "Resist Magic",
+		"Groups": "Heritage, Magical",
+		"Category": "Magical",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "Once per Reset the Character may negate a single effect delivered as Magic(-Strike) by which they are struck. The call for this ability is \"Resist\". If the Character has the Skill Absorb Magic, they also benefit from a \"Magic Refit Arcane Armour\". The call for this ability, in this latter case, is \"Resist. Magic Refit Arcane Armour\".",
+		"Costs": [
+			"5",
+			"8"
+		]
+	},
+	{
+		"Title": "Resist Physical [Heritage, Tough]",
+		"Name": "Resist Physical",
+		"Groups": "Heritage, Tough",
+		"Category": "Tough",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "Once per Reset the Character may negate a single effect delivered as Physical(-Strike) by which they are struck. The call for this ability is \"Resist\".",
+		"Costs": [
+			"5",
+			"8"
+		]
+	},
+	{
+		"Title": "Resist Poison [Heritage, Tough]*",
+		"Name": "Resist Poison",
+		"Groups": "Heritage, Tough",
+		"Category": "Tough",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may negate a single effect delivered as Poison(-Strike) by which they are struck. The call for this ability is \"Resist\".",
+		"Costs": [
+			"4",
+			"6"
+		]
+	},
+	{
+		"Title": "Ritual Magic [Magic]",
+		"Name": "Ritual Magic",
+		"Groups": "Magic",
+		"Category": "Ritual Skills",
+		"Multi": false,
+		"Requirements": "Level 9 Spell Slot",
+		"Benefit": "This Skill grants the Character the ability to cast Ritual Magic. Upon gaining this Skill the Character can act as the Primary Caster, or as a Secondary Caster, for any Ritual Magic. Additionally, the Character gains the ability to cast Invocations. See Chapter 8: Rituals for more information on casting Ritual Magic and Invocations.",
+		"Costs": [
+			"10",
+			"12",
+			"16",
+			"20"
+		]
+	},
+	{
+		"Title": "Rune Carving [Crafting]*",
+		"Name": "Rune Carving",
+		"Groups": "Crafting",
+		"Category": "Inscription",
+		"Multi": true,
+		"Requirements": "Create Wand, Create Scroll 20",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may inscribe a Rune, attuned to a single Spell they can cast, upon a willing target or their immediate possessions. The target may charge the Rune by Absorbing a Touch Cast of the attuned Spell. Once the Rune has been Charged in this way, the Character on whom the Rune was drawn may cast the Spell using the following verbal: \"Activate: &lt;Delivery Verbal&gt;\". A Rune must be a conspicuous mark between 2 to 5cm in one dimension and 4 to 10cm in the second. Runes last until the end of the Event.",
+		"Costs": [
+			"8",
+			"10",
+			"12",
+			"16"
+		]
+	},
+	{
+		"Title": "Sailor [Background]",
+		"Name": "Sailor",
+		"Groups": "Background",
+		"Category": "",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains immunity to many environmental effects while fighting on, or beneath the sea. The specific effects are up to the Marshal who must be informed of this Skill at the start of the Module. Additionally, once per Reset the Character may, when drinking any beverage, grant themselves either of the following effects; 20 Poison Healing, or Poison Remove &lt;Delivery Type&gt; of any of the following Delivery Types; Elemental, Magic, Physical, or Poison. Once per Reset the Character may Rest to recover the use of this ability.",
+		"Costs": [
+			"5"
+		]
+	},
+	{
+		"Title": "Savage Strike [Fighting]*",
+		"Name": "Savage Strike",
+		"Groups": "Fighting",
+		"Category": "Weapon Skills",
+		"Multi": true,
+		"Requirements": "Vital Strike 2 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver an attack causing \"50 Physical-Strike &lt;Weapon Type&gt;\" damage.",
+		"Costs": [
+			"6",
+			"7",
+			"9",
+			"12"
+		]
+	},
+	{
+		"Title": "Second Martial Arts School [Fighting]",
+		"Name": "Second Martial Arts School",
+		"Groups": "Fighting",
+		"Category": "Martial Arts",
+		"Multi": false,
+		"Requirements": "First Martial Arts School",
+		"Benefit": "This Skill grants the Character access to their second Martial Arts School. The Character is able to expend their Martial Arts Slots to use the Martial Arts which belong to this school, and any other School the Character knows. See Chapter 7: Magic for more information on Martial Arts.",
+		"Costs": [
+			"10",
+			"12",
+			"15",
+			"20"
+		]
+	},
+	{
+		"Title": "Second School of Magic [Magic]",
+		"Name": "Second School of Magic",
+		"Groups": "Magic",
+		"Category": "Schools of Magic",
+		"Multi": false,
+		"Requirements": "First School of Magic",
+		"Benefit": "This Skill grants the Character access to their second School of Magic. The Character is able to expend their Spell Slots to use the Spells which belong to any schools they know. See Chapter 7: Magic for more information on the Schools of Magic.",
+		"Costs": [
+			"10",
+			"12",
+			"16",
+			"20"
+		]
+	},
+	{
+		"Title": "Secret Technique [Crafting]*",
+		"Name": "Secret Technique",
+		"Groups": "Crafting",
+		"Category": "Ritual Smithing",
+		"Multi": true,
+		"Requirements": "Grand Master Smithing",
+		"Benefit": "This Skill grants the Character once of the following two options; Practised Smith: The Character counts as an additional Caster for the purposes of all Ritual Smithing. Additionally, the number of Invocations the Character may cast each Reset is increased by one(1). Each additional time this option is taken the Character acts as an additional Caster and can cast an additional Invocation each Reset. Eschew Components: The Character chooses a single Component type, other than Power. The Character reduces the total number of Components needed to cast the Ritual by one(1) to a minimum of one(1). Each additional time this option is taken the Character must choose a new Component type. If A Character has already taken this Skill for every component type they can no longer take this branch of the Skill.",
+		"Costs": [
+			"6",
+			"8",
+			"10",
+			"12"
+		]
+	},
+	{
+		"Title": "Seer [Background]*",
+		"Name": "Seer",
+		"Groups": "Background",
+		"Category": "",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "The Character gains an additional rank in the Seer Skill See Page 206 for information on this Skill.",
+		"Costs": [
+			"5"
+		]
+	},
+	{
+		"Title": "Sense Magic [Heritage, Skilled]",
+		"Name": "Sense Magic",
+		"Groups": "Heritage, Skilled",
+		"Category": "Skilled",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "A Character with this Skill is able to spend a sixty(60)-count to Detect the presence of magic on any item they are touching. If the Character has both this Skill and the Skill Magical Aptitude they may identify what School(s) of Magic are present on the item.",
+		"Costs": [
+			"6",
+			"10"
+		]
+	},
+	{
+		"Title": "Sense Poison [Heritage, Survivor]",
+		"Name": "Sense Poison",
+		"Groups": "Heritage, Survivor",
+		"Category": "Survivor",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "A Character with this Skill is able to spend a sixty(60)-count to Detect the presence of Poison or Alchemy on, or within, any item they are touching. If the Character has both this Skill and either the Skill Apothecary or Chemist they may Identify what effect is present.",
+		"Costs": [
+			"6",
+			"10"
+		]
+	},
+	{
+		"Title": "Shadow Intervention [Expertise, ",
+		"Name": "Shadow Intervention",
+		"Groups": "Expertise,",
+		"Category": "General Expertise",
+		"Multi": false,
+		"Requirements": "20 Character Levels per Rank.",
+		"Benefit": "This Skill allows the Character to perform an incredible act of stealth prowess beyond the limits of what should be possible. A Character can have only one Intervention Skill for every twenty(20) Character Levels they possess. Each Intervention Skill allows the Character to perform one(1) Intervention per Event. These uses can never be recovered. For more information on Interventions, see page 193.",
+		"Costs": [
+			"25",
+			"30",
+			"35",
+			"40"
+		]
+	},
+	{
+		"Title": "Shadow Shot [Expertise]*",
+		"Name": "Shadow Shot",
+		"Groups": "Expertise",
+		"Category": "General Expertise",
+		"Multi": true,
+		"Requirements": "Weapon Proficiency (Archery or Thrown)",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may use a Thrown Weapon or Archery Packet to deliver any weapon delivered attack, such as a Martial Art, including those which normally require the Character to be behind their target, regardless of their position relative to their target. Additionally, when a Thrown Weapon is used, the Character may throw a second Weapon at the same time.",
+		"Costs": [
+			"2",
+			"3",
+			"3",
+			"4"
+		]
+	},
+	{
+		"Title": "Shield [Weapon Proficiency]",
+		"Name": "Shield",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield all Shields and the ability to use a single shield in combat. There is no way for a Character to wield more than one(1) Shield at once. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"6",
+			"7",
+			"9",
+			"12"
+		]
+	},
+	{
+		"Title": "Short Axe [Weapon Proficiency]",
+		"Name": "Short Axe",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield a Short Axe in combat. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Short Mace [Weapon Proficiency]",
+		"Name": "Short Mace",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield a Short Mace in combat. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Short Mastery [Weapon Proficiency]",
+		"Name": "Short Mastery",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield all Short Weapons in combat. At the time this Skill is bought, the Character may \"sell back\" any Skills which are included in its benefit. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"8",
+			"10",
+			"12",
+			"16"
+		]
+	},
+	{
+		"Title": "Short Sword [Weapon Proficiency]",
+		"Name": "Short Sword",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield a Short Sword in combat. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Shrapnel Bomb [Expertise]*",
+		"Name": "Shrapnel Bomb",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "Shrapnel Grenade 3 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a Packet attack causing \"50 Physical Normal\" damage to the target. The Character may throw any number of Packets when using this Skill but must throw all Packets with the same hand.",
+		"Costs": [
+			"8",
+			"10",
+			"12",
+			"16"
+		]
+	},
+	{
+		"Title": "Shrapnel Grenade [Expertise]*",
+		"Name": "Shrapnel Grenade",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "See Text",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a Packet attack causing \"50 Physical Normal\" damage to the target. Alternatively, the Character may expend a single use of this Skill in order to deliver a Packet attack which causes a &quot;20 Physical Silver&quot; damage or &quot;20 Physical Iron&quot; damage to the target. A Character may also expend a single use of this Skill in order to deliver a Packet attack, delivered by any number of packets, which cause a \"Lesser Physical Fetter\" to any Character struck by one or more packets. This Skill requires the Character to have any combination of three(3) the following Skills; Acid Grenade, Fire Grenade, Freezing Grenade, or Toxin Grenade, for every time this Skill is bought.",
+		"Costs": [
+			"6",
+			"7",
+			"9",
+			"12"
+		]
+	},
+	{
+		"Title": "Shrapnel Trap [Expertise]*",
+		"Name": "Shrapnel Trap",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "Shrapnel Grenade 2 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, they may lay down a Shrapnel Trap, represented by a small white coloured cloth, or similar marker, with an area of no more than 1m 2 which can be of any shape but may not contain voids. Once the rep has been placed the Character must spend ten(10) seconds to arm the Trap during which time they must keep at least one hand on the Trap. Once activated anyone who steps or touches the Trap takes \"50 Physical Normal\" damage. A Trap can be disarmed by striking it with a Break or Destroy effect or by its creator spending ten(10) seconds touching it in order to disarm it. Disarming a Trap does not trigger its effects. A disarmed Trap is considered Destroyed. A Character may have no more than one(1) Trap, of any type, placed at a time.",
+		"Costs": [
+			"6",
+			"7",
+			"9",
+			"12"
+		]
+	},
+	{
+		"Title": "Simple Weapon [Weapon Proficiency]",
+		"Name": "Simple Weapon",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield all Simple Weapons in combat. A Simple Weapon can only be used to block and can never be used to attack but can be used to deliver a Killing Blow. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"2",
+			"2",
+			"3",
+			"4"
+		]
+	},
+	{
+		"Title": "Slime Armour [Crafting]*",
+		"Name": "Slime Armour",
+		"Groups": "Crafting",
+		"Category": "Alchemical Techniques",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "The Character gains five(5) points of Natural Armour for each time this Skill is bought. A Character is still limited by their Wear Total which limits the maximum number of Armour Points of any type from which the Character may benefit. Slime Armour is represented by the Character wearing a number of vials, of any shape, equal to the total Armour Point value of the armour divided by ten(10), rounded up. These vials must be attached to a single accessory which is worn by, and visible upon, on the Character. If the Character is under an effect which prevents them from using Skills, such as the Drain effect, they are unable to Refit this armour using the Refit Armour counted action until that effect ends.",
+		"Costs": [
+			"6",
+			"8",
+			"10",
+			"12"
+		]
+	},
+	{
+		"Title": "Slime Shuck [Crafting]*",
+		"Name": "Slime Shuck",
+		"Groups": "Crafting",
+		"Category": "Alchemical Techniques",
+		"Multi": true,
+		"Requirements": "Level 5 Alchemy Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, as long as the Character has at least one(1) Armour Point of Natural Armour available they may expend all remaining Natural Armour Points to grant themselves a \"Poison Dispel Binding\" effect. The call for this ability is \"Absorb. Poison Dispel Binding\".",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Slimy Coating [Crafting, Mutation]*",
+		"Name": "Slimy Coating",
+		"Groups": "Crafting, Mutation",
+		"Category": "Alchemical Mutations",
+		"Multi": true,
+		"Requirements": "Level 1 Alchemy Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a single Alchemy as a &lt;Effect&gt;-Strike using a Weapon, instead of a Packet, with which they are proficient. The Character does not need a free hand to cast the Alchemy if they are wielding a Weapon.",
+		"Costs": [
+			"2",
+			"3",
+			"3",
+			"4"
+		]
+	},
+	{
+		"Title": "Smithing [Crafting]*",
+		"Name": "Smithing",
+		"Groups": "Crafting",
+		"Category": "Smithing",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "A Character with this Skill may create any mundane Weapon or suit of Physical Armour. In order to create these items the Character must have access to a Forge.",
+		"Costs": [
+			"3",
+			"4",
+			"5",
+			"6"
+		]
+	},
+	{
+		"Title": "Smithing, Grand Master [Crafting]",
+		"Name": "Smithing, Grand Master",
+		"Groups": "Crafting",
+		"Category": "Ritual Smithing",
+		"Multi": false,
+		"Requirements": "Master Smithing, Smithing 20",
+		"Benefit": "This Skill grants the Character the ability to cast Ritual Smithing. Upon gaining this Skill the Character can act as the Primary Caster, or as a Secondary Caster, for any Ritual Smithing. Additionally, the Character gains the ability to cast Invocations. See Chapter 8: Rituals for more information on casting Ritual Smithing and Invocations.",
+		"Costs": [
+			"10",
+			"14",
+			"16",
+			"20"
+		]
+	},
+	{
+		"Title": "Smithing, Master [Crafting]",
+		"Name": "Smithing, Master",
+		"Groups": "Crafting",
+		"Category": "Smithing",
+		"Multi": false,
+		"Requirements": "Smithing 10",
+		"Benefit": "A Character with this Skill may create Mastercraft Weapons and Physical Armour. These exceptional Weapons can also include rare and Special Materials such as Adamantine, Iron and Silver.",
+		"Costs": [
+			"8",
+			"10",
+			"12",
+			"16"
+		]
+	},
+	{
+		"Title": "Spell Channelling [Magic]",
+		"Name": "Spell Channelling",
+		"Groups": "Magic",
+		"Category": "Spell Delivery",
+		"Multi": false,
+		"Requirements": "Level 3 Spell Slot, Channel Spell 5",
+		"Benefit": "This Skill grants the Character the ability to deliver all 1 st , 2 nd , and 3 rd level Spells, the Character casts from memory, as an &lt;Effect&gt;-Strike with their Weapon instead of a Packet. The Delivery Type used to deliver the effect is determined by the Delivery Type of the Spell. For example, if the Spell allows the Character to deliver a Lesser Magic Pin effect, the call for this ability is \"Lesser Magic-Strike Pin\". If the effect causes \"20 Piercing Physical Ice\" damage, the Channelled effect is \"20 Piercing Physical-Strike Ice\". Additionally, the Character does not need a free hand to cast Spells if they are wielding a Weapon with which they are Proficient. They may even Touch Cast Spells with their Weapon by placing the Weapon on the target during the Incantation and Delivery Verbal. For more information on Channelling Spells see Page 100.",
+		"Costs": [
+			"10",
+			"14",
+			"16",
+			"20"
+		]
+	},
+	{
+		"Title": "Spell Channelling, Greater [Magic]",
+		"Name": "Spell Channelling, Greater",
+		"Groups": "Magic",
+		"Category": "Spell Delivery",
+		"Multi": false,
+		"Requirements": "Level 6 Spell Slot, Spell Channelling",
+		"Benefit": "This Skill grants the Character the ability to deliver all 4 th , 5 th , and 6 th level Spells, the Character casts from memory, as an &lt;Effect&gt;-Strike with their Weapon instead of a Packet. They do not need a free hand to cast Spells if they are wielding a Weapon with which they are Proficient. The Character may Touch Cast Spells with their Weapon by placing the Weapon on the target during the Incantation and Delivery Verbal.",
+		"Costs": [
+			"14",
+			"18",
+			"22",
+			"28"
+		]
+	},
+	{
+		"Title": "Spell Channelling, Superior [Magic]",
+		"Name": "Spell Channelling, Superior",
+		"Groups": "Magic",
+		"Category": "Spell Delivery",
+		"Multi": false,
+		"Requirements": "Level 9 Spell Slot, Greater Spell Channelling",
+		"Benefit": "This Skill grants the Character the ability to deliver all 7 th , 8 th , and 9 th level Spells, the Character casts from memory, as an &lt;Effect&gt;-Strike with their Weapon instead of a Packet. They do not need a free hand to cast Spells if they are wielding a Weapon with which they are Proficient. The Character may Touch Cast Spells with their Weapon by placing the Weapon on the target during the Incantation and Delivery Verbal. Additionally, the Character may expend a use of the Channel Spell Skill in order to allow themselves to deliver a single copy of any Spell they have delivered as &lt;Effect&gt;-Strike using this ability if the initial swing failed to strike any target. The call for this copy is \"Echo: &lt;Delivery Verbal&gt;\".",
+		"Costs": [
+			"18",
+			"22",
+			"28",
+			"36"
+		]
+	},
+	{
+		"Title": "Spell Slot [Magic]*",
+		"Name": "Spell Slot",
+		"Groups": "Magic",
+		"Category": "Spell Slot",
+		"Multi": true,
+		"Requirements": "Magical Aptitude, See Text",
+		"Benefit": "This Character gains one Spell Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		]
+	},
+	{
+		"Title": "Split Shot [Expertise]*",
+		"Name": "Split Shot",
+		"Groups": "Expertise",
+		"Category": "General Expertise",
+		"Multi": true,
+		"Requirements": "One Rank of Stealth Training or Weapon Training per Rank.",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may throw up to five(5) Archery Packets when using a Bow, or Crossbow, to deliver an attack. Alternatively, they may throw up to three(3) Thrown Weapons to deliver the attack. This ability is usable on both Weapon Damage and can even be used with Martial Arts and other Skills.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Spy [Background]",
+		"Name": "Spy",
+		"Groups": "Background",
+		"Category": "",
+		"Multi": false,
+		"Requirements": "",
+		"Benefit": "A Character with this Skill is in the know about many secrets. At the start of each Event, the Player receives a rumour sheet. If the Character has the Open Lock Skill, they reduce the time needed to disarm a Trap to ten(10) seconds. If the Trap has a limited number of tries, they gain one(1) additional attempt.",
+		"Costs": [
+			"5"
+		]
+	},
+	{
+		"Title": "Staff [Weapon Proficiency]",
+		"Name": "Staff",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield a Staff in combat. A Staff can only be used to block and can never be used to attack or deliver any effect. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"0",
+			"0",
+			"0",
+			"0"
+		]
+	},
+	{
+		"Title": "Stealth Prowess [Expertise]*",
+		"Name": "Stealth Prowess",
+		"Groups": "Expertise",
+		"Category": "Stealth Skills",
+		"Multi": true,
+		"Requirements": "See Text",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may grant themselves the effects of a Vorpal 5. This allows them to increase the Weapon Damage call of their next five(5) landed hits by five(5). The call for this ability is \"Physical Vorpal 5\". Alternatively, the Character may grant themselves the effects of an Ambush 5, allowing them to use any Skill, which requires them to be behind their target, regardless of their position. The call for this ability is \"Physical Ambush 5\". A Character may have a number of Stealth Prowess that does not exceed five(5) plus one(1) for each Stealth Training they possess.",
+		"Costs": [
+			"2",
+			"3",
+			"4",
+			"5"
+		]
+	},
+	{
+		"Title": "Stealth Training [Expertise]*",
+		"Name": "Stealth Training",
+		"Groups": "Expertise",
+		"Category": "Stealth Skills",
+		"Multi": true,
+		"Requirements": "See Text",
+		"Benefit": "The Character increases the Weapon Damage call of all Weapons they wield when behind their target, by two(2) for each Rank they have in this Skill. A Character is considered to be behind their target if they are physically standing behind them and able to see both of their shoulder blades. There are two ways to purchase this skill. The first is to trade in a number of ranks Stealth Prowess equal to their number of ranks in Stealth Training plus five(5). The Character does not receive any build back for the traded in Stealth Prowess ranks as this is built into the cost for the Skill. The second is to purchase the Skill outright at a cost which is increased each time the Character purchases another Rank. For example, the cost for 3 Ranks of Stealth Training for a Character with Priority A in Expertise is 54 (16 + 18 + 20).",
+		"Costs": [
+			"1",
+			"12",
+			"17",
+			"22"
+		]
+	},
+	{
+		"Title": "Style Master [Weapon Proficiency]",
+		"Name": "Style Master",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield all Shields and the ability to use a single shield in combat. Additionally, they gain the ability to wield any One-Handed Weapon, with which they are proficient, in their off-hand at the same time they wield a Weapon in their main hand. This Weapon's damage is increased by the main hand Character's Weapon Training by an amount equal to the Character's main hand Weapon Training minus four(4). While this means the minimum damage bonus is zero(0), the Character will still cause the Base Damage of the Weapon they are wielding in their off-hand. At the time this Skill is bought, the Character may \"sell back\" any Skills which are included in its benefit. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"12",
+			"15",
+			"18",
+			"24"
+		]
+	},
+	{
+		"Title": "Sword Mastery [Weapon Proficiency]",
+		"Name": "Sword Mastery",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield all Swords in combat. When wielding a Two-Handed Weapon, the Character may block attacks while holding the Weapon with one hand but cannot attack or use the Weapon to deliver any Skill until they have both hands on the Two-Handed Weapon. At the time this Skill is bought, the Character may \"sell back\" any Skills which are included in its benefit. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"14",
+			"17",
+			"21",
+			"28"
+		]
+	},
+	{
+		"Title": "Symbiont [Crafting]",
+		"Name": "Symbiont",
+		"Groups": "Crafting",
+		"Category": "Alchemical Techniques",
+		"Multi": false,
+		"Requirements": "",
+		"Benefit": "A Character with this Skill is able to Cast Alchemy while under the effects of Binding, except Confine. Additionally, they no longer need a free hand to cast Alchemy.",
+		"Costs": [
+			"10",
+			"14",
+			"16",
+			"20"
+		]
+	},
+	{
+		"Title": "Third Martial Arts School [Fighting]",
+		"Name": "Third Martial Arts School",
+		"Groups": "Fighting",
+		"Category": "Martial Arts",
+		"Multi": false,
+		"Requirements": "Second Martial Arts School",
+		"Benefit": "This Skill grants the Character access to their third Martial Arts School. The Character is able to expend their Martial Arts Slots to use the Martial Arts which belong to this school, and any other School the Character knows. See Chapter 7: Magic for more information on Martial Arts.",
+		"Costs": [
+			"20",
+			"25",
+			"30",
+			"40"
+		]
+	},
+	{
+		"Title": "Third School of Magic [Magic]",
+		"Name": "Third School of Magic",
+		"Groups": "Magic",
+		"Category": "Schools of Magic",
+		"Multi": false,
+		"Requirements": "Second School of Magic",
+		"Benefit": "This Skill grants the Character access to their third School of Magic. The Character is able to expend their Spell Slots to use the Spells which belong to any schools they know. See Chapter 7: Magic for more information on the Schools of Magic.",
+		"Costs": [
+			"20",
+			"25",
+			"32",
+			"40"
+		]
+	},
+	{
+		"Title": "Thrown [Weapon Proficiency]",
+		"Name": "Thrown",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield a Thrown Weapons in combat. Thrown Weapons may never possess a core and must be sculpted only using foam. Additionally, never aim for illegal areas including the head, groin and face. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Toughness [Fighting]*",
+		"Name": "Toughness",
+		"Groups": "Fighting",
+		"Category": "General Fighting",
+		"Multi": true,
+		"Requirements": "5 Character Levels per Rank",
+		"Benefit": "The Character gains five(5) additional Hit Points for each time this Skill is bought,",
+		"Costs": [
+			"4",
+			"5",
+			"5",
+			"6"
+		]
+	},
+	{
+		"Title": "Toxication [Crafting]*",
+		"Name": "Toxication",
+		"Groups": "Crafting",
+		"Category": "Alchemical Techniques",
+		"Multi": true,
+		"Requirements": "Level 5 Alchemy Slot",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may Resist an effect, by which they are struck, which would remove one or more Poison effects such as Remove Poison or Dispel Poison.",
+		"Costs": [
+			"2",
+			"3",
+			"3",
+			"4"
+		]
+	},
+	{
+		"Title": "Toxin Bomb [Expertise]*",
+		"Name": "Toxin Bomb",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "Toxin Grenade 3 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a Packet attack causing \"20 Poison Body\" damage to the target. The Character may throw any number of Packets when using this Skill but must throw all Packets with the same hand.",
+		"Costs": [
+			"6",
+			"7",
+			"9",
+			"12"
+		]
+	},
+	{
+		"Title": "Toxin Grenade [Expertise]*",
+		"Name": "Toxin Grenade",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a Packet attack causing \"20 Poison Body\" damage to the target. Alternatively, the Character may expend a single use of this Skill in order to deliver a Packet attack which causes a &quot;Physical Weakness&quot; effect.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Toxin Trap [Expertise]*",
+		"Name": "Toxin Trap",
+		"Groups": "Expertise",
+		"Category": "Explosives",
+		"Multi": true,
+		"Requirements": "Toxin Grenade 2 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, they may lay down a Toxin Trap, represented by a small green coloured cloth, or similar marker, with an area of no more than 1m 2 which can be of any shape but may not contain voids. Once the rep has been placed the Character must spend ten(10) seconds to arm the Trap during which time they must keep at least one hand on the Trap. Once activated anyone who steps or touches the Trap takes \"20 Poison Body\" damage. A Trap can be disarmed by striking it with a Break or Destroy effect or by its creator spending ten(10) seconds touching it in order to disarm it. Disarming a Trap does not trigger its effects. A disarmed Trap is considered Destroyed. A Character may have no more than one(1) Trap, of any type, placed at a time.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Trickster's Insight [Expertise]*",
+		"Name": "Trickster's Insight",
+		"Groups": "Expertise",
+		"Category": "General Expertise",
+		"Multi": true,
+		"Requirements": "Level 9 Spell Slot per 2 Ranks",
+		"Benefit": "The Character gains one(1) additional Spell Slot of each level for every time this Skill is bought.",
+		"Costs": [
+			"20",
+			"25",
+			"30",
+			"40"
+		]
+	},
+	{
+		"Title": "Trophy Hunter [Background]*",
+		"Name": "Trophy Hunter",
+		"Groups": "Background",
+		"Category": "",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "The Character gains an additional Rank in the Trophy Hunter Skill See Page 209 for information on this Skill.",
+		"Costs": [
+			"5"
+		]
+	},
+	{
+		"Title": "Two-Handed Axe [Weapon Proficiency]",
+		"Name": "Two-Handed Axe",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield a Two-Handed Axe in combat. The Character may block attacks while holding the Weapon with one hand but cannot attack or use the weapon to deliver any Skill until they have both hands on the Weapon. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"10",
+			"12",
+			"15",
+			"20"
+		]
+	},
+	{
+		"Title": "Two-Handed Mace [Weapon Proficiency]",
+		"Name": "Two-Handed Mace",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield a Two-Handed Mace in combat. The Character may block attacks while holding the Weapon with one hand but cannot attack or use the weapon to deliver any Skill until they have both hands on the Weapon. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"10",
+			"12",
+			"15",
+			"20"
+		]
+	},
+	{
+		"Title": "Two-Handed Mastery [Weapon Proficiency]",
+		"Name": "Two-Handed Mastery",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield all Two-Handed Weapons in combat. At the time this Skill is bought, the Character may \"sell back\" any Skills which are included in its benefit. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"20",
+			"25",
+			"30",
+			"40"
+		]
+	},
+	{
+		"Title": "Two-Handed Sword [Weapon Proficiency]",
+		"Name": "Two-Handed Sword",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield a Two-Handed Sword in combat. The Character may block attacks while holding the Weapon with one hand but cannot attack or use the weapon to deliver any Skill until they have both hands on the Weapon. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"10",
+			"12",
+			"15",
+			"20"
+		]
+	},
+	{
+		"Title": "Two Weapon Fighting [Weapon Proficiency]",
+		"Name": "Two Weapon Fighting",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "Florentine",
+		"Benefit": "The Character gains the ability to wield any One-Handed Weapon, with which they are proficient, in their off-hand at the same time they wield a Weapon in their main hand. This Weapon's damage is increased by the main hand Character's Weapon Training by an amount equal to the Character's main hand Weapon Training minus four(4). While this means the minimum damage bonus is zero(0), the Character will still cause the Base Damage of the Weapon they are wielding in their off-hand. A Character with this Skill would need to have at least five(5) Ranks in Weapon Training before they will receive any bonus damage to their off-hand Weapon.",
+		"Costs": [
+			"6",
+			"7",
+			"9",
+			"12"
+		]
+	},
+	{
+		"Title": "Two Weapon Fighting, Greater [Weapon Proficiency]",
+		"Name": "Two Weapon Fighting, Greater",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "Two Weapon Fighting",
+		"Benefit": "The Character's damage with their off-hand Weapon is increased to an amount equal to the Character's main hand Weapon Training minus two(2). While this means the minimum damage bonus is zero(0), the Character may still cause the Base Damage of the Weapon. A Character with this Skill would need to have at least three(3) Ranks in Weapon Training before they will receive any bonus damage to their off-hand Weapon.",
+		"Costs": [
+			"10",
+			"12",
+			"15",
+			"20"
+		]
+	},
+	{
+		"Title": "Two Weapon Fighting, Superior [Weapon Proficiency]",
+		"Name": "Two Weapon Fighting, Superior",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "Greater Two Weapon Fighting",
+		"Benefit": "The Character's damage with their off-hand Weapon is increased to an amount equal to the Character's main hand Weapon Training.",
+		"Costs": [
+			"16",
+			"20",
+			"24",
+			"32"
+		]
+	},
+	{
+		"Title": "Vanish [Heritage, Stealthy]",
+		"Name": "Vanish",
+		"Groups": "Heritage, Stealthy",
+		"Category": "Stealthy",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, the Character may grant themselves a \"Lesser Physical Aegis\" effect. The Character must be in shadows or darkness to use this ability.",
+		"Costs": [
+			"8",
+			"14"
+		]
+	},
+	{
+		"Title": "Vital Strike [Fighting]*",
+		"Name": "Vital Strike",
+		"Groups": "Fighting",
+		"Category": "Weapon Skills",
+		"Multi": true,
+		"Requirements": "Weapon Training 2 per Rank",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver an attack causing \"20 Physical-Strike &lt;Weapon Type&gt;\" damage.",
+		"Costs": [
+			"4",
+			"5",
+			"6",
+			"8"
+		]
+	},
+	{
+		"Title": "Vorpal Strike [Heritage, Strong]*",
+		"Name": "Vorpal Strike",
+		"Groups": "Heritage, Strong",
+		"Category": "Strong",
+		"Multi": true,
+		"Requirements": "None",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may grant themselves a \"Physical Vorpal 5\" effect.",
+		"Costs": [
+			"4",
+			"6"
+		]
+	},
+	{
+		"Title": "Weapon Chain [Fighting]",
+		"Name": "Weapon Chain",
+		"Groups": "Fighting",
+		"Category": "Weapon Skills",
+		"Multi": false,
+		"Requirements": "",
+		"Benefit": "A Character with this Skill is Immune to the Fumble effect.",
+		"Costs": [
+			"10",
+			"12",
+			"15",
+			"20"
+		]
+	},
+	{
+		"Title": "Weapon Familiarity [Heritage, Martial]",
+		"Name": "Weapon Familiarity",
+		"Groups": "Heritage, Martial",
+		"Category": "Martial",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "A Character with this Skill gains Weapon Proficiency in a single One-Handed Weapon, or Archery Weapon of their choice.",
+		"Costs": [
+			"4",
+			"6"
+		]
+	},
+	{
+		"Title": "Weapon Prowess [Fighting]*",
+		"Name": "Weapon Prowess",
+		"Groups": "Fighting",
+		"Category": "Weapon Skills",
+		"Multi": true,
+		"Requirements": "See Text",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may grant themselves the effects of a Vorpal 5. This allows them to increase the Weapon Damage call of their next five(5) landed hits by five(5). The call for this ability is \"Physical Vorpal 5\" A Character may have a number of Weapon Prowess that does not exceed five(5) plus one(1) for each Weapon Training they possess.",
+		"Costs": [
+			"2",
+			"3",
+			"4",
+			"5"
+		]
+	},
+	{
+		"Title": "Weapon Mastery [Weapon Proficiency]",
+		"Name": "Weapon Mastery",
+		"Groups": "Weapon Proficiency, Fighting",
+		"Category": "Weapon Proficiencies",
+		"Multi": false,
+		"Requirements": "None",
+		"Benefit": "The Character gains the ability to wield all Weapons in combat. When wielding a Two-Handed Weapon, the Character may block attacks while holding the Weapon with one hand but cannot attack or or use the weapon to deliver any Skill until they have both hands on the Two-Handed Weapon. At the time this Skill is bought, the Character may \"sell back\" any Skills which are included in its benefit. For information of the requirements for the Physical Representations for this, and other Weapons, see Chapter 5: Equipment.",
+		"Costs": [
+			"30",
+			"37",
+			"45",
+			"60"
+		]
+	},
+	{
+		"Title": "Weapon Training [Fighting]*",
+		"Name": "Weapon Training",
+		"Groups": "Fighting",
+		"Category": "Weapon Skills",
+		"Multi": true,
+		"Requirements": "See Text",
+		"Benefit": "Upon gaining this Skill choose a hand; left or right. The Character increases the Weapon Damage call of all Weapons they wield in the chosen hand by one(1) for every Rank they have in this Skill. There are two ways to purchase this skill. The first is to trade in a number of ranks of Weapon Prowess equal to their number of ranks in Weapon Training plus three(3). The Character does not receive any build back for the traded in Weapon Prowess ranks as this is built into the cost for the Skill. The second is to purchase the Skill outright at a cost which is increased each time the Character purchases another Rank. For example, the cost for 3 Ranks of Weapon Training for a Character with Priority A in Fighting is 42 (12 + 14 + 16).",
+		"Costs": [
+			"1",
+			"12",
+			"17",
+			"22"
+		]
+	}
+]

@@ -1,0 +1,8 @@
+{
+  "label": "Magic",
+  "position": 10,
+  "link": {
+      "type": "doc",
+      "id": "spells/spellcasting"
+  }
+}

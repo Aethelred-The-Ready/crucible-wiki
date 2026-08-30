@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Crucible Wiki',
-  tagline: 'Crucible WIki',
+  tagline: 'Rules Wiki for Armonia LARP',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -34,6 +34,8 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  plugins: [require.resolve('docusaurus-lunr-search')],
 
   presets: [
     [
@@ -79,6 +81,12 @@ const config: Config = {
           position: 'left',
           label: 'Main Rules',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'loreSidebar',
+          position: 'left',
+          label: 'Lore',
+        },
       ],
     },
     footer: {
@@ -88,13 +96,13 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Getting Started',
               to: '/docs/intro',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Crucible Live Action Role Play Society. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

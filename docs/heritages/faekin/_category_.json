@@ -1,8 +1,8 @@
 {
-    "label": "Faekin",
-    "position": 5,
-    "link": {
-        "type": "doc",
-        "id": "heritages/faekin/faekin"
-    }
+	"label": "Faekin",
+	"position": 5,
+	"link": {
+		"type": "doc",
+		"id": "heritages/faekin/faekin"
+	}
 }

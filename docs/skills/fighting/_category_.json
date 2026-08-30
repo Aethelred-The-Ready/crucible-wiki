@@ -2,7 +2,7 @@
   "label": "Fighting Skills",
   "position": 1,
   "link": {
-      "type": "doc",
-      "id": "skills/fighting/fighting-skills"
+	  "type": "doc",
+	  "id": "skills/fighting/fighting-skills"
   }
 }

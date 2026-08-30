@@ -43,7 +43,7 @@ Once you have an idea of your character, get a character sheet by sending an ema
 - Your Name
 - Your Character's Name
 - Your Preferred Email for accessing Google Drive 
-    - Please note, you will have to give google sheet access permissions on that email
+	- Please note, you will have to give google sheet access permissions on that email
 
 ### Site Navigation
 The entire site is searchable, so use the search bar at the top right to look for any unfamiliar terms.

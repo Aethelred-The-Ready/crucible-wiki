@@ -1,8 +1,8 @@
 {
-    "label": "The Humans",
-    "position": 7,
-    "link": {
-        "type": "doc",
-        "id": "heritages/humans/humans"
-    }
+	"label": "The Humans",
+	"position": 7,
+	"link": {
+		"type": "doc",
+		"id": "heritages/humans/humans"
+	}
 }

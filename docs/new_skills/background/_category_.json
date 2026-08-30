@@ -2,7 +2,7 @@
   "label": "Background Skills",
   "position": 6,
   "link": {
-      "type": "doc",
-      "id": "new_skills/background/background-skills"
+	  "type": "doc",
+	  "id": "new_skills/background/background-skills"
   }
 }

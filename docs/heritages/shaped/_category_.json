@@ -1,8 +1,8 @@
 {
-    "label": "The Shaped",
-    "position": 8,
-    "link": {
-        "type": "doc",
-        "id": "heritages/shaped/shaped"
-    }
+	"label": "The Shaped",
+	"position": 8,
+	"link": {
+		"type": "doc",
+		"id": "heritages/shaped/shaped"
+	}
 }

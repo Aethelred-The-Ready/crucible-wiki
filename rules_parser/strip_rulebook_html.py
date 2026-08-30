@@ -2,7 +2,7 @@
 import re
 
 with open("Crucible_V1p0.html", "r", encoding="utf-8") as rulebook:
-    rulebook_content = rulebook.read()
+	rulebook_content = rulebook.read()
 
 # Column Line Breaks
 rulebook_content = re.sub(r' class="t m0( \S\S?\S?\S){1,8} ws0"', "", rulebook_content, flags=re.MULTILINE)
@@ -44,8 +44,9 @@ rulebook_content = rulebook_content.replace("’", "'")
 rulebook_content = rulebook_content.replace("’", "'")
 
 rulebook_content = rulebook_content.replace("Weapon <br/>Proficiency", "Weapon Proficiency")
+rulebook_content = rulebook_content.replace("Level 5 Alchemy Slot, Level 5 Spell Slot, or <br/>5 Ranks in Smithing", "Level 5 Alchemy Slot, Level 5 Spell Slot, or 5 Ranks in Smithing")
 
 
 
 with open("Crucible_text.html", "w", encoding="utf-8") as rulebook_text:
-    rulebook_text.write(rulebook_content)
+	rulebook_text.write(rulebook_content)

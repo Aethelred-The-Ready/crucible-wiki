@@ -1,8 +1,8 @@
 {
-    "label": "Zoan People",
-    "position": 9,
-    "link": {
-        "type": "doc",
-        "id": "heritages/zoans/zoans"
-    }
+	"label": "Zoan People",
+	"position": 9,
+	"link": {
+		"type": "doc",
+		"id": "heritages/zoans/zoans"
+	}
 }

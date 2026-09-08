@@ -178,6 +178,7 @@ replacement_list = {
 	"Regenerating": "[Regenerating](/docs/glossary/regenerate)",
 	"Regenerate": "[Regenerate](/docs/glossary/regenerate)",
 	"Rejuvenate": "[Rejuvenate](/docs/glossary/rejuvenate)",
+	"Reset": "[Reset](/docs/glossary/reset)",
 	"Renew": "[Renew](/docs/glossary/renew)",
 	"Repaired": "[Repaired](/docs/glossary/repair)",
 	"Repair": "[Repair](/docs/glossary/repair)",

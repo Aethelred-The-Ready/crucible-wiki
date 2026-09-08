@@ -144,7 +144,6 @@ for skill in skill_contents_list:
 			skill_fp.write(f"Category: [{skill_type}](./{skill_type.lower()}-skills)\n\n")
 
 		# Add static content if it exists
-		print(skill_path)
 		skill_fp.write(run_replaceemnt_list(get_static_content(".." + skill_path), [skill_path.replace(".mdx", "")], True))
 
 	if skill_type == "Fighting":

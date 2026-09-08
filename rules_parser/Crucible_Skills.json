@@ -63,7 +63,7 @@
 		"Category": "Explosives",
 		"Multi": true,
 		"Requirements": "None",
-		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a Packet attack causing \"20 Physical Acid\" damage to the target.\n\nAlternatively, the Character may expend a single use of this Skill in order to deliver a Packet attack which causes a &quot;Physical Break &lt;Item&gt;&quot; effect. ",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may deliver a Packet attack causing \"20 Physical Acid\" damage to the target.\n\nAlternatively, the Character may expend a single use of this Skill in order to deliver a Packet attack which causes a &quot;Physical Break &lt;Item&gt;&quot; effect.\n\n",
 		"Costs": [
 			"2",
 			"3",
@@ -123,7 +123,7 @@
 		"Category": "Ritual Alchemy",
 		"Multi": false,
 		"Requirements": "Level 9 Alchemy Slot",
-		"Benefit": "This Skill grants the Character the ability to cast Ritual Alchemy. Upon gaining this Skill the Character can act as the Primary Caster, or as a Secondary Caster, for any Ritual Alchemy. Additionally, the Character gains the ability to cast Invocations, powerful Alchemical effects tied to their ability to perform Alkahestries. See Chapter 8: Rituals for more information on casting Ritual Alchemy and for the rules on casting Invocations.",
+		"Benefit": "This Skill grants the Character the ability to cast Ritual Alchemy. Upon gaining this Skill the Character can act as the Primary Caster, or as a Secondary Caster, for any Ritual Alchemy. Additionally, the Character gains the ability to cast Invocations, powerful Alchemical effects tied to their ability to perform Alkahestries. See Chapter 8: Rituals for more information on casting Ritual Alchemy and for the rules on casting Invocations.\n\nThe Character can also use this Skill to Identify any number of Ritual Components on a sixty(60)- count.",
 		"Costs": [
 			"10",
 			"14",
@@ -151,7 +151,7 @@
 		"Category": "Magic Skills",
 		"Multi": true,
 		"Requirements": "None",
-		"Benefit": "The Character gains five(5) points of Arcane Armour for each time this Skill is bought. A Character is still limited by their Wear Total which limits the maximum number of Armour Points of any type from which the Character may benefit.\n\nArcane Armour is represented by the Character wearing a number of Runes equal to the total Armour Point value of the armour divided by ten(10), rounded up. These runes must be represented by and inscribed upon worn accessories which are visible on the Character. If the Character is under an effect which prevents them from using Skills, such as the Drain effect, they are unable to Refit this armour using the Refit Armour counted action until that effect ends.",
+		"Benefit": "The Character gains five(5) points of Arcane Armour for each time this Skill is bought. A Character is still limited by their Wear Total which limits the maximum number of Armour Points of any type from which the Character may benefit.\n\nArcane Armour is represented by the Character wearing a number of Runes equal to the total Armour Point value of the armour divided by ten(10), rounded up. These runes must be represented by and inscribed upon worn accessories which are visible on the Character.\n\nIf the Character is under an effect which prevents them from using Skills, such as the Drain effect, they are unable to Refit this armour using the Refit Armour counted action until that effect ends.",
 		"Costs": [
 			"6",
 			"8",
@@ -847,7 +847,7 @@
 		"Category": "Weapon Proficiencies",
 		"Multi": false,
 		"Requirements": "None",
-		"Benefit": "The Character gains the ability to wield a Short Weapon, with which they are proficient, in their off-hand at the same time they wield a Weapon in their main hand. This Weapon causes the Weapon's Base Damage.",
+		"Benefit": "The Character gains the ability to wield a Short Weapon, with which they are proficient, in their off-hand at the same time they wield a Weapon in their main hand. This Character's Weapon Damage call with this weapon cannot be increased above the Weapon's Base Damage.",
 		"Costs": [
 			"4",
 			"5",
@@ -963,7 +963,7 @@
 		"Category": "Magic Skills",
 		"Multi": true,
 		"Requirements": "Level 5 Spell Slot",
-		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may Resist an effect which would Remove, or Dispel, one or more Magic effects. This ability is usable even if the Character is inside of an Imprison allowing them to prevent their Imprison from being removed.",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may Resist an effect which would Remove, or Dispel, one or more Magic effects including Arcane Armour. This ability is usable even if the Character is inside of an Imprison allowing them to prevent their Imprison from being removed. It cannot be used against Nullify or Abolishment effects.",
 		"Costs": [
 			"2",
 			"3",
@@ -1036,7 +1036,7 @@
 		"Category": "General Background",
 		"Multi": false,
 		"Requirements": "Level 5 Alchemy Slot, Level 5 Spell Slot, or Smithing 5.",
-		"Benefit": "Once per Day, the Character may perform a single Invocation of any type for which the meet this Skill's Requirements. Level 5 Alchemy Slots allow a single Alchemy Invocation. Level 5 Spell Slots allow a Magic Invocation. Five(5) Ranks in the Skill Smithing allows a Smithing Invocation.\n\nA Character who meets multiple requirements does not gain the ability to perform multiple Invocations with this Skill but expands their options for the one(1) they may perform.\n\nThis Skill does not count towards the Requirements of any other Skills or abilities.",
+		"Benefit": "Once per Day, the Character may perform a single Invocation of any type for which the meet this Skill's Requirements. Level 5 Alchemy Slots allow a single Alchemy Invocation. Level 5 Spell Slots allow a Magic Invocation. Five(5) Ranks in the Skill Smithing allows a Smithing Invocation.\n\nA Character who meets multiple requirements does not gain the ability to perform multiple Invocations with this Skill but expands their options for the one(1) they may perform. This Skill does not count towards the Requirements of any other Skills or abilities.",
 		"Costs": [
 			"8"
 		]
@@ -1076,7 +1076,7 @@
 		"Category": "Spiritual",
 		"Multi": false,
 		"Requirements": "None",
-		"Benefit": "Once per Reset, the Character may deliver a \"Magic Tarry\" effect by Touch. Alternatively, they may activate this ability on themselves at any time during their Death Count.\n\nIf the Character has Rank 4 of the Seer Skill, this Skill can be expended to increase the time they may be Manifested by five(5) minutes.",
+		"Benefit": "Once per Reset, the Character may deliver a \"Magic Tarry\" effect by Touch. Alternatively, they may activate this ability on themselves at any time during their Death Count.\n\nIf the Character has Rank 4 of the Seer Skill, this Skill can be expended to increase the time they may be Manifested by five(5) minutes.\n\nIf the Character has Rank 10 of the Seer Skill, they may once per Reset, touch a target and deliver a \"Lesser Arcane Imbue Skill: Last Words\" allowing the touched target to use this Skill for ten(10) seconds.",
 		"Costs": [
 			"5",
 			"8"
@@ -1816,7 +1816,7 @@
 		"Category": "Ritual Skills",
 		"Multi": false,
 		"Requirements": "Level 9 Spell Slot",
-		"Benefit": "This Skill grants the Character the ability to cast Ritual Magic. Upon gaining this Skill the Character can act as the Primary Caster, or as a Secondary Caster, for any Ritual Magic. Additionally, the Character gains the ability to cast Invocations. See Chapter 8: Rituals for more information on casting Ritual Magic and Invocations.",
+		"Benefit": "This Skill grants the Character the ability to cast Ritual Magic. Upon gaining this Skill the Character can act as the Primary Caster, or as a Secondary Caster, for any Ritual Magic. Additionally, the Character gains the ability to cast Invocations. See Chapter 8: Rituals for more information on casting Ritual Magic and Invocations.\n\nThe Character can also use this Skill to Identify any number of Ritual Components on a sixty(60)- count.",
 		"Costs": [
 			"10",
 			"12",
@@ -2121,7 +2121,7 @@
 		"Category": "Alchemical Techniques",
 		"Multi": true,
 		"Requirements": "None",
-		"Benefit": "The Character gains five(5) points of Natural Armour for each time this Skill is bought. A Character is still limited by their Wear Total which limits the maximum number of Armour Points of any type from which the Character may benefit.\n\nSlime Armour is represented by the Character wearing a number of vials, of any shape, equal to the total Armour Point value of the armour divided by ten(10), rounded up. These vials must be attached to a single accessory which is worn by, and visible upon, on the Character. If the Character is under an effect which prevents them from using Skills, such as the Drain effect, they are unable to Refit this armour using the Refit Armour counted action until that effect ends.",
+		"Benefit": "The Character gains five(5) points of Natural Armour for each time this Skill is bought. A Character is still limited by their Wear Total which limits the maximum number of Armour Points of any type from which the Character may benefit.\n\nSlime Armour is represented by the Character wearing a number of vials, of any shape, equal to the total Armour Point value of the armour divided by ten(10), rounded up. These vials must be attached to a single accessory which is worn by, and visible upon, on the Character.\n\nIf the Character is under an effect which prevents them from using Skills, such as the Drain effect, they are unable to Refit this armour using the Refit Armour counted action until that effect ends.",
 		"Costs": [
 			"6",
 			"8",
@@ -2181,7 +2181,7 @@
 		"Category": "Ritual Smithing",
 		"Multi": false,
 		"Requirements": "Master Smithing, Smithing 20",
-		"Benefit": "This Skill grants the Character the ability to cast Ritual Smithing. Upon gaining this Skill the Character can act as the Primary Caster, or as a Secondary Caster, for any Ritual Smithing. Additionally, the Character gains the ability to cast Invocations. See Chapter 8: Rituals for more information on casting Ritual Smithing and Invocations.",
+		"Benefit": "This Skill grants the Character the ability to cast Ritual Smithing. Upon gaining this Skill the Character can act as the Primary Caster, or as a Secondary Caster, for any Ritual Smithing. Additionally, the Character gains the ability to cast Invocations. See Chapter 8: Rituals for more information on casting Ritual Smithing and Invocations.\n\nThe Character can also use this Skill to Identify any number of Ritual Components on a sixty(60)- count.",
 		"Costs": [
 			"10",
 			"14",
@@ -2328,7 +2328,7 @@
 		"Category": "Stealth Skills",
 		"Multi": true,
 		"Requirements": "See Text",
-		"Benefit": "The Character increases the Weapon Damage call of all Weapons they wield when behind their target, by two(2) for each Rank they have in this Skill. A Character is considered to be behind their target if they are physically standing behind them and able to see both of their shoulder blades.\n\nThere are two ways to purchase this skill. The first is to trade in a number of ranks Stealth Prowess equal to their number of ranks in Stealth Training plus five(5). The Character does not receive any build back for the traded in Stealth Prowess ranks as this is built into the cost for the Skill. The second is to purchase the Skill outright at a cost which is increased each time the Character purchases another Rank. For example, the cost for 3 Ranks of Stealth Training for a Character with Priority A in Expertise is 54 (16 + 18 + 20).",
+		"Benefit": "The Character increases the Weapon Damage call of all Weapons they wield when behind their target, by two(2) for each Rank they have in this Skill. A Character is considered to be behind their target if they are physically standing behind them and able to see both of their shoulder blades.\n\nThere are two ways to purchase this skill. The first is to trade in a number of ranks of Stealth Prowess equal to their number of ranks in Stealth Training plus five(5). The Character does not receive any build back for the traded in Stealth Prowess ranks as this is built into the cost for the Skill. The second is to purchase the Skill outright at a cost which is increased each time the Character purchases another Rank. For example, the cost for 3 Ranks of Stealth Training for a Character with Priority A in Expertise is 54 (16 + 18 + 20).",
 		"Costs": [
 			"1",
 			"12",

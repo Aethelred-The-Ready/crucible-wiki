@@ -151,7 +151,7 @@
 		"Level": "9",
 		"Range": "Self",
 		"Duration": "Instant",
-		"Effect": "This Artistry allows the Caster to instantly recover a single expended Skill. A target can benefit from this effect no more than once per Reset regardless of its source.",
+		"Effect": "This Artistry allows the Caster to instantly recover a single expended, per Reset, Skill. A target can benefit from this effect no more than once per Reset regardless of its source.",
 		"Delivery Verbal": "\"Physical Inspiration\"",
 		"Incantation": "None"
 	},

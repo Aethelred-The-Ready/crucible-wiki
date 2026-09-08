@@ -115,7 +115,7 @@
 		"Level": "9",
 		"Range": "Circle",
 		"Duration": "Instant",
-		"Effect": "of Effect: Circle &lt;Magic Death&gt;\"",
+		"Effect": "ea of Effect: Circle &lt;Magic Death&gt;\"",
 		"Incantation": "\"I inflict the Banshee's Cry upon you.\"",
 		"Delivery Verbal": ""
 	},
@@ -948,15 +948,15 @@
 		"Delivery Verbal": "\"10 Magic Fire\""
 	},
 	{
-		"Title": "Flay [Curse]",
+		"Title": "Flay",
 		"Name": "Flay",
-		"Groups": "Curse",
+		"Groups": "",
 		"School": "Affliction, Transmutation",
 		"Level": "6",
 		"Range": "Packet",
 		"Duration": "Instant",
-		"Effect": "This Curse Spell instantly reduces the value of any Natural Armour worn by the target to zero(0).",
-		"Incantation": "\"I Curse you to be Flayed.\"",
+		"Effect": "This Spell instantly reduces the value of any Natural Armour worn by the target to zero(0).",
+		"Incantation": "\"I alter this form to be Flayed.\"",
 		"Delivery Verbal": "\"Magic Breach Natural Armour\""
 	},
 	{
@@ -1387,7 +1387,7 @@
 		"Level": "9",
 		"Range": "Packet",
 		"Duration": "Instant",
-		"Effect": "This Spell allows the target to instantly recover a single expended Skill Slot. A target can benefit from this effect no more than once per Reset regardless of its source.",
+		"Effect": "This Spell allows the target to instantly recover a single expended, per Reset, Skill Slot. A target can benefit from this effect no more than once per Reset regardless of its source.",
 		"Incantation": "\"I call upon the Dawn to Inspire you.\"",
 		"Delivery Verbal": "\"Magic Inspiration\""
 	},
@@ -1975,7 +1975,7 @@
 		"Level": "9",
 		"Range": "Room",
 		"Duration": "Event",
-		"Effect": "This Spell requires the Caster to touch a portal into the targeted room and perform a special five(5) minute ceremony in order for the Spell to have any effect. Once this Spell takes effect it magically seals the target Room preventing any creature from entering the affected area. Creatures which were inside at the time of casting may enter or exit the Sanctuary room at will, and can even \"Recognize\" others into the area. The Caster may spend five(5) minutes to grant one or more new Creatures the ability to pass in and out of the effect as if they were present at the time of casting. Neither weapon, nor packet attacks, can pass through the Sanctuary and those inside are not affected by any effect originating from outside the Sanctuary. This Spell cannot be Dispelled. The Room targeted by this ability must be marked with an \"S\" at all doorways into the room. This Spell must be included in the Marshal Notes for the Room.",
+		"Effect": "This Spell requires the Caster to touch a portal into the targeted room and perform a special five(5) minute ceremony in order for the Spell to have any effect. Once this Spell takes effect it magically seals the target Room preventing any creature from entering, or exiting, the affected area. Creatures which were inside at the time of casting may enter or exit the Sanctuary room at will, and can even \"Recognize\" others into the area. The Caster may spend five(5) minutes to grant one or more new Creatures the ability to pass in and out of the effect as if they were present at the time of casting. Neither weapon, nor packet attacks, can pass through the Sanctuary and those inside are not affected by any effect originating from outside the Sanctuary. This Spell cannot be Dispelled. The Room targeted by this ability must be marked with an \"S\" at all doorways into the room. This Spell must be included in the Marshal Notes for the Room.",
 		"Incantation": "\"I grant you the Protection of a Sanctuary.\"",
 		"Delivery Verbal": "\"Magic Sanctuary\""
 	},
@@ -2323,7 +2323,7 @@
 		"Level": "0",
 		"Range": "Self and Packet",
 		"Duration": "Charged (5)",
-		"Effect": "This Cantrip grants the Caster five(5) charges of this effect. The Caster may expend one charge to deliver a packet attack causing two(2) points of Elemental Damage of any of the following types; Fire, Ice, Lightning, or Stone. As a Cantrip, this effect can be used once, afterwards the Character must Rest in order to regain its use.",
+		"Effect": "This Cantrip grants the Caster five(5) charges of this effect. The Caster may expend one(1) charge to deliver a packet attack causing two(2) points of Elemental Damage of any of the following types; Fire, Ice, Lightning, or Stone. As a Cantrip, this effect can be used once, afterwards the Character must Rest in order to regain its use.",
 		"Incantation": "None",
 		"Delivery Verbal": "\"2 Elemental &lt;Type&gt;\""
 	},
@@ -2371,7 +2371,7 @@
 		"Level": "0",
 		"Range": "Self and Packet",
 		"Duration": "Charged (5)",
-		"Effect": "This Cantrip grants the Caster five(5) charges of this effect. The Caster may expend one charge to deliver, by packet, two(2) points of Magic Body. As a Cantrip, this effect can be used once, afterwards the Character must Rest in order to regain its use.",
+		"Effect": "This Cantrip grants the Caster five(5) charges of this effect. The Caster may expend one(1) charge to deliver, by packet, two(2) points of Magic Body. As a Cantrip, this effect can be used once, afterwards the Character must Rest in order to regain its use.",
 		"Incantation": "None",
 		"Delivery Verbal": "\"2 Magic Body\" "
 	}

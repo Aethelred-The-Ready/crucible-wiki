@@ -81,7 +81,7 @@
 		"School": "None",
 		"Target": "Any Circle",
 		"Duration": "Two(2) Years",
-		"Effect": "This Ritual transforms the target Circle into a Protective Circle of one of the following types; Creation: The Power Component cost of any Ritual Alchemy cast in this Circle is reduced by one(1) to a minimum of one(1). Knowledge: Anyone invested may Identify any Alchemy effect within the Circle. Vorpal Font: Anyone invested may spend a three(3)- count to grant themselves the effects of a \"Poison Vorpal 5\".\n\n Anyone in the Circle for the casting gains an Investiture into the Circle allowing them to enter or leave at will as well as allowing others to do so. Any creature inside of the Circle is Immune to all effects which originate from outside it.\n\n Multiple castings of this Ritual on the same Circle can be done. Each additional casting grants the target Circle one additional functions outlined above and grants the Circle a Ward against the next Break or Destroy Magic effect by which it is targeted. These Wards are replenished at the end of the Day."
+		"Effect": "This Ritual transforms the target Circle into a Protective Circle of one of the following types; Creation: The Power Component cost of any Ritual Alchemy cast in this Circle is reduced by one(1) to a minimum of one(1). Knowledge: Anyone invested may Identify any Alchemy effect within the Circle. Vorpal Font: Anyone invested may spend a three(3)- count to grant themselves the effects of a \"Poison Vorpal 5\".\n\n Anyone in the Circle for the casting gains an Investiture into the Circle allowing them to enter or leave at will as well as allowing others to do so. Any creature inside of the Circle is Immune to all effects which originate from outside it.\n\n Multiple castings of this Ritual on the same Circle can be done. Each additional casting grants the target Circle one additional functions outlined above and grants the Circle a Ward against the next Break or Destroy Magic effect by which it is targeted. These Wards are replenished at the end of the Day.\n\n This Ritual cannot target a Circle under the effects of the Ritual Create Forge of Kings, or Create Magic Circle."
 	},
 	{
 		"Title": "Create Bane [Ritual, Limited]",
@@ -105,7 +105,7 @@
 		"School": "None",
 		"Target": "Any Circle",
 		"Duration": "Two(2) Years",
-		"Effect": "This Ritual transforms the target Circle into a Protective Circle of one of the following types; Creation: The Power Component cost of any Ritual Smithing cast in this Circle is reduced by one(1) to a minimum of one(1). Honing: Any Character who is invested in the Circle may spend one(1) minute to sharpen a single weapon granting them the effects of the Invocation Hone Weapon. Knowledge: Anyone invested may Identify any Smithing effect within the Circle.\n\n Anyone in the Circle for the casting gains an Investiture into the Circle allowing them to enter or leave at will as well as allowing others to do so. Any creature inside of the Circle is Immune to all effects which originate from outside it.\n\n Multiple castings of this Ritual on the same Circle can be done. Each additional casting grants the target Circle one additional functions outlined above and grants the Circle a Ward against the next Break or Destroy Magic effect by which it is targeted. These Wards are replenished at the end of the Day."
+		"Effect": "This Ritual transforms the target Circle into a Protective Circle of one of the following types; Creation: The Power Component cost of any Ritual Smithing cast in this Circle is reduced by one(1) to a minimum of one(1). Honing: Any Character who is invested in the Circle may spend one(1) minute to sharpen a single weapon granting them the effects of the Invocation Hone Weapon. Knowledge: Anyone invested may Identify any Smithing effect within the Circle.\n\n Anyone in the Circle for the casting gains an Investiture into the Circle allowing them to enter or leave at will as well as allowing others to do so. Any creature inside of the Circle is Immune to all effects which originate from outside it.\n\n Multiple castings of this Ritual on the same Circle can be done. Each additional casting grants the target Circle one additional functions outlined above and grants the Circle a Ward against the next Break or Destroy Magic effect by which it is targeted. These Wards are replenished at the end of the Day.\n\n This Ritual cannot target a Circle under the effects of the Ritual Create Alchemical Fountain, or Create Magic Circle."
 	},
 	{
 		"Title": "Create Golem [Ritual, Limited]",
@@ -141,7 +141,7 @@
 		"School": "Any School of Magic",
 		"Target": "Any Circle",
 		"Duration": "Two(2) Years",
-		"Effect": "This Ritual transforms the target Circle into a Protective Circle of one of the following types; Binding: The number of Services provided by any creature Summoned into this Circle is increased by one(1). Creation: The Power Component cost of any Ritual Magic cast in this Circle is reduced by one(1) to a minimum of one(1). Knowledge: Anyone invested may Identify any magical effect within the Circle. Resurrection: Anyone invested may Resurrect a dead character whose spirit has travelled to the Circle.\n\n Anyone in the Circle for the casting gains an Investiture into the Circle allowing them to enter or leave at will as well as allowing others to do so. Any creature inside of the Circle is Immune to all effects which originate from outside it.\n\n Multiple castings of this Ritual on the same Circle can be done. Each additional casting grants the target Circle one additional functions outlined above and grants the Circle a Ward against the next Break or Destroy Magic effect by which it is targeted. These Wards are replenished at the end of the Day."
+		"Effect": "This Ritual transforms the target Circle into a Protective Circle of one of the following types; Binding: The number of Services provided by any creature Summoned into this Circle is increased by one(1). Creation: The Power Component cost of any Ritual Magic cast in this Circle is reduced by one(1) to a minimum of one(1). Knowledge: Anyone invested may Identify any magical effect within the Circle. Resurrection: Anyone invested may Resurrect a dead character whose spirit has travelled to the Circle.\n\n Anyone in the Circle for the casting gains an Investiture into the Circle allowing them to enter or leave at will as well as allowing others to do so. Any creature inside of the Circle is Immune to all effects which originate from outside it.\n\n Multiple castings of this Ritual on the same Circle can be done. Each additional casting grants the target Circle one additional functions outlined above and grants the Circle a Ward against the next Break or Destroy Magic effect by which it is targeted. These Wards are replenished at the end of the Day.\n\n This Ritual cannot target a Circle under the effects of the Ritual Create Alchemical Fountain, or Create Forge of Kings."
 	},
 	{
 		"Title": "Create Undead [Ritual, Limited]",
@@ -340,7 +340,7 @@
 		"Multi": true,
 		"Name": "Imbue Alchemy",
 		"Groups": "Ritual",
-		"Cost": "P5 C2 E2",
+		"Cost": "P5 C2 E2 + See Text",
 		"Type": "Alchemy",
 		"School": "None",
 		"Target": "Any Item or Spirit",
@@ -993,7 +993,7 @@
 		"School": "Any",
 		"Target": "Any number of Spirits",
 		"Duration": "Event",
-		"Effect": "Once cast, all targets gain the benefits of the Hunter's Veil specified by the scroll. Eg:\t Spider Hunter's Veil: Targets gain: Escape from Binding on 3-Count. Reduce damage from Poison by half. Poison Resistance\n\n Vampire Hunter's Veil: Targets gain: Immunity to Vampire Charms, Vampirism and Create Undead."
+		"Effect": "Once cast, all targets gain the benefits of the Hunter's Veil specified by the scroll. Eg:     Spider Hunter's Veil: Targets gain: Escape from Binding on 3-Count. Reduce damage from Poison by half. Poison Resistance\n\n Vampire Hunter's Veil: Targets gain: Immunity to Vampire Charms, Vampirism and Create Undead."
 	},
 	{
 		"Title": "Venom Ward [Ritual]*",

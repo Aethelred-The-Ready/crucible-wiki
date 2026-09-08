@@ -487,7 +487,7 @@
 		"Level": "8",
 		"Range": "Packet",
 		"Duration": "5 Minutes",
-		"Effect": "This Binding Alchemy immobilises the target preventing them from moving or using any Skills while in effect. Additionally, the target cannot be moved.",
+		"Effect": "This Binding Alchemy forces the target's arms to their sides and immobilises the target preventing them from moving or using any Skills while in effect. Additionally, the target cannot be moved.",
 		"Delivery Verbal": "\"Physical Confine\"",
 		"Incantation": "None"
 	},

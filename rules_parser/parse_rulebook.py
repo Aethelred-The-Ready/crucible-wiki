@@ -140,13 +140,13 @@ for line in skill_descriptions:
 		currently = "benefit"
 		current_skill_obj["Benefit"] = line[len("Benefit:"):].strip()
 	elif currently == "benefit":
-		if len(line) > 4 and line[0] == "	":
+		if len(line) > 4 and (line[0:3] == "    " or line[0] == " " or line[0] == "\t"):
 			current_skill_obj["Benefit"] += "\n\n"
 		else:
 			current_skill_obj["Benefit"] += " "
 		current_skill_obj["Benefit"] += line.strip()
 	elif currently == "reqs":
-		if len(line) > 4 and line[0] == "	":
+		if len(line) > 4 and (line[0:3] == "    " or line[0] == " " or line[0] == "\t"):
 			current_skill_obj["Requirements"] += "\n\n"
 		else:
 			current_skill_obj["Requirements"] += " "
@@ -218,7 +218,7 @@ for index, line in enumerate(spell_descriptions):
 		c_spell["Delivery Verbal"] = line[len("Delivery Verbal:"):].strip()
 	else:
 		# Add to whatever we are currently on
-		if len(line) > 4 and line[0] == "	":
+		if len(line) > 4 and (line[0:3] == "    " or line[0] == " " or line[0] == "\t"):
 			c_spell[currently] += "\n\n"
 		c_spell[currently] += " " + line.strip()
 spell_list.append(c_spell.copy())
@@ -283,7 +283,7 @@ for index, line in enumerate(alchemy_descriptions):
 		c_alchemy["Delivery Verbal"] = line[len("Delivery Verbal:"):].strip()
 	else:
 		# Add to whatever we are currently on
-		if len(line) > 4 and line[0] == "	":
+		if len(line) > 4 and (line[0:3] == "    " or line[0] == " " or line[0] == "\t"):
 			c_alchemy[currently] += "\n\n"
 		c_alchemy[currently] += " " + line.strip()
 alchemy_list.append(c_alchemy.copy())
@@ -347,7 +347,7 @@ for index, line in enumerate(martial_art_descriptions):
 		c_martial_art["Delivery Verbal"] = line[len("Delivery Verbal:"):].strip()
 	else:
 		# Add to whatever we are currently on
-		if len(line) > 4 and line[0] == "	":
+		if len(line) > 4 and (line[0:3] == "    " or line[0] == " " or line[0] == "\t"):
 			c_martial_art[currently] += "\n\n"
 		c_martial_art[currently] += " " + line.strip()
 martial_art_list.append(c_martial_art.copy())
@@ -408,7 +408,7 @@ for index, line in enumerate(ritual_data_list):
 		c_ritual["Effect"] = line[len("Effect: "):].strip()
 	else:
 		# Add to whatever we are currently on
-		if len(line) > 4 and line[0] == "	":
+		if len(line) > 4 and (line[0:3] == "    " or line[0] == " " or line[0] == "\t"):
 			c_ritual[currently] += "\n\n"
 		c_ritual[currently] += " " + line.strip()
 ritual_list.append(c_ritual.copy())
@@ -455,7 +455,7 @@ for index, line in enumerate(invocation_data_list):
 		c_invocation["Effect"] = line[len("Effect: "):].strip()
 	else:
 		# Add to whatever we are currently on
-		if len(line) > 4 and line[0] == "	":
+		if len(line) > 4 and (line[0:3] == "    " or line[0] == " " or line[0] == "\t"):
 			c_invocation[currently] += "\n\n"
 		c_invocation[currently] += " " + line.strip()
 invocation_list.append(c_invocation.copy())
@@ -499,7 +499,7 @@ for index, line in enumerate(martial_kata_data_list):
 		c_martial_kata["Effect"] = line[len("Effect: "):].strip()
 	else:
 		# Add to whatever we are currently on
-		if len(line) > 4 and line[0] == "	":
+		if len(line) > 4 and (line[0:3] == "    " or line[0] == " " or line[0] == "\t"):
 			c_martial_kata[currently] += "\n\n"
 		c_martial_kata[currently] += " " + line.strip()
 martial_kata_list.append(c_martial_kata.copy())
@@ -544,7 +544,7 @@ for index, line in enumerate(intervention_data_list):
 		c_intervention["Benefit"] = line[len("Benefit: "):].strip()
 	else:
 		# Add to whatever we are currently on
-		if len(line) > 4 and line[0] == "	":
+		if len(line) > 4 and (line[0:3] == "    " or line[0] == " " or line[0] == "\t"):
 			c_intervention[currently] += "\n\n"
 		c_intervention[currently] += " " + line.strip()
 intervention_list.append(c_intervention.copy())

@@ -107,7 +107,7 @@
 		"Title": "Hone Weapon [Invocation]",
 		"Name": "Hone Weapon",
 		"Type": "Smithing",
-		"Duration": "Reset Effects: This Invocation increases the damage the Character causes with a single weapon by one(1). This effect does not stack with the effects of the Empower Weapon Ritual Effect.",
+		"Duration": "Reset Effects: This Invocation increases the damage the Character causes with a single weapon by one(1). This effect does not stack with the effects of the Enhance Weapon Ritual Effect.",
 		"Effect": "",
 		"Groups": "Invocation"
 	},

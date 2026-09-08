@@ -98,6 +98,6 @@ for martial_art_list in martial_art_lists:
 		list_fp.write(f"# {martial_art_list} Martial Art List\n")
 		list_fp.write("<table style={{fontSize: \'14px\'}}><tr><th>Level</th><th>Martial Art Name</th><th>Range</th><th>Delivery Verbal</th></tr>")
 		for index, martial_art in enumerate(martial_art_lists[martial_art_list][1]):
-			color = "background: \'#E0E0E0\'" if math.floor(index/5)%2 == 1 else "background: \'#F8F8F8\'"
+			color = "background: \'#E0E0E0\'" if math.floor(index/4)%2 == 1 else "background: \'#F8F8F8\'"
 			list_fp.write(f"<tr style={{{{{color}}}}}><td>{martial_art[1]}</td><td>[{martial_art[0]}](../{martial_art[4]})</td><td>{martial_art[2]}</td><td>{martial_art[3]}</td></tr>")
 		list_fp.write("</table>")

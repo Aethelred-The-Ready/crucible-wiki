@@ -5,7 +5,7 @@ with open("Crucible_V1p0.html", "r", encoding="utf-8") as rulebook:
 	rulebook_content = rulebook.read()
 
 # Column Line Breaks
-rulebook_content = re.sub(r' class="t m0( \S\S?\S?\S){1,8} ws0"', "", rulebook_content, flags=re.MULTILINE)
+rulebook_content = re.sub(r' class="t( \S\S?\S?\S){1,10}"', "", rulebook_content, flags=re.MULTILINE)
 # Gaps
 rulebook_content = re.sub(r'<span class="_ _\d"><\/span>', "", rulebook_content, flags=re.MULTILINE)
 # Headers

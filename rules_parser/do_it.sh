@@ -6,3 +6,4 @@ py generate_spell_pages.py
 py generate_alchemy_pages.py
 py generate_martial_arts_pages.py
 py generate_skill_pages.py
+py generate_ritual_pages.py

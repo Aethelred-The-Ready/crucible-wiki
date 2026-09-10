@@ -122,7 +122,7 @@ for skill in skill_contents_list:
 		skill["Requirements"] = req
 
 
-	skill_obj = (skill_name, skill["Category"], skill["Multi"], skill["Costs"], skill_path, skill["Requirements"])
+	skill_obj = (skill_name, skill["Category"], skill["Multi"], skill["Costs"], skill_path, skill["Requirements"], skill["Rank"])
 	with open(".." + skill_path, "w+", encoding="utf-8") as skill_fp:
 		skill_fp.write("# " + skill["Name"] +"\n")
 		skill_fp.write(f"<b>Requirements:</b> {skill["Requirements"]}<br/>\n")
@@ -159,9 +159,10 @@ for skill in skill_contents_list:
 	elif skill_type == "Background":
 		background_skills.append(skill_obj)
 # Sort the skill alphabetically by category then by name with some replacements for numerals
+# Or, for now, just sort by provided rank
 def skill_sorter(skill):
-	
-	return skill[1] + skill[0].replace("First", "1").replace("Second", "2").replace("Third", "3").replace("Fourth", "4").replace("Fifth", "5")
+	return skill[6]
+	#return skill[1] + skill[0].replace("First", "1").replace("Second", "2").replace("Third", "3").replace("Fourth", "4").replace("Fifth", "5")
 
 skill_lists = {
 	"Fighting": (2, fighting_skills),

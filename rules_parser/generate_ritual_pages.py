@@ -1,5 +1,4 @@
 # Script for generating all the ritual pages
-# Didnt want to do this all manually so using Ming's json extract
 
 import os, json, math
 from replacement_list import run_replaceemnt_list
@@ -80,8 +79,6 @@ for ritual in ritual_contents_list:
 	ritual_effect = run_replaceemnt_list(ritual_effect)
 
 	school_string = ritual["School"]
-	school_string = school_string.replace("Alchemy", "[Alchemy](/docs/alchemy/alchemy_list)")
-	school_string = school_string.replace("Smithing", "[Smithing](/docs/skills/crafting/smithing)")
 	school_string = school_string.replace("Affliction", "[Affliction](/docs/magic/affliction_list)")
 	school_string = school_string.replace("Conjuration", "[Conjuration](/docs/magic/conjuration_list)")
 	school_string = school_string.replace("Protection", "[Protection](/docs/magic/protection_list)")
@@ -96,7 +93,9 @@ for ritual in ritual_contents_list:
 		ritual_fp.write(f'<b>School:</b> {school_string}<br/>\n')
 		ritual_fp.write(f'<b>Target:</b> {ritual["Target"]}<br/>\n')
 		ritual_fp.write(f'<b>Duration:</b> {ritual["Duration"]}<br/>\n')
-		ritual_fp.write(f'<b>Effect:</b> {ritual_effect}<br/>\n')
+		ritual_fp.write(f'<b>Effect:</b> {ritual_effect}<br/>\n\n')
+		if ritual["Multi"]:
+			ritual_fp.write('This Ritual can be cast on a target more than once\n')
 
 	if ritual_name == "Channel Spell" or ritual_name == "Imbue Spell":
 		ritual["School"] = "Affliction, Conjuration, Protection, Restoration, Transmutation"
@@ -118,7 +117,9 @@ def ritual_sorter(ritual):
 with open(f"../docs/rituals/ritual_list.mdx", "w+", encoding="utf-8") as list_fp:
 	list_fp.write(f"---\nsidebar_position: 2\nhide_table_of_contents: true\n---\n")
 	list_fp.write(f"# Ritual List\n")
-	list_fp.write("<table style={{fontSize: \'14px\'}}><tr><th>Ritual Name</th><th>Limited?</th><th>A</th><th>C</th><th>P</th><th>R</th><th>T</th><th>Alchemy</th><th>Smithing</th><th>Ritual Cost</th></tr>")
+	list_fp.write("<table style={{fontSize: \'14px\', textAlign: \'center\'}}><tr><th>Ritual Name</th><th>Limited?</th><th>A</th><th>C</th><th>P</th><th>R</th><th>T</th><th>Alchemy</th><th>Smithing</th><th>Ritual Cost</th></tr>")
 	for index, ritual in enumerate(ritual_list):
 		list_fp.write(f"<tr><td>[{ritual[0]}](../{ritual[6]}){"\\*" if ritual[1] else ""}</td><td>{"Yes" if "Limited" in ritual[2] else ""}</td><td>{"✓" if "Affliction" in ritual[4] else ""}</td><td>{"✓" if "Conjuration" in ritual[4] else ""}</td><td>{"✓" if "Protection" in ritual[4] else ""}</td><td>{"✓" if "Restoration" in ritual[4] else ""}</td><td>{"✓" if "Transmutation" in ritual[4] else ""}</td><td>{"✓" if "Alchemy" in ritual[3] else ""}</td><td>{"✓" if "Smithing" in ritual[3] else ""}</td><td>{ritual[5]}</td></tr>")
-	list_fp.write("</table>")
+	list_fp.write("</table>\n")
+	list_fp.write("*Rituals marked with a \"\\*\" can be cast on a target more than once.\n\n")
+	list_fp.write("If a Ritual has multiple Schools listed the Caster only needs access to one, and only if casting with Ritual Magic.")

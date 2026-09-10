@@ -74,6 +74,8 @@ replacement_list = {
 	# Removes - this info is presented with static content
 	"For more information on Interventions, See page 193.": "",
 	"For more information on how these Skills interact, See page 203": "",
+	" See Page 209 for information on this Skill": "",
+	"See Page 210 for more information.": "",
 	"See Page 199 for information on this Skill.": "",
 	# Random stuff
 	"Δ": "[Δ](/docs/glossary/pyramid)",
@@ -86,11 +88,14 @@ replacement_list = {
 	"Chapter 7: Magic": "[Spellcasting](/docs/magic/spellcasting)",
 	"Ritual Magic": "[Ritual Magic](/docs/rituals)",
 	"Extraplanar creature or Elemental": "[Extraplanar creature or Elemental](/docs/lore/planes-of-existance)",
+	"Character Levels": "[Character Levels](/docs/glossary/misc-glossary#character-level)",
 	# Invocations
 	"Identify": "[Identify](/docs/invocations/identify)",
 	# Skills
 	"Dodge Skill": "[Dodge Skill](/docs/skills/expertise/dodge)",
-	"Archery Skill": "[Dodge Skill](/docs/skills/fighting/archery)",
+	"Archery Skill": "[Archery Skill](/docs/skills/fighting/archery)",
+	"Stealth Prowess": "[Stealth Prowess](/docs/skills/expertise/stealth_prowess)",
+	"Weapon Prowess": "[Weapon Prowess](/docs/skills/fighting/weapon_prowess)",
 	"Echo": "[Echo](/docs/glossary/echo)",
 	"Assassin Tradition": "[Assassin Tradition](/docs/martial_arts/martial-traditions)",
 	"Intervention Skill": "[Intervention Skill](/docs/interventions)",
@@ -151,6 +156,7 @@ replacement_list = {
 	"Death": "[Death](/docs/glossary/death)",
 	"Destroys": "[Destroys](/docs/glossary/destroy)",
 	"Destroy": "[Destroy](/docs/glossary/destroy)",
+	"Dodge": "[Dodge](/docs/glossary/defences#dodge)",
 	"Enhance Physical Armour": "[Enhance Physical Armour](/docs/glossary/enhance)",
 	"Enhance Natural Armour": "[Enhance Natural Armour](/docs/glossary/enhance)",
 	"Enhance Magical Armour": "[Enhance Magical Armour](/docs/glossary/enhance)",
@@ -162,7 +168,8 @@ replacement_list = {
 	"Healing": "[Healing](/docs/glossary/healing)",
 	"Imbue Skill": "[Imbue Skill](/docs/glossary/imbue-skill)",
 	"Imbue Spell": "[Imbue Spell](/docs/glossary/imbue-spell)",
-	"Immunity": "[Immunity](/docs/glossary/immunity)",
+	"Immunity": "[Immunity](/docs/glossary/defences#immune)",
+	"Immune": "[Immune](/docs/glossary/defences#immune)",
 	"Imprison": "[Imprison](/docs/glossary/imprison)",
 	"Indestructible": "[Indestructible](/docs/glossary/indestructible)",
 	"Inspiration": "[Inspiration](/docs/glossary/inspiration)",
@@ -228,6 +235,10 @@ replacement_list = {
 	"Natural Armour": "[Natural Armour](/docs/equipment/non-physical-armour)",
 	"Avoidance Armour": "[Avoidance Armour](/docs/equipment/non-physical-armour)",
 	"Thrown Weapon": "[Avoidance Armour](/docs/equipment/weapons)",
+	"Bows": "[Bows](/docs/equipment/weapons#bow)",
+	"Bow": "[Bow](/docs/equipment/weapons#bow)",
+	"Crossbows": "[Crossbows](/docs/equipment/weapons#crossbow)",
+	"Crossbow": "[Crossbow](/docs/equipment/weapons#crossbow)",
 	# States of living
 	"Conscious": "[Conscious](/docs/glossary/states-of-living)",
 	"Unconscious": "[Unconscious](/docs/glossary/states-of-living)",

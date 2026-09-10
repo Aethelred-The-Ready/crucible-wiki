@@ -23,11 +23,19 @@ def skill_table_parser(start_codon, end_codon, group):
 		can_rep = False
 		reqs = ""
 		for word in words[1:]:
+			if title == "Wear Extra Armour":
+				pass
 			if past_costs:
 				reqs += " " + word
 			elif word.isdigit() or word == "-" or re.match(r"\*\+\d", word):
 				tent_costs.append(word)
-				if (len(tent_costs) == 4 and group != "Heritage") or (len(tent_costs) == 2 and group == "Heritage"):
+				if (len(tent_costs) == 4 and (title == "Stealth Training" or title == "Weapon Training")):
+					# These ones end with a number
+					pass
+				elif len(tent_costs) == 5:
+					tent_costs.pop(0)
+					past_costs = True
+				elif (len(tent_costs) == 4 and group != "Heritage") or (len(tent_costs) == 2 and group == "Heritage"):
 					past_costs = True
 			# Got a string, but we thought we were dealing with the costs
 			elif len(tent_costs) > 0:
@@ -88,24 +96,30 @@ skill_list = []
 
 def get_skill_costs (skill_name):
 	skill_name = skill_name.lower()
-	for skill in fighting_skill_costs:
+	for index, skill in enumerate(fighting_skill_costs):
 		if (skill_name == skill["Name"].lower()):
-			return (skill["Categ"], [skill["A"], skill["B"], skill["C"], skill["D"]])
-	for skill in expertise_skill_costs:
+			return (skill["Categ"], [skill["A"], skill["B"], skill["C"], skill["D"]], index)
+	for index, skill in enumerate(expertise_skill_costs):
 		if (skill_name == skill["Name"].lower()):
-			return (skill["Categ"], [skill["A"], skill["B"], skill["C"], skill["D"]])
-	for skill in magic_skill_costs:
+			return (skill["Categ"], [skill["A"], skill["B"], skill["C"], skill["D"]], index)
+	for index, skill in enumerate(magic_skill_costs):
 		if (skill_name == skill["Name"].lower()):
-			return (skill["Categ"], [skill["A"], skill["B"], skill["C"], skill["D"]])
-	for skill in crafting_skill_costs:
+			return (skill["Categ"], [skill["A"], skill["B"], skill["C"], skill["D"]], index)
+	for index, skill in enumerate(crafting_skill_costs):
 		if (skill_name == skill["Name"].lower()):
-			return (skill["Categ"], [skill["A"], skill["B"], skill["C"], skill["D"]])
-	for skill in heritage_skill_costs:
+			return (skill["Categ"], [skill["A"], skill["B"], skill["C"], skill["D"]], index)
+	for index, skill in enumerate(heritage_skill_costs):
 		if (skill_name == skill["Name"].lower()):
-			return (skill["Categ"], [skill["A"], skill["B"]])
-	for skill in background_skill_costs:
+			return (skill["Categ"], [skill["A"], skill["B"]], index)
+	for index, skill in enumerate(background_skill_costs):
 		if (skill_name == skill["Name"].lower()):
-			return (skill["Categ"], [skill["A"]])
+			return (skill["Categ"], [skill["A"]], index)
+	if (skill_name == "alchemical slot"):
+		return ("Alchemical Slot", [], 3)
+	elif (skill_name == "martial arts slot"):
+		return ("Martial Arts Slot", [], 5)
+	elif (skill_name == "spell slot"):
+		return ("Spell Slot", [], 27)
 	print("Could not find skill " + skill_name)
 
 currently = "benefit"
@@ -118,9 +132,11 @@ for line in skill_descriptions:
 			if temp is not None:
 				current_skill_obj["Costs"] = temp[1]
 				current_skill_obj["Category"] = temp[0]
+				current_skill_obj["Rank"] = temp[2]
 			else:
 				current_skill_obj["Costs"] = [2, 3, 4, 5]
 				current_skill_obj["Category"] = current_skill_obj["Name"]
+				current_skill_obj["Rank"] = temp[0]
 			skill_list.append(current_skill_obj.copy())
 		current_skill_obj["Title"] = line
 		current_skill_obj["Name"] = line[:line.find("[")-1]
@@ -152,6 +168,13 @@ for line in skill_descriptions:
 			current_skill_obj["Requirements"] += " "
 		current_skill_obj["Requirements"] += line.strip()
 
+temp = get_skill_costs(current_skill_obj["Name"])
+if temp is not None:
+	current_skill_obj["Costs"] = temp[1]
+	current_skill_obj["Category"] = temp[0]
+else:
+	current_skill_obj["Costs"] = [2, 3, 4, 5]
+	current_skill_obj["Category"] = current_skill_obj["Name"]
 skill_list.append(current_skill_obj)
 with open("Crucible_Skills.json", "w", encoding="utf-8") as csfp:
 	json.dump(skill_list, csfp, indent="\t")
@@ -450,9 +473,9 @@ for index, line in enumerate(invocation_data_list):
 	elif line.find("Duration: ") != -1:
 		currently = "Duration"
 		c_invocation["Duration"] = line[len("Duration: "):].strip()
-	elif line.find("Effect: ") != -1:
+	elif line.find("Effects: ") != -1:
 		currently = "Effect"
-		c_invocation["Effect"] = line[len("Effect: "):].strip()
+		c_invocation["Effect"] = line[len("Effects: "):].strip()
 	else:
 		# Add to whatever we are currently on
 		if len(line) > 4 and (line[0:3] == "    " or line[0] == " " or line[0] == "\t"):

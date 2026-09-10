@@ -12,7 +12,8 @@
 			"8",
 			"10",
 			"12"
-		]
+		],
+		"Rank": 6
 	},
 	{
 		"Title": "Absorb Poison [Crafting]",
@@ -27,7 +28,8 @@
 			"8",
 			"10",
 			"12"
-		]
+		],
+		"Rank": 16
 	},
 	{
 		"Title": "Academic [Background]*",
@@ -39,7 +41,8 @@
 		"Benefit": "The Character gains an additional Rank in the Academic Skill See Page 199 for information on this Skill.",
 		"Costs": [
 			"5"
-		]
+		],
+		"Rank": 0
 	},
 	{
 		"Title": "Acid Bomb [Expertise]*",
@@ -54,7 +57,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 19
 	},
 	{
 		"Title": "Acid Grenade [Expertise]*",
@@ -69,7 +73,8 @@
 			"3",
 			"3",
 			"4"
-		]
+		],
+		"Rank": 20
 	},
 	{
 		"Title": "Acid Trap [Expertise]*",
@@ -84,7 +89,8 @@
 			"3",
 			"3",
 			"4"
-		]
+		],
+		"Rank": 21
 	},
 	{
 		"Title": "Alchemical Tradition [Crafting]",
@@ -99,7 +105,8 @@
 			"12",
 			"16",
 			"20"
-		]
+		],
+		"Rank": 17
 	},
 	{
 		"Title": "Alchemical Slot [Crafting]*",
@@ -109,12 +116,8 @@
 		"Multi": true,
 		"Requirements": "Chemistry, See Text",
 		"Benefit": "This Character gains one Alchemy Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
-		"Costs": [
-			2,
-			3,
-			4,
-			5
-		]
+		"Costs": [],
+		"Rank": 3
 	},
 	{
 		"Title": "Alkahestry [Crafting]",
@@ -129,7 +132,8 @@
 			"14",
 			"16",
 			"20"
-		]
+		],
+		"Rank": 13
 	},
 	{
 		"Title": "Ambush [Heritage, Stealthy]*",
@@ -142,7 +146,8 @@
 		"Costs": [
 			"4",
 			"6"
-		]
+		],
+		"Rank": 18
 	},
 	{
 		"Title": "Arcane Armour [Magic]*",
@@ -157,7 +162,8 @@
 			"8",
 			"10",
 			"12"
-		]
+		],
+		"Rank": 7
 	},
 	{
 		"Title": "Archery [Weapon Proficiency]",
@@ -172,7 +178,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 20
 	},
 	{
 		"Title": "Armour Mastery [Fighting]*",
@@ -187,7 +194,8 @@
 			"8",
 			"10",
 			"12"
-		]
+		],
+		"Rank": 0
 	},
 	{
 		"Title": "Augment Potion [Crafting]",
@@ -202,7 +210,8 @@
 			"8",
 			"10",
 			"12"
-		]
+		],
+		"Rank": 29
 	},
 	{
 		"Title": "Augment Scroll [Crafting]",
@@ -217,7 +226,8 @@
 			"8",
 			"10",
 			"12"
-		]
+		],
+		"Rank": 33
 	},
 	{
 		"Title": "Avoidance Armour [Expertise]*",
@@ -232,7 +242,8 @@
 			"8",
 			"10",
 			"12"
-		]
+		],
+		"Rank": 0
 	},
 	{
 		"Title": "Axe Mastery [Weapon Proficiency]",
@@ -247,7 +258,8 @@
 			"17",
 			"21",
 			"28"
-		]
+		],
+		"Rank": 34
 	},
 	{
 		"Title": "Bodyguard [Background]",
@@ -259,7 +271,8 @@
 		"Benefit": "This Skill grants the Character the ability to guard another. The Character may, once per Reset, designate a Character as their charge. A Character may have only one(1) charge at a time but may change it as often as they Rest.\n\nOnce per Reset, the Character may negate any Weapon Attack, or attack delivered, by Weapon or Packet, as &lt;Effect&gt;-Strike or Physical by which their charge is struck. The charge must be within Weapon's reach of the Character to be targeted by this effect. The call for this ability is \"Parry\".\n\nIf the Character has any uses of the Parry Skill, the Character can use this ability to negate an applicable attack which strikes their Charge so long as they are within their Weapon's reach.",
 		"Costs": [
 			"5"
-		]
+		],
+		"Rank": 1
 	},
 	{
 		"Title": "Break Compulsion [Heritage, Psychic]",
@@ -272,7 +285,8 @@
 		"Costs": [
 			"10",
 			"16"
-		]
+		],
+		"Rank": 9
 	},
 	{
 		"Title": "Catalyst [Crafting, Mutation]*",
@@ -287,7 +301,8 @@
 			"4",
 			"5",
 			"6"
-		]
+		],
+		"Rank": 23
 	},
 	{
 		"Title": "Channel Spell [Spellshape, Magic]*",
@@ -302,7 +317,8 @@
 			"3",
 			"3",
 			"4"
-		]
+		],
+		"Rank": 0
 	},
 	{
 		"Title": "Chemistry [Crafting]",
@@ -317,7 +333,8 @@
 			"8",
 			"10",
 			"12"
-		]
+		],
+		"Rank": 18
 	},
 	{
 		"Title": "Contingent Slime [Crafting, Mutation]*",
@@ -332,7 +349,8 @@
 			"8",
 			"10",
 			"12"
-		]
+		],
+		"Rank": 24
 	},
 	{
 		"Title": "Contingent Spell [Spellshape, Magic]*",
@@ -347,7 +365,8 @@
 			"8",
 			"10",
 			"12"
-		]
+		],
+		"Rank": 1
 	},
 	{
 		"Title": "Counter [Fighting]*",
@@ -362,7 +381,8 @@
 			"7",
 			"9",
 			"12"
-		]
+		],
+		"Rank": 46
 	},
 	{
 		"Title": "Create Cauldron [Crafting]*",
@@ -377,7 +397,8 @@
 			"10",
 			"12",
 			"16"
-		]
+		],
+		"Rank": 30
 	},
 	{
 		"Title": "Create Flask [Crafting]*",
@@ -392,7 +413,8 @@
 			"10",
 			"12",
 			"16"
-		]
+		],
+		"Rank": 31
 	},
 	{
 		"Title": "Create Potion [Crafting]*",
@@ -407,7 +429,8 @@
 			"3",
 			"3",
 			"4"
-		]
+		],
+		"Rank": 32
 	},
 	{
 		"Title": "Create Scroll [Crafting]*",
@@ -422,7 +445,8 @@
 			"3",
 			"3",
 			"4"
-		]
+		],
+		"Rank": 34
 	},
 	{
 		"Title": "Create Wand [Crafting]*",
@@ -437,7 +461,8 @@
 			"10",
 			"12",
 			"16"
-		]
+		],
+		"Rank": 35
 	},
 	{
 		"Title": "Deadly Strike [Expertise]*",
@@ -452,7 +477,8 @@
 			"7",
 			"9",
 			"12"
-		]
+		],
+		"Rank": 8
 	},
 	{
 		"Title": "Defensive Roll [Expertise]*",
@@ -467,7 +493,8 @@
 			"10",
 			"12",
 			"16"
-		]
+		],
+		"Rank": 9
 	},
 	{
 		"Title": "Diagnose [Background]",
@@ -479,7 +506,8 @@
 		"Benefit": "This Skill allows the Character to determine the state of the target. In order to use this Skill, the Character must touch a willing, or helpless creature and state \"Diagnose\" followed by one of the following questions; \"Are you Sleeping?\", \"Are you Unconscious?\", \"Are you Dying?\", \"Are you Dead?\", \"Are you Paralyzed?\", \"Are you Poisoned?\", \"Are you Regenerating?\", \"How long until you dissipate?\", \"How long until you wake-up?\", \"How long until you die?\",  \"How long until you become Unparalyzed?\", \"How long until you finish Regenerating?\". \"How many Hit Points are you missing?\". It is not possible to use this Skill on a target without their knowledge and an unwilling target can simply say \"I Block you.\" A Helpless target is unable to stop this Skill from being used on them.\n\nThe Character cannot ask another question until the first is answered and this Skill takes as long as it takes for the Character to ask the question and the target to answer. It cannot, normally, be used against non-humanoid creatures, or those that have no, or alien metabolisms.",
 		"Costs": [
 			"4"
-		]
+		],
+		"Rank": 8
 	},
 	{
 		"Title": "Die Hard [Heritage, Survivor]",
@@ -492,7 +520,8 @@
 		"Costs": [
 			"10",
 			"16"
-		]
+		],
+		"Rank": 24
 	},
 	{
 		"Title": "Disrupt Magic [Heritage, Wild]*",
@@ -505,7 +534,8 @@
 		"Costs": [
 			"4",
 			"6"
-		]
+		],
+		"Rank": 33
 	},
 	{
 		"Title": "Dodge [Expertise]*",
@@ -520,7 +550,8 @@
 			"10",
 			"12",
 			"16"
-		]
+		],
+		"Rank": 10
 	},
 	{
 		"Title": "Echo Slime [Crafting, Mutation]*",
@@ -535,7 +566,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 25
 	},
 	{
 		"Title": "Echo Spell [Spellshape, Magic]*",
@@ -550,7 +582,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 2
 	},
 	{
 		"Title": "Empower Spell [Spellshape, Magic]*",
@@ -565,7 +598,8 @@
 			"4",
 			"5",
 			"6"
-		]
+		],
+		"Rank": 3
 	},
 	{
 		"Title": "Envenom Weapon [Crafting]",
@@ -580,7 +614,8 @@
 			"18",
 			"22",
 			"28"
-		]
+		],
+		"Rank": 0
 	},
 	{
 		"Title": "Envenom Weapon, Greater [Crafting]",
@@ -595,7 +630,8 @@
 			"24",
 			"28",
 			"40"
-		]
+		],
+		"Rank": 1
 	},
 	{
 		"Title": "Envenom Weapon, Superior [Crafting]",
@@ -610,7 +646,8 @@
 			"32",
 			"40",
 			"52"
-		]
+		],
+		"Rank": 2
 	},
 	{
 		"Title": "Escape Binding [Heritage, Strong]*",
@@ -623,7 +660,8 @@
 		"Costs": [
 			"4",
 			"6"
-		]
+		],
+		"Rank": 21
 	},
 	{
 		"Title": "Evasion [Expertise]*",
@@ -638,7 +676,8 @@
 			"12",
 			"15",
 			"20"
-		]
+		],
+		"Rank": 11
 	},
 	{
 		"Title": "Expert Combatant [Expertise]*",
@@ -653,7 +692,8 @@
 			"25",
 			"30",
 			"40"
-		]
+		],
+		"Rank": 1
 	},
 	{
 		"Title": "Expose Weakness [Expertise]*",
@@ -668,7 +708,8 @@
 			"3",
 			"3",
 			"4"
-		]
+		],
+		"Rank": 2
 	},
 	{
 		"Title": "Extra Trap [Expertise]*",
@@ -683,7 +724,8 @@
 			"7",
 			"9",
 			"12"
-		]
+		],
+		"Rank": 22
 	},
 	{
 		"Title": "Favoured By Destiny [Background]",
@@ -695,7 +737,8 @@
 		"Benefit": "This Skill grants the Character the ability to choose, and use, an additional Intervention Skill each Event but never more than once per Reset. For more information on Interventions, See page 193.",
 		"Costs": [
 			"20"
-		]
+		],
+		"Rank": 9
 	},
 	{
 		"Title": "Field Repair [Heritage, Skilled]",
@@ -708,7 +751,8 @@
 		"Costs": [
 			"8",
 			"14"
-		]
+		],
+		"Rank": 12
 	},
 	{
 		"Title": "Fieldwork [Heritage, Trader]",
@@ -721,7 +765,8 @@
 		"Costs": [
 			"10",
 			"16"
-		]
+		],
+		"Rank": 30
 	},
 	{
 		"Title": "Fifth School of Magic [Magic]",
@@ -736,7 +781,8 @@
 			"50",
 			"64",
 			"80"
-		]
+		],
+		"Rank": 19
 	},
 	{
 		"Title": "Fire Bomb [Expertise]*",
@@ -751,7 +797,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 23
 	},
 	{
 		"Title": "Fire Grenade [Expertise]*",
@@ -766,7 +813,8 @@
 			"3",
 			"3",
 			"4"
-		]
+		],
+		"Rank": 24
 	},
 	{
 		"Title": "Fire Trap [Expertise]*",
@@ -781,7 +829,8 @@
 			"3",
 			"3",
 			"4"
-		]
+		],
+		"Rank": 25
 	},
 	{
 		"Title": "First Aid [Background]",
@@ -793,7 +842,8 @@
 		"Benefit": "This Skill allows the Character to Stabilise a Dying target. In order to use this Skill, the Character must touch the target and state \"First Aid\". If the target is not Dying, or immune to First Aid, the target must immediately state \"No Effect\". Applying First Aid is a sixty(60) second Counted Action.\n\nOnce First Aid has begun, the target immediately pauses their Dying Count. it remains paused until either the First Aid count is finished, or interrupted. In the latter case the dying creature immediately resumes their count where it left off.\n\nAt the end of the First Aid count, the target is Stabilised and at zero(0) Hit Points. After one(1) minute the target regains Consciousness at one(1) Hit Point.\n\nThis Skill is modified by the Physician Background Skill. For more information on how these Skills interact, See page 203.",
 		"Costs": [
 			"3"
-		]
+		],
+		"Rank": 10
 	},
 	{
 		"Title": "First Martial Arts School [Fighting]",
@@ -808,7 +858,8 @@
 			"0",
 			"0",
 			"0"
-		]
+		],
+		"Rank": 17
 	},
 	{
 		"Title": "First School of Magic [Magic]",
@@ -823,7 +874,8 @@
 			"0",
 			"0",
 			"0"
-		]
+		],
+		"Rank": 15
 	},
 	{
 		"Title": "Flanking [Expertise]*",
@@ -838,7 +890,8 @@
 			"7",
 			"9",
 			"12"
-		]
+		],
+		"Rank": 12
 	},
 	{
 		"Title": "Florentine [Weapon Proficiency]",
@@ -853,7 +906,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 38
 	},
 	{
 		"Title": "Focus [Heritage, Willful]*",
@@ -866,7 +920,8 @@
 		"Costs": [
 			"4",
 			"6"
-		]
+		],
+		"Rank": 36
 	},
 	{
 		"Title": "Fourth School of Magic [Magic]",
@@ -881,7 +936,8 @@
 			"38",
 			"48",
 			"60"
-		]
+		],
+		"Rank": 18
 	},
 	{
 		"Title": "Freezing Bomb [Expertise]*",
@@ -896,7 +952,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 26
 	},
 	{
 		"Title": "Freezing Grenade [Expertise]*",
@@ -911,7 +968,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 27
 	},
 	{
 		"Title": "Freezing Trap [Expertise]*",
@@ -926,7 +984,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 28
 	},
 	{
 		"Title": "Frenzy [Heritage, Wild]*",
@@ -939,7 +998,8 @@
 		"Costs": [
 			"5",
 			"8"
-		]
+		],
+		"Rank": 34
 	},
 	{
 		"Title": "Giant Trap [Expertise]*",
@@ -954,7 +1014,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 29
 	},
 	{
 		"Title": "Harden Magic [Magic]*",
@@ -969,7 +1030,8 @@
 			"3",
 			"3",
 			"4"
-		]
+		],
+		"Rank": 8
 	},
 	{
 		"Title": "Harvester [Heritage, Trader]",
@@ -982,7 +1044,8 @@
 		"Costs": [
 			"10",
 			"16"
-		]
+		],
+		"Rank": 31
 	},
 	{
 		"Title": "Innate Spellcasting [Magic]",
@@ -997,7 +1060,8 @@
 			"18",
 			"22",
 			"28"
-		]
+		],
+		"Rank": 20
 	},
 	{
 		"Title": "Innate Spellcasting, Greater [Magic]",
@@ -1012,7 +1076,8 @@
 			"24",
 			"30",
 			"38"
-		]
+		],
+		"Rank": 21
 	},
 	{
 		"Title": "Innate Spellcasting, Superior [Magic]",
@@ -1027,7 +1092,8 @@
 			"30",
 			"38",
 			"46"
-		]
+		],
+		"Rank": 22
 	},
 	{
 		"Title": "Invoker [Background]",
@@ -1039,7 +1105,8 @@
 		"Benefit": "Once per Day, the Character may perform a single Invocation of any type for which the meet this Skill's Requirements. Level 5 Alchemy Slots allow a single Alchemy Invocation. Level 5 Spell Slots allow a Magic Invocation. Five(5) Ranks in the Skill Smithing allows a Smithing Invocation.\n\nA Character who meets multiple requirements does not gain the ability to perform multiple Invocations with this Skill but expands their options for the one(1) they may perform. This Skill does not count towards the Requirements of any other Skills or abilities.",
 		"Costs": [
 			"8"
-		]
+		],
+		"Rank": 11
 	},
 	{
 		"Title": "Last Words [Heritage, Spiritual]",
@@ -1052,7 +1119,8 @@
 		"Costs": [
 			"10",
 			"16"
-		]
+		],
+		"Rank": 15
 	},
 	{
 		"Title": "Legendary Invention [Crafting, Intervention]*",
@@ -1067,7 +1135,8 @@
 			"30",
 			"35",
 			"40"
-		]
+		],
+		"Rank": 42
 	},
 	{
 		"Title": "Lifebind [Heritage, Spiritual]",
@@ -1080,7 +1149,8 @@
 		"Costs": [
 			"5",
 			"8"
-		]
+		],
+		"Rank": 16
 	},
 	{
 		"Title": "Long Axe [Weapon Proficiency]",
@@ -1095,7 +1165,8 @@
 			"7",
 			"9",
 			"12"
-		]
+		],
+		"Rank": 26
 	},
 	{
 		"Title": "Long Mace [Weapon Proficiency]",
@@ -1110,7 +1181,8 @@
 			"7",
 			"9",
 			"12"
-		]
+		],
+		"Rank": 27
 	},
 	{
 		"Title": "Long Mastery [Weapon Proficiency]",
@@ -1125,7 +1197,8 @@
 			"15",
 			"18",
 			"24"
-		]
+		],
+		"Rank": 29
 	},
 	{
 		"Title": "Long Sword [Weapon Proficiency]",
@@ -1140,7 +1213,8 @@
 			"7",
 			"9",
 			"12"
-		]
+		],
+		"Rank": 28
 	},
 	{
 		"Title": "Mace Mastery [Weapon Proficiency]",
@@ -1155,7 +1229,8 @@
 			"17",
 			"21",
 			"28"
-		]
+		],
+		"Rank": 35
 	},
 	{
 		"Title": "Magical Aptitude [Magic]",
@@ -1170,7 +1245,8 @@
 			"8",
 			"10",
 			"12"
-		]
+		],
+		"Rank": 9
 	},
 	{
 		"Title": "Magical Intervention [Magic, Intervention]*",
@@ -1185,7 +1261,8 @@
 			"30",
 			"35",
 			"40"
-		]
+		],
+		"Rank": 10
 	},
 	{
 		"Title": "Magical Tradition [Magic]",
@@ -1200,7 +1277,8 @@
 			"12",
 			"16",
 			"20"
-		]
+		],
+		"Rank": 11
 	},
 	{
 		"Title": "Martial Arts Slot [Fighting]*",
@@ -1210,12 +1288,8 @@
 		"Multi": true,
 		"Requirements": "Weapon Training or Stealth Training, See Text",
 		"Benefit": "This Character gains one Martial Art Slot of the appropriate level as detailed under Pyramid Skills on Page 33.",
-		"Costs": [
-			2,
-			3,
-			4,
-			5
-		]
+		"Costs": [],
+		"Rank": 5
 	},
 	{
 		"Title": "Martial Intervention [Fighting, Intervention]*",
@@ -1230,7 +1304,8 @@
 			"30",
 			"35",
 			"40"
-		]
+		],
+		"Rank": 1
 	},
 	{
 		"Title": "Martial Kata [Fighting]*",
@@ -1245,7 +1320,8 @@
 			"10",
 			"12",
 			"16"
-		]
+		],
+		"Rank": 14
 	},
 	{
 		"Title": "Martial Secret [Fighting]*",
@@ -1260,7 +1336,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 15
 	},
 	{
 		"Title": "Martial Tradition [Fighting]",
@@ -1275,7 +1352,8 @@
 			"12",
 			"15",
 			"20"
-		]
+		],
+		"Rank": 16
 	},
 	{
 		"Title": "Master Alchemist [Crafting]*",
@@ -1290,7 +1368,8 @@
 			"12",
 			"16",
 			"20"
-		]
+		],
+		"Rank": 14
 	},
 	{
 		"Title": "Master Ritualist [Magic]*",
@@ -1305,7 +1384,8 @@
 			"12",
 			"16",
 			"20"
-		]
+		],
+		"Rank": 13
 	},
 	{
 		"Title": "Master's Secret [Crafting]*",
@@ -1320,7 +1400,8 @@
 			"8",
 			"10",
 			"12"
-		]
+		],
+		"Rank": 41
 	},
 	{
 		"Title": "Memorise Recipe [Alchemy]*",
@@ -1335,7 +1416,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 15
 	},
 	{
 		"Title": "Memorise Ritual [Magic]*",
@@ -1350,7 +1432,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 14
 	},
 	{
 		"Title": "Mercantile Connections [Heritage, Trader]",
@@ -1363,7 +1446,8 @@
 		"Costs": [
 			"10",
 			"16"
-		]
+		],
+		"Rank": 32
 	},
 	{
 		"Title": "Merchant [Background]",
@@ -1375,7 +1459,8 @@
 		"Benefit": "The Character gains one(1) Rank in the Merchant Skill as well as a single Merchant Sub-Skill for which they meet the Requirements. Additionally, for each Rank the Character has in this Skill they gain a single entry for the Merchant Draw. See Page 210 for more information.",
 		"Costs": [
 			"5"
-		]
+		],
+		"Rank": 3
 	},
 	{
 		"Title": "Mind Over Body [Heritage, Willful]",
@@ -1388,7 +1473,8 @@
 		"Costs": [
 			"10",
 			"16"
-		]
+		],
+		"Rank": 37
 	},
 	{
 		"Title": "Mix Poison [Crafting, Mutation]*",
@@ -1403,7 +1489,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 26
 	},
 	{
 		"Title": "Natural Cunning [Heritage, Stealthy]",
@@ -1416,7 +1503,8 @@
 		"Costs": [
 			"8",
 			"14"
-		]
+		],
+		"Rank": 19
 	},
 	{
 		"Title": "Natural Dodge [Heritage, Fast]",
@@ -1429,7 +1517,8 @@
 		"Costs": [
 			"10",
 			"16"
-		]
+		],
+		"Rank": 0
 	},
 	{
 		"Title": "Natural Fortification [Heritage, Survivor]*",
@@ -1442,7 +1531,8 @@
 		"Costs": [
 			"2",
 			"3"
-		]
+		],
+		"Rank": 25
 	},
 	{
 		"Title": "Natural Magic [Heritage, Magical]",
@@ -1455,7 +1545,8 @@
 		"Costs": [
 			"5",
 			"8"
-		]
+		],
+		"Rank": 3
 	},
 	{
 		"Title": "Natural Parry [Heritage, Martial]",
@@ -1468,7 +1559,8 @@
 		"Costs": [
 			"6",
 			"10"
-		]
+		],
+		"Rank": 6
 	},
 	{
 		"Title": "Natural Remedy [Heritage, Wild]",
@@ -1481,7 +1573,8 @@
 		"Costs": [
 			"10",
 			"16"
-		]
+		],
+		"Rank": 35
 	},
 	{
 		"Title": "Natural Ritualist [Heritage, Magical]",
@@ -1494,7 +1587,8 @@
 		"Costs": [
 			"8",
 			"14"
-		]
+		],
+		"Rank": 4
 	},
 	{
 		"Title": "Natural Strength [Heritage, Strong]",
@@ -1507,7 +1601,8 @@
 		"Costs": [
 			"10",
 			"16"
-		]
+		],
+		"Rank": 22
 	},
 	{
 		"Title": "Natural Toughness [Heritage, Tough]",
@@ -1520,7 +1615,8 @@
 		"Costs": [
 			"5",
 			"8"
-		]
+		],
+		"Rank": 27
 	},
 	{
 		"Title": "Open Lock [Expertise]",
@@ -1535,7 +1631,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 3
 	},
 	{
 		"Title": "Parry [Fighting]*",
@@ -1550,7 +1647,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 47
 	},
 	{
 		"Title": "Penance [Fighting]*",
@@ -1565,7 +1663,8 @@
 			"7",
 			"9",
 			"12"
-		]
+		],
+		"Rank": 48
 	},
 	{
 		"Title": "Penetrating Strike [Expertise]*",
@@ -1580,7 +1679,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 13
 	},
 	{
 		"Title": "Physician [Background]*",
@@ -1592,7 +1692,8 @@
 		"Benefit": "The Character gains an additional rank in the Physician Skill See Page 203 for information on this Skill.",
 		"Costs": [
 			"5"
-		]
+		],
+		"Rank": 4
 	},
 	{
 		"Title": "Piercing Slime [Crafting, Mutation]*",
@@ -1607,7 +1708,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 27
 	},
 	{
 		"Title": "Piercing Spell [Spellshape, Magic]*",
@@ -1622,7 +1724,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 4
 	},
 	{
 		"Title": "Precise Strike [Expertise]*",
@@ -1637,7 +1740,8 @@
 			"4",
 			"4",
 			"6"
-		]
+		],
+		"Rank": 14
 	},
 	{
 		"Title": "Psychic Awaken [Heritage, Psychic]*",
@@ -1650,7 +1754,8 @@
 		"Costs": [
 			"5",
 			"8"
-		]
+		],
+		"Rank": 10
 	},
 	{
 		"Title": "Psychic Charm [Heritage, Psychic]*",
@@ -1663,7 +1768,8 @@
 		"Costs": [
 			"5",
 			"8"
-		]
+		],
+		"Rank": 11
 	},
 	{
 		"Title": "Quicken Spell [Spellshape, Magic]*",
@@ -1678,7 +1784,8 @@
 			"3",
 			"3",
 			"4"
-		]
+		],
+		"Rank": 5
 	},
 	{
 		"Title": "Quickness [Heritage, Fast]",
@@ -1691,7 +1798,8 @@
 		"Costs": [
 			"8",
 			"14"
-		]
+		],
+		"Rank": 1
 	},
 	{
 		"Title": "Rapid Refit: Avoidance [Heritage, Fast]*",
@@ -1704,7 +1812,8 @@
 		"Costs": [
 			"3",
 			"5"
-		]
+		],
+		"Rank": 2
 	},
 	{
 		"Title": "Read and Write [Background]",
@@ -1716,7 +1825,8 @@
 		"Benefit": "The Character gains the ability to read and write in all languages they know. Without this Skill the Character is unable to read or recognize even the simplest of symbols.\n\nPlease note that this does not mean a Character without this Skill is stupid or unable to perform maths, merely that they are unable to understand any form of written media.\n\nRead and Write is not Considered a Skill for any effect or action which limits the use of Skills. Meaning it is possible to read while Meditating, Resting or even while casting Ritual Magic.",
 		"Costs": [
 			"0"
-		]
+		],
+		"Rank": 12
 	},
 	{
 		"Title": "Resist Break [Heritage, Skilled]*",
@@ -1729,7 +1839,8 @@
 		"Costs": [
 			"3",
 			"5"
-		]
+		],
+		"Rank": 13
 	},
 	{
 		"Title": "Resist Compulsion [Heritage, Willful]*",
@@ -1742,7 +1853,8 @@
 		"Costs": [
 			"3",
 			"5"
-		]
+		],
+		"Rank": 38
 	},
 	{
 		"Title": "Resist Curse [Heritage, Spiritual]*",
@@ -1755,7 +1867,8 @@
 		"Costs": [
 			"4",
 			"6"
-		]
+		],
+		"Rank": 17
 	},
 	{
 		"Title": "Resist Fumble [Heritage, Martial]*",
@@ -1768,7 +1881,8 @@
 		"Costs": [
 			"3",
 			"5"
-		]
+		],
+		"Rank": 7
 	},
 	{
 		"Title": "Resist Magic [Heritage, Magical]",
@@ -1781,7 +1895,8 @@
 		"Costs": [
 			"5",
 			"8"
-		]
+		],
+		"Rank": 5
 	},
 	{
 		"Title": "Resist Physical [Heritage, Tough]",
@@ -1794,7 +1909,8 @@
 		"Costs": [
 			"5",
 			"8"
-		]
+		],
+		"Rank": 28
 	},
 	{
 		"Title": "Resist Poison [Heritage, Tough]*",
@@ -1807,7 +1923,8 @@
 		"Costs": [
 			"4",
 			"6"
-		]
+		],
+		"Rank": 29
 	},
 	{
 		"Title": "Ritual Magic [Magic]",
@@ -1822,7 +1939,8 @@
 			"12",
 			"16",
 			"20"
-		]
+		],
+		"Rank": 12
 	},
 	{
 		"Title": "Rune Carving [Crafting]*",
@@ -1837,7 +1955,8 @@
 			"10",
 			"12",
 			"16"
-		]
+		],
+		"Rank": 36
 	},
 	{
 		"Title": "Sailor [Background]",
@@ -1849,7 +1968,8 @@
 		"Benefit": "The Character gains immunity to many environmental effects while fighting on, or beneath the sea. The specific effects are up to the Marshal who must be informed of this Skill at the start of the Module.\n\nAdditionally, once per Reset the Character may, when drinking any beverage, grant themselves either of the following effects; 20 Poison Healing, or Poison Remove &lt;Delivery Type&gt; of any of the following Delivery Types; Elemental, Magic, Physical, or Poison. Once per Reset the Character may Rest to recover the use of this ability.",
 		"Costs": [
 			"5"
-		]
+		],
+		"Rank": 5
 	},
 	{
 		"Title": "Savage Strike [Fighting]*",
@@ -1864,7 +1984,8 @@
 			"7",
 			"9",
 			"12"
-		]
+		],
+		"Rank": 49
 	},
 	{
 		"Title": "Second Martial Arts School [Fighting]",
@@ -1879,7 +2000,8 @@
 			"12",
 			"15",
 			"20"
-		]
+		],
+		"Rank": 18
 	},
 	{
 		"Title": "Second School of Magic [Magic]",
@@ -1894,7 +2016,8 @@
 			"12",
 			"16",
 			"20"
-		]
+		],
+		"Rank": 16
 	},
 	{
 		"Title": "Secret Technique [Crafting]*",
@@ -1909,7 +2032,8 @@
 			"8",
 			"10",
 			"12"
-		]
+		],
+		"Rank": 40
 	},
 	{
 		"Title": "Seer [Background]*",
@@ -1921,7 +2045,8 @@
 		"Benefit": "The Character gains an additional rank in the Seer Skill See Page 206 for information on this Skill.",
 		"Costs": [
 			"5"
-		]
+		],
+		"Rank": 6
 	},
 	{
 		"Title": "Sense Magic [Heritage, Skilled]",
@@ -1934,7 +2059,8 @@
 		"Costs": [
 			"6",
 			"10"
-		]
+		],
+		"Rank": 14
 	},
 	{
 		"Title": "Sense Poison [Heritage, Survivor]",
@@ -1947,7 +2073,8 @@
 		"Costs": [
 			"6",
 			"10"
-		]
+		],
+		"Rank": 26
 	},
 	{
 		"Title": "Shadow Intervention [Expertise, ",
@@ -1962,7 +2089,8 @@
 			"30",
 			"35",
 			"40"
-		]
+		],
+		"Rank": 6
 	},
 	{
 		"Title": "Shadow Shot [Expertise]*",
@@ -1977,7 +2105,8 @@
 			"3",
 			"3",
 			"4"
-		]
+		],
+		"Rank": 4
 	},
 	{
 		"Title": "Shield [Weapon Proficiency]",
@@ -1992,7 +2121,8 @@
 			"7",
 			"9",
 			"12"
-		]
+		],
+		"Rank": 39
 	},
 	{
 		"Title": "Short Axe [Weapon Proficiency]",
@@ -2007,7 +2137,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 21
 	},
 	{
 		"Title": "Short Mace [Weapon Proficiency]",
@@ -2022,7 +2153,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 22
 	},
 	{
 		"Title": "Short Mastery [Weapon Proficiency]",
@@ -2037,7 +2169,8 @@
 			"10",
 			"12",
 			"16"
-		]
+		],
+		"Rank": 24
 	},
 	{
 		"Title": "Short Sword [Weapon Proficiency]",
@@ -2052,7 +2185,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 23
 	},
 	{
 		"Title": "Shrapnel Bomb [Expertise]*",
@@ -2067,7 +2201,8 @@
 			"10",
 			"12",
 			"16"
-		]
+		],
+		"Rank": 30
 	},
 	{
 		"Title": "Shrapnel Grenade [Expertise]*",
@@ -2082,7 +2217,8 @@
 			"7",
 			"9",
 			"12"
-		]
+		],
+		"Rank": 31
 	},
 	{
 		"Title": "Shrapnel Trap [Expertise]*",
@@ -2097,7 +2233,8 @@
 			"7",
 			"9",
 			"12"
-		]
+		],
+		"Rank": 32
 	},
 	{
 		"Title": "Simple Weapon [Weapon Proficiency]",
@@ -2112,7 +2249,8 @@
 			"2",
 			"3",
 			"4"
-		]
+		],
+		"Rank": 40
 	},
 	{
 		"Title": "Slime Armour [Crafting]*",
@@ -2127,7 +2265,8 @@
 			"8",
 			"10",
 			"12"
-		]
+		],
+		"Rank": 19
 	},
 	{
 		"Title": "Slime Shuck [Crafting]*",
@@ -2142,7 +2281,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 20
 	},
 	{
 		"Title": "Slimy Coating [Crafting, Mutation]*",
@@ -2157,7 +2297,8 @@
 			"3",
 			"3",
 			"4"
-		]
+		],
+		"Rank": 28
 	},
 	{
 		"Title": "Smithing [Crafting]*",
@@ -2172,7 +2313,8 @@
 			"4",
 			"5",
 			"6"
-		]
+		],
+		"Rank": 37
 	},
 	{
 		"Title": "Smithing, Grand Master [Crafting]",
@@ -2187,7 +2329,8 @@
 			"14",
 			"16",
 			"20"
-		]
+		],
+		"Rank": 39
 	},
 	{
 		"Title": "Smithing, Master [Crafting]",
@@ -2202,7 +2345,8 @@
 			"10",
 			"12",
 			"16"
-		]
+		],
+		"Rank": 38
 	},
 	{
 		"Title": "Spell Channelling [Magic]",
@@ -2217,7 +2361,8 @@
 			"14",
 			"16",
 			"20"
-		]
+		],
+		"Rank": 23
 	},
 	{
 		"Title": "Spell Channelling, Greater [Magic]",
@@ -2232,7 +2377,8 @@
 			"18",
 			"22",
 			"28"
-		]
+		],
+		"Rank": 24
 	},
 	{
 		"Title": "Spell Channelling, Superior [Magic]",
@@ -2247,7 +2393,8 @@
 			"22",
 			"28",
 			"36"
-		]
+		],
+		"Rank": 25
 	},
 	{
 		"Title": "Spell Slot [Magic]*",
@@ -2257,12 +2404,8 @@
 		"Multi": true,
 		"Requirements": "Magical Aptitude, See Text",
 		"Benefit": "This Character gains one Spell Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
-		"Costs": [
-			2,
-			3,
-			4,
-			5
-		]
+		"Costs": [],
+		"Rank": 27
 	},
 	{
 		"Title": "Split Shot [Expertise]*",
@@ -2277,7 +2420,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 5
 	},
 	{
 		"Title": "Spy [Background]",
@@ -2289,7 +2433,8 @@
 		"Benefit": "A Character with this Skill is in the know about many secrets. At the start of each Event, the Player receives a rumour sheet.\n\nIf the Character has the Open Lock Skill, they reduce the time needed to disarm a Trap to ten(10) seconds. If the Trap has a limited number of tries, they gain one(1) additional attempt.",
 		"Costs": [
 			"5"
-		]
+		],
+		"Rank": 7
 	},
 	{
 		"Title": "Staff [Weapon Proficiency]",
@@ -2304,7 +2449,8 @@
 			"0",
 			"0",
 			"0"
-		]
+		],
+		"Rank": 41
 	},
 	{
 		"Title": "Stealth Prowess [Expertise]*",
@@ -2319,7 +2465,8 @@
 			"3",
 			"4",
 			"5"
-		]
+		],
+		"Rank": 15
 	},
 	{
 		"Title": "Stealth Training [Expertise]*",
@@ -2330,11 +2477,12 @@
 		"Requirements": "See Text",
 		"Benefit": "The Character increases the Weapon Damage call of all Weapons they wield when behind their target, by two(2) for each Rank they have in this Skill. A Character is considered to be behind their target if they are physically standing behind them and able to see both of their shoulder blades.\n\nThere are two ways to purchase this skill. The first is to trade in a number of ranks of Stealth Prowess equal to their number of ranks in Stealth Training plus five(5). The Character does not receive any build back for the traded in Stealth Prowess ranks as this is built into the cost for the Skill. The second is to purchase the Skill outright at a cost which is increased each time the Character purchases another Rank. For example, the cost for 3 Ranks of Stealth Training for a Character with Priority A in Expertise is 54 (16 + 18 + 20).",
 		"Costs": [
-			"1",
 			"12",
 			"17",
-			"22"
-		]
+			"22",
+			"27"
+		],
+		"Rank": 16
 	},
 	{
 		"Title": "Style Master [Weapon Proficiency]",
@@ -2349,7 +2497,8 @@
 			"15",
 			"18",
 			"24"
-		]
+		],
+		"Rank": 42
 	},
 	{
 		"Title": "Sword Mastery [Weapon Proficiency]",
@@ -2364,7 +2513,8 @@
 			"17",
 			"21",
 			"28"
-		]
+		],
+		"Rank": 36
 	},
 	{
 		"Title": "Symbiont [Crafting]",
@@ -2379,7 +2529,8 @@
 			"14",
 			"16",
 			"20"
-		]
+		],
+		"Rank": 21
 	},
 	{
 		"Title": "Third Martial Arts School [Fighting]",
@@ -2394,7 +2545,8 @@
 			"25",
 			"30",
 			"40"
-		]
+		],
+		"Rank": 19
 	},
 	{
 		"Title": "Third School of Magic [Magic]",
@@ -2409,7 +2561,8 @@
 			"25",
 			"32",
 			"40"
-		]
+		],
+		"Rank": 17
 	},
 	{
 		"Title": "Thrown [Weapon Proficiency]",
@@ -2424,7 +2577,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 25
 	},
 	{
 		"Title": "Toughness [Fighting]*",
@@ -2439,7 +2593,8 @@
 			"5",
 			"5",
 			"6"
-		]
+		],
+		"Rank": 2
 	},
 	{
 		"Title": "Toxication [Crafting]*",
@@ -2454,7 +2609,8 @@
 			"3",
 			"3",
 			"4"
-		]
+		],
+		"Rank": 22
 	},
 	{
 		"Title": "Toxin Bomb [Expertise]*",
@@ -2469,7 +2625,8 @@
 			"7",
 			"9",
 			"12"
-		]
+		],
+		"Rank": 33
 	},
 	{
 		"Title": "Toxin Grenade [Expertise]*",
@@ -2484,7 +2641,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 34
 	},
 	{
 		"Title": "Toxin Trap [Expertise]*",
@@ -2499,7 +2657,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 35
 	},
 	{
 		"Title": "Trickster's Insight [Expertise]*",
@@ -2514,7 +2673,8 @@
 			"25",
 			"30",
 			"40"
-		]
+		],
+		"Rank": 7
 	},
 	{
 		"Title": "Trophy Hunter [Background]*",
@@ -2526,7 +2686,8 @@
 		"Benefit": "The Character gains an additional Rank in the Trophy Hunter Skill See Page 209 for information on this Skill.",
 		"Costs": [
 			"5"
-		]
+		],
+		"Rank": 2
 	},
 	{
 		"Title": "Two-Handed Axe [Weapon Proficiency]",
@@ -2541,7 +2702,8 @@
 			"12",
 			"15",
 			"20"
-		]
+		],
+		"Rank": 30
 	},
 	{
 		"Title": "Two-Handed Mace [Weapon Proficiency]",
@@ -2556,7 +2718,8 @@
 			"12",
 			"15",
 			"20"
-		]
+		],
+		"Rank": 31
 	},
 	{
 		"Title": "Two-Handed Mastery [Weapon Proficiency]",
@@ -2571,7 +2734,8 @@
 			"25",
 			"30",
 			"40"
-		]
+		],
+		"Rank": 33
 	},
 	{
 		"Title": "Two-Handed Sword [Weapon Proficiency]",
@@ -2586,7 +2750,8 @@
 			"12",
 			"15",
 			"20"
-		]
+		],
+		"Rank": 32
 	},
 	{
 		"Title": "Two Weapon Fighting [Weapon Proficiency]",
@@ -2601,7 +2766,8 @@
 			"7",
 			"9",
 			"12"
-		]
+		],
+		"Rank": 43
 	},
 	{
 		"Title": "Two Weapon Fighting, Greater [Weapon Proficiency]",
@@ -2616,7 +2782,8 @@
 			"12",
 			"15",
 			"20"
-		]
+		],
+		"Rank": 44
 	},
 	{
 		"Title": "Two Weapon Fighting, Superior [Weapon Proficiency]",
@@ -2631,7 +2798,8 @@
 			"20",
 			"24",
 			"32"
-		]
+		],
+		"Rank": 45
 	},
 	{
 		"Title": "Vanish [Heritage, Stealthy]",
@@ -2644,7 +2812,8 @@
 		"Costs": [
 			"8",
 			"14"
-		]
+		],
+		"Rank": 20
 	},
 	{
 		"Title": "Vital Strike [Fighting]*",
@@ -2659,7 +2828,8 @@
 			"5",
 			"6",
 			"8"
-		]
+		],
+		"Rank": 50
 	},
 	{
 		"Title": "Vorpal Strike [Heritage, Strong]*",
@@ -2672,7 +2842,8 @@
 		"Costs": [
 			"4",
 			"6"
-		]
+		],
+		"Rank": 23
 	},
 	{
 		"Title": "Weapon Chain [Fighting]",
@@ -2687,7 +2858,8 @@
 			"12",
 			"15",
 			"20"
-		]
+		],
+		"Rank": 51
 	},
 	{
 		"Title": "Weapon Familiarity [Heritage, Martial]",
@@ -2700,7 +2872,8 @@
 		"Costs": [
 			"4",
 			"6"
-		]
+		],
+		"Rank": 8
 	},
 	{
 		"Title": "Weapon Prowess [Fighting]*",
@@ -2715,7 +2888,8 @@
 			"3",
 			"4",
 			"5"
-		]
+		],
+		"Rank": 52
 	},
 	{
 		"Title": "Weapon Mastery [Weapon Proficiency]",
@@ -2730,7 +2904,8 @@
 			"37",
 			"45",
 			"60"
-		]
+		],
+		"Rank": 37
 	},
 	{
 		"Title": "Weapon Training [Fighting]*",
@@ -2741,25 +2916,27 @@
 		"Requirements": "See Text",
 		"Benefit": "Upon gaining this Skill choose a hand; left or right. The Character increases the Weapon Damage call of all Weapons they wield in the chosen hand by one(1) for every Rank they have in this Skill.\n\nThere are two ways to purchase this skill. The first is to trade in a number of ranks of Weapon Prowess equal to their number of ranks in Weapon Training plus three(3). The Character does not receive any build back for the traded in Weapon Prowess ranks as this is built into the cost for the Skill. The second is to purchase the Skill outright at a cost which is increased each time the Character purchases another Rank. For example, the cost for 3 Ranks of Weapon Training for a Character with Priority A in Fighting is 42 (12 + 14 + 16).",
 		"Costs": [
-			"1",
 			"12",
 			"17",
-			"22"
-		]
+			"22",
+			"27"
+		],
+		"Rank": 53
 	},
 	{
 		"Title": "Wear Extra Armour [Fighting]*",
 		"Name": "Wear Extra Armour",
 		"Groups": "Fighting",
-		"Category": "Weapon Skills",
+		"Category": "General Fighting",
 		"Multi": true,
 		"Requirements": "None",
 		"Benefit": "The Character increases the maximum number of Wear Points of Armour the Character can benefit from by five(5) for each time this Skill is bought. A Character can benefit from, at most, a total of fifty(50) points of Armour. ",
 		"Costs": [
-			"1",
-			"12",
-			"17",
-			"22"
-		]
+			"3",
+			"4",
+			"4",
+			"5"
+		],
+		"Rank": 53
 	}
 ]

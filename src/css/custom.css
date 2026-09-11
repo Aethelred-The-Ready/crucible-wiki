@@ -43,3 +43,10 @@ table th, table td {
 cost-cell {
   text-align: center;
 }
+
+@media print {
+
+	.not-printable {
+		display: none !important;
+	}
+}

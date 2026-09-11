@@ -1,0 +1,13 @@
+---
+sidebar_position: 30
+---
+# Custom Spellbook
+
+import SortableTechniqueList from '@site/src/components/sortable_technique_list';
+
+export const schools = ["Affliction", "Conjuration", "Protection", "Restoration", "Transmutation"]
+
+import * as spell_list from '../../rules_parser/Crucible_Spells.json'
+
+
+<SortableTechniqueList schools={schools} techniques={spell_list} type="Spell" />

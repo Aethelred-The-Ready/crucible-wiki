@@ -1,0 +1,13 @@
+---
+sidebar_position: 30
+---
+# Custom Formula Book
+
+import SortableTechniqueList from '@site/src/components/sortable_technique_list';
+
+export const schools = ["Alchemy"]
+
+import * as alch_list from '../../rules_parser/Crucible_Alchemies.json'
+
+
+<SortableTechniqueList schools={schools} techniques={alch_list} type="Formula" />

@@ -76,11 +76,13 @@ for alchemy in alchemy_contents_list:
 def alchemy_sorter(alchemy):
 	return alchemy[1] + alchemy[0]
 
+alchemy_list.sort(key=alchemy_sorter)
+
 with open(f"../docs/alchemy/alchemy_list.mdx", "w+", encoding="utf-8") as list_fp:
 	list_fp.write(f"---\nsidebar_position: 2\nhide_table_of_contents: true\n---\n")
 	list_fp.write(f"# Alchemy List\n")
 	list_fp.write("<table style={{fontSize: \'14px\'}}><tr><th>Level</th><th>alchemy Name</th><th>Range</th><th>Delivery Verbal</th></tr>")
 	for index, alchemy in enumerate(alchemy_list):
-		color = "background: \'#E0E0E0\'" if math.floor(index/6)%2 == 1 else "background: \'#F8F8F8\'"
+		color = "background: \'#E0E0E0\'" if math.floor(int(alchemy[1]))%2 == 1 else "background: \'#F8F8F8\'"
 		list_fp.write(f"<tr style={{{{{color}}}}}><td>{alchemy[1]}</td><td>[{alchemy[0]}](../{alchemy[5]})</td><td>{alchemy[2]}</td><td>{alchemy[4]}</td></tr>")
 	list_fp.write("</table>")

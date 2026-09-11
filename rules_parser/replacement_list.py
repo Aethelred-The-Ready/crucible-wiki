@@ -89,6 +89,7 @@ replacement_list = {
 	"Ritual Magic": "[Ritual Magic](/docs/rituals)",
 	"Extraplanar creature or Elemental": "[Extraplanar creature or Elemental](/docs/lore/planes-of-existance)",
 	"Character Levels": "[Character Levels](/docs/glossary/misc-glossary#character-level)",
+	"defended against": "[defended](/docs/combat/defences) against",
 	# Invocations
 	"Identify": "[Identify](/docs/invocations/identify)",
 	# Skills
@@ -156,7 +157,7 @@ replacement_list = {
 	"Death": "[Death](/docs/glossary/death)",
 	"Destroys": "[Destroys](/docs/glossary/destroy)",
 	"Destroy": "[Destroy](/docs/glossary/destroy)",
-	"Dodge": "[Dodge](/docs/glossary/defences#dodge)",
+	"Dodge": "[Dodge](/docs/combat/defences#dodge)",
 	"Enhance Physical Armour": "[Enhance Physical Armour](/docs/glossary/enhance)",
 	"Enhance Natural Armour": "[Enhance Natural Armour](/docs/glossary/enhance)",
 	"Enhance Magical Armour": "[Enhance Magical Armour](/docs/glossary/enhance)",
@@ -168,8 +169,8 @@ replacement_list = {
 	"Healing": "[Healing](/docs/glossary/healing)",
 	"Imbue Skill": "[Imbue Skill](/docs/glossary/imbue-skill)",
 	"Imbue Spell": "[Imbue Spell](/docs/glossary/imbue-spell)",
-	"Immunity": "[Immunity](/docs/glossary/defences#immune)",
-	"Immune": "[Immune](/docs/glossary/defences#immune)",
+	"Immunity": "[Immunity](/docs/combat/defences#immune)",
+	"Immune": "[Immune](/docs/combat/defences#immune)",
 	"Imprison": "[Imprison](/docs/glossary/imprison)",
 	"Indestructible": "[Indestructible](/docs/glossary/indestructible)",
 	"Inspiration": "[Inspiration](/docs/glossary/inspiration)",
@@ -220,13 +221,16 @@ replacement_list = {
 	"Remove": "[Remove](/docs/glossary/remove)",
 	#Skills
 	"Diagnose": "[Diagnose](/docs/skills/background-skills/diagnose)",
-	"Echo Spellshape": "[Echo Spellshape](/docs/skills/magic-skills/echo-spellshape)",
-	"Empower Spellshape": "[Empower Spellshape](/docs/skills/magic-skills/empower-spellshape)",
-	"Piercing Spellshape": "[Piercing Spellshape](/docs/skills/magic-skills/piercing-spellshape)",
+	"Echo Spellshape": "[Echo Spellshape](/docs/skills/magic-skills/echo_spell)",
+	"Empower Spellshape": "[Empower Spellshape](/docs/skills/magic-skills/empower_spell)",
+	"Piercing Spellshape": "[Piercing Spellshape](/docs/skills/magic-skills/piercing_spell)",
 	"Spellshapes": "[Spellshapes](/docs/magic/spellshapes)",
 	"Spellshape": "[Spellshape](/docs/magic/spellshapes)",
-	"Potion": "[Diagnose](/docs/skills/crafting-skills/potion)",
-	"Scroll": "[Diagnose](/docs/skills/crafting-skills/scroll)",
+	"Potion": "[Diagnose](/docs/skills/crafting/potion)",
+	"Scroll": "[Diagnose](/docs/skills/crafting/scroll)",
+	# Spells
+	"Sleep Spell": "[Sleep Spell](/docs/spells/spell_descriptions/sleep",
+	"Elemental Bolt": "[Elemental Bolt](/docs/spells/spell_descriptions/elemental_bolt",
 	#Things
 	"Iron": "[Iron](/docs/equipment/special-materials)",
 	"Silver": "[Silver](/docs/equipment/special-materials)",
@@ -240,11 +244,11 @@ replacement_list = {
 	"Crossbows": "[Crossbows](/docs/equipment/weapons#crossbow)",
 	"Crossbow": "[Crossbow](/docs/equipment/weapons#crossbow)",
 	# States of living
-	"Conscious": "[Conscious](/docs/glossary/states-of-living)",
-	"Unconscious": "[Unconscious](/docs/glossary/states-of-living)",
-	"Dead": "[Dead](/docs/glossary/states-of-living)",
-	"Dying": "[Dying](/docs/glossary/states-of-living)",
-	"Alive": "[Dead](/docs/glossary/states-of-living)",
+	"Conscious": "[Conscious](/docs/combat/states-of-living)",
+	"Unconscious": "[Unconscious](/docs/combat/states-of-living)",
+	"Dead": "[Dead](/docs/combat/states-of-living)",
+	"Dying": "[Dying](/docs/combat/states-of-living)",
+	"Alive": "[Dead](/docs/combat/states-of-living)",
 	# Ritual Stuff
 	"Protective Circle": "[Protective Circle](/docs/rituals/ritual_glossary#protective circle)",
 	#Delivery types

@@ -75,6 +75,7 @@ for skill in skill_contents_list:
 	skill_path = skill_path.replace(",", "")
 	skill_path = skill_path.replace("'", "")
 	skill_path = skill_path.replace("’", "")
+	skill_path = skill_path.replace(":", "")
 	skill_path = skill_path.replace(" ", "_")
 
 	skill_benefit = skill["Benefit"]
@@ -117,6 +118,7 @@ for skill in skill_contents_list:
 				skill_2_path = skill_2_path.replace(",", "")
 				skill_2_path = skill_2_path.replace("'", "")
 				skill_2_path = skill_2_path.replace("’", "")
+				skill_2_path = skill_2_path.replace(":", "")
 				skill_2_path = skill_2_path.replace(" ", "_")
 				req = req[:req.find(sk2_name)] + "[" + sk2_name + "](" + skill_2_path + ")" + req[req.find(sk2_name) + len(sk2_name):]
 		skill["Requirements"] = req

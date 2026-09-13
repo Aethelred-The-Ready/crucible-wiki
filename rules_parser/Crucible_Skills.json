@@ -13,7 +13,14 @@
 			"10",
 			"12"
 		],
-		"Rank": 6
+		"Rank": 6,
+		"Req_obj": [
+			{
+				"Name": "Arcane Armour",
+				"Count": 1,
+				"Per": false
+			}
+		]
 	},
 	{
 		"Title": "Absorb Poison [Crafting]",
@@ -29,7 +36,14 @@
 			"10",
 			"12"
 		],
-		"Rank": 16
+		"Rank": 16,
+		"Req_obj": [
+			{
+				"Name": "Slime Armour",
+				"Count": 1,
+				"Per": false
+			}
+		]
 	},
 	{
 		"Title": "Academic [Background]*",
@@ -42,7 +56,8 @@
 		"Costs": [
 			"5"
 		],
-		"Rank": 0
+		"Rank": 0,
+		"Req_obj": []
 	},
 	{
 		"Title": "Acid Bomb [Expertise]*",
@@ -58,7 +73,14 @@
 			"6",
 			"8"
 		],
-		"Rank": 19
+		"Rank": 19,
+		"Req_obj": [
+			{
+				"Name": "Acid Grenade",
+				"Count": 3,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Acid Grenade [Expertise]*",
@@ -74,7 +96,8 @@
 			"3",
 			"4"
 		],
-		"Rank": 20
+		"Rank": 20,
+		"Req_obj": []
 	},
 	{
 		"Title": "Acid Trap [Expertise]*",
@@ -90,7 +113,14 @@
 			"3",
 			"4"
 		],
-		"Rank": 21
+		"Rank": 21,
+		"Req_obj": [
+			{
+				"Name": "Acid Grenade",
+				"Count": 2,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Alchemical Tradition [Crafting]",
@@ -106,7 +136,13 @@
 			"16",
 			"20"
 		],
-		"Rank": 17
+		"Rank": 17,
+		"Req_obj": [
+			{
+				"Name": "Chemistry",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Alchemical Slot [Crafting]*",
@@ -117,7 +153,21 @@
 		"Requirements": "Chemistry, See Text",
 		"Benefit": "This Character gains one Alchemy Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
 		"Costs": [],
-		"Rank": 3
+		"Rank": 3,
+		"Req_obj": [
+			[
+				{
+					"Name": "Chemistry",
+					"Count": 1
+				}
+			],
+			[
+				{
+					"Name": "See Text",
+					"Count": 1
+				}
+			]
+		]
 	},
 	{
 		"Title": "Alkahestry [Crafting]",
@@ -133,7 +183,14 @@
 			"16",
 			"20"
 		],
-		"Rank": 13
+		"Rank": 13,
+		"Req_obj": [
+			{
+				"Level": 9,
+				"Name": "Alchemical Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Ambush [Heritage, Stealthy]*",
@@ -147,7 +204,8 @@
 			"4",
 			"6"
 		],
-		"Rank": 18
+		"Rank": 18,
+		"Req_obj": []
 	},
 	{
 		"Title": "Arcane Armour [Magic]*",
@@ -163,7 +221,8 @@
 			"10",
 			"12"
 		],
-		"Rank": 7
+		"Rank": 7,
+		"Req_obj": []
 	},
 	{
 		"Title": "Archery [Weapon Proficiency]",
@@ -179,7 +238,8 @@
 			"6",
 			"8"
 		],
-		"Rank": 20
+		"Rank": 20,
+		"Req_obj": []
 	},
 	{
 		"Title": "Armour Mastery [Fighting]*",
@@ -195,7 +255,8 @@
 			"10",
 			"12"
 		],
-		"Rank": 0
+		"Rank": 0,
+		"Req_obj": []
 	},
 	{
 		"Title": "Augment Potion [Crafting]",
@@ -211,7 +272,14 @@
 			"10",
 			"12"
 		],
-		"Rank": 29
+		"Rank": 29,
+		"Req_obj": [
+			{
+				"Name": "Create Potion",
+				"Count": 20,
+				"Per": false
+			}
+		]
 	},
 	{
 		"Title": "Augment Scroll [Crafting]",
@@ -227,7 +295,14 @@
 			"10",
 			"12"
 		],
-		"Rank": 33
+		"Rank": 33,
+		"Req_obj": [
+			{
+				"Name": "Create Scroll",
+				"Count": 20,
+				"Per": false
+			}
+		]
 	},
 	{
 		"Title": "Avoidance Armour [Expertise]*",
@@ -243,7 +318,8 @@
 			"10",
 			"12"
 		],
-		"Rank": 0
+		"Rank": 0,
+		"Req_obj": []
 	},
 	{
 		"Title": "Axe Mastery [Weapon Proficiency]",
@@ -259,7 +335,8 @@
 			"21",
 			"28"
 		],
-		"Rank": 34
+		"Rank": 34,
+		"Req_obj": []
 	},
 	{
 		"Title": "Bodyguard [Background]",
@@ -272,7 +349,8 @@
 		"Costs": [
 			"5"
 		],
-		"Rank": 1
+		"Rank": 1,
+		"Req_obj": []
 	},
 	{
 		"Title": "Break Compulsion [Heritage, Psychic]",
@@ -286,7 +364,8 @@
 			"10",
 			"16"
 		],
-		"Rank": 9
+		"Rank": 9,
+		"Req_obj": []
 	},
 	{
 		"Title": "Catalyst [Crafting, Mutation]*",
@@ -302,7 +381,14 @@
 			"5",
 			"6"
 		],
-		"Rank": 23
+		"Rank": 23,
+		"Req_obj": [
+			{
+				"Level": 6,
+				"Name": "Alchemical Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Channel Spell [Spellshape, Magic]*",
@@ -318,7 +404,14 @@
 			"3",
 			"4"
 		],
-		"Rank": 0
+		"Rank": 0,
+		"Req_obj": [
+			{
+				"Level": 1,
+				"Name": "Spell Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Chemistry [Crafting]",
@@ -334,7 +427,8 @@
 			"10",
 			"12"
 		],
-		"Rank": 18
+		"Rank": 18,
+		"Req_obj": []
 	},
 	{
 		"Title": "Contingent Slime [Crafting, Mutation]*",
@@ -350,7 +444,14 @@
 			"10",
 			"12"
 		],
-		"Rank": 24
+		"Rank": 24,
+		"Req_obj": [
+			{
+				"Level": 9,
+				"Name": "Alchemical Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Contingent Spell [Spellshape, Magic]*",
@@ -366,7 +467,14 @@
 			"10",
 			"12"
 		],
-		"Rank": 1
+		"Rank": 1,
+		"Req_obj": [
+			{
+				"Level": 9,
+				"Name": "Spell Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Counter [Fighting]*",
@@ -382,7 +490,14 @@
 			"9",
 			"12"
 		],
-		"Rank": 46
+		"Rank": 46,
+		"Req_obj": [
+			{
+				"Name": "Parry",
+				"Count": 2,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Create Cauldron [Crafting]*",
@@ -398,7 +513,22 @@
 			"12",
 			"16"
 		],
-		"Rank": 30
+		"Rank": 30,
+		"Req_obj": [
+			[
+				{
+					"Name": "Create Flask",
+					"Count": 1
+				}
+			],
+			[
+				{
+					"Name": "Create Potion",
+					"Count": 20,
+					"Per": false
+				}
+			]
+		]
 	},
 	{
 		"Title": "Create Flask [Crafting]*",
@@ -414,7 +544,14 @@
 			"12",
 			"16"
 		],
-		"Rank": 31
+		"Rank": 31,
+		"Req_obj": [
+			{
+				"Name": "Create Potion",
+				"Count": 10,
+				"Per": false
+			}
+		]
 	},
 	{
 		"Title": "Create Potion [Crafting]*",
@@ -430,7 +567,20 @@
 			"3",
 			"4"
 		],
-		"Rank": 32
+		"Rank": 32,
+		"Req_obj": [
+			"or",
+			{
+				"Level": 1,
+				"Name": "Spell Slot",
+				"Count": 1
+			},
+			{
+				"Level": 1,
+				"Name": "Alchemical Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Create Scroll [Crafting]*",
@@ -446,7 +596,14 @@
 			"3",
 			"4"
 		],
-		"Rank": 34
+		"Rank": 34,
+		"Req_obj": [
+			{
+				"Level": 1,
+				"Name": "Spell Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Create Wand [Crafting]*",
@@ -462,7 +619,14 @@
 			"12",
 			"16"
 		],
-		"Rank": 35
+		"Rank": 35,
+		"Req_obj": [
+			{
+				"Name": "Create Scroll",
+				"Count": 10,
+				"Per": false
+			}
+		]
 	},
 	{
 		"Title": "Deadly Strike [Expertise]*",
@@ -478,7 +642,14 @@
 			"9",
 			"12"
 		],
-		"Rank": 8
+		"Rank": 8,
+		"Req_obj": [
+			{
+				"Name": "Penetrating Strike",
+				"Count": 2,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Defensive Roll [Expertise]*",
@@ -494,7 +665,14 @@
 			"12",
 			"16"
 		],
-		"Rank": 9
+		"Rank": 9,
+		"Req_obj": [
+			{
+				"Name": "Avoidance Armour",
+				"Count": 5,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Diagnose [Background]",
@@ -507,7 +685,13 @@
 		"Costs": [
 			"4"
 		],
-		"Rank": 8
+		"Rank": 8,
+		"Req_obj": [
+			{
+				"Name": "First Aid",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Die Hard [Heritage, Survivor]",
@@ -521,7 +705,8 @@
 			"10",
 			"16"
 		],
-		"Rank": 24
+		"Rank": 24,
+		"Req_obj": []
 	},
 	{
 		"Title": "Disrupt Magic [Heritage, Wild]*",
@@ -535,7 +720,8 @@
 			"4",
 			"6"
 		],
-		"Rank": 33
+		"Rank": 33,
+		"Req_obj": []
 	},
 	{
 		"Title": "Dodge [Expertise]*",
@@ -551,7 +737,14 @@
 			"12",
 			"16"
 		],
-		"Rank": 10
+		"Rank": 10,
+		"Req_obj": [
+			{
+				"Name": "Stealth Training",
+				"Count": 2,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Echo Slime [Crafting, Mutation]*",
@@ -567,7 +760,14 @@
 			"6",
 			"8"
 		],
-		"Rank": 25
+		"Rank": 25,
+		"Req_obj": [
+			{
+				"Level": 1,
+				"Name": "Alchemical Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Echo Spell [Spellshape, Magic]*",
@@ -583,7 +783,14 @@
 			"6",
 			"8"
 		],
-		"Rank": 2
+		"Rank": 2,
+		"Req_obj": [
+			{
+				"Level": 1,
+				"Name": "Spell Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Empower Spell [Spellshape, Magic]*",
@@ -599,7 +806,14 @@
 			"5",
 			"6"
 		],
-		"Rank": 3
+		"Rank": 3,
+		"Req_obj": [
+			{
+				"Level": 6,
+				"Name": "Spell Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Envenom Weapon [Crafting]",
@@ -615,7 +829,23 @@
 			"22",
 			"28"
 		],
-		"Rank": 0
+		"Rank": 0,
+		"Req_obj": [
+			[
+				{
+					"Level": 3,
+					"Name": "Alchemical Slot",
+					"Count": 1
+				}
+			],
+			[
+				{
+					"Name": "Slimy Coating",
+					"Count": 5,
+					"Per": false
+				}
+			]
+		]
 	},
 	{
 		"Title": "Envenom Weapon, Greater [Crafting]",
@@ -631,7 +861,22 @@
 			"28",
 			"40"
 		],
-		"Rank": 1
+		"Rank": 1,
+		"Req_obj": [
+			[
+				{
+					"Level": 6,
+					"Name": "Alchemical Slot",
+					"Count": 1
+				}
+			],
+			[
+				{
+					"Name": "Envenom Weapon",
+					"Count": 1
+				}
+			]
+		]
 	},
 	{
 		"Title": "Envenom Weapon, Superior [Crafting]",
@@ -647,7 +892,22 @@
 			"40",
 			"52"
 		],
-		"Rank": 2
+		"Rank": 2,
+		"Req_obj": [
+			[
+				{
+					"Level": 9,
+					"Name": "Alchemical Slot",
+					"Count": 1
+				}
+			],
+			[
+				{
+					"Name": "Envenom Weapon, Greater",
+					"Count": 1
+				}
+			]
+		]
 	},
 	{
 		"Title": "Escape Binding [Heritage, Strong]*",
@@ -661,7 +921,8 @@
 			"4",
 			"6"
 		],
-		"Rank": 21
+		"Rank": 21,
+		"Req_obj": []
 	},
 	{
 		"Title": "Evasion [Expertise]*",
@@ -677,7 +938,14 @@
 			"15",
 			"20"
 		],
-		"Rank": 11
+		"Rank": 11,
+		"Req_obj": [
+			{
+				"Name": "Dodge",
+				"Count": 3,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Expert Combatant [Expertise]*",
@@ -693,7 +961,14 @@
 			"30",
 			"40"
 		],
-		"Rank": 1
+		"Rank": 1,
+		"Req_obj": [
+			{
+				"Level": 9,
+				"Name": "Martial Arts Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Expose Weakness [Expertise]*",
@@ -709,7 +984,14 @@
 			"3",
 			"4"
 		],
-		"Rank": 2
+		"Rank": 2,
+		"Req_obj": [
+			{
+				"Name": "Stealth Training",
+				"Count": 1,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Extra Trap [Expertise]*",
@@ -725,7 +1007,13 @@
 			"9",
 			"12"
 		],
-		"Rank": 22
+		"Rank": 22,
+		"Req_obj": [
+			{
+				"Name": "Any Trap",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Favoured By Destiny [Background]",
@@ -738,7 +1026,13 @@
 		"Costs": [
 			"20"
 		],
-		"Rank": 9
+		"Rank": 9,
+		"Req_obj": [
+			{
+				"Name": "Any Intervention Skill",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Field Repair [Heritage, Skilled]",
@@ -752,7 +1046,8 @@
 			"8",
 			"14"
 		],
-		"Rank": 12
+		"Rank": 12,
+		"Req_obj": []
 	},
 	{
 		"Title": "Fieldwork [Heritage, Trader]",
@@ -766,7 +1061,8 @@
 			"10",
 			"16"
 		],
-		"Rank": 30
+		"Rank": 30,
+		"Req_obj": []
 	},
 	{
 		"Title": "Fifth School of Magic [Magic]",
@@ -782,7 +1078,13 @@
 			"64",
 			"80"
 		],
-		"Rank": 19
+		"Rank": 19,
+		"Req_obj": [
+			{
+				"Name": "Fourth School of Magic",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Fire Bomb [Expertise]*",
@@ -798,7 +1100,14 @@
 			"6",
 			"8"
 		],
-		"Rank": 23
+		"Rank": 23,
+		"Req_obj": [
+			{
+				"Name": "Fire Grenade",
+				"Count": 3,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Fire Grenade [Expertise]*",
@@ -814,7 +1123,8 @@
 			"3",
 			"4"
 		],
-		"Rank": 24
+		"Rank": 24,
+		"Req_obj": []
 	},
 	{
 		"Title": "Fire Trap [Expertise]*",
@@ -830,7 +1140,14 @@
 			"3",
 			"4"
 		],
-		"Rank": 25
+		"Rank": 25,
+		"Req_obj": [
+			{
+				"Name": "Fire Grenade",
+				"Count": 2,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "First Aid [Background]",
@@ -843,7 +1160,8 @@
 		"Costs": [
 			"3"
 		],
-		"Rank": 10
+		"Rank": 10,
+		"Req_obj": []
 	},
 	{
 		"Title": "First Martial Arts School [Fighting]",
@@ -859,7 +1177,14 @@
 			"0",
 			"0"
 		],
-		"Rank": 17
+		"Rank": 17,
+		"Req_obj": [
+			{
+				"Level": 1,
+				"Name": "Martial Arts Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "First School of Magic [Magic]",
@@ -875,7 +1200,14 @@
 			"0",
 			"0"
 		],
-		"Rank": 15
+		"Rank": 15,
+		"Req_obj": [
+			{
+				"Level": 1,
+				"Name": "Spell Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Flanking [Expertise]*",
@@ -891,7 +1223,14 @@
 			"9",
 			"12"
 		],
-		"Rank": 12
+		"Rank": 12,
+		"Req_obj": [
+			{
+				"Name": "Stealth Training",
+				"Count": 2,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Florentine [Weapon Proficiency]",
@@ -907,7 +1246,8 @@
 			"6",
 			"8"
 		],
-		"Rank": 38
+		"Rank": 38,
+		"Req_obj": []
 	},
 	{
 		"Title": "Focus [Heritage, Willful]*",
@@ -921,7 +1261,8 @@
 			"4",
 			"6"
 		],
-		"Rank": 36
+		"Rank": 36,
+		"Req_obj": []
 	},
 	{
 		"Title": "Fourth School of Magic [Magic]",
@@ -937,7 +1278,13 @@
 			"48",
 			"60"
 		],
-		"Rank": 18
+		"Rank": 18,
+		"Req_obj": [
+			{
+				"Name": "Third School of Magic",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Freezing Bomb [Expertise]*",
@@ -953,7 +1300,14 @@
 			"6",
 			"8"
 		],
-		"Rank": 26
+		"Rank": 26,
+		"Req_obj": [
+			{
+				"Name": "Freezing Grenade",
+				"Count": 3,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Freezing Grenade [Expertise]*",
@@ -969,7 +1323,8 @@
 			"6",
 			"8"
 		],
-		"Rank": 27
+		"Rank": 27,
+		"Req_obj": []
 	},
 	{
 		"Title": "Freezing Trap [Expertise]*",
@@ -985,7 +1340,14 @@
 			"6",
 			"8"
 		],
-		"Rank": 28
+		"Rank": 28,
+		"Req_obj": [
+			{
+				"Name": "Freezing Grenade",
+				"Count": 2,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Frenzy [Heritage, Wild]*",
@@ -999,7 +1361,8 @@
 			"5",
 			"8"
 		],
-		"Rank": 34
+		"Rank": 34,
+		"Req_obj": []
 	},
 	{
 		"Title": "Giant Trap [Expertise]*",
@@ -1015,7 +1378,13 @@
 			"6",
 			"8"
 		],
-		"Rank": 29
+		"Rank": 29,
+		"Req_obj": [
+			{
+				"Name": "Any Trap",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Harden Magic [Magic]*",
@@ -1031,7 +1400,14 @@
 			"3",
 			"4"
 		],
-		"Rank": 8
+		"Rank": 8,
+		"Req_obj": [
+			{
+				"Level": 5,
+				"Name": "Spell Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Harvester [Heritage, Trader]",
@@ -1045,7 +1421,8 @@
 			"10",
 			"16"
 		],
-		"Rank": 31
+		"Rank": 31,
+		"Req_obj": []
 	},
 	{
 		"Title": "Innate Spellcasting [Magic]",
@@ -1061,7 +1438,23 @@
 			"22",
 			"28"
 		],
-		"Rank": 20
+		"Rank": 20,
+		"Req_obj": [
+			[
+				{
+					"Level": 3,
+					"Name": "Spell Slot",
+					"Count": 1
+				}
+			],
+			[
+				{
+					"Name": "Quicken Spell",
+					"Count": 5,
+					"Per": false
+				}
+			]
+		]
 	},
 	{
 		"Title": "Innate Spellcasting, Greater [Magic]",
@@ -1077,7 +1470,22 @@
 			"30",
 			"38"
 		],
-		"Rank": 21
+		"Rank": 21,
+		"Req_obj": [
+			[
+				{
+					"Level": 6,
+					"Name": "Spell Slot",
+					"Count": 1
+				}
+			],
+			[
+				{
+					"Name": "Innate Spellcasting",
+					"Count": 1
+				}
+			]
+		]
 	},
 	{
 		"Title": "Innate Spellcasting, Superior [Magic]",
@@ -1093,7 +1501,22 @@
 			"38",
 			"46"
 		],
-		"Rank": 22
+		"Rank": 22,
+		"Req_obj": [
+			[
+				{
+					"Level": 9,
+					"Name": "Spell Slot",
+					"Count": 1
+				}
+			],
+			[
+				{
+					"Name": "Innate Spellcasting, Greater",
+					"Count": 1
+				}
+			]
+		]
 	},
 	{
 		"Title": "Invoker [Background]",
@@ -1106,7 +1529,36 @@
 		"Costs": [
 			"8"
 		],
-		"Rank": 11
+		"Rank": 11,
+		"Req_obj": [
+			"or",
+			[
+				[
+					{
+						"Level": 5,
+						"Name": "Alchemical Slot",
+						"Count": 1
+					}
+				],
+				[
+					[
+						{
+							"Level": 5,
+							"Name": "Spell Slot",
+							"Count": 1
+						}
+					],
+					[]
+				]
+			],
+			[
+				{
+					"Name": "Smithing",
+					"Count": 5,
+					"Per": false
+				}
+			]
+		]
 	},
 	{
 		"Title": "Last Words [Heritage, Spiritual]",
@@ -1120,7 +1572,8 @@
 			"10",
 			"16"
 		],
-		"Rank": 15
+		"Rank": 15,
+		"Req_obj": []
 	},
 	{
 		"Title": "Legendary Invention [Crafting, Intervention]*",
@@ -1136,7 +1589,14 @@
 			"35",
 			"40"
 		],
-		"Rank": 42
+		"Rank": 42,
+		"Req_obj": [
+			{
+				"Name": "Character Levels",
+				"Count": 20,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Lifebind [Heritage, Spiritual]",
@@ -1150,7 +1610,8 @@
 			"5",
 			"8"
 		],
-		"Rank": 16
+		"Rank": 16,
+		"Req_obj": []
 	},
 	{
 		"Title": "Long Axe [Weapon Proficiency]",
@@ -1166,7 +1627,8 @@
 			"9",
 			"12"
 		],
-		"Rank": 26
+		"Rank": 26,
+		"Req_obj": []
 	},
 	{
 		"Title": "Long Mace [Weapon Proficiency]",
@@ -1182,7 +1644,8 @@
 			"9",
 			"12"
 		],
-		"Rank": 27
+		"Rank": 27,
+		"Req_obj": []
 	},
 	{
 		"Title": "Long Mastery [Weapon Proficiency]",
@@ -1198,7 +1661,8 @@
 			"18",
 			"24"
 		],
-		"Rank": 29
+		"Rank": 29,
+		"Req_obj": []
 	},
 	{
 		"Title": "Long Sword [Weapon Proficiency]",
@@ -1214,7 +1678,8 @@
 			"9",
 			"12"
 		],
-		"Rank": 28
+		"Rank": 28,
+		"Req_obj": []
 	},
 	{
 		"Title": "Mace Mastery [Weapon Proficiency]",
@@ -1230,7 +1695,8 @@
 			"21",
 			"28"
 		],
-		"Rank": 35
+		"Rank": 35,
+		"Req_obj": []
 	},
 	{
 		"Title": "Magical Aptitude [Magic]",
@@ -1246,7 +1712,8 @@
 			"10",
 			"12"
 		],
-		"Rank": 9
+		"Rank": 9,
+		"Req_obj": []
 	},
 	{
 		"Title": "Magical Intervention [Magic, Intervention]*",
@@ -1262,7 +1729,14 @@
 			"35",
 			"40"
 		],
-		"Rank": 10
+		"Rank": 10,
+		"Req_obj": [
+			{
+				"Name": "Character Levels",
+				"Count": 20,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Magical Tradition [Magic]",
@@ -1278,7 +1752,13 @@
 			"16",
 			"20"
 		],
-		"Rank": 11
+		"Rank": 11,
+		"Req_obj": [
+			{
+				"Name": "Magical Aptitude",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Martial Arts Slot [Fighting]*",
@@ -1289,7 +1769,30 @@
 		"Requirements": "Weapon Training or Stealth Training, See Text",
 		"Benefit": "This Character gains one Martial Art Slot of the appropriate level as detailed under Pyramid Skills on Page 33.",
 		"Costs": [],
-		"Rank": 5
+		"Rank": 5,
+		"Req_obj": [
+			"or",
+			[
+				{
+					"Name": "Weapon Training",
+					"Count": 1
+				}
+			],
+			[
+				[
+					{
+						"Name": "Stealth Training",
+						"Count": 1
+					}
+				],
+				[
+					{
+						"Name": "See Text",
+						"Count": 1
+					}
+				]
+			]
+		]
 	},
 	{
 		"Title": "Martial Intervention [Fighting, Intervention]*",
@@ -1305,7 +1808,14 @@
 			"35",
 			"40"
 		],
-		"Rank": 1
+		"Rank": 1,
+		"Req_obj": [
+			{
+				"Name": "Character Levels",
+				"Count": 20,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Martial Kata [Fighting]*",
@@ -1321,7 +1831,14 @@
 			"12",
 			"16"
 		],
-		"Rank": 14
+		"Rank": 14,
+		"Req_obj": [
+			{
+				"Level": 9,
+				"Name": "Martial Arts Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Martial Secret [Fighting]*",
@@ -1337,7 +1854,13 @@
 			"6",
 			"8"
 		],
-		"Rank": 15
+		"Rank": 15,
+		"Req_obj": [
+			{
+				"Name": "Martial Kata",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Martial Tradition [Fighting]",
@@ -1353,7 +1876,13 @@
 			"15",
 			"20"
 		],
-		"Rank": 16
+		"Rank": 16,
+		"Req_obj": [
+			{
+				"Name": "Any Weapon Proficiency",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Master Alchemist [Crafting]*",
@@ -1369,7 +1898,13 @@
 			"16",
 			"20"
 		],
-		"Rank": 14
+		"Rank": 14,
+		"Req_obj": [
+			{
+				"Name": "Alkahestry",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Master Ritualist [Magic]*",
@@ -1385,7 +1920,13 @@
 			"16",
 			"20"
 		],
-		"Rank": 13
+		"Rank": 13,
+		"Req_obj": [
+			{
+				"Name": "Ritual Magic",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Master's Secret [Crafting]*",
@@ -1401,7 +1942,13 @@
 			"10",
 			"12"
 		],
-		"Rank": 41
+		"Rank": 41,
+		"Req_obj": [
+			{
+				"Name": "Smithing, Grand Master",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Memorise Recipe [Alchemy]*",
@@ -1417,7 +1964,13 @@
 			"6",
 			"8"
 		],
-		"Rank": 15
+		"Rank": 15,
+		"Req_obj": [
+			{
+				"Name": "Alkahestry",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Memorise Ritual [Magic]*",
@@ -1433,7 +1986,13 @@
 			"6",
 			"8"
 		],
-		"Rank": 14
+		"Rank": 14,
+		"Req_obj": [
+			{
+				"Name": "Ritual Magic",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Mercantile Connections [Heritage, Trader]",
@@ -1447,7 +2006,8 @@
 			"10",
 			"16"
 		],
-		"Rank": 32
+		"Rank": 32,
+		"Req_obj": []
 	},
 	{
 		"Title": "Merchant [Background]",
@@ -1460,7 +2020,8 @@
 		"Costs": [
 			"5"
 		],
-		"Rank": 3
+		"Rank": 3,
+		"Req_obj": []
 	},
 	{
 		"Title": "Mind Over Body [Heritage, Willful]",
@@ -1474,7 +2035,8 @@
 			"10",
 			"16"
 		],
-		"Rank": 37
+		"Rank": 37,
+		"Req_obj": []
 	},
 	{
 		"Title": "Mix Poison [Crafting, Mutation]*",
@@ -1490,7 +2052,14 @@
 			"6",
 			"8"
 		],
-		"Rank": 26
+		"Rank": 26,
+		"Req_obj": [
+			{
+				"Level": 1,
+				"Name": "Alchemical Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Natural Cunning [Heritage, Stealthy]",
@@ -1504,7 +2073,8 @@
 			"8",
 			"14"
 		],
-		"Rank": 19
+		"Rank": 19,
+		"Req_obj": []
 	},
 	{
 		"Title": "Natural Dodge [Heritage, Fast]",
@@ -1518,7 +2088,8 @@
 			"10",
 			"16"
 		],
-		"Rank": 0
+		"Rank": 0,
+		"Req_obj": []
 	},
 	{
 		"Title": "Natural Fortification [Heritage, Survivor]*",
@@ -1532,7 +2103,8 @@
 			"2",
 			"3"
 		],
-		"Rank": 25
+		"Rank": 25,
+		"Req_obj": []
 	},
 	{
 		"Title": "Natural Magic [Heritage, Magical]",
@@ -1546,7 +2118,8 @@
 			"5",
 			"8"
 		],
-		"Rank": 3
+		"Rank": 3,
+		"Req_obj": []
 	},
 	{
 		"Title": "Natural Parry [Heritage, Martial]",
@@ -1560,7 +2133,8 @@
 			"6",
 			"10"
 		],
-		"Rank": 6
+		"Rank": 6,
+		"Req_obj": []
 	},
 	{
 		"Title": "Natural Remedy [Heritage, Wild]",
@@ -1574,7 +2148,8 @@
 			"10",
 			"16"
 		],
-		"Rank": 35
+		"Rank": 35,
+		"Req_obj": []
 	},
 	{
 		"Title": "Natural Ritualist [Heritage, Magical]",
@@ -1588,7 +2163,8 @@
 			"8",
 			"14"
 		],
-		"Rank": 4
+		"Rank": 4,
+		"Req_obj": []
 	},
 	{
 		"Title": "Natural Strength [Heritage, Strong]",
@@ -1602,7 +2178,8 @@
 			"10",
 			"16"
 		],
-		"Rank": 22
+		"Rank": 22,
+		"Req_obj": []
 	},
 	{
 		"Title": "Natural Toughness [Heritage, Tough]",
@@ -1616,7 +2193,8 @@
 			"5",
 			"8"
 		],
-		"Rank": 27
+		"Rank": 27,
+		"Req_obj": []
 	},
 	{
 		"Title": "Open Lock [Expertise]",
@@ -1632,7 +2210,8 @@
 			"6",
 			"8"
 		],
-		"Rank": 3
+		"Rank": 3,
+		"Req_obj": []
 	},
 	{
 		"Title": "Parry [Fighting]*",
@@ -1648,7 +2227,14 @@
 			"6",
 			"8"
 		],
-		"Rank": 47
+		"Rank": 47,
+		"Req_obj": [
+			{
+				"Name": "Weapon Training",
+				"Count": 2,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Penance [Fighting]*",
@@ -1664,7 +2250,24 @@
 			"9",
 			"12"
 		],
-		"Rank": 48
+		"Rank": 48,
+		"Req_obj": [
+			"or",
+			[
+				{
+					"Level": 7,
+					"Name": "Martial Arts Slot",
+					"Count": 1
+				}
+			],
+			[
+				{
+					"Name": "Weapon Training",
+					"Count": 5,
+					"Per": false
+				}
+			]
+		]
 	},
 	{
 		"Title": "Penetrating Strike [Expertise]*",
@@ -1680,7 +2283,14 @@
 			"6",
 			"8"
 		],
-		"Rank": 13
+		"Rank": 13,
+		"Req_obj": [
+			{
+				"Name": "Precise Strike",
+				"Count": 2,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Physician [Background]*",
@@ -1693,7 +2303,13 @@
 		"Costs": [
 			"5"
 		],
-		"Rank": 4
+		"Rank": 4,
+		"Req_obj": [
+			{
+				"Name": "First Aid",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Piercing Slime [Crafting, Mutation]*",
@@ -1709,7 +2325,14 @@
 			"6",
 			"8"
 		],
-		"Rank": 27
+		"Rank": 27,
+		"Req_obj": [
+			{
+				"Level": 7,
+				"Name": "Alchemical Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Piercing Spell [Spellshape, Magic]*",
@@ -1725,7 +2348,14 @@
 			"6",
 			"8"
 		],
-		"Rank": 4
+		"Rank": 4,
+		"Req_obj": [
+			{
+				"Level": 7,
+				"Name": "Spell Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Precise Strike [Expertise]*",
@@ -1741,7 +2371,14 @@
 			"4",
 			"6"
 		],
-		"Rank": 14
+		"Rank": 14,
+		"Req_obj": [
+			{
+				"Name": "Stealth Training",
+				"Count": 2,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Psychic Awaken [Heritage, Psychic]*",
@@ -1755,7 +2392,8 @@
 			"5",
 			"8"
 		],
-		"Rank": 10
+		"Rank": 10,
+		"Req_obj": []
 	},
 	{
 		"Title": "Psychic Charm [Heritage, Psychic]*",
@@ -1769,7 +2407,8 @@
 			"5",
 			"8"
 		],
-		"Rank": 11
+		"Rank": 11,
+		"Req_obj": []
 	},
 	{
 		"Title": "Quicken Spell [Spellshape, Magic]*",
@@ -1785,7 +2424,14 @@
 			"3",
 			"4"
 		],
-		"Rank": 5
+		"Rank": 5,
+		"Req_obj": [
+			{
+				"Level": 3,
+				"Name": "Spell Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Quickness [Heritage, Fast]",
@@ -1799,7 +2445,8 @@
 			"8",
 			"14"
 		],
-		"Rank": 1
+		"Rank": 1,
+		"Req_obj": []
 	},
 	{
 		"Title": "Rapid Refit: Avoidance [Heritage, Fast]*",
@@ -1813,7 +2460,8 @@
 			"3",
 			"5"
 		],
-		"Rank": 2
+		"Rank": 2,
+		"Req_obj": []
 	},
 	{
 		"Title": "Read and Write [Background]",
@@ -1826,7 +2474,8 @@
 		"Costs": [
 			"0"
 		],
-		"Rank": 12
+		"Rank": 12,
+		"Req_obj": []
 	},
 	{
 		"Title": "Resist Break [Heritage, Skilled]*",
@@ -1840,7 +2489,8 @@
 			"3",
 			"5"
 		],
-		"Rank": 13
+		"Rank": 13,
+		"Req_obj": []
 	},
 	{
 		"Title": "Resist Compulsion [Heritage, Willful]*",
@@ -1854,7 +2504,8 @@
 			"3",
 			"5"
 		],
-		"Rank": 38
+		"Rank": 38,
+		"Req_obj": []
 	},
 	{
 		"Title": "Resist Curse [Heritage, Spiritual]*",
@@ -1868,7 +2519,8 @@
 			"4",
 			"6"
 		],
-		"Rank": 17
+		"Rank": 17,
+		"Req_obj": []
 	},
 	{
 		"Title": "Resist Fumble [Heritage, Martial]*",
@@ -1882,7 +2534,8 @@
 			"3",
 			"5"
 		],
-		"Rank": 7
+		"Rank": 7,
+		"Req_obj": []
 	},
 	{
 		"Title": "Resist Magic [Heritage, Magical]",
@@ -1896,7 +2549,8 @@
 			"5",
 			"8"
 		],
-		"Rank": 5
+		"Rank": 5,
+		"Req_obj": []
 	},
 	{
 		"Title": "Resist Physical [Heritage, Tough]",
@@ -1910,7 +2564,8 @@
 			"5",
 			"8"
 		],
-		"Rank": 28
+		"Rank": 28,
+		"Req_obj": []
 	},
 	{
 		"Title": "Resist Poison [Heritage, Tough]*",
@@ -1924,7 +2579,8 @@
 			"4",
 			"6"
 		],
-		"Rank": 29
+		"Rank": 29,
+		"Req_obj": []
 	},
 	{
 		"Title": "Ritual Magic [Magic]",
@@ -1940,7 +2596,14 @@
 			"16",
 			"20"
 		],
-		"Rank": 12
+		"Rank": 12,
+		"Req_obj": [
+			{
+				"Level": 9,
+				"Name": "Spell Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Rune Carving [Crafting]*",
@@ -1956,7 +2619,22 @@
 			"12",
 			"16"
 		],
-		"Rank": 36
+		"Rank": 36,
+		"Req_obj": [
+			[
+				{
+					"Name": "Create Wand",
+					"Count": 1
+				}
+			],
+			[
+				{
+					"Name": "Create Scroll",
+					"Count": 20,
+					"Per": false
+				}
+			]
+		]
 	},
 	{
 		"Title": "Sailor [Background]",
@@ -1969,7 +2647,8 @@
 		"Costs": [
 			"5"
 		],
-		"Rank": 5
+		"Rank": 5,
+		"Req_obj": []
 	},
 	{
 		"Title": "Savage Strike [Fighting]*",
@@ -1985,7 +2664,14 @@
 			"9",
 			"12"
 		],
-		"Rank": 49
+		"Rank": 49,
+		"Req_obj": [
+			{
+				"Name": "Vital Strike",
+				"Count": 2,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Second Martial Arts School [Fighting]",
@@ -2001,7 +2687,13 @@
 			"15",
 			"20"
 		],
-		"Rank": 18
+		"Rank": 18,
+		"Req_obj": [
+			{
+				"Name": "First Martial Arts School",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Second School of Magic [Magic]",
@@ -2017,7 +2709,13 @@
 			"16",
 			"20"
 		],
-		"Rank": 16
+		"Rank": 16,
+		"Req_obj": [
+			{
+				"Name": "First School of Magic",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Secret Technique [Crafting]*",
@@ -2033,7 +2731,13 @@
 			"10",
 			"12"
 		],
-		"Rank": 40
+		"Rank": 40,
+		"Req_obj": [
+			{
+				"Name": "Smithing, Grand Master",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Seer [Background]*",
@@ -2046,7 +2750,8 @@
 		"Costs": [
 			"5"
 		],
-		"Rank": 6
+		"Rank": 6,
+		"Req_obj": []
 	},
 	{
 		"Title": "Sense Magic [Heritage, Skilled]",
@@ -2060,7 +2765,8 @@
 			"6",
 			"10"
 		],
-		"Rank": 14
+		"Rank": 14,
+		"Req_obj": []
 	},
 	{
 		"Title": "Sense Poison [Heritage, Survivor]",
@@ -2074,7 +2780,8 @@
 			"6",
 			"10"
 		],
-		"Rank": 26
+		"Rank": 26,
+		"Req_obj": []
 	},
 	{
 		"Title": "Shadow Intervention [Expertise, ",
@@ -2090,7 +2797,14 @@
 			"35",
 			"40"
 		],
-		"Rank": 6
+		"Rank": 6,
+		"Req_obj": [
+			{
+				"Name": "Character Levels",
+				"Count": 20,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Shadow Shot [Expertise]*",
@@ -2106,7 +2820,22 @@
 			"3",
 			"4"
 		],
-		"Rank": 4
+		"Rank": 4,
+		"Req_obj": [
+			"or",
+			[
+				{
+					"Name": "Archery",
+					"Count": 1
+				}
+			],
+			[
+				{
+					"Name": "Thrown",
+					"Count": 1
+				}
+			]
+		]
 	},
 	{
 		"Title": "Shield [Weapon Proficiency]",
@@ -2122,7 +2851,8 @@
 			"9",
 			"12"
 		],
-		"Rank": 39
+		"Rank": 39,
+		"Req_obj": []
 	},
 	{
 		"Title": "Short Axe [Weapon Proficiency]",
@@ -2138,7 +2868,8 @@
 			"6",
 			"8"
 		],
-		"Rank": 21
+		"Rank": 21,
+		"Req_obj": []
 	},
 	{
 		"Title": "Short Mace [Weapon Proficiency]",
@@ -2154,7 +2885,8 @@
 			"6",
 			"8"
 		],
-		"Rank": 22
+		"Rank": 22,
+		"Req_obj": []
 	},
 	{
 		"Title": "Short Mastery [Weapon Proficiency]",
@@ -2170,7 +2902,8 @@
 			"12",
 			"16"
 		],
-		"Rank": 24
+		"Rank": 24,
+		"Req_obj": []
 	},
 	{
 		"Title": "Short Sword [Weapon Proficiency]",
@@ -2186,7 +2919,8 @@
 			"6",
 			"8"
 		],
-		"Rank": 23
+		"Rank": 23,
+		"Req_obj": []
 	},
 	{
 		"Title": "Shrapnel Bomb [Expertise]*",
@@ -2202,7 +2936,14 @@
 			"12",
 			"16"
 		],
-		"Rank": 30
+		"Rank": 30,
+		"Req_obj": [
+			{
+				"Name": "Shrapnel Grenade",
+				"Count": 3,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Shrapnel Grenade [Expertise]*",
@@ -2218,7 +2959,13 @@
 			"9",
 			"12"
 		],
-		"Rank": 31
+		"Rank": 31,
+		"Req_obj": [
+			{
+				"Name": "See Text",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Shrapnel Trap [Expertise]*",
@@ -2234,7 +2981,14 @@
 			"9",
 			"12"
 		],
-		"Rank": 32
+		"Rank": 32,
+		"Req_obj": [
+			{
+				"Name": "Shrapnel Grenade",
+				"Count": 2,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Simple Weapon [Weapon Proficiency]",
@@ -2250,7 +3004,8 @@
 			"3",
 			"4"
 		],
-		"Rank": 40
+		"Rank": 40,
+		"Req_obj": []
 	},
 	{
 		"Title": "Slime Armour [Crafting]*",
@@ -2266,7 +3021,8 @@
 			"10",
 			"12"
 		],
-		"Rank": 19
+		"Rank": 19,
+		"Req_obj": []
 	},
 	{
 		"Title": "Slime Shuck [Crafting]*",
@@ -2282,7 +3038,14 @@
 			"6",
 			"8"
 		],
-		"Rank": 20
+		"Rank": 20,
+		"Req_obj": [
+			{
+				"Level": 5,
+				"Name": "Alchemical Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Slimy Coating [Crafting, Mutation]*",
@@ -2298,7 +3061,14 @@
 			"3",
 			"4"
 		],
-		"Rank": 28
+		"Rank": 28,
+		"Req_obj": [
+			{
+				"Level": 1,
+				"Name": "Alchemical Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Smithing [Crafting]*",
@@ -2314,7 +3084,8 @@
 			"5",
 			"6"
 		],
-		"Rank": 37
+		"Rank": 37,
+		"Req_obj": []
 	},
 	{
 		"Title": "Smithing, Grand Master [Crafting]",
@@ -2330,7 +3101,22 @@
 			"16",
 			"20"
 		],
-		"Rank": 39
+		"Rank": 39,
+		"Req_obj": [
+			[
+				{
+					"Name": "Smithing, Master",
+					"Count": 1
+				}
+			],
+			[
+				{
+					"Name": "Smithing",
+					"Count": 20,
+					"Per": false
+				}
+			]
+		]
 	},
 	{
 		"Title": "Smithing, Master [Crafting]",
@@ -2346,7 +3132,14 @@
 			"12",
 			"16"
 		],
-		"Rank": 38
+		"Rank": 38,
+		"Req_obj": [
+			{
+				"Name": "Smithing",
+				"Count": 10,
+				"Per": false
+			}
+		]
 	},
 	{
 		"Title": "Spell Channelling [Magic]",
@@ -2362,7 +3155,23 @@
 			"16",
 			"20"
 		],
-		"Rank": 23
+		"Rank": 23,
+		"Req_obj": [
+			[
+				{
+					"Level": 3,
+					"Name": "Spell Slot",
+					"Count": 1
+				}
+			],
+			[
+				{
+					"Name": "Channel Spell",
+					"Count": 5,
+					"Per": false
+				}
+			]
+		]
 	},
 	{
 		"Title": "Spell Channelling, Greater [Magic]",
@@ -2378,7 +3187,22 @@
 			"22",
 			"28"
 		],
-		"Rank": 24
+		"Rank": 24,
+		"Req_obj": [
+			[
+				{
+					"Level": 6,
+					"Name": "Spell Slot",
+					"Count": 1
+				}
+			],
+			[
+				{
+					"Name": "Spell Channelling",
+					"Count": 1
+				}
+			]
+		]
 	},
 	{
 		"Title": "Spell Channelling, Superior [Magic]",
@@ -2394,7 +3218,22 @@
 			"28",
 			"36"
 		],
-		"Rank": 25
+		"Rank": 25,
+		"Req_obj": [
+			[
+				{
+					"Level": 9,
+					"Name": "Spell Slot",
+					"Count": 1
+				}
+			],
+			[
+				{
+					"Name": "Spell Channelling, Greater",
+					"Count": 1
+				}
+			]
+		]
 	},
 	{
 		"Title": "Spell Slot [Magic]*",
@@ -2405,7 +3244,21 @@
 		"Requirements": "Magical Aptitude, See Text",
 		"Benefit": "This Character gains one Spell Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
 		"Costs": [],
-		"Rank": 27
+		"Rank": 27,
+		"Req_obj": [
+			[
+				{
+					"Name": "Magical Aptitude",
+					"Count": 1
+				}
+			],
+			[
+				{
+					"Name": "See Text",
+					"Count": 1
+				}
+			]
+		]
 	},
 	{
 		"Title": "Split Shot [Expertise]*",
@@ -2421,7 +3274,18 @@
 			"6",
 			"8"
 		],
-		"Rank": 5
+		"Rank": 5,
+		"Req_obj": [
+			"or",
+			{
+				"Name": "Stealth Training",
+				"Count": 1
+			},
+			{
+				"Name": "Weapon Training",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Spy [Background]",
@@ -2434,7 +3298,8 @@
 		"Costs": [
 			"5"
 		],
-		"Rank": 7
+		"Rank": 7,
+		"Req_obj": []
 	},
 	{
 		"Title": "Staff [Weapon Proficiency]",
@@ -2450,7 +3315,8 @@
 			"0",
 			"0"
 		],
-		"Rank": 41
+		"Rank": 41,
+		"Req_obj": []
 	},
 	{
 		"Title": "Stealth Prowess [Expertise]*",
@@ -2466,7 +3332,13 @@
 			"4",
 			"5"
 		],
-		"Rank": 15
+		"Rank": 15,
+		"Req_obj": [
+			{
+				"Name": "See Text",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Stealth Training [Expertise]*",
@@ -2482,7 +3354,13 @@
 			"22",
 			"27"
 		],
-		"Rank": 16
+		"Rank": 16,
+		"Req_obj": [
+			{
+				"Name": "See Text",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Style Master [Weapon Proficiency]",
@@ -2498,7 +3376,8 @@
 			"18",
 			"24"
 		],
-		"Rank": 42
+		"Rank": 42,
+		"Req_obj": []
 	},
 	{
 		"Title": "Sword Mastery [Weapon Proficiency]",
@@ -2514,7 +3393,8 @@
 			"21",
 			"28"
 		],
-		"Rank": 36
+		"Rank": 36,
+		"Req_obj": []
 	},
 	{
 		"Title": "Symbiont [Crafting]",
@@ -2530,7 +3410,8 @@
 			"16",
 			"20"
 		],
-		"Rank": 21
+		"Rank": 21,
+		"Req_obj": []
 	},
 	{
 		"Title": "Third Martial Arts School [Fighting]",
@@ -2546,7 +3427,13 @@
 			"30",
 			"40"
 		],
-		"Rank": 19
+		"Rank": 19,
+		"Req_obj": [
+			{
+				"Name": "Second Martial Arts School",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Third School of Magic [Magic]",
@@ -2562,7 +3449,13 @@
 			"32",
 			"40"
 		],
-		"Rank": 17
+		"Rank": 17,
+		"Req_obj": [
+			{
+				"Name": "Second School of Magic",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Thrown [Weapon Proficiency]",
@@ -2578,7 +3471,8 @@
 			"6",
 			"8"
 		],
-		"Rank": 25
+		"Rank": 25,
+		"Req_obj": []
 	},
 	{
 		"Title": "Toughness [Fighting]*",
@@ -2594,7 +3488,14 @@
 			"5",
 			"6"
 		],
-		"Rank": 2
+		"Rank": 2,
+		"Req_obj": [
+			{
+				"Name": "Character Levels",
+				"Count": 5,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Toxication [Crafting]*",
@@ -2610,7 +3511,14 @@
 			"3",
 			"4"
 		],
-		"Rank": 22
+		"Rank": 22,
+		"Req_obj": [
+			{
+				"Level": 5,
+				"Name": "Alchemical Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Toxin Bomb [Expertise]*",
@@ -2626,7 +3534,14 @@
 			"9",
 			"12"
 		],
-		"Rank": 33
+		"Rank": 33,
+		"Req_obj": [
+			{
+				"Name": "Toxin Grenade",
+				"Count": 3,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Toxin Grenade [Expertise]*",
@@ -2642,7 +3557,8 @@
 			"6",
 			"8"
 		],
-		"Rank": 34
+		"Rank": 34,
+		"Req_obj": []
 	},
 	{
 		"Title": "Toxin Trap [Expertise]*",
@@ -2658,7 +3574,14 @@
 			"6",
 			"8"
 		],
-		"Rank": 35
+		"Rank": 35,
+		"Req_obj": [
+			{
+				"Name": "Toxin Grenade",
+				"Count": 2,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Trickster's Insight [Expertise]*",
@@ -2674,7 +3597,14 @@
 			"30",
 			"40"
 		],
-		"Rank": 7
+		"Rank": 7,
+		"Req_obj": [
+			{
+				"Level": 9,
+				"Name": "Spell Slot",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Trophy Hunter [Background]*",
@@ -2687,7 +3617,8 @@
 		"Costs": [
 			"5"
 		],
-		"Rank": 2
+		"Rank": 2,
+		"Req_obj": []
 	},
 	{
 		"Title": "Two-Handed Axe [Weapon Proficiency]",
@@ -2703,7 +3634,8 @@
 			"15",
 			"20"
 		],
-		"Rank": 30
+		"Rank": 30,
+		"Req_obj": []
 	},
 	{
 		"Title": "Two-Handed Mace [Weapon Proficiency]",
@@ -2719,7 +3651,8 @@
 			"15",
 			"20"
 		],
-		"Rank": 31
+		"Rank": 31,
+		"Req_obj": []
 	},
 	{
 		"Title": "Two-Handed Mastery [Weapon Proficiency]",
@@ -2735,7 +3668,8 @@
 			"30",
 			"40"
 		],
-		"Rank": 33
+		"Rank": 33,
+		"Req_obj": []
 	},
 	{
 		"Title": "Two-Handed Sword [Weapon Proficiency]",
@@ -2751,7 +3685,8 @@
 			"15",
 			"20"
 		],
-		"Rank": 32
+		"Rank": 32,
+		"Req_obj": []
 	},
 	{
 		"Title": "Two Weapon Fighting [Weapon Proficiency]",
@@ -2767,7 +3702,13 @@
 			"9",
 			"12"
 		],
-		"Rank": 43
+		"Rank": 43,
+		"Req_obj": [
+			{
+				"Name": "Florentine",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Two Weapon Fighting, Greater [Weapon Proficiency]",
@@ -2783,7 +3724,13 @@
 			"15",
 			"20"
 		],
-		"Rank": 44
+		"Rank": 44,
+		"Req_obj": [
+			{
+				"Name": "Two Weapon Fighting",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Two Weapon Fighting, Superior [Weapon Proficiency]",
@@ -2799,7 +3746,13 @@
 			"24",
 			"32"
 		],
-		"Rank": 45
+		"Rank": 45,
+		"Req_obj": [
+			{
+				"Name": "Two Weapon Fighting, Greater",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Vanish [Heritage, Stealthy]",
@@ -2813,7 +3766,8 @@
 			"8",
 			"14"
 		],
-		"Rank": 20
+		"Rank": 20,
+		"Req_obj": []
 	},
 	{
 		"Title": "Vital Strike [Fighting]*",
@@ -2829,7 +3783,14 @@
 			"6",
 			"8"
 		],
-		"Rank": 50
+		"Rank": 50,
+		"Req_obj": [
+			{
+				"Name": "Weapon Training",
+				"Count": 2,
+				"Per": true
+			}
+		]
 	},
 	{
 		"Title": "Vorpal Strike [Heritage, Strong]*",
@@ -2843,7 +3804,8 @@
 			"4",
 			"6"
 		],
-		"Rank": 23
+		"Rank": 23,
+		"Req_obj": []
 	},
 	{
 		"Title": "Weapon Chain [Fighting]",
@@ -2859,7 +3821,8 @@
 			"15",
 			"20"
 		],
-		"Rank": 51
+		"Rank": 51,
+		"Req_obj": []
 	},
 	{
 		"Title": "Weapon Familiarity [Heritage, Martial]",
@@ -2873,7 +3836,8 @@
 			"4",
 			"6"
 		],
-		"Rank": 8
+		"Rank": 8,
+		"Req_obj": []
 	},
 	{
 		"Title": "Weapon Prowess [Fighting]*",
@@ -2889,7 +3853,13 @@
 			"4",
 			"5"
 		],
-		"Rank": 52
+		"Rank": 52,
+		"Req_obj": [
+			{
+				"Name": "See Text",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Weapon Mastery [Weapon Proficiency]",
@@ -2905,7 +3875,8 @@
 			"45",
 			"60"
 		],
-		"Rank": 37
+		"Rank": 37,
+		"Req_obj": []
 	},
 	{
 		"Title": "Weapon Training [Fighting]*",
@@ -2921,7 +3892,13 @@
 			"22",
 			"27"
 		],
-		"Rank": 53
+		"Rank": 53,
+		"Req_obj": [
+			{
+				"Name": "See Text",
+				"Count": 1
+			}
+		]
 	},
 	{
 		"Title": "Wear Extra Armour [Fighting]*",
@@ -2937,6 +3914,7 @@
 			"4",
 			"5"
 		],
-		"Rank": 53
+		"Rank": 53,
+		"Req_obj": []
 	}
 ]

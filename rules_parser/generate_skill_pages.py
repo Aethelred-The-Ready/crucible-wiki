@@ -90,16 +90,16 @@ for skill in skill_contents_list:
 		req = skill["Requirements"]
 		for skill_2 in skill_contents_list:
 			sk2_name = skill_2["Name"]
-			# Special cases
-			if skill["Name"] == "Two Weapon Fighting, Superior":
-				if sk2_name == "Two Weapon Fighting":
-					continue;
-				elif sk2_name == "Two Weapon Fighting, Greater":
-					# Eye roll
-					sk2_name = "Greater Two Weapon Fighting"
-			if skill["Name"] == "Invoker":
-				if sk2_name == "Alchemical Slot":
-					sk2_name == "Alchemy Slot"
+			# Special cases	
+			if "," in sk2_name:
+				sk2_name = (sk2_name[sk2_name.find(",")+2:] + " " + sk2_name[:sk2_name.find(",")]).strip()
+
+			match (skill["Name"], sk2_name):
+				case ("Two Weapon Fighting, Superior", "Two Weapon Fighting") | ("Secret Technique", "Smithing") | ("Secret Technique", "Master Smithing") | ("Master's Secret", "Smithing") | ("Master's Secret", "Master Smithing") | ("Envenom Weapon, Superior", "Envenom Weapon") | ("Innate Spellcasting, Superior", "Innate Spellcasting") | ("Spell Channelling, Superior", "Spell Channelling"):
+					continue; 
+			
+			if sk2_name == "Alchemical Slot":
+				sk2_name = "Alchemy Slot"
 			if sk2_name in req:
 				skill_2_type = ""
 				if "Heritage" in skill_2["Groups"]:
@@ -120,7 +120,10 @@ for skill in skill_contents_list:
 				skill_2_path = skill_2_path.replace("’", "")
 				skill_2_path = skill_2_path.replace(":", "")
 				skill_2_path = skill_2_path.replace(" ", "_")
-				req = req[:req.find(sk2_name)] + "[" + sk2_name + "](" + skill_2_path + ")" + req[req.find(sk2_name) + len(sk2_name):]
+				req = req[:req.rfind(sk2_name)] + "[" + sk2_name + "](" + skill_2_path + ")" + req[req.rfind(sk2_name) + len(sk2_name):]
+
+		req = req.replace("Any Intervention Skill", "[Any Intervention Skill](/docs/intervention/interventions)")
+		
 		skill["Requirements"] = req
 
 

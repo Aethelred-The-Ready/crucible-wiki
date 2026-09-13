@@ -176,9 +176,86 @@ else:
 	current_skill_obj["Costs"] = [2, 3, 4, 5]
 	current_skill_obj["Category"] = current_skill_obj["Name"]
 skill_list.append(current_skill_obj)
+
+skill_name_list = []
+for skill in skill_list:
+	skill_name_list.append(skill["Name"])
+
+def assemble_req_obj(req_string):
+	if req_string == "Level 1 Spell or Alchemy Slot":
+		return ["or", assemble_req_obj("Level 1 Spell Slot")[0], assemble_req_obj("Level 1 Alchemy Slot")[0]]
+	elif req_string == "One Rank of Stealth Training or Weapon Training per Rank.":
+		return ["or", assemble_req_obj("One Rank of Stealth Training per Rank")[0], assemble_req_obj("One Rank of Weapon Training per Rank")[0]]
+	elif req_string == "Create Flask Create Potion 20":
+		req_string = "Create Flask, Create Potion 20";
+	skill_req_obj = {}
+
+	# and case
+	if " or " in req_string:
+		index = req_string.find(" or ")
+		return ["or", assemble_req_obj(req_string[0:index]), assemble_req_obj(req_string[index+4:])]
+	elif "," in req_string:
+		index = req_string.find(",")
+		return [assemble_req_obj(req_string[0:index]), assemble_req_obj(req_string[index+1:])]
+
+	skills_required = ""
+
+	match_size = 0
+
+	for skill_name in skill_name_list:
+		req_string = req_string.replace("Alchemy Slot", "Alchemical Slot").replace(" Art ", " Arts ")
+		skill_name_for_search = skill_name
+		if "," in skill_name:
+			skill_name_for_search = (skill_name[skill_name.find(",")+2:] + " " + skill_name[:skill_name.find(",")]).strip()
+		if skill_name_for_search in req_string:
+			if match_size < len(skill_name_for_search):
+				skills_required = skill_name;
+				match_size = len(skill_name_for_search)
+
+	if req_string == "None" or req_string == "":
+		return []
+
+	if "Any" in req_string:
+		skills_required = req_string
+
+	if "Character Levels" in req_string:
+		skills_required = "Character Levels"
+		match = re.search(r'(\d\d?)', req_string)
+		if match:
+			skill_req_obj["Name"] = skills_required.strip()
+			skill_req_obj["Count"] = int(match.group(0))
+			skill_req_obj["Per"] = ("per" in req_string)
+		else:
+			skill_req_obj["Name"] = skills_required.strip()
+			skill_req_obj["Count"] = 1
+		return [skill_req_obj]
+	
+	if "See Text" in req_string:
+		skills_required = req_string
+
+	match = re.search(r'Level (\d)', req_string)
+	if match:
+		skill_req_obj["Level"] = int(match.group(1))
+
+	if skills_required == "":
+		print(req_string)
+
+	match = re.search(r'(\d\d?)( per Rank)?\.?$', req_string)
+	if match:
+		skill_req_obj["Name"] = skills_required.strip()
+		skill_req_obj["Count"] = int(match.group(1))
+		skill_req_obj["Per"] = ("per" in req_string)
+	else:
+		skill_req_obj["Name"] = skills_required.strip()
+		skill_req_obj["Count"] = 1
+	return [skill_req_obj]
+	
+
+for skill in skill_list:
+	skill["Req_obj"] = assemble_req_obj(skill["Requirements"])
+
 with open("Crucible_Skills.json", "w", encoding="utf-8") as csfp:
 	json.dump(skill_list, csfp, indent="\t")
-
 
 # Grab the start and end of the spell description list
 spell_descriptions_pos = rulebook_content.find("<div><div>Spell Descriptions <br/>")

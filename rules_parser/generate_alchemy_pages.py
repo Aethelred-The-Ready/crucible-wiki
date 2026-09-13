@@ -44,6 +44,7 @@ for alchemy in alchemy_contents_list:
 	alchemy_path = alchemy_path.replace("'", "")
 	alchemy_path = alchemy_path.replace("’", "")
 	alchemy_path = alchemy_path.replace(" ", "_")
+	alchemy_path = alchemy_path.lower()
 
 
 	alchemy_effect = alchemy["Effect"]

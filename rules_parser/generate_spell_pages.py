@@ -47,6 +47,7 @@ for spell in spell_list:
 	spell_path = spell_path.replace(",", "")
 	spell_path = spell_path.replace("'", "")
 	spell_path = spell_path.replace("’", "")
+	spell_path = spell_path.lower()
 
 
 	spell_effect = spell["Effect"]

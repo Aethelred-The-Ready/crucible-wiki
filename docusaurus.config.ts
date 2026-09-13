@@ -6,8 +6,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Crucible Wiki',
-  tagline: 'Rules Wiki for Armonia LARP',
+  tagline: 'Rules Wiki for Crucible LARP',
   favicon: 'img/favicon.ico',
+  onBrokenAnchors: 'log',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {

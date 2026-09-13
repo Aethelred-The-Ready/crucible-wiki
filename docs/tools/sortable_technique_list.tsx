@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import "../css/custom.css";
+import "../../src/css/custom.css";
 
 type Props = {
 	schools: string[],

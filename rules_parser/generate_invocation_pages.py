@@ -44,6 +44,7 @@ for invocation in invocation_contents_list:
 	invocation_path = invocation_path.replace("'", "")
 	invocation_path = invocation_path.replace("’", "")
 	invocation_path = invocation_path.replace(" ", "_")
+	invocation_path = invocation_path.lower()
 
 
 	invocation_effect = invocation["Effect"]

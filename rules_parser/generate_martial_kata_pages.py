@@ -44,6 +44,7 @@ for martial_kata in martial_kata_contents_list:
 	martial_kata_path = martial_kata_path.replace("'", "")
 	martial_kata_path = martial_kata_path.replace("’", "")
 	martial_kata_path = martial_kata_path.replace(" ", "_")
+	martial_kata_path = martial_kata_path.lower()
 
 
 	martial_kata_effect = martial_kata["Effect"]
@@ -54,9 +55,9 @@ for martial_kata in martial_kata_contents_list:
 
 	martial_kata_school = martial_kata['School']
 
-	martial_kata_school = martial_kata_school.replace("Guardian", "[Guardian](/docs/martial_arts/martial_arts#school)")
-	martial_kata_school = martial_kata_school.replace("Duelist", "[Duelist](/docs/martial_arts/martial_arts#school)")
-	martial_kata_school = martial_kata_school.replace("Slayer", "[Slayer](/docs/martial_arts/martial_arts#school)")
+	martial_kata_school = martial_kata_school.replace("Guardian", "[Guardian](/docs/martial_arts/guardian_list)")
+	martial_kata_school = martial_kata_school.replace("Duelist", "[Duelist](/docs/martial_arts/duelist_list)")
+	martial_kata_school = martial_kata_school.replace("Slayer", "[Slayer](/docs/martial_arts/slayer_list)")
 
 
 	with open(martial_kata_path, "w+", encoding="utf-8") as martial_kata_fp:

@@ -45,6 +45,7 @@ for martial_art in martial_art_list:
 	martial_art_path = martial_art_path.replace(",", "")
 	martial_art_path = martial_art_path.replace("'", "")
 	martial_art_path = martial_art_path.replace("’", "")
+	martial_art_path = martial_art_path.lower()
 
 
 	martial_art_effect = martial_art["Effect"]

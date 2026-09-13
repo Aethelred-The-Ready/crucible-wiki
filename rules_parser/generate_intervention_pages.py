@@ -44,6 +44,7 @@ for intervention in intervention_contents_list:
 	intervention_path = intervention_path.replace("'", "")
 	intervention_path = intervention_path.replace("’", "")
 	intervention_path = intervention_path.replace(" ", "_")
+	intervention_path = intervention_path.lower()
 
 
 	intervention_benefit = intervention["Benefit"]

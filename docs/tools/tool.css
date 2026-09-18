@@ -1,0 +1,10 @@
+
+.display-cell {
+	display: flex;
+	flex-direction: row;       /* Explicitly forces items to stay side-by-side */
+	justify-content: center;   /* Centers items horizontally */
+	align-items: center;       /* Centers items vertically */
+	gap: 8px;                  /* Adds neat spacing between buttons/text without breaking layout */
+	width: 100%;
+	box-sizing: border-box;
+}

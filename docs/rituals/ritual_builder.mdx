@@ -1,0 +1,12 @@
+# Ritual Concert Calculator
+
+
+import RitualBuilder from '/docs/tools/ritual_builder.tsx'
+import BrowserOnly from '@docusaurus/BrowserOnly';
+
+import * as spell_list from '../../rules_parser/Crucible_Spells.json'
+import * as alchemy_list from '../../rules_parser/Crucible_Alchemies.json'
+import * as skill_list from '../../rules_parser/Crucible_Skills.json'
+import * as ritual_list from '../../rules_parser/Crucible_Rituals.json'
+
+<RitualBuilder spells={spell_list} alchemies={alchemy_list} skills={skill_list} rituals={ritual_list} />

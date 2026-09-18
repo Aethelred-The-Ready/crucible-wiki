@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import useIsBrowser from '@docusaurus/useIsBrowser';
 
 import "../../src/css/custom.css";
 
@@ -31,7 +32,17 @@ export default (props: Props) => {
 	const technique_list: technique[] = React.useMemo(() =>
 		Object.keys(props.techniques).map(k => props.techniques[parseInt(k)]), [props.techniques]);
 
-	const [filterConfig, setfilterConfig] = useState({ sort_type: "level", max_level: 9, schools_included: [...props.schools] });
+	let configString = null
+	if (useIsBrowser()) {
+		configString = localStorage.getItem(props.type + "_book_builder")
+	}
+	let loadedConfig = { sort_type: "level", max_level: 9, schools_included: [...props.schools] }
+
+	if (configString != null) {
+		loadedConfig = JSON.parse(configString)
+	}
+
+	const [filterConfig, setfilterConfig] = useState(loadedConfig);
 
 	const [advOptionsVisible, setAdvOptionsVisible] = useState(false)
 
@@ -55,6 +66,16 @@ export default (props: Props) => {
 	}
 
 	const sortedTechniques: technique_page[] = React.useMemo(() => {
+		try {
+			if (useIsBrowser()) {
+				localStorage.setItem(props.type + "_book_builder", JSON.stringify(filterConfig))
+			}
+		} catch (e: any) {
+			if (e.name && (e.name == "QuotaExceededError" || e.name === 'NS_ERROR_DOM_QUOTA_REACHED')) {
+				console.log("Out of space")
+				return
+			}
+		}
 		let sortableTechniques = [...technique_list].filter(techniqueInSchool).filter(tech => parseInt(tech.Level) <= filterConfig.max_level);
 		sortableTechniques.sort((a, b) => {
 			if (filterConfig.sort_type == "level") {
@@ -230,6 +251,9 @@ export default (props: Props) => {
 				column_a: [...current_level_a],
 				column_b: [...current_level_b]
 			});
+		if (tr == undefined) {
+			return []
+		}
 		return tr;
 	}, [technique_list, filterConfig, printOptions]);
 
@@ -303,6 +327,7 @@ export default (props: Props) => {
 	}
 
 	return <div>
+		
 			{
 				props.schools.length > 1 ? 
 					<div className="not-printable">

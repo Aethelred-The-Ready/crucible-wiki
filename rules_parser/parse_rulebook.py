@@ -183,9 +183,9 @@ for skill in skill_list:
 
 def assemble_req_obj(req_string):
 	if req_string == "Level 1 Spell or Alchemy Slot":
-		return ["or", assemble_req_obj("Level 1 Spell Slot")[0], assemble_req_obj("Level 1 Alchemy Slot")[0]]
+		return ["or", assemble_req_obj("Level 1 Spell Slot"), assemble_req_obj("Level 1 Alchemy Slot")]
 	elif req_string == "One Rank of Stealth Training or Weapon Training per Rank.":
-		return ["or", assemble_req_obj("One Rank of Stealth Training per Rank")[0], assemble_req_obj("One Rank of Weapon Training per Rank")[0]]
+		return ["or", assemble_req_obj("One Rank of Stealth Training per Rank"), assemble_req_obj("One Rank of Weapon Training per Rank")]
 	elif req_string == "Create Flask Create Potion 20":
 		req_string = "Create Flask, Create Potion 20";
 	skill_req_obj = {}
@@ -196,7 +196,15 @@ def assemble_req_obj(req_string):
 		return ["or", assemble_req_obj(req_string[0:index]), assemble_req_obj(req_string[index+4:])]
 	elif "," in req_string:
 		index = req_string.find(",")
-		return [assemble_req_obj(req_string[0:index]), assemble_req_obj(req_string[index+1:])]
+		a = assemble_req_obj(req_string[0:index])
+		b = assemble_req_obj(req_string[index+1:])
+		if (a and b):
+			return [a, b]
+		elif a:
+			return a
+		elif b:
+			return b
+		return []
 
 	skills_required = ""
 
@@ -228,7 +236,7 @@ def assemble_req_obj(req_string):
 		else:
 			skill_req_obj["Name"] = skills_required.strip()
 			skill_req_obj["Count"] = 1
-		return [skill_req_obj]
+		return skill_req_obj
 	
 	if "See Text" in req_string:
 		skills_required = req_string
@@ -248,7 +256,7 @@ def assemble_req_obj(req_string):
 	else:
 		skill_req_obj["Name"] = skills_required.strip()
 		skill_req_obj["Count"] = 1
-	return [skill_req_obj]
+	return skill_req_obj
 	
 
 for skill in skill_list:

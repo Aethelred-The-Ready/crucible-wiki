@@ -181,34 +181,40 @@ skill_name_list = []
 for skill in skill_list:
 	skill_name_list.append(skill["Name"])
 
-def assemble_req_obj(req_string):
+def assemble_req_string(req_string):
 	if req_string == "Level 1 Spell or Alchemy Slot":
-		return ["or", assemble_req_obj("Level 1 Spell Slot"), assemble_req_obj("Level 1 Alchemy Slot")]
+		return assemble_req_string("Level 1 Spell Slot") + " or " + assemble_req_string("Level 1 Alchemy Slot");
 	elif req_string == "One Rank of Stealth Training or Weapon Training per Rank.":
-		return ["or", assemble_req_obj("One Rank of Stealth Training per Rank"), assemble_req_obj("One Rank of Weapon Training per Rank")]
+		return assemble_req_string("One Rank of Stealth Training per Rank") + " or " + assemble_req_string("One Rank of Weapon Training per Rank");
+	elif req_string == "Level 5 Alchemy Slot, Level 5 Spell Slot, or Smithing 5.":
+		return assemble_req_string("Level 5 Alchemy Slot") + " or " + assemble_req_string("Level 5 Spell Slot") + " or " +  assemble_req_string("Smithing 5");
 	elif req_string == "Create Flask Create Potion 20":
 		req_string = "Create Flask, Create Potion 20";
-	skill_req_obj = {}
+	skill_req_string = {}
 
 	# and case
 	if " or " in req_string:
 		index = req_string.find(" or ")
-		return ["or", assemble_req_obj(req_string[0:index]), assemble_req_obj(req_string[index+4:])]
+		return assemble_req_string(req_string[0:index]) + " or " + assemble_req_string(req_string[index+4:])
+	if " and " in req_string:
+		index = req_string.find(" and ")
+		return assemble_req_string(req_string[0:index]) + " and " + assemble_req_string(req_string[index+4:])
 	elif "," in req_string:
 		index = req_string.find(",")
-		a = assemble_req_obj(req_string[0:index])
-		b = assemble_req_obj(req_string[index+1:])
+		a = assemble_req_string(req_string[0:index])
+		b = assemble_req_string(req_string[index+1:])
 		if (a and b):
-			return [a, b]
+			return a + "," + b
 		elif a:
 			return a
 		elif b:
 			return b
-		return []
+		return ""
 
-	skills_required = ""
+	skill_required = ""
 
 	match_size = 0
+	snfs = ""
 
 	for skill_name in skill_name_list:
 		req_string = req_string.replace("Alchemy Slot", "Alchemical Slot").replace(" Art ", " Arts ")
@@ -217,50 +223,46 @@ def assemble_req_obj(req_string):
 			skill_name_for_search = (skill_name[skill_name.find(",")+2:] + " " + skill_name[:skill_name.find(",")]).strip()
 		if skill_name_for_search in req_string:
 			if match_size < len(skill_name_for_search):
-				skills_required = skill_name;
+				skill_required = skill_name;
+				snfs = skill_name_for_search
 				match_size = len(skill_name_for_search)
 
+	if (snfs != ""):
+		req_string = req_string.replace(snfs, "{" + skill_required + "}")
+	
+
 	if req_string == "None" or req_string == "":
-		return []
+		return "None"
 
 	if "Any" in req_string:
-		skills_required = req_string
+		return req_string
 
 	if "Character Levels" in req_string:
-		skills_required = "Character Levels"
-		match = re.search(r'(\d\d?)', req_string)
-		if match:
-			skill_req_obj["Name"] = skills_required.strip()
-			skill_req_obj["Count"] = int(match.group(0))
-			skill_req_obj["Per"] = ("per" in req_string)
-		else:
-			skill_req_obj["Name"] = skills_required.strip()
-			skill_req_obj["Count"] = 1
-		return skill_req_obj
+		return req_string
 	
 	if "See Text" in req_string:
-		skills_required = req_string
+		skill_required = req_string
 
-	match = re.search(r'Level (\d)', req_string)
-	if match:
-		skill_req_obj["Level"] = int(match.group(1))
+	#match = re.search(r'Level (\d)', req_string)
+	#if match:
+	#	skill_req_string["Level"] = int(match.group(1))
 
-	if skills_required == "":
-		print(req_string)
+	#if skill_required == "":
+	#	print(req_string)
 
-	match = re.search(r'(\d\d?)( per Rank)?\.?$', req_string)
-	if match:
-		skill_req_obj["Name"] = skills_required.strip()
-		skill_req_obj["Count"] = int(match.group(1))
-		skill_req_obj["Per"] = ("per" in req_string)
-	else:
-		skill_req_obj["Name"] = skills_required.strip()
-		skill_req_obj["Count"] = 1
-	return skill_req_obj
+	#match = re.search(r'(\d\d?)( per Rank)?\.?$', req_string)
+	#if match:
+	#	skill_req_string["Name"] = skill_required.strip()
+	#	skill_req_string["Count"] = int(match.group(1))
+	#	skill_req_string["Per"] = ("per" in req_string)
+	#else:
+	#	skill_req_string["Name"] = skill_required.strip()
+	#	skill_req_string["Count"] = 1
+	return req_string
 	
 
 for skill in skill_list:
-	skill["Req_obj"] = assemble_req_obj(skill["Requirements"])
+	skill["ReqStr"] = assemble_req_string(skill["Requirements"])
 
 with open("Crucible_Skills.json", "w", encoding="utf-8") as csfp:
 	json.dump(skill_list, csfp, indent="\t")

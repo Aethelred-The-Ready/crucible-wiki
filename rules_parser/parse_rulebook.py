@@ -172,9 +172,11 @@ temp = get_skill_costs(current_skill_obj["Name"])
 if temp is not None:
 	current_skill_obj["Costs"] = temp[1]
 	current_skill_obj["Category"] = temp[0]
+	current_skill_obj["Rank"] = temp[2]
 else:
 	current_skill_obj["Costs"] = [2, 3, 4, 5]
 	current_skill_obj["Category"] = current_skill_obj["Name"]
+	current_skill_obj["Rank"] = temp[0]
 skill_list.append(current_skill_obj)
 
 skill_name_list = []

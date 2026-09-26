@@ -1,5 +1,5 @@
 
-import json, re
+import json, re, copy
 
 with open("Crucible_text.html", "r", encoding="utf-8") as rulebook:
 	rulebook_content = rulebook.read()
@@ -168,21 +168,6 @@ for line in skill_descriptions:
 			current_skill_obj["Requirements"] += " "
 		current_skill_obj["Requirements"] += line.strip()
 
-temp = get_skill_costs(current_skill_obj["Name"])
-if temp is not None:
-	current_skill_obj["Costs"] = temp[1]
-	current_skill_obj["Category"] = temp[0]
-	current_skill_obj["Rank"] = temp[2]
-else:
-	current_skill_obj["Costs"] = [2, 3, 4, 5]
-	current_skill_obj["Category"] = current_skill_obj["Name"]
-	current_skill_obj["Rank"] = temp[0]
-skill_list.append(current_skill_obj)
-
-skill_name_list = []
-for skill in skill_list:
-	skill_name_list.append(skill["Name"])
-
 def assemble_req_string(req_string):
 	if req_string == "Level 1 Spell or Alchemy Slot":
 		return assemble_req_string("Level 1 Spell Slot") + " or " + assemble_req_string("Level 1 Alchemy Slot");
@@ -192,7 +177,9 @@ def assemble_req_string(req_string):
 		return assemble_req_string("Level 5 Alchemy Slot") + " or " + assemble_req_string("Level 5 Spell Slot") + " or " +  assemble_req_string("Smithing 5");
 	elif req_string == "Create Flask Create Potion 20":
 		req_string = "Create Flask, Create Potion 20";
-	skill_req_string = {}
+	elif "Δ" in req_string:
+		req_string = req_string.replace("Δ ", "")
+		req_string = req_string.replace("Δ", "")
 
 	# and case
 	if " or " in req_string:
@@ -262,9 +249,62 @@ def assemble_req_string(req_string):
 	#	skill_req_string["Count"] = 1
 	return req_string
 	
+temp = get_skill_costs(current_skill_obj["Name"])
+if temp is not None:
+	current_skill_obj["Costs"] = temp[1]
+	current_skill_obj["Category"] = temp[0]
+	current_skill_obj["Rank"] = temp[2]
+else:
+	current_skill_obj["Costs"] = [2, 3, 4, 5]
+	current_skill_obj["Category"] = current_skill_obj["Name"]
+	current_skill_obj["Rank"] = temp[0]
+skill_list.append(current_skill_obj)
+
+skill_name_list = []
+for skill in skill_list:
+	skill_name_list.append(skill["Name"])
+
+# Ya hate to do it, but I need to manually add the three x 9 slot skills manually here
+for index, skill in enumerate(skill_list):
+	name = ""
+	if (skill["Name"] == "Spell Slot"):
+		base_name = "Spell Slot"
+		req = "Magical Aptitude"
+	elif (skill["Name"] == "Alchemical Slot"):
+		base_name = "Alchemy Slot"
+		req = "Chemistry"
+	elif (skill["Name"] == "Martial Arts Slot"):
+		base_name = "Martial Arts Slot"
+		req = "Weapon Training 1 or Stealth Training 1"
+	else:
+		continue;
+	base_skill = skill;
+	costs = [2,3,4,5]
+	to_add = []
+	for x in range(1,10):
+		temp_skill = copy.copy(base_skill)
+		temp_skill["Name"] = f"Level {x} {base_name}"
+		if temp_skill["Name"] == "Level 4 Marital Arts Slot":
+			req = "Weapon Training 2 or Stealth Training 2"
+		elif temp_skill["Name"] == "Level 7 Marital Arts Slot":
+			req = "Weapon Training 3 or Stealth Training 3"
+		elif temp_skill["Name"] == "Level 2 Spell Slot":
+			req = "Δ"
+		elif temp_skill["Name"] == "Level 2 Alchemy Slot":
+			req = "Δ"
+		elif "Level 6" in temp_skill["Name"]:
+			costs = [4,6,8,10]
+		temp_skill["Requirements"] = req
+		temp_skill["Costs"] = costs
+		to_add.append(temp_skill)
+	skill_list[index: index+1] = to_add
+
 
 for skill in skill_list:
 	skill["ReqStr"] = assemble_req_string(skill["Requirements"])
+
+	
+
 
 with open("Crucible_Skills.json", "w", encoding="utf-8") as csfp:
 	json.dump(skill_list, csfp, indent="\t")

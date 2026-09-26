@@ -117,15 +117,156 @@
 	},
 	{
 		"Title": "Alchemical Slot [Crafting]*",
-		"Name": "Alchemical Slot",
+		"Name": "Level 1 Alchemy Slot",
 		"Groups": "Crafting",
 		"Category": "Alchemical Slot",
 		"Multi": true,
-		"Requirements": "Chemistry, See Text",
+		"Requirements": "Chemistry",
 		"Benefit": "This Character gains one Alchemy Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
-		"Costs": [],
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		],
 		"Rank": 3,
-		"ReqStr": "{Chemistry}, See Text"
+		"ReqStr": "{Chemistry}"
+	},
+	{
+		"Title": "Alchemical Slot [Crafting]*",
+		"Name": "Level 2 Alchemy Slot",
+		"Groups": "Crafting",
+		"Category": "Alchemical Slot",
+		"Multi": true,
+		"Requirements": "\u0394",
+		"Benefit": "This Character gains one Alchemy Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		],
+		"Rank": 3,
+		"ReqStr": "None"
+	},
+	{
+		"Title": "Alchemical Slot [Crafting]*",
+		"Name": "Level 3 Alchemy Slot",
+		"Groups": "Crafting",
+		"Category": "Alchemical Slot",
+		"Multi": true,
+		"Requirements": "\u0394",
+		"Benefit": "This Character gains one Alchemy Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		],
+		"Rank": 3,
+		"ReqStr": "None"
+	},
+	{
+		"Title": "Alchemical Slot [Crafting]*",
+		"Name": "Level 4 Alchemy Slot",
+		"Groups": "Crafting",
+		"Category": "Alchemical Slot",
+		"Multi": true,
+		"Requirements": "\u0394",
+		"Benefit": "This Character gains one Alchemy Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		],
+		"Rank": 3,
+		"ReqStr": "None"
+	},
+	{
+		"Title": "Alchemical Slot [Crafting]*",
+		"Name": "Level 5 Alchemy Slot",
+		"Groups": "Crafting",
+		"Category": "Alchemical Slot",
+		"Multi": true,
+		"Requirements": "\u0394",
+		"Benefit": "This Character gains one Alchemy Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		],
+		"Rank": 3,
+		"ReqStr": "None"
+	},
+	{
+		"Title": "Alchemical Slot [Crafting]*",
+		"Name": "Level 6 Alchemy Slot",
+		"Groups": "Crafting",
+		"Category": "Alchemical Slot",
+		"Multi": true,
+		"Requirements": "\u0394",
+		"Benefit": "This Character gains one Alchemy Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			4,
+			6,
+			8,
+			10
+		],
+		"Rank": 3,
+		"ReqStr": "None"
+	},
+	{
+		"Title": "Alchemical Slot [Crafting]*",
+		"Name": "Level 7 Alchemy Slot",
+		"Groups": "Crafting",
+		"Category": "Alchemical Slot",
+		"Multi": true,
+		"Requirements": "\u0394",
+		"Benefit": "This Character gains one Alchemy Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			4,
+			6,
+			8,
+			10
+		],
+		"Rank": 3,
+		"ReqStr": "None"
+	},
+	{
+		"Title": "Alchemical Slot [Crafting]*",
+		"Name": "Level 8 Alchemy Slot",
+		"Groups": "Crafting",
+		"Category": "Alchemical Slot",
+		"Multi": true,
+		"Requirements": "\u0394",
+		"Benefit": "This Character gains one Alchemy Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			4,
+			6,
+			8,
+			10
+		],
+		"Rank": 3,
+		"ReqStr": "None"
+	},
+	{
+		"Title": "Alchemical Slot [Crafting]*",
+		"Name": "Level 9 Alchemy Slot",
+		"Groups": "Crafting",
+		"Category": "Alchemical Slot",
+		"Multi": true,
+		"Requirements": "\u0394",
+		"Benefit": "This Character gains one Alchemy Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			4,
+			6,
+			8,
+			10
+		],
+		"Rank": 3,
+		"ReqStr": "None"
 	},
 	{
 		"Title": "Alkahestry [Crafting]",
@@ -1365,15 +1506,156 @@
 	},
 	{
 		"Title": "Martial Arts Slot [Fighting]*",
-		"Name": "Martial Arts Slot",
+		"Name": "Level 1 Martial Arts Slot",
 		"Groups": "Fighting",
 		"Category": "Martial Arts Slot",
 		"Multi": true,
-		"Requirements": "Weapon Training or Stealth Training, See Text",
+		"Requirements": "Weapon Training 1 or Stealth Training 1",
 		"Benefit": "This Character gains one Martial Art Slot of the appropriate level as detailed under Pyramid Skills on Page 33.",
-		"Costs": [],
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		],
 		"Rank": 5,
-		"ReqStr": "{Weapon Training} or {Stealth Training}, See Text"
+		"ReqStr": "{Weapon Training} 1 or {Stealth Training} 1"
+	},
+	{
+		"Title": "Martial Arts Slot [Fighting]*",
+		"Name": "Level 2 Martial Arts Slot",
+		"Groups": "Fighting",
+		"Category": "Martial Arts Slot",
+		"Multi": true,
+		"Requirements": "Weapon Training 1 or Stealth Training 1",
+		"Benefit": "This Character gains one Martial Art Slot of the appropriate level as detailed under Pyramid Skills on Page 33.",
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		],
+		"Rank": 5,
+		"ReqStr": "{Weapon Training} 1 or {Stealth Training} 1"
+	},
+	{
+		"Title": "Martial Arts Slot [Fighting]*",
+		"Name": "Level 3 Martial Arts Slot",
+		"Groups": "Fighting",
+		"Category": "Martial Arts Slot",
+		"Multi": true,
+		"Requirements": "Weapon Training 1 or Stealth Training 1",
+		"Benefit": "This Character gains one Martial Art Slot of the appropriate level as detailed under Pyramid Skills on Page 33.",
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		],
+		"Rank": 5,
+		"ReqStr": "{Weapon Training} 1 or {Stealth Training} 1"
+	},
+	{
+		"Title": "Martial Arts Slot [Fighting]*",
+		"Name": "Level 4 Martial Arts Slot",
+		"Groups": "Fighting",
+		"Category": "Martial Arts Slot",
+		"Multi": true,
+		"Requirements": "Weapon Training 1 or Stealth Training 1",
+		"Benefit": "This Character gains one Martial Art Slot of the appropriate level as detailed under Pyramid Skills on Page 33.",
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		],
+		"Rank": 5,
+		"ReqStr": "{Weapon Training} 1 or {Stealth Training} 1"
+	},
+	{
+		"Title": "Martial Arts Slot [Fighting]*",
+		"Name": "Level 5 Martial Arts Slot",
+		"Groups": "Fighting",
+		"Category": "Martial Arts Slot",
+		"Multi": true,
+		"Requirements": "Weapon Training 1 or Stealth Training 1",
+		"Benefit": "This Character gains one Martial Art Slot of the appropriate level as detailed under Pyramid Skills on Page 33.",
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		],
+		"Rank": 5,
+		"ReqStr": "{Weapon Training} 1 or {Stealth Training} 1"
+	},
+	{
+		"Title": "Martial Arts Slot [Fighting]*",
+		"Name": "Level 6 Martial Arts Slot",
+		"Groups": "Fighting",
+		"Category": "Martial Arts Slot",
+		"Multi": true,
+		"Requirements": "Weapon Training 1 or Stealth Training 1",
+		"Benefit": "This Character gains one Martial Art Slot of the appropriate level as detailed under Pyramid Skills on Page 33.",
+		"Costs": [
+			4,
+			6,
+			8,
+			10
+		],
+		"Rank": 5,
+		"ReqStr": "{Weapon Training} 1 or {Stealth Training} 1"
+	},
+	{
+		"Title": "Martial Arts Slot [Fighting]*",
+		"Name": "Level 7 Martial Arts Slot",
+		"Groups": "Fighting",
+		"Category": "Martial Arts Slot",
+		"Multi": true,
+		"Requirements": "Weapon Training 1 or Stealth Training 1",
+		"Benefit": "This Character gains one Martial Art Slot of the appropriate level as detailed under Pyramid Skills on Page 33.",
+		"Costs": [
+			4,
+			6,
+			8,
+			10
+		],
+		"Rank": 5,
+		"ReqStr": "{Weapon Training} 1 or {Stealth Training} 1"
+	},
+	{
+		"Title": "Martial Arts Slot [Fighting]*",
+		"Name": "Level 8 Martial Arts Slot",
+		"Groups": "Fighting",
+		"Category": "Martial Arts Slot",
+		"Multi": true,
+		"Requirements": "Weapon Training 1 or Stealth Training 1",
+		"Benefit": "This Character gains one Martial Art Slot of the appropriate level as detailed under Pyramid Skills on Page 33.",
+		"Costs": [
+			4,
+			6,
+			8,
+			10
+		],
+		"Rank": 5,
+		"ReqStr": "{Weapon Training} 1 or {Stealth Training} 1"
+	},
+	{
+		"Title": "Martial Arts Slot [Fighting]*",
+		"Name": "Level 9 Martial Arts Slot",
+		"Groups": "Fighting",
+		"Category": "Martial Arts Slot",
+		"Multi": true,
+		"Requirements": "Weapon Training 1 or Stealth Training 1",
+		"Benefit": "This Character gains one Martial Art Slot of the appropriate level as detailed under Pyramid Skills on Page 33.",
+		"Costs": [
+			4,
+			6,
+			8,
+			10
+		],
+		"Rank": 5,
+		"ReqStr": "{Weapon Training} 1 or {Stealth Training} 1"
 	},
 	{
 		"Title": "Martial Intervention [Fighting, Intervention]*",
@@ -2555,15 +2837,156 @@
 	},
 	{
 		"Title": "Spell Slot [Magic]*",
-		"Name": "Spell Slot",
+		"Name": "Level 1 Spell Slot",
 		"Groups": "Magic",
 		"Category": "Spell Slot",
 		"Multi": true,
-		"Requirements": "Magical Aptitude, See Text",
+		"Requirements": "Magical Aptitude",
 		"Benefit": "This Character gains one Spell Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
-		"Costs": [],
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		],
 		"Rank": 27,
-		"ReqStr": "{Magical Aptitude}, See Text"
+		"ReqStr": "{Magical Aptitude}"
+	},
+	{
+		"Title": "Spell Slot [Magic]*",
+		"Name": "Level 2 Spell Slot",
+		"Groups": "Magic",
+		"Category": "Spell Slot",
+		"Multi": true,
+		"Requirements": "\u0394",
+		"Benefit": "This Character gains one Spell Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		],
+		"Rank": 27,
+		"ReqStr": "None"
+	},
+	{
+		"Title": "Spell Slot [Magic]*",
+		"Name": "Level 3 Spell Slot",
+		"Groups": "Magic",
+		"Category": "Spell Slot",
+		"Multi": true,
+		"Requirements": "\u0394",
+		"Benefit": "This Character gains one Spell Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		],
+		"Rank": 27,
+		"ReqStr": "None"
+	},
+	{
+		"Title": "Spell Slot [Magic]*",
+		"Name": "Level 4 Spell Slot",
+		"Groups": "Magic",
+		"Category": "Spell Slot",
+		"Multi": true,
+		"Requirements": "\u0394",
+		"Benefit": "This Character gains one Spell Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		],
+		"Rank": 27,
+		"ReqStr": "None"
+	},
+	{
+		"Title": "Spell Slot [Magic]*",
+		"Name": "Level 5 Spell Slot",
+		"Groups": "Magic",
+		"Category": "Spell Slot",
+		"Multi": true,
+		"Requirements": "\u0394",
+		"Benefit": "This Character gains one Spell Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			2,
+			3,
+			4,
+			5
+		],
+		"Rank": 27,
+		"ReqStr": "None"
+	},
+	{
+		"Title": "Spell Slot [Magic]*",
+		"Name": "Level 6 Spell Slot",
+		"Groups": "Magic",
+		"Category": "Spell Slot",
+		"Multi": true,
+		"Requirements": "\u0394",
+		"Benefit": "This Character gains one Spell Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			4,
+			6,
+			8,
+			10
+		],
+		"Rank": 27,
+		"ReqStr": "None"
+	},
+	{
+		"Title": "Spell Slot [Magic]*",
+		"Name": "Level 7 Spell Slot",
+		"Groups": "Magic",
+		"Category": "Spell Slot",
+		"Multi": true,
+		"Requirements": "\u0394",
+		"Benefit": "This Character gains one Spell Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			4,
+			6,
+			8,
+			10
+		],
+		"Rank": 27,
+		"ReqStr": "None"
+	},
+	{
+		"Title": "Spell Slot [Magic]*",
+		"Name": "Level 8 Spell Slot",
+		"Groups": "Magic",
+		"Category": "Spell Slot",
+		"Multi": true,
+		"Requirements": "\u0394",
+		"Benefit": "This Character gains one Spell Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			4,
+			6,
+			8,
+			10
+		],
+		"Rank": 27,
+		"ReqStr": "None"
+	},
+	{
+		"Title": "Spell Slot [Magic]*",
+		"Name": "Level 9 Spell Slot",
+		"Groups": "Magic",
+		"Category": "Spell Slot",
+		"Multi": true,
+		"Requirements": "\u0394",
+		"Benefit": "This Character gains one Spell Slot of the appropriate level as detailed under Pyramid Skills on Page 32.",
+		"Costs": [
+			4,
+			6,
+			8,
+			10
+		],
+		"Rank": 27,
+		"ReqStr": "None"
 	},
 	{
 		"Title": "Split Shot [Expertise]*",

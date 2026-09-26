@@ -53,6 +53,20 @@ with open("./Crucible_Skills.json", "r", encoding="utf-8") as file_pointer:
 
 skill_list = []
 
+skill_contents_list = [x for x in skill_contents_list if ("Level 1" in x["Name"]) or (not "Level" in x["Name"])]
+
+for skill in skill_contents_list:
+	if "Level 1" in skill["Name"]:
+		skill["Name"] = skill["Name"][8:]
+	skill["Name"] = skill["Name"].replace("Alchemy Slot", "Alchemical Slot")
+	if "Spell Slot" == skill["Name"]:
+		skill["Requirements"] = "Magical Aptitude, See Text"
+	elif "Alchemical Slot" == skill["Name"]:
+		skill["Requirements"] = "Chemistry, See Text"
+	elif "Martial Arts Slot" == skill["Name"]:
+		skill["Requirements"] = "Weapon Training or Stealth Training, See Text"
+
+
 for skill in skill_contents_list:
 	skill_name = skill["Name"]
 	skill_name = skill_name.strip()

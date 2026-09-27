@@ -1,6 +1,6 @@
 import React from 'react';
 
-function getDescription(drawback) {
+function getDescription(drawback: string) {
 	switch (drawback) {
 		case "Lower Caste": return "Magic and Fighting cannot be Priority A or B";
 		case "Expertise Devotion": return "Expertise must be Priority A";

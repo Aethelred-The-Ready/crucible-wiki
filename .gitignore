@@ -20,5 +20,5 @@ yarn-debug.log*
 yarn-error.log*
 
 rules_parser/*.html
-!rules_parser/Crucible_V1p0.html
+!rules_parser/Crucible_text.html
 rules_parser/*.txt

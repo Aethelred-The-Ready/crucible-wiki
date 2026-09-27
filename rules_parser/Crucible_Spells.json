@@ -1591,7 +1591,7 @@
 		"Level": "1",
 		"Range": "Touch",
 		"Duration": "Indefinite",
-		"Effect": "This Spell grants the target Physical Resistance, reducing the damage from the next effect delivered as Physical(-Strike), which strikes the target, by half rounded down. If the effect is non- damaging its duration is reduced to ten(10) seconds. This effect does not protect against effects delivered as Piercing.",
+		"Effect": "This Spell grants the target Physical Resistance, reducing the damage from the next effect delivered as Physical(-Strike), or causing Weapon Damage, which strikes the target, by half rounded down. If the effect is non-damaging its duration is reduced to ten(10) seconds. This effect does not protect against effects delivered as Piercing.",
 		"Incantation": "\"I grant you the protection of Physical Reduction.\"",
 		"Delivery Verbal": "\"Magic Imbue Skill: Limited Physical Resistance\""
 	},
@@ -1603,7 +1603,7 @@
 		"Level": "2",
 		"Range": "Packet",
 		"Duration": "Indefinite",
-		"Effect": "This Spell grants the target a Shield against the next effect delivered as Physical(-Strike) by which they are struck.",
+		"Effect": "This Spell grants the target a Shield against the next effect delivered as Physical(-Strike), or causing Weapon Damage, by which they are struck.",
 		"Incantation": "\"I grant you the protection of a Physical Shield.\"",
 		"Delivery Verbal": "\"Magic Physical Shield\""
 	},
@@ -1615,7 +1615,7 @@
 		"Level": "5",
 		"Range": "Self and Touch",
 		"Duration": "Concentration",
-		"Effect": "Once this Spell is cast the Caster may deliver, by Touch, a \"Magic Physical Shield\" effect. This effect grants the target a Shield against the next effect delivered as Physical(-Strike) by which they are struck. The Caster may continue to deliver this effect until they go ten(10) seconds without affecting a new target or the Spell is Disrupted. No target can benefit from this effect more than once.",
+		"Effect": "Once this Spell is cast the Caster may deliver, by Touch, a \"Magic Physical Shield\" effect. This effect grants the target a Shield against the next effect delivered as Physical(-Strike), or causing Weapon Damage, by which they are struck. The Caster may continue to deliver this effect until they go ten(10) seconds without affecting a new target or the Spell is Disrupted. No target can benefit from this effect more than once.",
 		"Incantation": "\"I grant the Masses the protection of a Physical Shield.\"",
 		"Delivery Verbal": "\"Magic Physical Shield \u2026 Magic Physical Shield\""
 	},

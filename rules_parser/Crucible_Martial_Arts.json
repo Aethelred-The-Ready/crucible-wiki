@@ -571,7 +571,7 @@
 		"Level": "2",
 		"Range": "Self",
 		"Duration": "Indefinite",
-		"Effect": "This Artistry grants the Caster a Shield against the next effect delivered as Physical(-Strike) by which they are struck.",
+		"Effect": "This Artistry grants the Caster a Shield against the next effect delivered as Physical(-Strike), or causing Weapon Damage, by which they are struck.",
 		"Delivery Verbal": "\"Physical Physical Shield\"",
 		"Incantation": "None"
 	},

@@ -7,7 +7,7 @@
 		"Level": "7",
 		"Range": "Packet, Multiple",
 		"Duration": "Instant",
-		"Effect": "This Alchemy allows the Character to throw any number of packets. Any creature struck by one or more packets takes twenty(20) points of Poison Acid damage.",
+		"Effect": "This Alchemy allows the Caster to throw any number of packets. Any creature struck by one or more packets takes twenty(20) points of Poison Acid damage.",
 		"Delivery Verbal": "\"20 Poison Acid\"",
 		"Incantation": "None"
 	},
@@ -19,7 +19,7 @@
 		"Level": "9",
 		"Range": "Packet, Multiple",
 		"Duration": "Instant",
-		"Effect": "This Alchemy allows the Character to throw any number of packets. Any creature struck by one or more packets takes thirty(30) points of Poison Acid damage.",
+		"Effect": "This Alchemy allows the Caster to throw any number of packets. Any creature struck by one or more packets takes thirty(30) points of Poison Acid damage.",
 		"Delivery Verbal": "\"30 Poison Acid\"",
 		"Incantation": "None"
 	},
@@ -31,7 +31,7 @@
 		"Level": "8",
 		"Range": "Packet, Multiple",
 		"Duration": "5 Minutes",
-		"Effect": "This Binding Alchemy allows the Character to throw any number of packets. Any creature struck by one or more packets is affected by a Physical Pin effect preventing any target from moving, or lifting, their right foot though they may still pivot upon it.",
+		"Effect": "This Binding Alchemy allows the Caster to throw any number of packets. Any creature struck by one or more packets is affected by a Physical Pin effect preventing any target from moving, or lifting, their right foot though they may still pivot upon it.",
 		"Delivery Verbal": "\"Physical Pin\"",
 		"Incantation": "None"
 	},
@@ -43,7 +43,7 @@
 		"Level": "9",
 		"Range": "Self and Packet",
 		"Duration": "Sustained",
-		"Effect": "This Alchemy allows the Character to throw a packet attack causing ten(10) Poison Fire damage at will. The Character may continue to throw this attack until they die, the current Reset period ends, or use another Alchemy. Each individual packet attack is subject to Disruption but this effect is not.\n\n This Alchemy cannot benefit from the effects of any Mutation or ability which modifies the casting of a single Alchemy.",
+		"Effect": "This Alchemy allows the Caster to throw a packet attack causing ten(10) Poison Fire damage at will. The Caster may continue to throw this attack until they die, the current Reset period ends, or use another Alchemy. Each individual packet attack is subject to Disruption but this effect is not.\n\n This Alchemy cannot benefit from the effects of any Mutation or ability which modifies the casting of a single Alchemy.",
 		"Delivery Verbal": "\"10 Poison Fire\" \u2026 \"10 Poison Fire\"",
 		"Incantation": "None"
 	},
@@ -55,7 +55,7 @@
 		"Level": "2",
 		"Range": "Packet",
 		"Duration": "Instant",
-		"Effect": "Upon using this Alchemy the Character chooses one of the following damage types; Acid, or Fire. The Character may deliver a packet attack causing ten(10) points of Poison damage of the chosen type.",
+		"Effect": "Upon using this Alchemy the Caster chooses one of the following damage types; Acid, or Fire. The Caster may deliver a packet attack causing ten(10) points of Poison damage of the chosen type.",
 		"Delivery Verbal": "\"10 Poison Acid\" or \"10 Poison Fire\"",
 		"Incantation": "None"
 	},
@@ -67,7 +67,7 @@
 		"Level": "6",
 		"Range": "Packet",
 		"Duration": "Instant",
-		"Effect": "Upon using this Alchemy the Character chooses one of the following damage types; Acid, or Fire. The Character may deliver a packet attack causing thirty(30) points of Poison damage of the chosen type.",
+		"Effect": "Upon using this Alchemy the Caster chooses one of the following damage types; Acid, or Fire. The Caster may deliver a packet attack causing thirty(30) points of Poison damage of the chosen type.",
 		"Delivery Verbal": "\"30 Poison Acid\" or \"30 Poison Fire\"",
 		"Incantation": "None"
 	},
@@ -115,7 +115,7 @@
 		"Level": "9",
 		"Range": "Packet",
 		"Duration": "5 Minutes",
-		"Effect": "This Alchemy forces the Character into an insane killing frenzy forcing them to attack everyone around them to the best of their Player's ability using the most effective means at their disposal. This means that the Character's morals or personality have no impact on the means they use to attack those around them.",
+		"Effect": "This Alchemy forces the target into an insane killing frenzy forcing them to attack everyone around them to the best of their Player's ability using the most effective means at their disposal. This means that the Character's morals or personality have no impact on the means they use to attack those around them.",
 		"Delivery Verbal": "\"Poison Berserk\"",
 		"Incantation": "None"
 	},
@@ -211,7 +211,7 @@
 		"Level": "6",
 		"Range": "Packet",
 		"Duration": "Instant",
-		"Effect": "This Alchemy causes thirty(30) points of Poison Healing to the target. Any healing above the Character's maximum is lost.",
+		"Effect": "This Alchemy causes thirty(30) points of Poison Healing to the target. Any healing above the target's maximum is lost.",
 		"Delivery Verbal": "\"30 Poison Healing\"",
 		"Incantation": "None"
 	},
@@ -223,7 +223,7 @@
 		"Level": "2",
 		"Range": "Packet",
 		"Duration": "Instant",
-		"Effect": "This Alchemy causes ten(10) points of Poison Healing to the target. Any healing above the Character's maximum is lost.",
+		"Effect": "This Alchemy causes ten(10) points of Poison Healing to the target. Any healing above the target's maximum is lost.",
 		"Delivery Verbal": "\"10 Poison Healing\"",
 		"Incantation": "None"
 	},
@@ -235,7 +235,7 @@
 		"Level": "8",
 		"Range": "Packet",
 		"Duration": "Instant",
-		"Effect": "This Alchemy causes forty(40) points of Poison Healing to the target. Any healing above the Character's maximum is lost.",
+		"Effect": "This Alchemy causes forty(40) points of Poison Healing to the target. Any healing above the target's maximum is lost.",
 		"Delivery Verbal": "\"40 Poison Healing\"",
 		"Incantation": "None"
 	},
@@ -247,7 +247,7 @@
 		"Level": "4",
 		"Range": "Packet",
 		"Duration": "Instant",
-		"Effect": "This Alchemy causes twenty(20) points of Poison Healing to the target. Any healing above the Character's maximum is lost.",
+		"Effect": "This Alchemy causes twenty(20) points of Poison Healing to the target. Any healing above the target's maximum is lost.",
 		"Delivery Verbal": "\"20 Poison Healing\"",
 		"Incantation": "None"
 	},
@@ -511,7 +511,7 @@
 		"Level": "3",
 		"Range": "Self",
 		"Duration": "Charged (1)",
-		"Effect": "This Alchemy allows the target to use the Weapon Type: Silver against a single target until the end of combat.",
+		"Effect": "This Alchemy allows the Caster to use the Weapon Type: Silver against a single target until the end of combat.",
 		"Delivery Verbal": "\"Poison Silver Blade\"",
 		"Incantation": "None"
 	},
@@ -523,7 +523,7 @@
 		"Level": "7",
 		"Range": "Self",
 		"Duration": "Charged (1)",
-		"Effect": "This Alchemy grants the target a Ward allowing them to negate a single effect causing Weapon Damage, or delivered as Physical(-Strike), by which they are struck. The target chooses when to activate this ability. When activated, this Alchemy also instantly restores any Physical Armour the Caster possesses to full value. The call for this effect is \"Ward, Poison Refit Physical Armour\".",
+		"Effect": "This Alchemy grants the Caster a Ward allowing them to negate a single effect causing Weapon Damage, or delivered as Physical(-Strike), by which they are struck. The Caster chooses when to activate this ability. When activated, this Alchemy also instantly restores any Physical Armour the Caster possesses to full value. The call for this effect is \"Ward, Poison Refit Physical Armour\".",
 		"Delivery Verbal": "\"Poison Physical Ward\"",
 		"Incantation": "None"
 	},

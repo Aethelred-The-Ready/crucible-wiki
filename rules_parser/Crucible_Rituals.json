@@ -9,7 +9,7 @@
 		"School": "Affliction",
 		"Target": "Any Spirit",
 		"Duration": "Instant",
-		"Effect": "This Ritual instantly slays the target and causes them to receive two(2) additional deaths. The effects of this Ritual are negated if the target receives a Life Spell before Dissipating. This Ritual is always Unstable, takes one hour to cast and has a 10% Chance to Succeed, a 60% Chance to Flaw, a 20% Chance to Fail, and a 10% chance to Backlash. If this Ritual Backlashes, roll on the Catastrophe table."
+		"Effect": "This Ritual instantly slays the target and causes them to receive two(2) additional deaths. The effects of this Ritual are negated if the target receives a Life Spell before Dissipating. Once this Ritual begins the target becomes locked in the Circle, even if Dissipated. This Ritual is always Unstable, takes one hour to cast and has a 10% Chance to Succeed, a 60% Chance to Flaw, a 20% Chance to Fail, and a 10% chance to Backlash. If this Ritual Backlashes, roll on the Catastrophe table."
 	},
 	{
 		"Title": "Blood Drinker [Ritual]*",
@@ -537,7 +537,7 @@
 		"School": "Protection",
 		"Target": "Circle",
 		"Duration": "One(1) Year",
-		"Effect": "This Ritual creates a Protective Circle. Anyone inside this Circle at the time of casting gains an investiture into it allowing them to enter or leave it at will as well allowing others to do so. Anyone inside the Circle is Immune to all effects which originate from outside of it. Creatures who are not Invested are incapable of entering the Circle unless a Character who is has allowed them access."
+		"Effect": "This Ritual creates a Protective Circle. Anyone inside this Circle at the time of casting gains an investiture into it allowing them to enter or leave it at will as well allowing others to do so. Anyone inside the Circle is Immune to all effects which originate from outside of it. Creatures who are not Invested are incapable of entering, or leaving, the Circle unless a Character who is has allowed them access. Effects cannot pass through the Circle preventing those inside from attacking those outside with weapons or packets. Items cannot be passed through the barrier. If a Character wants to place an item, or attack someone, outside the Circle they must step entirely outside the Circle to do so. The same is true if a Character outside the Circle wishes to place something inside the Circle or attack someone inside the Circle."
 	},
 	{
 		"Title": "Purifying Armour [Ritual]*",

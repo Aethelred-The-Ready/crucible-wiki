@@ -557,7 +557,7 @@
 		"Category": "Potion Brewing",
 		"Multi": true,
 		"Requirements": "Create Flask Create Potion 20",
-		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may create a Cauldron which contains a single Technique, with a Range of Touch or Packet, which is an Alchemy or from one of the following Schools of Magic; Protection, Restoration, Transmutation. The caster must be able to cast the stored Technique . The creator may set up the Cauldron as an immovable object from which anyone may spend a ten(10)-count to role-play drawing from, and imbibing a portion of the Cauldron gaining the benefits of the contained Technique. Any number of Characters may benefit from the Cauldron but a Character may benefit from a single Cauldron no more than once per Reset period. A Cauldron ends if the Cauldron is Destroyed or its creator sets up a second Cauldron.\n\nA Cauldron is a container which can hold a minimum of two(2) litres of liquid.\n\nIn order to use this Skill the Character must have access to a Potion Laboratory. All Cauldrons expire at the end of the Event.",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may create a Cauldron which contains a single Technique, with a Range of Touch or Packet, which is an Alchemy or from one of the following Schools of Magic; Protection, Restoration, Transmutation. The caster must be able to cast the stored Technique . The creator may set up the Cauldron as an immovable object from which anyone may spend a ten(10)-count to role-play drawing from, and imbibing a portion of the Cauldron gaining the benefits of the contained Technique. Any number of Characters may benefit from the Cauldron but a Character may benefit from a single Cauldron no more than once per Reset period. A Cauldron ends if the Cauldron is Destroyed or its creator sets up a second Cauldron.\n\nWhen a Technique has multiple effects, such as Blood Bolt, the Character must choose which of the effects are contained within the Cauldron.\n\nA Cauldron is a container which can hold a minimum of two(2) litres of liquid.\n\nIn order to use this Skill the Character must have access to a Potion Laboratory. All Cauldrons expire at the end of the Event.",
 		"Costs": [
 			"8",
 			"10",
@@ -574,7 +574,7 @@
 		"Category": "Potion Brewing",
 		"Multi": true,
 		"Requirements": "Create Potion 10",
-		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may expend a single Spell or Alchemy Slot to create a Flask containing a Technique, the Character can cast, with a Range of Touch or Packet, of the same level as the expended Technique Slot. The Technique must have a Range of Touch or Packet. A Flask has five(5) Charges upon creation. The Character may then expending one(1) Charge from the Flask in order to deliver the chosen Technique against a target by having the target spend a three(3)-count role-playing drinking from the Flask.\n\nA Flask must be marked with the Technique it contains, as well as the number of charges it contains, and must be a container which appears to hold one-hundred(100) to one-thousand(1000) millilitres of liquid.\n\nIn order to use this Skill the Character must have access to a Potion Laboratory. All Flasks expire at the end of the Event.",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may expend a single Spell or Alchemy Slot to create a Flask containing a Technique, the Character can cast, with a Range of Touch or Packet, of the same level as the expended Technique Slot. The Technique must have a Range of Touch or Packet. A Flask has five(5) Charges upon creation. The Character may then expending one(1) Charge from the Flask in order to deliver the chosen Technique against a target by having the target spend a three(3)-count role-playing drinking from the Flask.\n\nWhen a Technique has multiple effects, such as Blood Bolt, the Character must choose which of the effects are contained within the Flask.\n\nA Flask must be marked with the Technique it contains, as well as the number of charges it contains, and must be a container which appears to hold one-hundred(100) to one-thousand(1000) millilitres of liquid.\n\nIn order to use this Skill the Character must have access to a Potion Laboratory. All Flasks expire at the end of the Event.",
 		"Costs": [
 			"8",
 			"10",
@@ -625,7 +625,7 @@
 		"Category": "Inscription",
 		"Multi": true,
 		"Requirements": "Create Scroll 10",
-		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may expend a single Spell Slot to create a Wand containing a Spell, the Character can cast, with a Range of Touch or Packet, of the same level as the expended Spell Slot. Once a Spell has been put into a Wand, its creator may use the wand to deliver the stored Spell up to five(5) times.\n\nA Wand must be marked with the Spell it contains, as well as the number of charges it contains, and must measure between 10 and 100cm.\n\nIn order to use this Skill the Character must have access to a Scroll Laboratory. All Wands expire at the end of the Event.",
+		"Benefit": "Once per Reset, for every time this Skill is bought, the Character may expend a single Spell Slot to create a Wand containing a Spell, the Character can cast, with a Range of Touch or Packet, of the same level as the expended Spell Slot. Once a Spell has been put into a Wand, its creator may use the wand to deliver the stored Spell up to five(5) times.\n\nWhen a Technique has multiple effects, such as Blood Bolt, the Character must choose which of the effects are contained within the Wand.\n\nA Wand must be marked with the Spell it contains, as well as the number of charges it contains, and must measure between 10 and 100cm.\n\nIn order to use this Skill the Character must have access to a Scroll Laboratory. All Wands expire at the end of the Event.",
 		"Costs": [
 			"8",
 			"10",
@@ -3379,7 +3379,7 @@
 		"Groups": "Weapon Proficiency, Fighting",
 		"Category": "Weapon Proficiencies",
 		"Multi": false,
-		"Requirements": "Two Weapon Fighting",
+		"Requirements": "Two Weapon Fighting or Style Master",
 		"Benefit": "The Character's damage with their off-hand Weapon is increased to an amount equal to the Character's main hand Weapon Training minus two(2). While this means the minimum damage bonus is zero(0), the Character may still cause the Base Damage of the Weapon. A Character with this Skill would need to have at least three(3) Ranks in Weapon Training before they will receive any bonus damage to their off-hand Weapon.",
 		"Costs": [
 			"10",
@@ -3388,7 +3388,7 @@
 			"20"
 		],
 		"Rank": 44,
-		"ReqStr": "{Two Weapon Fighting}"
+		"ReqStr": "{Two Weapon Fighting} or {Style Master}"
 	},
 	{
 		"Title": "Two Weapon Fighting, Superior [Weapon Proficiency]",

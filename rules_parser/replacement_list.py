@@ -139,7 +139,7 @@ replacement_list = {
 	"Aura": "[Aura](/docs/glossary/aura)",
 	"Banish": "[Banish](/docs/glossary/banish)",
 	"Berserk": "[Berserk](/docs/glossary/berserk)",
-	"Block": "[Block](/docs/glossary/block)",
+	"Block": "[Block](/docs/combat/defences#block)",
 	"Body": "[Body](/docs/glossary/body)",
 	"Breach": "[Breach](/docs/glossary/breach)",
 	"Breaks": "[Breaks](/docs/glossary/break)",

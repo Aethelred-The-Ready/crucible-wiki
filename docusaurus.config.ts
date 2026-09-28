@@ -37,7 +37,14 @@ const config: Config = {
     locales: ['en'],
   },
 
-  plugins: [require.resolve('docusaurus-lunr-search')],
+  plugins: [[require.resolve('docusaurus-lunr-search'), {
+	disableVersioning: false,
+	maxHits: 10,
+	fields: {
+		title: {boost: 200},
+		//keywords: {boost: 100}
+	}
+}]],
 
   presets: [
     [

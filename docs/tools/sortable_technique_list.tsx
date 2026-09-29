@@ -73,7 +73,6 @@ export default (props: Props) => {
 		} catch (e: any) {
 			if (e.name && (e.name == "QuotaExceededError" || e.name === 'NS_ERROR_DOM_QUOTA_REACHED')) {
 				console.log("Out of space")
-				return
 			}
 		}
 		let sortableTechniques = [...technique_list].filter(techniqueInSchool).filter(tech => parseInt(tech.Level) <= filterConfig.max_level);

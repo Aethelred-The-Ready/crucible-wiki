@@ -8,7 +8,7 @@ const config: Config = {
   title: 'Crucible Wiki',
   tagline: 'Rules Wiki for Crucible LARP',
   favicon: 'img/favicon.ico',
-  onBrokenAnchors: 'log',
+  onBrokenAnchors: 'throw',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {

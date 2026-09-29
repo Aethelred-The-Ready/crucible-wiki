@@ -22,3 +22,4 @@ yarn-error.log*
 rules_parser/*.html
 !rules_parser/Crucible_text.html
 rules_parser/*.txt
+built_output.txt

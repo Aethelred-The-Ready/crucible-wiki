@@ -5,16 +5,16 @@ from replacement_list import run_replaceemnt_list
 
 # Rituals have lots of special terms
 ritual_replacement_list = {
-	"Flaw": "[Flaw](/docs/rituals/ritual_glossary#Flaw)",
-	"Backlash": "[Backlash](/docs/rituals/ritual_glossary#Backlash)",
-	"Catastrophe": "[Catastrophe](/docs/rituals/ritual_glossary#Catastrophe)",
-	"Fail": "[Fail](/docs/rituals/ritual_glossary#Fail)",
-	"Item": "[Item](/docs/rituals/ritual_glossary#Item)",
-	"Spirit": "[Spirit](/docs/rituals/ritual_glossary#Spirit)",
-	"Caster": "[Caster](/docs/rituals/ritual_glossary#Caster)",
-	"Primary Caster": "[Primary Caster](/docs/rituals/ritual_glossary#Primary-Caster)",
-	"Secondary Caster": "[Secondary Caster](/docs/rituals/ritual_glossary#Secondary-Caster)",
-	"Circle": "[Circle](/docs/rituals/ritual_glossary#Circle)",
+	"Flaw": "[Flaw](/docs/rituals/ritual_glossary#flaw)",
+	"Backlash": "[Backlash](/docs/rituals/ritual_glossary#backlash)",
+	"Catastrophe": "[Catastrophe](/docs/rituals/ritual_glossary#catastrophe)",
+	"Fail": "[Fail](/docs/rituals/ritual_glossary#fail)",
+	"Item": "[Item](/docs/rituals/ritual_glossary#item)",
+	"Spirit": "[Spirit](/docs/rituals/ritual_glossary#spirit)",
+	"Caster": "[Caster](/docs/rituals/ritual_glossary#caster)",
+	"Primary Caster": "[Primary Caster](/docs/rituals/ritual_glossary#primary-caster)",
+	"Secondary Caster": "[Secondary Caster](/docs/rituals/ritual_glossary#secondary-caster)",
+	"Circle": "[Circle](/docs/rituals/ritual_glossary#circle)",
 	"Protective Circle": "[Protective Circle](/docs/rituals/ritual_glossary#protective-circle)",
 	"Component": "[Component](/docs/rituals/ritual_glossary#component)",
 	"Special Component": "[Special Component](/docs/rituals/ritual_glossary#special-component)",
@@ -119,6 +119,6 @@ with open(f"../docs/rituals/ritual_list.mdx", "w+", encoding="utf-8") as list_fp
 	list_fp.write("<table style={{fontSize: \'14px\', textAlign: \'center\'}}><tr><th>Ritual Name</th><th>Limited?</th><th>A</th><th>C</th><th>P</th><th>R</th><th>T</th><th>Alchemy</th><th>Smithing</th><th>Ritual Cost</th></tr>")
 	for index, ritual in enumerate(ritual_list):
 		list_fp.write(f"<tr><td>[{ritual[0]}](../{ritual[6]}){"\\*" if ritual[1] else ""}</td><td>{"Yes" if "Limited" in ritual[2] else ""}</td><td>{"✓" if "Affliction" in ritual[4] else ""}</td><td>{"✓" if "Conjuration" in ritual[4] else ""}</td><td>{"✓" if "Protection" in ritual[4] else ""}</td><td>{"✓" if "Restoration" in ritual[4] else ""}</td><td>{"✓" if "Transmutation" in ritual[4] else ""}</td><td>{"✓" if "Alchemy" in ritual[3] else ""}</td><td>{"✓" if "Smithing" in ritual[3] else ""}</td><td>{ritual[5]}</td></tr>")
-	list_fp.write("</table>\n")
-	list_fp.write("*Rituals marked with a \"\\*\" can be cast on a target more than once.\n\n")
-	list_fp.write("If a Ritual has multiple Schools listed the Caster only needs access to one, and only if casting with Ritual Magic.")
+	list_fp.write("</table>")
+	list_fp.write("\n\n*Rituals marked with a \"\\*\" can be cast on a target more than once.")
+	list_fp.write("\n\nIf a Ritual has multiple Schools listed the Caster only needs access to one, and only if casting with Ritual Magic.")

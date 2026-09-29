@@ -146,23 +146,23 @@ for skill in skill_contents_list:
 	skill_obj = (skill_name, skill["Category"], skill["Multi"], skill["Costs"], skill_path, skill["Requirements"], skill["Rank"])
 	with open(".." + skill_path, "w+", encoding="utf-8") as skill_fp:
 		skill_fp.write("# " + skill["Name"] +"\n")
-		skill_fp.write(f"<b>Requirements:</b> {skill["Requirements"]}<br/>\n")
-		skill_fp.write(f"<b>Benefit:</b> {skill_benefit}<br/>\n\n")
+		skill_fp.write(f"<b>Requirements:</b> {skill["Requirements"]}\n\n")
+		skill_fp.write(f"<b>Benefit:</b> {skill_benefit}\n\n")
 
 		if skill_type == "Heritage":
-			skill_fp.write(f"<table><tr><th>Cost (SP)</th><th>With {skill["Category"]}</th><th>Without {skill["Category"]}</th></tr><tr><td>{skill_name}{"\\*" if skill["Multi"] else ""}</td><td>{skill["Costs"][0]}</td><td>{skill["Costs"][1]}</td></tr></table>\n{"*This Skill can be bought more than once\n\n" if skill["Multi"] else ""}")
-			skill_fp.write(f"Category: [{skill_type}](./{skill_type.lower()}-skills), [{skill["Category"]}](/docs/heritages/heritage-traits/{skill["Category"].lower()})\n\n")
+			skill_fp.write(f"<table><tr><th>Cost (SP)</th><th>With {skill["Category"]}</th><th>Without {skill["Category"]}</th></tr><tr><td>{skill_name}{"\\*" if skill["Multi"] else ""}</td><td>{skill["Costs"][0]}</td><td>{skill["Costs"][1]}</td></tr></table>{"\n\n*This Skill can be bought more than once" if skill["Multi"] else ""}")
+			skill_fp.write(f"\n\nCategory: [{skill_type}](./{skill_type.lower()}-skills), [{skill["Category"]}](/docs/heritages/heritage-traits/{skill["Category"].lower()})\n\n")
 		elif skill_type == "Background":
-			skill_fp.write(f"<table><tr><th>Cost (SP)</th><th>A</th><th>B</th><th>C</th><th>D</th></tr><tr><td>{skill_name}{"\\*" if skill["Multi"] else ""}</td><td>{skill["Costs"][0]}</td><td>-</td><td>-</td><td>-</td></tr></table>\n{"*This Skill can be bought more than once\n\n" if skill["Multi"] else ""}")
-			skill_fp.write(f"Category: [{skill_type}](./{skill_type.lower()}-skills)\n\n")
+			skill_fp.write(f"<table><tr><th>Cost (SP)</th><th>A</th><th>B</th><th>C</th><th>D</th></tr><tr><td>{skill_name}{"\\*" if skill["Multi"] else ""}</td><td>{skill["Costs"][0]}</td><td>-</td><td>-</td><td>-</td></tr></table>{"\n\n*This Skill can be bought more than once" if skill["Multi"] else ""}")
+			skill_fp.write(f"\n\nCategory: [{skill_type}](./{skill_type.lower()}-skills)\n\n")
 		elif "Slot" in skill_name:
 			skill_fp.write("<table><tr><th>Cost (SP)</th><th>A</th><th>B</th><th>C</th><th>D</th></tr>")
 			skill_fp.write(slottify(skill_obj))
-			skill_fp.write("</table>\n*This Skill can be bought more than once\n\n")
-			skill_fp.write(f"Category: [{skill_type}](./{skill_type.lower()}-skills)\n\n")
+			skill_fp.write("</table>\n\n*This Skill can be bought more than once")
+			skill_fp.write(f"\n\nCategory: [{skill_type}](./{skill_type.lower()}-skills)\n\n")
 		else:
-			skill_fp.write(f"<table><tr><th>Cost (SP)</th><th>A</th><th>B</th><th>C</th><th>D</th></tr><tr><td>{skill_name}{"\\*" if skill["Multi"] else ""}</td><td>{skill["Costs"][0]}</td><td>{skill["Costs"][1]}</td><td>{skill["Costs"][2]}</td><td>{skill["Costs"][3]}</td></tr></table>\n{"*This Skill can be bought more than once\n\n" if skill["Multi"] else ""}")
-			skill_fp.write(f"Category: [{skill_type}](./{skill_type.lower()}-skills)\n\n")
+			skill_fp.write(f"<table><tr><th>Cost (SP)</th><th>A</th><th>B</th><th>C</th><th>D</th></tr><tr><td>{skill_name}{"\\*" if skill["Multi"] else ""}</td><td>{skill["Costs"][0]}</td><td>{skill["Costs"][1]}</td><td>{skill["Costs"][2]}</td><td>{skill["Costs"][3]}</td></tr></table>{"\n\n*This Skill can be bought more than once" if skill["Multi"] else ""}")
+			skill_fp.write(f"\n\nCategory: [{skill_type}](./{skill_type.lower()}-skills)\n\n")
 
 		# Add static content if it exists
 		skill_fp.write(run_replaceemnt_list(get_static_content(".." + skill_path), [skill_path.replace(".mdx", "")], True))
@@ -229,4 +229,4 @@ for skill_list in skill_lists:
 					current_categ = skill[1]
 				list_fp.write(f"<tr><td>[{skill[0]}]({skill[4]}){"\\*" if skill[2] else ""}</td><td className=\"cost-cell\">{skill[3][0]}</td><td className=\"cost-cell\">-</td><td className=\"cost-cell\">-</td><td className=\"cost-cell\">-</td><td>{skill[5]}</td></tr>")
 			list_fp.write("</table>")
-		list_fp.write("\n*This Skill can be bought more than once")
+		list_fp.write("\n\n*This Skill can be bought more than once")

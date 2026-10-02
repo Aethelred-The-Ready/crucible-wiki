@@ -375,7 +375,7 @@ export default (props: Props) => {
 		let cont = <><td>{ritual_selected.name} not found</td><td></td></>
 		if (rit_obj != undefined){
 			cont = <>
-				<td>
+				<td title={rit_obj.effect}>
 					<b>{rit_obj.name}</b>
 					{ritual_selected.selection == "" ? "" : " ("}
 					{ritual_selected.selection}

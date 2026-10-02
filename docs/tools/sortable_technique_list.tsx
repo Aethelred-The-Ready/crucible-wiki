@@ -105,6 +105,9 @@ export default (props: Props) => {
 		});
 		let tr: technique_page[] = [];
 		let current_level: technique[] = [];
+		if (sortableTechniques.length == 0) {
+			return tr;
+		}
 		let cur_level = sortableTechniques[0].Level;
 		let cur_level_lines = 0
 		let cur_column = 'a'
@@ -366,9 +369,9 @@ export default (props: Props) => {
 				<button onClick={() => setPrintOptions(() => {return {lines_per_page: 53, font_size: 10};})}>Reset defaults</button>
 			</div>: null}
 			<div id='technique-book' style={{lineHeight: 1.3, fontSize: printOptions.font_size + "pt"}}>
-				{sortedTechniques.map((technique_list: technique_page, index) =>
+				{sortedTechniques.length > 0 ? sortedTechniques.map((technique_list: technique_page, index) =>
 					renderTechniquePage(technique_list, index)
-				)}
+				) : null}
 			</div>
 		</div>
 }

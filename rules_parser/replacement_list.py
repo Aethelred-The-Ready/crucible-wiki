@@ -77,6 +77,8 @@ replacement_list = {
 	" See Page 209 for information on this Skill": "",
 	"See Page 210 for more information.": "",
 	"See Page 199 for information on this Skill.": "",
+	# Graphics things
+	"40cm 2 ": "40 cm<sup>2</sup>",
 	# Random stuff
 	"Δ": "[Δ](/docs/glossary/pyramid)",
 	"Pyramid Skills on Page 32.": "[Pyramid Skills](/docs/glossary/pyramid).",
@@ -90,6 +92,7 @@ replacement_list = {
 	"Extraplanar creature or Elemental": "[Extraplanar creature or Elemental](/docs/lore/planes-of-existence)",
 	"Character Levels": "[Character Levels](/docs/glossary/misc-glossary#character-level)",
 	"defended against": "[defended](/docs/combat/defences) against",
+	"School of Magic": "[School of Magic](/docs/magic/spellcasting#school)",
 	# Invocations
 	"Identify": "[Identify](/docs/invocations/invocation_descriptions/identify)",
 	# Skills
@@ -224,8 +227,8 @@ replacement_list = {
 	"Piercing Spellshape": "[Piercing Spellshape](/docs/skills/magic/piercing_spell)",
 	"Spellshapes": "[Spellshapes](/docs/magic/spellshapes)",
 	"Spellshape": "[Spellshape](/docs/magic/spellshapes)",
-	"Potion": "[Diagnose](/docs/skills/crafting/create_potion)",
-	"Scroll": "[Diagnose](/docs/skills/crafting/create_scroll)",
+	"Potion": "[Potion](/docs/skills/crafting/create_potion)",
+	"Scroll": "[Scroll](/docs/skills/crafting/create_scroll)",
 	# Spells
 	"Sleep Spell": "[Sleep Spell](/docs/spells/spell_descriptions/sleep",
 	"Elemental Bolt": "[Elemental Bolt](/docs/spells/spell_descriptions/elemental_bolt",

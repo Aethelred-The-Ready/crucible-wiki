@@ -106,7 +106,7 @@ spell_lists = {
 for spell_list in spell_lists:
 	spell_lists[spell_list][1].sort(key=spell_sorter)
 	with open(f"../docs/magic/{spell_list.lower()}_list.mdx", "w+", encoding="utf-8") as list_fp:
-		list_fp.write(f"---\nsidebar_position: {spell_lists[spell_list][0]}\nhide_table_of_contents: true\n---\n")
+		list_fp.write(f"---\nsidebar_position: {spell_lists[spell_list][0]}\nhide_table_of_contents: true\nkeywords: [\"{spell_list}\"]\n---\n")
 		list_fp.write(f"# {spell_list} Spell List\n")
 		cantrip = spell_lists[spell_list][1][0]
 		list_fp.write(f"{spell_list}'s [Cantrip](./cantrips) is [{cantrip[0]}](../{cantrip[5]})\n\n")

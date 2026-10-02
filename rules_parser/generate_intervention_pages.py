@@ -50,14 +50,14 @@ for intervention in intervention_contents_list:
 	intervention_benefit = intervention["Benefit"]
 	intervention_benefit = intervention_benefit.replace("<", "&lt;")
 	intervention_benefit = intervention_benefit.replace(">", "&gt;")
-	
-	intervention_benefit = run_replaceemnt_list(intervention_benefit)
 
 	intervention_benefit = intervention_benefit.replace("Affliction School of Magic", "[Affliction School of Magic](/docs/magic/spellcasting#school)")
 	intervention_benefit = intervention_benefit.replace("Conjuration School of Magic", "[Conjuration School of Magic](/docs/magic/spellcasting#school)")
 	intervention_benefit = intervention_benefit.replace("Protection School of Magic", "[Protection School of Magic](/docs/magic/spellcasting#school)")
 	intervention_benefit = intervention_benefit.replace("Restoration School of Magic", "[Restoration School of Magic](/docs/magic/spellcasting#school)")
 	intervention_benefit = intervention_benefit.replace("Transmutation School of Magic", "[Transmutation School of Magic](/docs/magic/spellcasting#school)")
+	
+	intervention_benefit = run_replaceemnt_list(intervention_benefit)
 
 
 	with open(intervention_path, "w+", encoding="utf-8") as intervention_fp:
